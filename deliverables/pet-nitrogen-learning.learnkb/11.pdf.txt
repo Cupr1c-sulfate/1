@@ -1,0 +1,680 @@
+
+=== 11.pdf PDF 1 ===
+pubs.acs.org/journal/ascecg Research Article
+
+
+
+Tandem Thermo−electrochemical Strategy for Upcycling Waste
+Poly(ethylene terephthalate) into Value-Added Aniline Derivatives
+Shiji Zhong, Libo Shen, Jiakun Xue, and Yiming Mo*
+ Cite This: ACS Sustainable Chem. Eng. 2025, 13, 7607−7616 Read Online
+
+
+ACCESS Metrics & More Article Recommendations *
+ sı Supporting Information
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​20/​7607/​42334187/​sc5c02544.​pdf by ZHEJIANG UNIV user on 09 September 2026
+ABSTRACT: Poly(ethylene terephthalate) (PET) is one of the
+most extensively used synthetic polymers. Despite its widespread
+use, the recycling of PET is limited to mechanical reuse or
+chemical depolymerization into low-value commodity chemicals.
+Herein, we report a method for upcycling PET through a tandem
+thermo−electrochemical transformation into high-value aniline
+derivatives, specifically p-aminobenzoic acid (PABA) and p-
+phenylenediamine (PPD). This strategy involves three cascade
+catalytic steps, including thermochemical zinc acetate-catalyzed
+PET glycolysis to bis(2-hydroxyethyl) terephthalate (BHET),
+thermochemical BHET ammonolysis to terephthalamide (TP),
+and electrochemical Hofmann (e-Hofmann) reaction of TP to
+PABA and PPD. Notably, the two thermochemical steps are highly
+efficient with 90.5% yield for glycolysis and 96.2% yield for ammonolysis, and only simple filtration was involved for intermediate
+purification, significantly minimizing the separation cost. Instead of using hazardous chemical oxidants for the Hofmann
+rearrangement, bromide-mediated e-Hofmann reaction utilized active bromine and base generated electrochemically to drive the
+rearrangements of TP. The developed protocol was tested for waste PET from a wide range of sources. A preliminary
+technoeconomic analysis estimated that the profit of this tandem thermo−electrochemical upcycling strategy would be $480/tonPET,
+outcompeting the traditional PET recycling process.
+KEYWORDS: poly(ethylene terephthalate), plastic, electrochemical synthesis, tandem catalysis, Hofmann rearrangement reaction
+
+
+■ INTRODUCTION
+Plastics have become indispensable in modern life due to their
+ dimethyl terephthalate (DMT) as the end product, typically
+ exhibiting low conversion rates.15 Ammonolysis is rarely used
+low cost and versatility, with a current global annual due to the harsh reaction conditions and low selectivity.16 A
+production volume exceeding 300 million tons in 2021.1,2 glycolysis process to obtain bis(2-hydroxyethyl) terephthalate
+However, approximately 80% of the produced plastics are (BHET) can proceed under low reaction temperature and
+either discarded or buried in landfills, causing severe global pressure, and the low solubility of BHET in ethylene glycol
+environmental concern.3,4 Poly(ethylene terephthalate) (PET) (EG) and water at room temperature facilitates the product
+is a representative plastic material with an annual production of separation.13 However, the low value of BHET leads to
+30 million tons in 2021, and it is widely used for textiles, fibers, glycolysis being considered as downcycling of waste PET
+and disposable bottles.5 Currently, the recycling of waste PET (converted to products with lower values). Instead, PET
+generally proceeds through mechanical and chemical ap- upcycling (converted into products with higher values) is
+ currently actively pursued to improve the profitability of the
+proaches.6 Mechanical recycling involves grinding and melting
+ recycling process.17 Various approaches, such as pyrolysis,18
+the waste PET to recover it as raw material, but it suffers from
+ biocatalysis,19,20 and photocatalysis,21,22 have been explored to
+a low recovery rate (<25%).7 Chemical recycling, on the other
+ upgrade waste PET into high-value small molecules. For
+hand, deconstructs the PET polymer backbone into monomers
+ example, by combining thermocatalytic oxidation with
+or other valuable molecules. However, the high processing cost
+and complexity of existing chemical recycling technologies are
+still the major barrier to its widespread implementation.4,8 Received: March 19, 2025
+ Traditional chemical recycling of waste PET includes Revised: April 27, 2025
+hydrolysis,9,10 methanolysis,11 ammonolysis,12 and glycolysis.13 Accepted: May 5, 2025
+Although PET hydrolysis can be conducted under mild Published: May 15, 2025
+conditions, terephthalic acid (TPA) is difficult to purify due
+to its similar solubility to the byproducts.14 Methanolysis gives
+
+ © 2025 American Chemical Society https://doi.org/10.1021/acssuschemeng.5c02544
+ 7607 ACS Sustainable Chem. Eng. 2025, 13, 7607−7616
+
+
+=== 11.pdf PDF 2 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​20/​7607/​42334187/​sc5c02544.​pdf by ZHEJIANG UNIV user on 09 September 2026
+Figure 1. Chemical recycling methods for PET reported in the literature and developed in this work.
+
+biocatalysis, mixed plastics (mixtures of high-density poly- zinc acetate as a glycolysis catalyst, commercial PET granules
+ethylene, polystyrene, and PET) are first depolymerized into could be depolymerized into BHET monomers with 90.5%
+oxygenated intermediates via metal-catalyzed autoxidation, yield. This glycolysis process is applicable to various waste PET
+which are then converted into high-value chemicals such as products (e.g., industrial polyesters, yarns, acrylic plates, and
+β-ketoadipic acid by engineered microorganisms.23 Zhang et al. fabrics), giving yields ranging from 49% to 89%. Subsequently,
+reported a tandem catalysis strategy combining chemical in an ammonia atmosphere, ammonolysis could convert BHET
+depolymerization and photocatalysis, where the depolymerized to TP in 96.2% yield. Instead of using hazardous chemical
+PET monomers are further converted into high-value products oxidants [e.g., NaClO,33 Br2,34 PhI(OAc)235 and trichloroiso-
+such as formic acid in a photocatalytic process.24,25 cyanuric acid36] for the Hofmann rearrangement, we designed
+ Concurrently, electrochemical upcycling has attracted bromide-mediated e-Hofmann reaction utilizing active bro-
+significant attention because it is driven by renewable mine (HOBr and BrO−, converted from free bromine and
+electricity, thus forming a sustainable nexus for a circular tribromide ions) and base generated in situ to drive the
+economy of plastics.26 For instance, the electrocatalytic nitrate rearrangements of TP. The rearranged products were then
+reduction reaction has been used to synthesize methylamine,27 subjected to thermal decarboxylation to produce PPD and
+and ammonia-mediated electrochemical processes for C−N PABA, with a total yield exceeding 72%. A preliminary
+bond formation have been used to convert biomass into technoeconomic analysis (TEA) estimated that the net
+benzylamine28 and furfural29 via ammonia electrolysis. This revenue of this tandem thermo−electrochemical upcycling
+highlights the potential of electrochemical methods in driving strategy would be $480/tonPET, outcompeting traditional PET
+sustainable transformations.30 However, the limited solubility regeneration processes and direct electrocatalytic PET
+of polymers in commonly used electrolyte solutions hinders upcycling.
+direct electron transfer between the polymer and electrode.
+Thus, electrochemical transformation needs to couple
+thermochemical depolymerization techniques to accomplish a
+ ■ RESULTS AND DISCUSSION
+ Design of the Tandem Thermo−electrochemical
+practical upcycling pathway. The concept of tandem thermo− Catalysis System. To achieve PET upcycling via a tandem
+electrochemical catalysis has been extensively explored in thermo-electrochemical catalysis system, it is essential to first
+relevant chemical synthesis areas. For PET upcycling, existing identify suitable valorized chemicals to offset the process costs.
+tandem thermo−electrochemical strategies primarily focus on PPD and PABA are important intermediates in the fine
+converting EG, one of the monomers obtained from chemical and polymer industry. PPD is commonly used as an
+thermochemical hydrolysis, via anodic oxidation into carbonyl intermediate in the synthesis of azo dyes, fur dyes, and
+compounds, such as formate (CHO 2 − ) and oxalate oxidative hair dyes.37 Additionally, it plays a crucial role in the
+(C2O42−).31,32 However, the low-value TPA ($1260/ton), production of high-performance materials, such as aramid
+the other major hydrolysis product, remained unchanged, thus fibers.38 PABA is used in folic acid synthesis and as a key
+constraining the practical value of electrochemical upcycling. compound in various active pharmaceutical intermediates.39−41
+ Considering that the TPA fragment accounts for 86.3% of PPD and PABA can be synthesized via Hofmann rearrange-
+the mass fraction in PET, upgrading TPA would be important ment of TP, an amide derivative of TPA. The choice of target
+for improving the overall economic value of PET upcycling. In upcycling products prompted us to design a tandem thermo−
+this work, we aim to develop a tandem thermo−electro- electrochemical pathway, consisting of three steps: (1)
+chemical upcycling strategy to upgrade the low-value TPA glycolysis of PET into BHET, (2) ammonolysis of BHET
+monomer obtained from waste PET to high-value aniline into TP, and (3) e-Hofmann reaction of TP into PPD and
+derivatives. This strategy involves three cascade steps (Figure PABA. The technical feasibility of this tandem process is a key
+1), including PET glycolysis to BHET, BHET ammonolysis to factor in achieving PET upcycling. Industrial PET degradation
+terephthalamide (TP), and electrochemical Hofmann (e- processes have already demonstrated the successful glycolysis
+Hofmann) reaction of TP to p-aminobenzoic acid (PABA, of PET into BHET, with high depolymerization yields ranging
+$8200/ton) and p-phenylenediamine (PPD, $4300/ton). With from 65% to 96% across different catalytic systems (Table S6).
+ 7608 https://doi.org/10.1021/acssuschemeng.5c02544
+ ACS Sustainable Chem. Eng. 2025, 13, 7607−7616
+
+
+=== 11.pdf PDF 3 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​20/​7607/​42334187/​sc5c02544.​pdf by ZHEJIANG UNIV user on 09 September 2026
+Figure 2. PET glycolysis. (a) Catalytic glycolysis depolymerization of PET granules into BHET. Reaction conditions: 9.6 g of PET, 57.6 g of EG,
+and 192 mg of Zn(OAc)2 under 190 °C for 6 h. (b) Effect of the catalyst concentration on PET glycolysis. Reaction condition: 9.6 g of PET, 57.6 g
+of EG, and 48−276 mg of Zn(OAc)2 under 190 °C for 6 h. Data are presented as the mean ± standard deviation of five independent experiments.
+(c) Time-course evolution of the weight-average molecular weight (Mw) and number-average molecular weight (Mn) of the PET residue and
+BHET yield during glycolysis. Reaction conditions: 1 g of PET, 6 g of EG, and 20 mg of Zn(OAc)2 under 190 °C for 0−4 h. (d) Time-course
+evolution of the BHET yield during glycolysis. Reaction conditions: 1 g of PET, 6 g of EG, and 0 mg of Zn(OAc)2 under 190 °C for 0−4 h. Data
+are presented as the mean ± standard deviation of three independent experiments.
+
+The high reactivity of BHET makes it possible for its further yield significantly improved, reaching 89.8%. However, further
+ammonolysis to synthesize TP under an ammonia atmosphere. increasing the loading resulted in a slight decrease in the
+Additionally, Hofmann rearrangement is a highly efficient BHET yield to 86.6%, which might be due to the active sites of
+transformation to convert amide into amino group via an the catalyst being fully occupied at high catalyst loading.51,52
+oxidative decarboxylation pathway, and the e-Hofmann By analysis of PET molecular weight over the depolymeriza-
+reaction utilizes electrochemically generated oxidant instead tion period (Figure 2c), a rapid reduction in the average
+of external chemical oxidation, thus eliminating the generation molecular weight from 42530 to 6146 g/mol is noted within
+of byproducts and reducing the reagent cost.42−44 TP has two the first 20 min. After 30 min, the yield of BHET gradually
+symmetric amide groups, and partial and full e-Hofmann increased in alignment with the “induction period” (Figure
+reactions would result in PABA and PPD, respectively. 2d).53 During the “induction period”, the transesterification of
+ Glycolysis of PET into BHET. PET undergoes trans- EG with PET primarily generates chain ends on the surface of
+esterification with glycol, forming BHET as a degradation the PET polymer, reducing the molecular weight. Homoge-
+intermediate. Compared to other options for depolymerization neous depolymerization occurs only after all of the insoluble
+intermediates, such as TPA and DMT, BHET exhibits higher PET particles and oligomers have dissolved. Soluble oligomers
+reactivity, which is beneficial to the downstream conversions. and dimers gradually depolymerize into BHET monomers,
+The enhanced reactivity of BHET can be attributed to the until depolymerization equilibrium is reached. In addition, we
+presence of hydroxyl groups, which facilitate various chemical
+ optimized the reaction temperature and the ratio of EG added,
+transformations, reduce steric hindrance, improve solubility,
+ achieving a maximum BHET yield of 90.5% with 6-h
+and lead to more favorable reaction kinetics.45 For instance,
+ degradation time, 190 °C reaction temperature, 2 wt %
+ammonolysis reactions involving BHET proceed with higher
+yields and faster rates compared to those utilizing TPA and catalyst content, and a EG-to-PET feed ratio of 6:1 (Tables
+DMT.46 Numerous transesterification catalysts have been S1−S4).
+explored to accelerate glycolysis, including metal acetates Instead of using the traditional energy-intensive distillation
+(Zn, Co, and Mn),47 sodium carbonate,48 and metal oxides.49 to separate the remaining EG after glycolysis,54 we decided to
+Among these catalysts, Zn(OAc)2 remains the most frequently use a crystallization process to separate the obtained BHET
+used catalyst in industrial PET glycolysis due to its cost and because its solubility in EG has a strong dependence on the
+robustness.50 Mechanistically, Zn(OAc)2 catalyzes the process temperature, with 189.5 and 0.92 mg/g solubilities at 80 and
+by facilitating the attack of EG on the ester bonds of the PET 20 °C, respectively.55 Therefore, we placed the glycolysis
+polymer chain, ultimately cleaving the ester bonds and reaction crude under 0 °C for 24 h, followed by simple
+completing the transesterification (Figures 2a and S1). The filtration to separate BHET from EG, eliminating the need for
+reaction activation energy values in the presence and absence the solvent recovery process. 1H NMR analysis confirmed that
+of Zn(OAc)2 are 85 and 108 kJ/mol, respectively.50 no byproducts were detected. Furthermore, we found that
+ We first investigated the optimal loading of zinc acetate adding a small amount of water during the cooling
+(Figure 2b). BHET was not detected without Zn(OAc)2 even crystallization process could increase the particle size of
+after 6 h of reaction at 190 °C. When the catalyst loading was BHET (from approximately 10 μm in the absence of water to
+less than 0.5 wt %, the BHET yield remained below 60%. up to 100 μm with water; Figure S2), facilitating subsequent
+When the catalyst loading was increased to 2%, the BHET centrifugal filtration and reducing product loss.
+ 7609 https://doi.org/10.1021/acssuschemeng.5c02544
+ ACS Sustainable Chem. Eng. 2025, 13, 7607−7616
+
+
+=== 11.pdf PDF 4 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​20/​7607/​42334187/​sc5c02544.​pdf by ZHEJIANG UNIV user on 09 September 2026
+Figure 3. Catalytic glycolysis of different PET commercial products, including (a) PET granules (white), (b) PET granules (black), (c) polyester
+granules, (d) polyester yarns, (e) acrylic plates, and (f) fabrics.
+
+
+
+
+Figure 4. BHET ammonolysis. (a) Ammonolysis reaction process for the conversion of BHET to TP. (b) TP yield at different NH3 pressures for
+BHET ammonolysis. Reaction conditions: 10.5 g of BHET, 42 g of EG, 5 h ammonolysis time, 120 °C reaction temperature with NH3 pressure =
+0.1−0.25 MPa. (c) TP yield at different reaction times and temperatures for BHET ammonolysis. Reaction conditions: 10.5 g of BHET, 42 g of
+EG, NH3 pressure = 0.2 MPa with reaction temperature = 60−140 °C and ammonolysis time = 3−13 h.
+
+ Glycolysis of PET from Various Sources. With the composition, which includes additional components such as
+optimal reaction conditions in hand, we next sought to verify nylon,61 cotton, and Spandex,62 alongside a reduced PET
+the applicability of this glycolysis method to PET from content (ranging from 40% to 90%).63 This was confirmed by
+common sources, including polyester granules, yarns, acrylic the fact that, after the glycolysis reaction of the PET fabrics, a
+plates, and fabrics. Under optimized glycolysis conditions, this significant amount of nondegradable solids remained in the
+method is robust enough to convert different types of PET into reaction vessel (Figure S4). The filtered BHET-EG solution
+the desired BHET with good-to-high efficiency (Figure 3). In and EG liquor after BHET crystallization were analyzed. The
+particular, the BHET yields of PET granules and polyester yarn byproducts were mainly mono(2-hydroxyethyl) terephthalate
+are above 85%. Polyester granules and acrylic plates exhibited (MHET, hydrolysis product) and BHET dimer (Figures S5
+slightly lower yields because of the catalysts (e.g., titanium and S6).
+butoxide56 and antimony trioxide57) and plasticizers (e.g., Ammonolysis of BHET into TP. BHET prepared from
+dioctyl phthalate58 and triphenyl phosphate59) inside.60 PET glycolysis was then heated under an ammonia flow using
+Fabrics gave the lowest yield due to its more complex EG as the reaction solvent for ammonolysis to synthesize TP
+ 7610 https://doi.org/10.1021/acssuschemeng.5c02544
+ ACS Sustainable Chem. Eng. 2025, 13, 7607−7616
+
+
+=== 11.pdf PDF 5 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​20/​7607/​42334187/​sc5c02544.​pdf by ZHEJIANG UNIV user on 09 September 2026
+Figure 5. e-Hofmann reaction of TP to synthesize PPD and PABA. (a) Scheme for the multistage e-Hofmann reaction of TP (generation of PABA
+as an example). (b) Comparison of the yields of PABA and PPD at different applied charges with and without K2Cr2O7. Reaction conditions:
+graphite as the anode and Pt as the cathode, 10 mA/cm2, methanol−water solvent mixture (9:1, v/v), 0.1 M TP, 0.5 M NaBr, 2 mL of NaOH (3.25
+M), 0.94 mM K2Cr2O7 (if added). 0 °C and 3 h for the first halogenation stage, 40 °C and 1 h for the second rearrangement stage, and 100 °C and
+1 h for the third hydrolysis stage. Yields were determined via HPLC with mesitylene as the internal standard. (c) Linear-sweep voltammograms for
+understanding the dichromate inhibiting effect on active bromine reduction. Testing conditions: 0.2 M Na2SO4 and 0.1 M NaHCO3 solution
+containing 0.05 M Br2 (if added) and 0.6 mM K2Cr2O7 (if added) with a scan rate of 20 mV/s. Working electrode: nickel plate. Counter electrode:
+graphite. Reference electrode: Ag/AgCl. (d) Cyclic voltammograms for bromide oxidation in the presence or absence of benzamide (5 mM if
+added) and MeONa (10 mM if added). Testing conditions: 0.1 M LiClO4 in CH3CN/MeOH (9:1, v/v) was scanned at 50 mV/s. Working
+electrode: platinum wire. Counter electrode: platinum disk. Reference electrode: Ag/AgNO3 electrode (0.1 M AgNO3 in CH3CN).
+
+(Figure 4a). A maximum yield of 96.2% could be obtained with reaction conditions, demonstrated high reaction efficiency, and
+13-h reaction time, 140 °C reaction temperature, 0.2 MPa simplicity in the postprocessing procedure.
+ammonia pressure, and a EG-to-PET BHET feed ratio of 4:1 e-Hofmann Rearrangement of TP to Aniline Deriva-
+(Figure 4b,c and Tables S7−S9). Compared to the low- tives. The Hofmann rearrangement is an important method
+efficiency direct ammonolysis of PET to produce TP,12 the for preparing primary amines from amides.64 However, the
+sequential process of glycolysis followed by ammonolysis classical reaction typically involves stoichiometric amounts of
+demonstrates several advantages. In the first glycolysis step, a halogen oxidants and base, limiting its large-scale applications
+high yield of BHET is obtained, and the side products are like PET upcycling.65 The e-Hofmann reaction could
+primarily BHET dimers, oligomers, and ethylene glycol regenerate the required halogen oxidants from halides on the
+terephthalate (hydrolysis product). Subsequently, BHET and anode, thus preventing the discharge of large quantities of
+its oligomers undergo ammonolysis to generate TP, while the waste salts.43,44 Bromide is frequently used in the e-Hofmann
+ethylene glycol terephthalate is removed via alkaline washing. reaction for its low oxidation potential (1.08 V vs SHE) and
+Moreover, due to the low solubility of TP in the EG solvent high reactivity of bromine and hypobromite with amides. Thus,
+used, the postprocessing only required filtration and drying of sodium bromide (NaBr) was selected for this study. Here, we
+the insoluble product to obtain the target TP product. To be designed a three-stage e-Hofmann reaction to minimize side
+noted, the gray-white powder directly obtained above could reactions between intermediates (Figure 5a).
+achieve a 99.6% mass purity of TP (Figure S7). Additionally, In the first stage, using methanol/water mixtures as the
+direct ammonolysis would have difficulty separating TP from solvent, H2O or MeOH gets reduced at the cathode,
+the partially degraded amide oligomers, and the preparation of generating hydrogen gas along with OH− or MeO−. The in
+TP from other PET degradation products such as TPA situ-formed OH− or MeO− promotes the deprotonation of TP,
+requires harsh reaction conditions. In contrast, our two-step forming intermediate 1, thereby enabling its following reaction
+process stands out for its significant advantages of mild with the bromine (Br2) produced by anodic oxidation of Br−.
+ 7611 https://doi.org/10.1021/acssuschemeng.5c02544
+ ACS Sustainable Chem. Eng. 2025, 13, 7607−7616
+
+
+=== 11.pdf PDF 6 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​20/​7607/​42334187/​sc5c02544.​pdf by ZHEJIANG UNIV user on 09 September 2026
+Figure 6. TEA of the PET upcycling process. Material flow analysis (a) and TEA (b) for the traditional waste PET recycling approach through
+stepwise glycolysis-based depolymerization and repolymerization to produce rPET. Material flow analysis (c) and TEA (d) for the tandem
+thermo−electrochemical upcycling of waste PET.
+
+This reaction leads to the formation of N-brominated excess charge was wasted through nonproductive cyclic anodic
+carboxamide 2, accompanied by the regeneration of methanol bromine oxidation and cathodic active bromine reduction. The
+or water. In the second stage, to the mixture obtained from the low concentration of active bromine in the electrolyte inhibited
+first stage is added sodium hydroxide, and the resulting the TP halogenation process, thereby restricting further
+solution is heated to 40 °C. Species 2 undergoes deprotonation improvement of the yields of PPD and PABA.
+under alkaline and heated conditions, forming intermediate 3. To further increase the concentration of active bromine in
+Intermediate 3 forms the N-bromamide salt 4 through the reaction system, it is necessary to prevent the reduction of
+intramolecular charge transfer. The nitrogen atom in species active bromine at the cathode back to bromide. Dichromate
+4 is highly electron-deficient and unstable, which induces (Cr2O72−) could form a porous protective layer of Cr(OH)3
+electron transfer from a neighboring carbon atom and on the cathode surface, inhibiting the contact of active bromine
+undergoes an intramolecular rearrangement, with concomitant with the cathode surface, thereby increasing the concentration
+elimination of the bromide ion, yielding the intermediate of active bromine in the system.66 Linear-sweep voltammetry
+diphenyl isocyanate 5. 5 then undergoes nucleophilic addition measurement showed that the reduction peak of active
+with water or methanol to form carbamic acid 6 or carbamate bromine at the cathode was significantly suppressed after the
+7. In the third stage, with further heating to 100 °C, addition of catalytic amounts of potassium dichromate (Figure
+intermediates 6 and 7 undergo decarboxylation and hydrolysis 5c). In addition to chromium, K2MoO4 also has obvious
+upon heating, yielding PABA and releasing CO2. The CO2 is suppression (Figure S9).67,68 Electrolysis of a sodium bromide
+then quickly trapped by an alkali solution and converted into solution containing a catalytic amount of potassium
+sodium carbonate as a byproduct. The mechanism of PPD dichromate (1 mM) achieved a maximum concentration of
+synthesis is similar to that described above. active bromine of 11.1 mM, a 48% improvement compared to
+ After a series optimizations (Tables S10−S20), both PPD the scenario without potassium dichromate (Table S15).
+and PABA could be obtained from the e-Hofmann reaction, Under the optimal potassium dichromate concentration (only
+suggesting that the amide groups underwent a partial or full 0.94 mM), the FE of PPD and PABA reached 43.4%, and a
+Hofmann rearrangement. We monitored the progress of the significantly improved total yield of 72.2% for PPD and PABA
+reaction while increasing the charge input into the solution, was achieved, which was 21.5% higher than that without
+and PPD was formed with 9.7% yield even with 1 F/mol dichromate (Table S21).
+charge passed, suggesting that the two amide groups were To elucidate the mechanism of the e-Hofmann reaction,
+reacting simultaneously instead of sequentially during the e- cyclic voltammetry experiments were conducted (Figure 5d).
+Hofmann reaction (Figure 5b). In addition, further increasing Similar to other nonaqueous solvents,69,70 we observed two
+the charge beyond 5 F/mol resulted in minimal improvement consecutive oxidation events for the bromide in CH3CN/
+in the yields of PPD and PABA. Titration of the electrolytes MeOH (9:1 volume ratio). The first oxidation wave results
+with 5−10 F/mol charge passed revealed nearly identical from the oxidation of Br− to Br3− (3Br− ⇌ Br3− + 2e−), while
+concentrations of active bromine (7.6 mM), indicating that the the second one is attributed to the oxidation of Br3− to Br2
+ 7612 https://doi.org/10.1021/acssuschemeng.5c02544
+ ACS Sustainable Chem. Eng. 2025, 13, 7607−7616
+
+
+=== 11.pdf PDF 7 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+(2Br3− + 2e− ⇌ 3Br2). When both sodium bromide and obtained BHET further undergoes ammonolysis to yield 0.73
+substrate were added, the anodic peak current increased tons of TP. The e-Hofmann rearrangement process could then
+significantly, which should be associated with the regeneration give 0.22 tons of PABA, 0.17 tons of PPD, and 0.51 tons of
+of bromide ions due to the reaction between generated Br2 and Na2CO3 (Figure 6c), resulting in a total revenue of $2810. The
+substrate. To investigate the role of the base in the e-Hofmann total upcycling material and process cost, including 58.5% of
+reaction, the e-Hofmann reaction was conducted in a divided input chemicals, 15.2% of electricity, 12.9% of capital, 2.6% of
+electrolysis cell. After electrolysis, a significant amount of TP maintenance, 6.4% of installation, 3.2% of balance of payments
+remained unreacted, no PPD and PABA were detected in the (BoP), and 1.2% of operational (Table S23), with a total of
+anodic solution, indicating that no Hofmann rearrangement $2330. This process generates a profit of $480 per ton of waste
+occurred. Furthermore, adding 0.01 M sodium methoxide to PET (Figure 6d). The recovered EG can further be recycled
+the anodic compartment in the divided cell resulted in a total through an electrocatalytic oxidation process to produce
+27.1% yield of PPD and PABA (Table S22). Thus, the base potassium diformate (KDF),73 further improving the profits
+generated at the cathode played a crucial role in the of the upcycling process (Figure S10). Therefore, the proposed
+halogenation of TP in the undivided cell, as indicated by the PET upcycling strategy is a promising route with potential
+reaction mechanism. practical application value.
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​20/​7607/​42334187/​sc5c02544.​pdf by ZHEJIANG UNIV user on 09 September 2026
+ Considering the potential industrial implementation, the
+downstream processing could involve the separation of PABA
+and PPD by vacuum distillation (PABA boiling point = 267 °C
+ ■ CONCLUSION
+ In conclusion, we present a new method for upcycling PET
+and PPD boiling point = 340 °C). Moreover, because only
+sodium carbonate in the solution has a solubility that changes waste into high-value aniline derivatives (i.e., PABA and PPD)
+significantly with temperature after the reaction, sodium via a tandem thermo−electrochemical transformation. This
+carbonate can be separated by cooling crystallization. The strategy involves three efficient catalytic steps: thermochemical
+remaining sodium bromide and sodium hydroxide can be zinc acetate-catalyzed glycolysis of PET to BHET, thermo-
+recycled for the next-round e-Hofmann reaction, further chemical ammonolysis of BHET to TP, and the e-Hofmann
+ reaction of TP to PABA and PPD. The thermochemical steps
+minimizing the environmental impact.
+ demonstrated high yields of 90.5% for glycolysis and 96.2% for
+ Environmental Impact Assessment (EIA) and TEA of
+ ammonolysis, with minimal purification required, reducing the
+Tandem Thermo−electrochemical Upcycling of PET. To
+ separation costs. The e-Hofmann reaction, driven electro-
+highlight the green chemistry advantages of the coupled
+ chemically by active bromine and base, eliminates the need for
+thermo-electrochemical PET upcycling strategy, we performed
+ externally added hazardous chemical oxidants, providing a safer
+an EIA using the atom economy (AE) and environmental
+ and more sustainable process. This method offers a promising
+factor (E-factor). In contrast to the direct ammonolysis of
+ technoeconomic advantage, with an estimated profit of $480
+waste PET to TP (about 90% yield), our coupled process
+ per ton of PET, outperforming traditional recycling methods.
+achieves a higher TP yield of 96.2%. The AEs of PABA and
+PPD (eqs S3 and S6) were found to be 87.5% and 100%,
+respectively. Compared to the AE derived from the Hofmann
+rearrangement reaction via conventional chemical methods
+ ■ EXPERIMENTAL METHODS
+ Materials and Characterization Methods. Granular semi-
+(PABA, 50.2%; PPD, 39.8%; calculated using eqs S4 and S7), crystalline PET (white, 3−5 mm, product code P875573; black, 4−
+our cascade catalysis process demonstrates a significantly 6 mm, product code P885050) was purchased from Macklin
+higher atomic utilization. However, it is important to note that Biochemical Co., Ltd. Polyester solids, waste fibers, acrylic sheets,
+the AE is a theoretical calculation that assumes perfect and scrap textiles were used as samples of waste PET, which was
+ obtained from Hengyi Petrochemicals Co., Ltd. All samples were
+selectivity for the target product and complete recovery of all thoroughly cleaned and dried before use. All new compounds were
+of the auxiliary components. Therefore, to provide a more characterized by 1H NMR spectroscopy analysis. The molecular
+comprehensive analysis, further investigation of the E-factor is weights of PET and its oligomers were determined by gel permeation
+necessary. Unlike the AE, the E-factor takes into account chromatography (GPC), with hexafluoroisopropanol (HFIP) used as
+factors such as product yield, byproduct generation, and the solvent for sample dissolution. An Agilent 1260 Infinity high-
+solvent use. Due to the multistep cascade catalysis involved in performance liquid chromatography (HPLC) system was used for
+the thermo−electrochemical PET upcycling process, the sample analysis and reaction condition optimization. Electrochemical
+synthetic route is lengthy, resulting in an E-factor of 41.1 measurements were performed with a potentiostat (CHI760E, CH
+ Instruments).
+(eq S9). Nevertheless, this value still meets the E-factor
+ Procedure for Glycolysis of PET. Zinc acetate (2 wt %, 192 mg)
+requirements for fine chemicals (ranging from 5 to 50).71 was thoroughly dissolved in EG solvent (600 wt %, 57.6 g) and then
+ We conducted TEA to understand the economic potential of added to the reactor (100 mL YZPR series, Yanzheng Instruments)
+the developed tandem thermo−electrochemical PET upcycling containing PET (9.6 g). The experiments were carried out at 190 °C
+strategy. To set a benchmark for comparison, we compared and an initial atmospheric pressure, with a reaction time of 6−10 h.
+with the traditional PET recycling process through stepwise After the reaction, the mixture was filtered at 80 °C to remove
+glycolysis-based depolymerization and repolymerization to unreacted PET or partially reacted oligomers, and the filtrate was
+produce regenerated PET (rPET; Figure 6a).72 Next, we quickly kept under 0 °C for 24 h for crystallization. The solid BHET
+performed TEA based on upcycling of 1 ton of waste PET product was filtered and dried at 60 °C. The BHET yield was
+ calculated by its weight obtained on an analytical balance (MR104
+(assuming pure PET). Based on the commonly reported series, Mettler Toledo). The conversion of PET is calculated
+polymerization yield of 90%,72 1 ton of waste PET would give according to eq 1, and the yield of BHET is calculated using eq 2.
+0.81 tons of rPET, generating a revenue of $1264 and a profit
+of $196 (Figure 6b). Using the tandem thermo−electro- ij WPET,un yzz
+chemical catalysis strategy proposed in this work, glycolysis of PET conversion (%) = jjjj1 zz × 100
+ j
+ k WPET,0 zz{ (1)
+1 ton of waste PET can produce 1.19 tons of BHET. The
+ 7613 https://doi.org/10.1021/acssuschemeng.5c02544
+ ACS Sustainable Chem. Eng. 2025, 13, 7607−7616
+
+
+=== 11.pdf PDF 8 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+where WPET,un is the mass of unreacted polymer and WPET,0 represents Authors
+the initial mass of PET. Shiji Zhong − College of Chemical and Biological Engineering,
+ WBHET,t /1.33 Zhejiang University, Hangzhou 310027, China
+ BHET yield (%) = × 100 Libo Shen − Zhejiang Hengyi Petrochemical Research Institute
+ WPET,0 (2) Company, Ltd., Hangzhou 311200, China
+where WBHET,t is the mass of BHET obtained after the reaction and Jiakun Xue − Zhejiang Key Laboratory of Intelligent
+the coefficient 1.33 is the ratio of the molar mass of BHET to the Manufacturing for Functional Chemicals, ZJU-Hangzhou
+molar mass of a PET monomer. Global Scientific and Technological Innovation Center,
+ Procedure for Ammonolysis of BHET. BHET (10.5 g) and EG Zhejiang University, Hangzhou 311215, China
+(42 g) were added to a high-pressure reactor (100 mL YZPR series,
+Yanzheng Instruments), which was then purged with nitrogen for 0.5 Complete contact information is available at:
+h. Afterward, ammonia gas was continuously supplied for 0.5 h before https://pubs.acs.org/10.1021/acssuschemeng.5c02544
+heating began, and the reaction proceeded at 120 °C for 5 h. After the
+reaction, the crude slurry reaction in the reactor was filtered and the Author Contributions
+retentate solid product was washed with 100 mL of deionized water. The manuscript was written through contributions of all
+The product was dried at 100 °C before weighing to calculate the
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​20/​7607/​42334187/​sc5c02544.​pdf by ZHEJIANG UNIV user on 09 September 2026
+ authors. All authors have given approval to the final version of
+yield (eq 3). the manuscript.
+ WTP,t /1.55 Notes
+ TP yield (%) = × 100
+ WBHET,0 (3) The authors declare no competing financial interest.
+where WTP,t is the mass of TP obtained after the reaction, WBHET,0
+represents the initial mass of BHET, and the coefficient 1.55 is the
+ratio of the molar mass of TP to the molar mass of BHET.
+ ■ ACKNOWLEDGMENTS
+ Financial support for this work was provided by the National
+ Procedure for e-Hofmann Rearrangement of TP. The Natural Science Foundation of China (22478335, 22108242,
+electrochemical cell setup was conducted in a 10 mL undivided and 22227812), the National Key R&D Program of China
+electrolytic cell (Figure S8). A graphite anode (10 × 20 × 1 mm) and (2021YFA1502700), and the Fundamental Research Funds for
+a platinum sheet cathode (10 × 20 × 0.1 mm) were used. In the first the Zhejiang Provincial Universities (226-2024-00113).
+stage, the e-Hofmann procedure started with TP (0.45 mmol, 73.9
+mg) and sodium bromide (0.5 M, 51.4 mg) dissolved in 4.5 mL of a
+methanol/water solvent (9:1 volume ratio). Electrolysis was carried
+out with a constant current under 0 °C until a certain charge was
+ ■ REFERENCES
+ (1) Jambeck, J. R.; Geyer, R.; Wilcox, C.; Siegler, T. R.; Perryman,
+passed, which was then followed by halogenation for 6 h under the M.; Andrady, A.; Narayan, R.; Law, K. L. Plastic Waste Inputs from
+same 0 °C temperature. In the second stage, sodium hydroxide (3.25 Land into the Ocean. Science 2015, 347 (6223), 768−771.
+M, 2 mL) was slowly added dropwise to the reaction mixture, and the (2) Van Geem, K. M. Plastic Waste Recycling Is Gaining
+reaction was continued for another 0.5 h. The mixture was then Momentum. Science 2023, 381 (6658), 607−608.
+transferred to a metal heating device at 40 °C for a rearrangement (3) Geyer, R.; Jambeck, J. R.; Law, K. L. Production, Use, and Fate
+reaction for 1 h, yielding the intermediate diphenyl isocyanate. In the of All Plastics Ever Made. Sci. Adv. 2017, 3 (7), No. e1700782.
+final stage, the mixture was transferred to a pressure-resistant tube for (4) Rahimi, A.; García, J. M. Chemical Recycling of Waste Plastics
+hydrolysis in an oil bath at 100 °C for 1 h, yielding PABA and PPD. for New Materials Production. Nat. Rev. Chem. 2017, 1 (6), 1−11.
+ The FE of the e-Hofmann process can be calculated as follows: (5) Singh, A.; Rorrer, N. A.; Nicholson, S. R.; Erickson, E.;
+ DesVeaux, J. S.; Avelino, A. F. T.; Lamers, P.; Bhatt, A.; Zhang, Y.;
+ PPD yield × 4 + PABA yield × 2
+ FE (%) = Avery, G.; Tao, L.; Pickford, A. R.; Carpenter, A. C.; McGeehan, J. E.;
+ It /nTPF (4) Beckham, G. T. Techno-Economic, Life-Cycle, and Socioeconomic
+ Impact Analysis of Enzymatic Recycling of Poly(Ethylene Tereph-
+where I (A) is the applied current, t (s) is the electrolysis time, nTP thalate). Joule 2021, 5 (9), 2479−2503.
+(mol) is the amount of TP added, and F is the Faraday constant, (6) Al-Salem, S. M.; Lettieri, P.; Baeyens, J. Recycling and Recovery
+96485 C/mol. Routes of Plastic Solid Waste (PSW): A Review. Waste Manag. 2009,
+
+■
+*
+ ASSOCIATED CONTENT
+sı Supporting Information
+ 29, 2625−2643.
+ (7) Xin, J.; Zhang, Q.; Huang, J.; Huang, R.; Jaffery, Q. Z.; Yan, D.;
+ Zhou, Q.; Xu, J.; Lu, X. Progress in the Catalytic Glycolysis of
+The Supporting Information is available free of charge at Polyethylene Terephthalate. J. Environ. Manage. 2021, 296, 113267.
+ (8) Aryan, Y.; Yadav, P.; Samadder, S. R. Life Cycle Assessment of
+https://pubs.acs.org/doi/10.1021/acssuschemeng.5c02544.
+ the Existing and Proposed Plastic Waste Management Options in
+ Optimization experiments of tandem thermo−electro- India: A Case Study. J. Cleaner Prod. 2019, 211, 1268−1283.
+ chemical upcycling, electrochemical test conditions, and (9) Ugduler, S.; Van Geem, K. M.; Denolf, R.; Roosen, M.; Mys, N.;
+ computational details of EIA and TEA (PDF) Ragaert, K.; De Meester, S. Towards Closed-Loop Recycling of
+ Multilayer and Coloured PET Plastic Waste by Alkaline Hydrolysis.
+
+■ AUTHOR INFORMATION
+Corresponding Author
+ Green Chem. 2020, 22 (16), 5376−5394.
+ (10) Zhang, S.; Xue, Y.; Wu, Y.; Zhang, Y.-X.; Tan, T.; Niu, Z. PET
+ Recycling under Mild Conditions via Substituent-Modulated Intra-
+ Yiming Mo − College of Chemical and Biological Engineering, molecular Hydrolysis. Chem. Sci. 2023, 14 (24), 6558−6563.
+ (11) Liu, Q.; Li, R.; Fang, T. Investigating and Modeling PET
+ Zhejiang University, Hangzhou 310027, China; Zhejiang Methanolysis under Supercritical Conditions by Response Surface
+ Key Laboratory of Intelligent Manufacturing for Functional Methodology Approach. Chem. Eng. J. 2015, 270, 535−541.
+ Chemicals, ZJU-Hangzhou Global Scientific and (12) Liang, J.; Fu, J.; Lin, H.; Chen, J.; Peng, S.; Sun, Y.; Xu, Y.;
+ Technological Innovation Center, Zhejiang University, Kang, S. Valorization of Polyethylene Terephthalate Wastes to
+ Hangzhou 311215, China; orcid.org/0000-0002-7031- Terephthalamide via Catalyst-Free Ammonolysis. J. Ind. Eng. Chem.
+ 1133; Email: yimingmo@zju.edu.cn 2024, 132, 578−587.
+
+ 7614 https://doi.org/10.1021/acssuschemeng.5c02544
+ ACS Sustainable Chem. Eng. 2025, 13, 7607−7616
+
+
+=== 11.pdf PDF 9 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+ (13) López-Fonseca, R.; Duque-Ingunza, I.; De Rivas, B.; Arnaiz, S.; (31) Shi, R.; Liu, K.-S.; Liu, F.; Yang, X.; Hou, C.-C.; Chen, Y.
+Gutiérrez-Ortiz, J. I. Chemical Recycling of Post-Consumer PET Electrocatalytic Reforming of Waste Plastics into High Value-Added
+Wastes by Glycolysis in the Presence of Metal Salts. Polym. Degrad. Chemicals and Hydrogen Fuel. Chem. Commun. 2021, 57 (94),
+Stab. 2010, 95 (6), 1022−1028. 12595−12598.
+ (14) Carta, D.; Cao, G.; D’Angeli, C. Chemical Recycling of (32) Cho, J.; Kim, B.; Kwon, T.; Lee, K.; Choi, S.-I. Electrocatalytic
+Poly(Ethylene Terephthalate) (Pet) by Hydrolysis and Glycolysis. Upcycling of Plastic Waste. Green Chem. 2023, 25 (21), 8444−8458.
+Environ. Sci. & Pollut. Res. 2003, 10 (6), 390−394. (33) Gogoi, P.; Konwar, D. KF/Al2O3 An Efficient Modification of
+ (15) Helmer, R.; Borkar, S. S.; Li, A.; Mahnaz, F.; Vito, J.; Bishop, the Hofmann Rearrangement: Synthesis of Methyl Carbamates.
+M.; Iftakher, A.; Hasan, M. M. F.; Rangarajan, S.; Shetty, M. Tandem Tetrahedron Lett. 2007, 48 (4), 531−533.
+Methanolysis and Catalytic Transfer Hydrogenolysis of Polyethylene (34) Debnath, P. Recent Advances in the Hofmann Rearrangement
+Terephthalate to P-Xylene Over Cu/ZnZrOx Catalysts. Angew. Chem., and Its Application to Natural Product Synthesis. Curr. Org. Chem.
+Int. Ed. 2025, 64, No. e202416384. 2020, 23 (22), 2402−2435.
+ (16) Westhues, S.; Idel, J.; Klankermayer, J. Molecular Catalyst (35) Okamoto, N.; Miwa, Y.; Minami, H.; Takeda, K.; Yanada, R.
+Systems as Key Enablers for Tailored Polyesters and Polycarbonate Concise One-Pot Tandem Synthesis of Indoles and Isoquinolines
+Recycling Concepts. Sci. Adv. 2018, 4 (8), No. eaat9669. from Amides. Angew. Chem., Int. Ed. 2009, 48 (51), 9693−9696.
+ (17) Shi, Y.; Diao, X.; Ji, N.; Ding, H.; Ya, Z.; Xu, D.; Wei, R.; Cao, (36) Gambacorta, G.; Baxendale, I. R. Continuous-Flow Hofmann
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​20/​7607/​42334187/​sc5c02544.​pdf by ZHEJIANG UNIV user on 09 September 2026
+K.; Zhang, S. Advances and Challenges for Catalytic Recycling and Rearrangement Using Trichloroisocyanuric Acid for the Preparation
+Upgrading of Real-World Mixed Plastic Waste. ACS Catal. 2025, 15 of 2-Benzoxazolinone. Org. Process Res. Dev. 2022, 26 (2), 422−430.
+(2), 841−868. (37) He, J.; Sunarso, J.; Miao, J.; Sun, H.; Dai, J.; Zhang, C.; Zhou,
+ (18) Bell, E. L.; Smithson, R.; Kilbride, S.; Foster, J.; Hardy, F. J.; W.; Shao, Z. A Highly Sensitive Perovskite Oxide Sensor for
+Ramachandran, S.; Tedstone, A. A.; Haigh, S. J.; Garforth, A. A.; Day, Detection of P-Phenylenediamine in Hair Dyes. J. Hazard. Mater.
+P. J. R.; Levy, C.; Shaver, M. P.; Green, A. P. Directed Evolution of an 2019, 369, 699−706.
+Efficient and Thermostable PET Depolymerase. Nat. Catal. 2022, 5 (38) Peng, G.; Yaoqin, W.; Changmei, S.; Chunnuan, J.; Ying, Z.;
+(8), 673−681. Rongjun, Q.; Ying, W. Preparation and Properties of PVC-Based
+ (19) Valenzuela-Ortega, M.; Suitor, J. T.; White, M. F. M.; Ultrafiltration Membrane Reinforced by in-Situ Synthesized p-Aramid
+Hinchcliffe, T.; Wallace, S. Microbial Upcycling of Waste PET to Nanoparticles. J. Membr. Sci. 2022, 642, 119993.
+Adipic Acid. ACS Cent. Sci. 2023, 9 (11), 2057−2063. (39) González-Gaitán, C.; Ruiz-Rosas, R.; Morallón, E.; Cazorla-
+ (20) Han, X.; Liu, W.; Huang, J.-W.; Ma, J.; Zheng, Y.; Ko, T.-P.; Amorós, D. Functionalization of Carbon Nanotubes Using Amino-
+Xu, L.; Cheng, Y.-S.; Chen, C.-C.; Guo, R.-T. Structural Insight into benzene Acids and Electrochemical Methods. Electroactivity for the
+Catalytic Mechanism of PET Hydrolase. Nat. Commun. 2017, 8 (1), Oxygen Reduction Reaction. Int. J. Hydrogen Energy 2015, 40 (34),
+ 11242−11253.
+2106.
+ (40) Katoh, T.; Suga, H. Ribosomal Elongation of Aminobenzoic
+ (21) Ya, Z.; Tang, L.; Xu, D.; Wang, H.; Zhang, S. Photoreforming
+ Acid Derivatives. J. Am. Chem. Soc. 2020, 142 (39), 16518−16522.
+of Waste Plastic by B-Doped Carbon Nitride Nanotube: Atomic-Level
+ (41) Kalembkiewicz, J.; Kosińska, M.; Zapała, L. Complexes of
+Modulation and Mechanism Insights. AIChE J. 2025, 71 (5),
+ Aminobenzoic Acids: A Comprehensive Review Concerning Syn-
+No. e18740.
+ thesis, Physical Chemistry, Structure and Application. Coord. Chem.
+ (22) Uekert, T.; Kasap, H.; Reisner, E. Photoreforming of
+ Rev. 2017, 348, 25−53.
+Nonrecyclable Plastic Waste over a Carbon Nitride/Nickel Phosphide
+ (42) Nater, D. F.; Hendriks, P.; Waldvogel, S. R. Electrochemical
+Catalyst. J. Am. Chem. Soc. 2019, 141 (38), 15201−15210. Hofmann Rearrangement at High Current Densities in a Simple Flow
+ (23) Sullivan, K. P.; Werner, A. Z.; Ramirez, K. J.; Ellis, L. D.; Setup. Mol. Catal. 2024, 554, 113823.
+Bussard, J. R.; Black, B. A.; Brandner, D. G.; Bratti, F.; Buss, B. L.; (43) Malviya, B. K.; Bottecchia, C.; Stone, K.; Lehnherr, D.;
+Dong, X.; Haugen, S. J.; Ingraham, M. A.; Konev, M. O.; Michener, Lévesque, F.; Kappe, C. O.; Cantillo, D. The Electrochemically
+W. E.; Miscall, J.; Pardo, I.; Woodworth, S. P.; Guss, A. M.; Román- Induced Hofmann Rearrangement and Its Comparison with the
+Leshkov, Y.; Stahl, S. S.; Beckham, G. T. Mixed Plastics Waste Classic Hofmann Rearrangement. Org. Process Res. Dev. 2023, 27
+Valorization through Tandem Chemical Oxidation and Biological (11), 2183−2191.
+Funneling. Science 2022, 378 (6616), 207−211. (44) Li, L.; Xue, M.; Yan, X.; Liu, W.; Xu, K.; Zhang, S.
+ (24) Li, M.; Zhang, S. Tandem Chemical Depolymerization and Electrochemical Hofmann Rearrangement Mediated by NaBr:
+Photoreforming of Waste PET Plastic to High-Value-Added Practical Access to Bioactive Carbamates. Org. Biomol. Chem. 2018,
+Chemicals. ACS Catal. 2024, 14 (5), 2949−2958. 16 (25), 4615−4618.
+ (25) Li, M.; Zhang, S. Coupling Waste Plastic Upgrading and CO2 (45) Barnard, E.; Rubio Arias, J. J.; Thielemans, W. Chemolytic
+Photoreduction to High-Value Chemicals by a Binuclear Re-Ru Depolymerisation of PET: A Review. Green Chem. 2021, 23 (11),
+Heterogeneous Catalyst. ACS Catal. 2024, 14 (9), 6717−6727. 3765−3789.
+ (26) Kang, H.; He, D.; Turchiano, C.; Yan, X.; Chai, J.; Weed, M.; (46) Zhang, Y.; Tian, F.; Wu, Z.; Li, X.; Liu, X.; He, Y. Chemical
+Elliott, G. I.; Onofrei, D.; Pan, X.; Xiao, X.; Gu, J. Mining the Carbon Conversion of Waste PET to Valued-Added Bis(2-Hydroxyethyl)
+Intermediates in Plastic Waste Upcycling for Constructing C-S Bond. Terephthalamide through Aminolysis. Mater. Today Commun. 2022,
+J. Am. Chem. Soc. 2024, 146 (27), 18639−18649. 32, 104045.
+ (27) Wu, Y.; Jiang, Z.; Lin, Z.; Liang, Y.; Wang, H. Direct (47) Fang, P.; Liu, B.; Xu, J.; Zhou, Q.; Zhang, S.; Ma, J.; Lu, X.
+Electrosynthesis of Methylamine from Carbon Dioxide and Nitrate. High-Efficiency Glycolysis of Poly(Ethylene Terephthalate) by
+Nat. Sustain 2021, 4 (8), 725−730. Sandwich-Structure Polyoxometalate Catalyst with Two Active
+ (28) Chatterjee, M.; Ishizaka, T.; Kawanami, H. Reductive Sites. Polym. Degrad. Stab. 2018, 156, 22−31.
+Amination of Furfural to Furfurylamine Using Aqueous Ammonia (48) López-Fonseca, R.; Duque-Ingunza, I.; De Rivas, B.; Flores-
+Solution and Molecular Hydrogen: An Environmentally Friendly Giraldo, L.; Gutiérrez-Ortiz, J. I. Kinetics of Catalytic Glycolysis of
+Approach. Green Chem. 2016, 18 (2), 487−496. PET Wastes with Sodium Carbonate. Chem. Eng. J. 2011, 168 (1),
+ (29) Schiffer, Z. J.; Chung, M.; Steinberg, K.; Manthiram, K. 312−320.
+Selective Electrochemical Reductive Amination of Benzaldehyde at (49) Al-Sabagh, A. M.; Yehia, F. Z.; Harding, D. R. K.; Eshaq, G.;
+Heterogeneous Metal Surfaces. Chem. Catal. 2023, 3 (2), 100500. ElMetwally, A. E. Fe3O4-Boosted MWCNT as an Efficient Sustainable
+ (30) Kim, J. E.; Choi, S.; Balamurugan, M.; Jang, J. H.; Nam, K. T. Catalyst for PET Glycolysis. Green Chem. 2016, 18 (14), 3997−4003.
+Electrochemical C-N Bond Formation for Sustainable Amine (50) Liu, B.; Fu, W.; Lu, X.; Zhou, Q.; Zhang, S. Lewis Acid-Base
+Synthesis. TRECHEM 2020, 2 (11), 1004−1019. Synergistic Catalysis for Polyethylene Terephthalate Degradation by
+
+ 7615 https://doi.org/10.1021/acssuschemeng.5c02544
+ ACS Sustainable Chem. Eng. 2025, 13, 7607−7616
+
+
+=== 11.pdf PDF 10 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+1,3-Dimethylurea/Zn(OAc)2 Deep Eutectic Solvent. ACS Sustain. Ethyl-3-Methylimidazolium Bis(Trifluoromethanesulfonyl)Imide. J.
+Chem. Eng. 2019, 7 (3), 3292−3300. Phys. Chem. C 2014, 118 (39), 22439−22449.
+ (51) Chen, J.-W.; Chen, L.-W.; Cheng, W.-H. Kinetics of Glycolysis (70) Yoo, S. J.; Evanko, B.; Wang, X.; Romelczyk, M.; Taylor, A.; Ji,
+of Polyethylene Terephthalate with Zinc Catalyst. Polym. Int. 1999, 48 X.; Boettcher, S. W.; Stucky, G. D. Fundamentally Addressing
+(9), 885−888. Bromine Storage through Reversible Solid-State Confinement in
+ (52) Chen, C.-H. Study of Glycolysis of Poly(Ethylene Tereph- Porous Carbon Electrodes: Design of a High-Performance Dual-
+thalate) Recycled from Postconsumer Soft-Drink Bottles. III. Further Redox Electrochemical Capacitor. J. Am. Chem. Soc. 2017, 139 (29),
+Investigation. J. Appl. Polym. Sci. 2003, 87 (12), 2004−2010. 9985−9993.
+ (53) Viana, M. E.; Riul, A.; Carvalho, G. M.; Rubira, A. F.; Muniz, E. (71) Lam, C. H.; Escande, V.; Mellor, K. E.; Zimmerman, J. B.;
+C. Chemical Recycling of PET by Catalyzed Glycolysis: Kinetics of Anastas, P. T. Teaching Atom Economy and E-Factor Concepts
+the Heterogeneous Reaction. Chem. Eng. J. 2011, 173 (1), 210−219. through a Green Laboratory Experiment: Aerobic Oxidative Cleavage
+ (54) Wang, H.; Li, Z.; Liu, Y.; Zhang, X.; Zhang, S. Degradation of of Meso-Hydrobenzoin to Benzaldehyde Using a Heterogeneous
+Poly(Ethylene Terephthalate) Using Ionic Liquids. Green Chem. Catalyst. J. Chem. Educ. 2019, 96 (4), 761−765.
+2009, 11 (10), 1568−1575. (72) Yu, L.; Jin, X.; Chen, G. Z. A Comparative Study of Anodic
+ (55) Schlüter, M.; Bhutani, S.; Bahr, J.; Wohlgemuth, K.; Held, C. Oxidation of Bromide and Chloride Ions on Platinum Electrodes in 1-
+Measurement and PC-SAFT Modeling of the Solubility of the BHET Butyl-3-Methylimidazolium Hexafluorophosphate. J. Electroanal.
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​20/​7607/​42334187/​sc5c02544.​pdf by ZHEJIANG UNIV user on 09 September 2026
+Monomer, the BHET Dimer, and PET in Single Solvents. J. Chem. Chem. 2013, 688, 371−378.
+Eng. Data 2024, 69 (3), 1326−1334. (73) Zhou, H.; Ren, Y.; Li, Z.; Xu, M.; Wang, Y.; Ge, R.; Kong, X.;
+ (56) Wang, N.; Li, Y.; Cheng, X.; Zhang, R.; Zhou, Q.; Xin, J.; Yan, Zheng, L.; Duan, H. Electrocatalytic Upcycling of Polyethylene
+D.; Xu, J.; Lu, X. Property of Waste Bottle-Grade Polyethylene Terephthalate to Commodity Chemicals and H2 Fuel. Nat. Commun.
+ 2021, 12 (1), 4679.
+Terephthalate Restored by Ti-Based Catalysts. AIChE J. 2025, 71 (2),
+No. e18629.
+ (57) Aharoni, S. M. The Cause of the Grey Discoloration of PET
+Prepared by the Use of Antimony-Catalysts. Polym. Eng. Sci. 1998, 38
+(7), 1039−1047.
+ (58) Salazar-Beltrán, D.; Hinojosa-Reyes, L.; Palomino-Cabello, C.;
+Turnes-Palomino, G.; Hernández-Ramírez, A.; Guzmán-Mar, J. L.
+Determination of Phthalate Acid Esters Plasticizers in Polyethylene
+Terephthalate Bottles and Its Correlation with Some Physicochemical
+Properties. Polym. Test. 2018, 68, 87−94.
+ (59) Zhang, N.; Shen, J.; Pasquinelli, M. A.; Hinks, D.; Tonelli, A. E.
+Formation and Characterization of an Inclusion Complex of
+Triphenyl Phosphate and β-Cyclodextrin and Its Use as a Flame
+Retardant for Polyethylene Terephthalate. Polym. Degrad. Stab. 2015,
+120, 244−250.
+ (60) Zhou, H.; Wang, Y.; Ren, Y.; Li, Z.; Kong, X.; Shao, M.; Duan,
+H. Plastic Waste Valorization by Leveraging Multidisciplinary
+Catalytic Technologies. ACS Catal. 2022, 12 (15), 9307−9324.
+ (61) Li, L.; Song, X.; Fang, S.; Qian, L.; Qian, H. Urea-Containing
+Azo Disperse Dyes: Synthesis, Application, and Structure-Property
+Relationship for Nylon Fabrics. Dyes Pigm. 2022, 201, 110239.
+ (62) Zeng, Z.; Hao, B.; Li, D.; Cheng, D.l; Cai, G.; Wang, X. Large-
+Scale Production of Weavable, Dyeable and Durable Spandex/CNT/
+Cotton Core-Sheath Yarn for Wearable Strain Sensors. Compos. Part
+A: Appl. Sci. Manuf. 2021, 149, 106520.
+ (63) Cao, J.; Liang, H.; Yang, J.; Zhu, Z.; Deng, J.; Li, X.; Elimelech,
+M.; Lu, X. Depolymerization Mechanisms and Closed-Loop Assess-
+ment in Polyester Waste Recycling. Nat. Commun. 2024, 15 (1),
+6266.
+ (64) Pearson, C. M.; Fyfe, J. W. B.; Snaddon, T. N. A Regio- and
+Stereodivergent Synthesis of Homoallylic Amines by a One-Pot
+Cooperative-Catalysis-Based Allylic Alkylation/Hofmann Rearrange-
+ment Strategy. Angew. Chem., Int. Ed. 2019, 58 (31), 10521−10527.
+ (65) Yan, M.; Kawamata, Y.; Baran, P. S. Synthetic Organic
+Electrochemical Methods Since 2000: On the Verge of a Renaissance.
+Chem. Rev. 2017, 117 (21), 13230−13319.
+ (66) Cai, M.; Dai, S.; Xuan, J.; Mo, Y. Bromide-Mediated
+Membraneless Electrosynthesis of Ethylene Carbonate from CO2
+and Ethylene. Nat. Commun. 2025, 16 (1), 3285.
+ (67) Wanngård, J.; Wildlock, M. The Catalyzing Effect of Chromate
+in the Chlorate Formation Reaction. Chem. Eng. Res. Des. 2017, 121,
+438−447.
+ (68) Endrödi, B.; Simic, N.; Wildlock, M.; Cornell, A. A Review of
+Chromium (VI) Use in Chlorate Electrolysis: Functions, Challenges
+and Suggested Alternatives. Electrochim. Acta 2017, 234, 108−122.
+ (69) Bentley, C. L.; Bond, A. M.; Hollenkamp, A. F.; Mahon, P. J.;
+Zhang, J. Electrode Reaction and Mass-Transport Mechanisms
+Associated with the Iodide/Triiodide Couple in the Ionic Liquid 1-
+
+ 7616 https://doi.org/10.1021/acssuschemeng.5c02544
+ ACS Sustainable Chem. Eng. 2025, 13, 7607−7616

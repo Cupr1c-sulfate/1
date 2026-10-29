@@ -1,0 +1,2646 @@
+{
+  "schemaVersion": "learn-from-materials/methods-v1",
+  "libraryId": "pet-nitrogen-papers",
+  "title": "PET 含氮化学品文献方法库",
+  "language": "zh-CN",
+  "status": "extracted",
+  "note": "保存材料中的实验/模型方法及其条件，属于文献学习卡；整体跨论文结构另存 methodology.json。",
+  "methods": [
+    {
+      "id": "r01",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "比较 1:1 介质和底物稀释条件",
+      "summary": "该实验观察到介质比及浓度改变双腈选择性。",
+      "problem": "先把 PET 氨解为对苯二甲酰胺，再由 Pd 催化水转移生成对苯二腈；酰胺完全转化仍可能留下单腈。",
+      "when": "复现 Pd/乙腈/水脱水并希望提高双腈比例",
+      "prerequisites": [
+        "模型酰胺、指定 Pd 与溶剂体系"
+      ],
+      "limitations": [
+        "25 mg 条件的 68% 不是 PET 总收率。"
+      ],
+      "rationale": "该实验观察到介质比及浓度改变双腈选择性。",
+      "steps": [
+        {
+          "action": "比较 1:1 介质和底物稀释条件",
+          "input": "模型酰胺、指定 Pd 与溶剂体系",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "低温 PET→双腈：路线与指标",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第4页",
+      "sources": [
+        {
+          "locator": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第4页",
+          "sourceIds": [
+            "src-e62068f57189-pdf_page-00004"
+          ],
+          "quote": "maximum yield                     61%. At 100 °C and 120 °C, the reaction reached equilibrium\nobtained at a 1 : 1 ratio (Fig. 2d). When the substrate amount            after 8 hours and 4 hours, respectively.\nvaried from 200 mg to 25 mg, we observed higher selectivity                   We then conducted NMR and FT-IR an"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r02",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "按平衡平台比较产率而不把延时等同继续增产",
+      "summary": "100℃约8 h、120℃约4 h 后双腈产率受平衡限制。",
+      "problem": "单腈积累与正反向水转移平衡有关；质谱和光谱支持共同 Pd 配位物，但具体催化循环仍是提议。",
+      "when": "100℃或120℃曲线已到观察到的平衡平台",
+      "prerequisites": [
+        "本文 Pd 水转移体系"
+      ],
+      "limitations": [
+        "温度变化只在测试范围内解释。"
+      ],
+      "rationale": "100℃约8 h、120℃约4 h 后双腈产率受平衡限制。",
+      "steps": [
+        {
+          "action": "按平衡平台比较产率而不把延时等同继续增产",
+          "input": "本文 Pd 水转移体系",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "平台以后不承诺达到100%双腈。"
+        }
+      ],
+      "successChecks": [
+        "平台以后不承诺达到100%双腈。"
+      ],
+      "tags": [
+        "水转移平衡与 Pd 活性物种",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第4页",
+      "sources": [
+        {
+          "locator": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第4页",
+          "sourceIds": [
+            "src-e62068f57189-pdf_page-00004"
+          ],
+          "quote": "equilibrium\nobtained at a 1 : 1 ratio (Fig. 2d). When the substrate amount            after 8 hours and 4 hours, respectively.\nvaried from 200 mg to 25 mg, we observed higher selectivity                   We then conducted NMR and FT-IR analyses to monitor the\nfor terephthalonitrile over 4-cyan"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r03",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "先隔离、水洗和干燥酰胺",
+      "summary": "残氨强配位与 EG 促进 Pd 黑导致一锅不兼容。",
+      "problem": "氨和残留 EG 会抑制 Pd 脱水；真实原料耐受性与催化剂回收损失共同决定串联流程表现。",
+      "when": "氨解中间体将进入 Pd 脱水",
+      "prerequisites": [
+        "已完成 PET 氨解"
+      ],
+      "limitations": [
+        "清洗和隔离意味着额外操作，不是无损一锅串联。"
+      ],
+      "rationale": "残氨强配位与 EG 促进 Pd 黑导致一锅不兼容。",
+      "steps": [
+        {
+          "action": "先隔离、水洗和干燥酰胺",
+          "input": "已完成 PET 氨解",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "真实废塑料、分离与循环",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第6页",
+      "sources": [
+        {
+          "locator": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第6页",
+          "sourceIds": [
+            "src-e62068f57189-pdf_page-00006"
+          ],
+          "quote": "one-pot transformation from PET to\n(CH3CN)x(H2O)y(OH)t species, which subsequently condense          terephthalonitrile by combining the ammonolysis and de-\ninto a dimer (major form) and a tetramer (minor form)             hydration steps were unsuccessful, even when the"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r04",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "蒸发后水洗并按需求进一步重结晶",
+      "summary": "分离 TPN 与溶于水的乙酰胺/单腈可改善纯度并减少逆反应组分。",
+      "problem": "氨和残留 EG 会抑制 Pd 脱水；真实原料耐受性与催化剂回收损失共同决定串联流程表现。",
+      "when": "回收 Pd 水转移反应中的 TPN",
+      "prerequisites": [
+        "本文反应后混合物"
+      ],
+      "limitations": [
+        "水洗约93%纯度，金属回收有损失。"
+      ],
+      "rationale": "分离 TPN 与溶于水的乙酰胺/单腈可改善纯度并减少逆反应组分。",
+      "steps": [
+        {
+          "action": "蒸发后水洗并按需求进一步重结晶",
+          "input": "本文反应后混合物",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "真实废塑料、分离与循环",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第7页",
+      "sources": [
+        {
+          "locator": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第7页",
+          "sourceIds": [
+            "src-e62068f57189-pdf_page-00007"
+          ],
+          "quote": "12.5 : 1, approximately 93% purity) (Fig. S7). The                tional approach from p-xylene, our approach achieves a 28%\nproduct was further purified by recrystallization from an aceto-           lower carbon footprint (Fig. 5d), benefiting from the utilization\nnitrile–w"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r05",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "比较提高酰胺进料浓度的流程情景",
+      "summary": "每公斤产品的水/乙腈蒸发负荷降低。",
+      "problem": "低温不是低碳的充分条件；该模型中水和乙腈蒸发以及底物浓度主导碳足迹。",
+      "when": "模型中蒸发贡献超过一半排放",
+      "prerequisites": [
+        "本篇工艺和 LCA 边界"
+      ],
+      "limitations": [
+        "高浓度改善来自模型，需保证分离与反应仍可运行。"
+      ],
+      "rationale": "每公斤产品的水/乙腈蒸发负荷降低。",
+      "steps": [
+        {
+          "action": "比较提高酰胺进料浓度的流程情景",
+          "input": "本篇工艺和 LCA 边界",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "低温路线的碳足迹为何仍受溶剂支配",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第7页",
+      "sources": [
+        {
+          "locator": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第7页",
+          "sourceIds": [
+            "src-e62068f57189-pdf_page-00007"
+          ],
+          "quote": "more than half of the total CO2\nreusability of the PdCl2 catalyst. An eﬀective recyclability               emissions originate from solvent evaporation due to the high\nsystem should recover terephthalonitrile with high purity and              latent heat of water (Fig. S10), making the s"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r06",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "冷却至0℃并用少量水改善晶粒",
+      "summary": "温度相关溶解度和晶粒增大便于过滤。",
+      "problem": "PET 先成为 BHET，再成为对苯二甲酰胺；反应和结晶分离共同为下游 Hofmann 重排准备进料。",
+      "when": "从 EG 中分离 BHET",
+      "prerequisites": [
+        "已生成 BHET 的乙二醇解液"
+      ],
+      "limitations": [
+        "少量水条件限定本篇，不能任意加入。"
+      ],
+      "rationale": "温度相关溶解度和晶粒增大便于过滤。",
+      "steps": [
+        {
+          "action": "冷却至0℃并用少量水改善晶粒",
+          "input": "已生成 BHET 的乙二醇解液",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "24 h 结晶后过滤。"
+        }
+      ],
+      "successChecks": [
+        "24 h 结晶后过滤。"
+      ],
+      "tags": [
+        "先乙二醇解再氨解：把中间体变成可分离节点",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第3页",
+      "sources": [
+        {
+          "locator": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第3页",
+          "sourceIds": [
+            "src-214fbead528d-pdf_page-00003"
+          ],
+          "quote": "100 μm with water; Figure S2), facilitating subsequent\nWhen the catalyst loading was increased to 2%, the BHET                      centrifugal filtration and reducing product loss.\n                                                                      7609                                   https://doi.org/10.1021/acssuschemeng.5c02544\n                                                                                                            ACS Sustainable Chem. Eng. 2025"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r07",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "比较2 wt%催化剂而非继续增加",
+      "summary": "更高负载未改善并有活性位覆盖的解释。",
+      "problem": "PET 先成为 BHET，再成为对苯二甲酰胺；反应和结晶分离共同为下游 Hofmann 重排准备进料。",
+      "when": "复现 Zn(OAc)₂ 催化乙二醇解的产率峰",
+      "prerequisites": [
+        "190℃/6 h及指定 EG 比"
+      ],
+      "limitations": [
+        "不同真实料杂质会改变产率。"
+      ],
+      "rationale": "更高负载未改善并有活性位覆盖的解释。",
+      "steps": [
+        {
+          "action": "比较2 wt%催化剂而非继续增加",
+          "input": "190℃/6 h及指定 EG 比",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "先乙二醇解再氨解：把中间体变成可分离节点",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第3页",
+      "sources": [
+        {
+          "locator": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第3页",
+          "sourceIds": [
+            "src-214fbead528d-pdf_page-00003"
+          ],
+          "quote": "90.5% with 6-h\nand lead to more favorable reaction kinetics.45 For instance,\n                                                                             degradation time, 190 °C reaction temperature, 2 wt %\nammonolysis reactions involving BHET proceed with higher\nyields and faster rates compared to those utilizing TPA and                  catal"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r08",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "分开电卤化、加碱重排和热水解三阶段",
+      "summary": "活性溴、碱和温度在三个阶段承担不同作用。",
+      "problem": "阳极产生活性溴，阴极生成碱；电卤化、碱重排和热水解脱羧共同形成 PABA/PPD。",
+      "when": "执行本文 TP 到 PABA/PPD 的 e-Hofmann 路线",
+      "prerequisites": [
+        "原文不分隔电解体系和介质"
+      ],
+      "limitations": [
+        "不是所有阶段都由电流直接完成。"
+      ],
+      "rationale": "活性溴、碱和温度在三个阶段承担不同作用。",
+      "steps": [
+        {
+          "action": "分开电卤化、加碱重排和热水解三阶段",
+          "input": "原文不分隔电解体系和介质",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "电化学 Hofmann 重排的三阶段与两极耦合",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第5页",
+      "sources": [
+        {
+          "locator": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第5页",
+          "sourceIds": [
+            "src-214fbead528d-pdf_page-00005"
+          ],
+          "quote": "first stage, using methanol/water mixtures as the\ndirect ammonolysis would have difficulty separating TP from                 solvent, H2O or MeOH gets reduced at the cathode,\nthe partially degraded amide oligomers, and the preparation of              generating hydrogen gas along with"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r09",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "将产率平台与活性溴回还原一起分析",
+      "summary": "额外电量可被阴极副反应消耗而不增加目标物。",
+      "problem": "阳极产生活性溴，阴极生成碱；电卤化、碱重排和热水解脱羧共同形成 PABA/PPD。",
+      "when": "施加电量达到约5 F/mol后产率不再改善",
+      "prerequisites": [
+        "所测石墨/Pt不分隔体系"
+      ],
+      "limitations": [
+        "阈值仅限原文，非任意电解槽通用。"
+      ],
+      "rationale": "额外电量可被阴极副反应消耗而不增加目标物。",
+      "steps": [
+        {
+          "action": "将产率平台与活性溴回还原一起分析",
+          "input": "所测石墨/Pt不分隔体系",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "不把5–10 F/mol继续加电当作必然增产。"
+        }
+      ],
+      "successChecks": [
+        "不把5–10 F/mol继续加电当作必然增产。"
+      ],
+      "tags": [
+        "电化学 Hofmann 重排的三阶段与两极耦合",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第6页",
+      "sources": [
+        {
+          "locator": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第6页",
+          "sourceIds": [
+            "src-214fbead528d-pdf_page-00006"
+          ],
+          "quote": "5−10 F/mol charge passed revealed nearly identical                   from the oxidation of Br− to Br3− (3Br− ⇌ Br3− + 2e−), while\nconcentrations of active bromine (7.6 mM), indicating that the            the second one is attributed to the oxidation of Br3− to Br2\n                                                                   7612                                  https://doi.org"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r10",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "比较0.94 mM重铬酸盐保护层条件",
+      "summary": "Cr(OH)₃ 层抑制阴极活性溴还原并提高总产率。",
+      "problem": "阳极产生活性溴，阴极生成碱；电卤化、碱重排和热水解脱羧共同形成 PABA/PPD。",
+      "when": "评估阴极活性溴还原对 FE 的损失",
+      "prerequisites": [
+        "本文条件、需保留 Cr(VI) 使用事实"
+      ],
+      "limitations": [
+        "改善不等于完全无危险试剂，不能推广成一般推荐。"
+      ],
+      "rationale": "Cr(OH)₃ 层抑制阴极活性溴还原并提高总产率。",
+      "steps": [
+        {
+          "action": "比较0.94 mM重铬酸盐保护层条件",
+          "input": "本文条件、需保留 Cr(VI) 使用事实",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "电化学 Hofmann 重排的三阶段与两极耦合",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第6页",
+      "sources": [
+        {
+          "locator": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第6页",
+          "sourceIds": [
+            "src-214fbead528d-pdf_page-00006"
+          ],
+          "quote": "43.4%, and a\nHofmann rearrangement. We monitored the progress of the                   significantly improved total yield of 72.2% for PPD and PABA\nreaction while increasing the charge input into the solution,             was achieved, which was 21.5% higher than that without\nand PPD w"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r11",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "先固定1 kg同质量聚合物和北美系统边界",
+      "summary": "功能单位和质量假设保证模型比较对象一致。",
+      "problem": "该论文评价的是废 PET 衍生单体制备 Kevlar 聚合物的 cradle-to-gate 模型，首先需要明确功能单位、原料负担和工业放大假设。",
+      "when": "比较废PET与原生Kevlar聚合物",
+      "prerequisites": [
+        "从收集到聚合的 LCI"
+      ],
+      "limitations": [
+        "同质量是假设而非纤维力学实测。"
+      ],
+      "rationale": "功能单位和质量假设保证模型比较对象一致。",
+      "steps": [
+        {
+          "action": "先固定1 kg同质量聚合物和北美系统边界",
+          "input": "从收集到聚合的 LCI",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "PET 到芳纶的 LCA：功能单位与系统边界",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第3页",
+      "sources": [
+        {
+          "locator": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第3页",
+          "sourceIds": [
+            "src-42d155ded4e1-pdf_page-00003"
+          ],
+          "quote": "functional unit for this study is 1 kg of Kevlar                     allocation methodology for open-loop recycling.\nproduction. The system boundary is shown in Figure 1,                          2.3. Upcycled Kevlar. 2.3.1. Mechanical Recycling.\nillustrating the chemical upcycling process, starting from"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r12",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "从废料收集开始且不额外记替代原生PET信用",
+      "summary": "前世负担已归原系统，额外信用会改变既定边界。",
+      "problem": "是否分摊前一世 PET 的负担会改变结果；单体制备的溶剂与试剂是主要优化对象。",
+      "when": "用cutoff评价开放循环PET升级",
+      "prerequisites": [
+        "本篇 cutoff 模型"
+      ],
+      "limitations": [
+        "不能将此法结果与50/50直接拼接。"
+      ],
+      "rationale": "前世负担已归原系统，额外信用会改变既定边界。",
+      "steps": [
+        {
+          "action": "从废料收集开始且不额外记替代原生PET信用",
+          "input": "本篇 cutoff 模型",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "开放循环分配与环境热点",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第3页",
+      "sources": [
+        {
+          "locator": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第3页",
+          "sourceIds": [
+            "src-42d155ded4e1-pdf_page-00003"
+          ],
+          "quote": "Cut-Off Approach. The cutoff approach is most                       2.3.2. Depolymerization and Precursor Preparation. Part\ncommonly applied to avoid double-counting burdens between                   of chemical recycling includes PET polymer being broken\nproduct systems and to avoid assum"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r13",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "比较5.3与3当量情景",
+      "summary": "过量氯化剂贡献成本与环境负担，模型减少其用量。",
+      "problem": "替换碱、减少纯化溶剂和降低过量氯化剂可组合优化，但结果仍来自模型。",
+      "when": "评估TCL制备的过量SOCl₂热点",
+      "prerequisites": [
+        "保留目标TCL产率和纯度的场景假设"
+      ],
+      "limitations": [
+        "不是本文实测工业配方验证。"
+      ],
+      "rationale": "过量氯化剂贡献成本与环境负担，模型减少其用量。",
+      "steps": [
+        {
+          "action": "比较5.3与3当量情景",
+          "input": "保留目标TCL产率和纯度的场景假设",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "八种改进情景与成本边界",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第10页",
+      "sources": [
+        {
+          "locator": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第10页",
+          "sourceIds": [
+            "src-42d155ded4e1-pdf_page-00010"
+          ],
+          "quote": "4.8% and the cost by 6.1% compared with the baseline                        compared to optimizing diethyl ether consumption. The best-\nscenario. A previous study also reports that substituting KOH               case scenario, identified as S8, incorporates all modifications\nwith NaOH re"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r14",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "同时核对回收范围和再回收的额外投入",
+      "summary": "净收益来自溶剂替代信用与能耗/试剂负担的权衡。",
+      "problem": "溶剂回收率和价格比小幅温度或收率变化更影响该模型；统计范围不消除清单假设的结构性限制。",
+      "when": "解释溶剂回收率的环境敏感性",
+      "prerequisites": [
+        "原模型95%基线及敏感性范围"
+      ],
+      "limitations": [
+        "副产物提高回收未必总带来净改善。"
+      ],
+      "rationale": "净收益来自溶剂替代信用与能耗/试剂负担的权衡。",
+      "steps": [
+        {
+          "action": "同时核对回收范围和再回收的额外投入",
+          "input": "原模型95%基线及敏感性范围",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "不确定性、敏感性与进一步研究",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第11页",
+      "sources": [
+        {
+          "locator": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第11页",
+          "sourceIds": [
+            "src-42d155ded4e1-pdf_page-00011"
+          ],
+          "quote": "37% and                          lower ecotoxicity impacts. Transportation and waste have a\necotoxicity by 30%. Sensitivity analysis reveals that more reuse              minimal impact compared to raw materials and chemicals.\nof solvents lowers the environmental impact of chemical                       Hots"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r15",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "比较THF溶胀和目标TP产率",
+      "summary": "甲苯中高PET消失仍只生成较低TP比例。",
+      "problem": "ZnCl₂/THF 氨解把 PET 转成可过滤的酰胺；PET 消失与目标酰胺生成需独立定量。",
+      "when": "选择ZnCl₂氨解PET的溶剂",
+      "prerequisites": [
+        "本篇220℃氨解条件"
+      ],
+      "limitations": [
+        "THF条件不能直接迁移到低温EG或气固体系。"
+      ],
+      "rationale": "甲苯中高PET消失仍只生成较低TP比例。",
+      "steps": [
+        {
+          "action": "比较THF溶胀和目标TP产率",
+          "input": "本篇220℃氨解条件",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "PXDA 路线第一段：氨解与溶胀",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "2.pdf · 标题路径：Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A route to diversify PET-derived chemicals · PDF 第3页",
+      "sources": [
+        {
+          "locator": "2.pdf · 标题路径：Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A route to diversify PET-derived chemicals · PDF 第3页",
+          "sourceIds": [
+            "src-fac9747cbb51-pdf_page-00003"
+          ],
+          "quote": "32.4 %, and a considerable amount\n    Typically, TP (0.1 g), TiO2 (0.1 g) and acetonitrile (5 g) were loaded        of soluble oligomers remains (Fig. S1). In contrast, the yield of TP in THF\ninto a stainless-steel autoclave reactor. The reactor underwent three N₂          reac"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r16",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "比较NH₃分压0.2到0.5 MPa",
+      "summary": "较高氨压在所测条件提高TP收率。",
+      "problem": "ZnCl₂/THF 氨解把 PET 转成可过滤的酰胺；PET 消失与目标酰胺生成需独立定量。",
+      "when": "提高原文第一段有效氨供给",
+      "prerequisites": [
+        "ZnCl₂/THF和N₂总压条件"
+      ],
+      "limitations": [
+        "不外推为任意增压均安全或均提高产量。"
+      ],
+      "rationale": "较高氨压在所测条件提高TP收率。",
+      "steps": [
+        {
+          "action": "比较NH₃分压0.2到0.5 MPa",
+          "input": "ZnCl₂/THF和N₂总压条件",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "PXDA 路线第一段：氨解与溶胀",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "2.pdf · 标题路径：Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A route to diversify PET-derived chemicals · PDF 第3页",
+      "sources": [
+        {
+          "locator": "2.pdf · 标题路径：Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A route to diversify PET-derived chemicals · PDF 第3页",
+          "sourceIds": [
+            "src-fac9747cbb51-pdf_page-00003"
+          ],
+          "quote": "85.3 %) is achieved with only 10 mg ZnCl2,\n TP conversion = 1 −                     × 100%                         (4)\n                          minitial Tp                                             and further increasing the dosage of the catalyst has little effect on the\n                                                                                  TP yield. Finally, the influence of ammonia pressure on the TP yield was\n                nproduced TPN\nTPN yield =                      × 100%"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r17",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "用260℃/4 h观察窗口比较而不无限延时升温",
+      "summary": "焦化与产物损失使TPN收率下降。",
+      "problem": "TiO₂ 催化酰胺到 TPN，但高温或过长时间会把产物损失到焦化。",
+      "when": "TiO₂脱水超过产率峰或继续升温",
+      "prerequisites": [
+        "指定TiO₂/乙腈和N₂压力"
+      ],
+      "limitations": [
+        "温度更低可有较高选择性但产率不同。"
+      ],
+      "rationale": "焦化与产物损失使TPN收率下降。",
+      "steps": [
+        {
+          "action": "用260℃/4 h观察窗口比较而不无限延时升温",
+          "input": "指定TiO₂/乙腈和N₂压力",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "超过4 h产率下降时停止以延时增产的假设。"
+        }
+      ],
+      "successChecks": [
+        "超过4 h产率下降时停止以延时增产的假设。"
+      ],
+      "tags": [
+        "TiO₂ 脱水：单腈、焦化与分离",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "2.pdf · 标题路径：Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A route to diversify PET-derived chemicals · PDF 第5页",
+      "sources": [
+        {
+          "locator": "2.pdf · 标题路径：Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A route to diversify PET-derived chemicals · PDF 第5页",
+          "sourceIds": [
+            "src-fac9747cbb51-pdf_page-00005"
+          ],
+          "quote": "carbon yield, likely attributed to coke formation               attributable to the solvent, CDCl3. No additional peaks are observed,\nfrom TP degradation at higher temperature [31]. The influence of re­                especially those originating from 4-cyanobenzamide, indicatin"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r18",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "加水作反溶剂并低温结晶",
+      "summary": "TPN可分离为高纯固体供后续氢化。",
+      "problem": "TiO₂ 催化酰胺到 TPN，但高温或过长时间会把产物损失到焦化。",
+      "when": "从TiO₂/乙腈反应液分离TPN",
+      "prerequisites": [
+        "脱水完成后移除固体和溶剂"
+      ],
+      "limitations": [
+        "65%是分离率，73.1%是分析率。"
+      ],
+      "rationale": "TPN可分离为高纯固体供后续氢化。",
+      "steps": [
+        {
+          "action": "加水作反溶剂并低温结晶",
+          "input": "脱水完成后移除固体和溶剂",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "TiO₂ 脱水：单腈、焦化与分离",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "2.pdf · 标题路径：Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A route to diversify PET-derived chemicals · PDF 第3页",
+      "sources": [
+        {
+          "locator": "2.pdf · 标题路径：Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A route to diversify PET-derived chemicals · PDF 第3页",
+          "sourceIds": [
+            "src-fac9747cbb51-pdf_page-00003"
+          ],
+          "quote": "− 4 ◦ C overnight to precip­\n                                                                                  itate TPN. The purified TPN was then obtained via filtration, washing,\n                                                                                  and drying.\n2.2. Catalytic performance evaluation\n                                                                                  2.2.3. TPN to PXDA process\n2.2.1. PET ammonolysis process                                                        Typically, TPN (0.1 g), Pd/C (10 mg) and metha"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r19",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "加盐酸形成二盐酸盐并结晶",
+      "summary": "盐酸盐形式便于隔离与结构确认。",
+      "problem": "高纯 TPN 氢化可制得 PXDA；产物价格与流程经济性不是同一结论。",
+      "when": "分离PXDA氢化产物",
+      "prerequisites": [
+        "氢化后的原文产物液"
+      ],
+      "limitations": [
+        "盐酸盐质量不能直接当游离胺摩尔产率。"
+      ],
+      "rationale": "盐酸盐形式便于隔离与结构确认。",
+      "steps": [
+        {
+          "action": "加盐酸形成二盐酸盐并结晶",
+          "input": "氢化后的原文产物液",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "TPN 氢化到 PXDA 与经济含义",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "2.pdf · 标题路径：Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A route to diversify PET-derived chemicals · PDF 第3页",
+      "sources": [
+        {
+          "locator": "2.pdf · 标题路径：Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A route to diversify PET-derived chemicals · PDF 第3页",
+          "sourceIds": [
+            "src-fac9747cbb51-pdf_page-00003"
+          ],
+          "quote": "chloride. Finally, the purified product was obtained via filtration,\nnumber of moles and MwPET represented the molar masses of the PET                 washing and drying.\nrepeating unit (192 g/mol).\n                    (\n                         mundepolymerized PET\n                                              )                                   3. Results and discussion\nPET conversion = 1 −                            × 100"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r20",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "使用记录的平均温度而非只用设定点",
+      "summary": "升温历程影响反应时间和Arrhenius拟合。",
+      "problem": "DMT 先形成单酰胺 MCB，再形成 TPD；过量氨下可用两步拟一级模型，但速率不同。",
+      "when": "从温度实验拟合氨解速率",
+      "prerequisites": [
+        "可靠温度记录和NMR组分数据"
+      ],
+      "limitations": [
+        "并不自动处理所有反应器非稳态温差。"
+      ],
+      "rationale": "升温历程影响反应时间和Arrhenius拟合。",
+      "steps": [
+        {
+          "action": "使用记录的平均温度而非只用设定点",
+          "input": "可靠温度记录和NMR组分数据",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "DMT 氨解的连续反应动力学",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "3.pdf · 标题路径：Upcycling Waste PET: I. Ammonolysis Kinetics of Model Dimethyl Terephthalate and the Catalytic Effects of Ethylene Glycol · PDF 第3页",
+      "sources": [
+        {
+          "locator": "3.pdf · 标题路径：Upcycling Waste PET: I. Ammonolysis Kinetics of Model Dimethyl Terephthalate and the Catalytic Effects of Ethylene Glycol · PDF 第3页",
+          "sourceIds": [
+            "src-4833ddff420e-pdf_page-00003"
+          ],
+          "quote": "average temperature experienced                       extinguished, the peaks related to TPD grow. The unknown\nover the course of the reaction. Nominal temperatures are                        peaks consist of a multiplet between 8.03 and 7.93 ppm that\npresented in Table 1 and correspond to the set poin"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r21",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "将解释限定在0–150℃并保留介质变化",
+      "summary": "高温会出现甲胺等额外反应，315℃交叉是无效外推。",
+      "problem": "EG 提高两步速率，但整体完成时间由连续网络及中间体积累决定；高温外推有化学边界。",
+      "when": "使用DMT氨解模型进行温度预测",
+      "prerequisites": [
+        "MeOH/NH₃模型与原参数定义"
+      ],
+      "limitations": [
+        "预测不等于实测。"
+      ],
+      "rationale": "高温会出现甲胺等额外反应，315℃交叉是无效外推。",
+      "steps": [
+        {
+          "action": "将解释限定在0–150℃并保留介质变化",
+          "input": "MeOH/NH₃模型与原参数定义",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "不将315℃模型交叉当工艺优化点。"
+        }
+      ],
+      "successChecks": [
+        "不将315℃模型交叉当工艺优化点。"
+      ],
+      "tags": [
+        "Arrhenius 参数与 EG 催化：快一个步骤不等于快整个流程",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "3.pdf · 标题路径：Upcycling Waste PET: I. Ammonolysis Kinetics of Model Dimethyl Terephthalate and the Catalytic Effects of Ethylene Glycol · PDF 第6页",
+      "sources": [
+        {
+          "locator": "3.pdf · 标题路径：Upcycling Waste PET: I. Ammonolysis Kinetics of Model Dimethyl Terephthalate and the Catalytic Effects of Ethylene Glycol · PDF 第6页",
+          "sourceIds": [
+            "src-4833ddff420e-pdf_page-00006"
+          ],
+          "quote": "315.0 °C. Such a high temperature is outside the range\nbecause the amide group is less electron withdrawing than an                  of validity for the model−at temperatures exceeding about 150\nester group. Accordingly, the relatively delocalized electrons of             °C it is ob"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r22",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "固液两相分别NMR并合并质量平衡",
+      "summary": "可溶BHET/HCB占液相，单测固体会漏计。",
+      "problem": "BHET→HCB→TPD 在 EG 中连续发生，定量必须同时考虑固体与液相；温度改变时氨溶解度也改变。",
+      "when": "定量BHET氨解早期样品",
+      "prerequisites": [
+        "按原文溶解和取样方法"
+      ],
+      "limitations": [
+        "质量平衡依赖峰归属和代表性取样。"
+      ],
+      "rationale": "可溶BHET/HCB占液相，单测固体会漏计。",
+      "steps": [
+        {
+          "action": "固液两相分别NMR并合并质量平衡",
+          "input": "按原文溶解和取样方法",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "BHET 模型和双相取样：避免漏掉溶液中间体",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "4.pdf · 标题路径：Upcycling of Waste Poly(ethylene Terephthalate): Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl Terephthalate) and Particle Size Effects in Polymeric Substrates · PDF 第4页",
+      "sources": [
+        {
+          "locator": "4.pdf · 标题路径：Upcycling of Waste Poly(ethylene Terephthalate): Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl Terephthalate) and Particle Size Effects in Polymeric Substrates · PDF 第4页",
+          "sourceIds": [
+            "src-b1b3021b0f08-pdf_page-00004"
+          ],
+          "quote": "solid samples\n  reacting for 45 min at 50 °C, only 0.01 g (1 ppm) of the product is\n                                                                                showing the reaction trajectory from BHET through HCB to TPD.\n  recovered as a solid. The mass fraction recovered as solids\n  steadily increases with time as the reactant is converted"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r23",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "先用简单切片而不默认增加昂贵细磨",
+      "summary": "薄片与150–250 μm颗粒转化接近，进一步研磨增益小。",
+      "problem": "薄片与细粒相近，但毫米粒显著变慢；不是所有 PET 形状都由化学步骤控制。",
+      "when": "处理原文所测约400 μm厚PET薄片",
+      "prerequisites": [
+        "所测EG氨解薄膜体系"
+      ],
+      "limitations": [
+        "不能推广到毫米厚粒子或不同形状。"
+      ],
+      "rationale": "薄片与150–250 μm颗粒转化接近，进一步研磨增益小。",
+      "steps": [
+        {
+          "action": "先用简单切片而不默认增加昂贵细磨",
+          "input": "所测EG氨解薄膜体系",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "粒径如何让控制步骤转向传质",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "4.pdf · 标题路径：Upcycling of Waste Poly(ethylene Terephthalate): Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl Terephthalate) and Particle Size Effects in Polymeric Substrates · PDF 第7页",
+      "sources": [
+        {
+          "locator": "4.pdf · 标题路径：Upcycling of Waste Poly(ethylene Terephthalate): Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl Terephthalate) and Particle Size Effects in Polymeric Substrates · PDF 第7页",
+          "sourceIds": [
+            "src-b1b3021b0f08-pdf_page-00007"
+          ],
+          "quote": "costs associated with energy-intensive\n                                                                                       Here x ET1 is the mole fraction of ET1 bonds, k is the apparent\n                                                                                   rate constant, and k 0 is the apparent pseudo–first-order rate con-\n                                                                                   stant. The mole fraction of ET1 bonds is defined by Equation (14).\n                                                                                                            nET1\n                                                                                   x ET1 ¼                                                              (14)\n                                                                                             nET"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r24",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "将有效因子、球形几何和D_eff联合拟合",
+      "summary": "化学基准与颗粒速率差反映内部扩散影响。",
+      "problem": "将 BHET 化学速率与 PET 颗粒表观速率比较，可构建有效因子；扩散系数是条件依赖的拟合量。",
+      "when": "拟合粒径引起的反应利用率差异",
+      "prerequisites": [
+        "BHET基准及三档颗粒数据"
+      ],
+      "limitations": [
+        "D_eff限于100℃EG溶胀多组分体系。"
+      ],
+      "rationale": "化学基准与颗粒速率差反映内部扩散影响。",
+      "steps": [
+        {
+          "action": "将有效因子、球形几何和D_eff联合拟合",
+          "input": "BHET基准及三档颗粒数据",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "有效因子、Thiele 模数与拟合扩散系数",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "4.pdf · 标题路径：Upcycling of Waste Poly(ethylene Terephthalate): Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl Terephthalate) and Particle Size Effects in Polymeric Substrates · PDF 第9页",
+      "sources": [
+        {
+          "locator": "4.pdf · 标题路径：Upcycling of Waste Poly(ethylene Terephthalate): Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl Terephthalate) and Particle Size Effects in Polymeric Substrates · PDF 第9页",
+          "sourceIds": [
+            "src-b1b3021b0f08-pdf_page-00009"
+          ],
+          "quote": "1.37 \u0001\n                                                                                    0.48 E-7 cm2 s\u00031) falls within the range of known ammonia diffu-\n                                                                                   sivities in other polymers at temperatures above their glass transi-\n                                                                                   tion temperatures.\n                                                                                        While published literature lacks specific information on the\n                                                                                   diffusion of ammonia in PET, mod"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r25",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "比较120℃2 h与长时条件的两项响应",
+      "summary": "长时纯度提高但碳化降低目标收率。",
+      "problem": "无水氨与 PET 气固反应可生成酰胺；多种表征共同确认身份，纯度和产率仍独立。",
+      "when": "提高无水氨气固酰胺产率同时保证纯度",
+      "prerequisites": [
+        "本篇PET薄片/无水氨釜条件"
+      ],
+      "limitations": [
+        "不能只按最高纯度选择12 h。"
+      ],
+      "rationale": "长时纯度提高但碳化降低目标收率。",
+      "steps": [
+        {
+          "action": "比较120℃2 h与长时条件的两项响应",
+          "input": "本篇PET薄片/无水氨釜条件",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "无外加溶剂催化剂的气固氨解",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "5.pdf · 标题路径：Valorization of polyethylene terephthalate wastes to terephthalamide via catalyst-free ammonolysis · PDF 第5页",
+      "sources": [
+        {
+          "locator": "5.pdf · 标题路径：Valorization of polyethylene terephthalate wastes to terephthalamide via catalyst-free ammonolysis · PDF 第5页",
+          "sourceIds": [
+            "src-484e6d8b37d7-pdf_page-00005"
+          ],
+          "quote": "90.6 mol%) was achieved within approximately 2 h,\nmelting point and thermal stability (decomposition temperature >                    accompanied by a purity of 96.2 %. The comparison of this study with a\n300 ◦ C). These findings, consistent with the prior elucidation, rei"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r26",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "比较300 rpm及PET/NH₃比而不任意减氨",
+      "summary": "过低有效氨供给及不合适搅拌降低表现。",
+      "problem": "无水氨与 PET 气固反应可生成酰胺；多种表征共同确认身份，纯度和产率仍独立。",
+      "when": "筛选气固氨解混合和投料参数",
+      "prerequisites": [
+        "原文装置和试验负载"
+      ],
+      "limitations": [
+        "搅拌转速非尺度无关。"
+      ],
+      "rationale": "过低有效氨供给及不合适搅拌降低表现。",
+      "steps": [
+        {
+          "action": "比较300 rpm及PET/NH₃比而不任意减氨",
+          "input": "原文装置和试验负载",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "无外加溶剂催化剂的气固氨解",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "5.pdf · 标题路径：Valorization of polyethylene terephthalate wastes to terephthalamide via catalyst-free ammonolysis · PDF 第8页",
+      "sources": [
+        {
+          "locator": "5.pdf · 标题路径：Valorization of polyethylene terephthalate wastes to terephthalamide via catalyst-free ammonolysis · PDF 第8页",
+          "sourceIds": [
+            "src-484e6d8b37d7-pdf_page-00008"
+          ],
+          "quote": "300 rpm                                                                                                       (4)\nstirring yielded a notably elevated TP yield and purity (Fig. 6e) and the                          + 0.0885XBC − 1.28XA2 − 0.6874XB2 − 0.0982XC2\nfollowing experimental condition of stirring were set at 300 rpm.\n                                                                                             where A, B, and C are the coded values of reaction time, tempera"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r27",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "独立重复验证产率与纯度",
+      "summary": "实际87.34/94.50与模型88.83/100.46不同，拟合度不能代替验证。",
+      "problem": "三因素响应面可以描述试验范围内的产率和纯度变化，但预测纯度超出物理上限说明模型并未施加约束。",
+      "when": "响应面模型给出近似最优条件",
+      "prerequisites": [
+        "原BBD试验范围"
+      ],
+      "limitations": [
+        "模型预测纯度超过100%，原表显著性有差异。"
+      ],
+      "rationale": "实际87.34/94.50与模型88.83/100.46不同，拟合度不能代替验证。",
+      "steps": [
+        {
+          "action": "独立重复验证产率与纯度",
+          "input": "原BBD试验范围",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "Box–Behnken 优化：拟合与独立验证",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "5.pdf · 标题路径：Valorization of polyethylene terephthalate wastes to terephthalamide via catalyst-free ammonolysis · PDF 第9页",
+      "sources": [
+        {
+          "locator": "5.pdf · 标题路径：Valorization of polyethylene terephthalate wastes to terephthalamide via catalyst-free ammonolysis · PDF 第9页",
+          "sourceIds": [
+            "src-484e6d8b37d7-pdf_page-00009"
+          ],
+          "quote": "87.34\nmol% yield and 94.50 % purity across three repetitions (Table S5),                    This work was supported by the funding of Guangdong Basic and\naligning within a 95 % confidence interval, thereby verifying the                  Applied Basic Research Foundation, China (2022A15150"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r28",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "比较质量比1附近而不以更多尿素保证增产",
+      "summary": "500℃时0.5→1改善而更高用量趋平台。",
+      "problem": "中等高温利于双腈；更高温促裂解和苯甲腈生成，最大 TPN 收率与最大选择性不完全一致。",
+      "when": "增加尿素作为供氨剂",
+      "prerequisites": [
+        "本篇PET/γ-Al₂O₃固定进料条件"
+      ],
+      "limitations": [
+        "质量比与摩尔比不能混写。"
+      ],
+      "rationale": "500℃时0.5→1改善而更高用量趋平台。",
+      "steps": [
+        {
+          "action": "比较质量比1附近而不以更多尿素保证增产",
+          "input": "本篇PET/γ-Al₂O₃固定进料条件",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "温度、尿素量和再生的选择性权衡",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "6.pdf · 标题路径：Valorization of waste PET: Understanding the role of active ammonia in facilitating PET depolymerization and aromatic nitrile formation · PDF 第5页",
+      "sources": [
+        {
+          "locator": "6.pdf · 标题路径：Valorization of waste PET: Understanding the role of active ammonia in facilitating PET depolymerization and aromatic nitrile formation · PDF 第5页",
+          "sourceIds": [
+            "src-4fda33930eaf-pdf_page-00005"
+          ],
+          "quote": "28.27 C%, which was a great\n                                                                                         improvement. Moreover, the yields of TPN and aromatic nitriles did not\n                                                                                         increase significantly with the further increase of urea dosage. Mean­\n                                                                                         while, the urea dosage had little effect on the selectivity of TPN in the\n                                                                                         aromatic nitri"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r29",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "比较550℃收率峰和500℃选择性",
+      "summary": "更高温引发苯甲腈/芳烃而损失双腈选择性。",
+      "problem": "中等高温利于双腈；更高温促裂解和苯甲腈生成，最大 TPN 收率与最大选择性不完全一致。",
+      "when": "以TPN为尿素热解目标",
+      "prerequisites": [
+        "所测原位热解体系"
+      ],
+      "limitations": [
+        "最高收率与最高选择性不同。"
+      ],
+      "rationale": "更高温引发苯甲腈/芳烃而损失双腈选择性。",
+      "steps": [
+        {
+          "action": "比较550℃收率峰和500℃选择性",
+          "input": "所测原位热解体系",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "温度、尿素量和再生的选择性权衡",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "6.pdf · 标题路径：Valorization of waste PET: Understanding the role of active ammonia in facilitating PET depolymerization and aromatic nitrile formation · PDF 第6页",
+      "sources": [
+        {
+          "locator": "6.pdf · 标题路径：Valorization of waste PET: Understanding the role of active ammonia in facilitating PET depolymerization and aromatic nitrile formation · PDF 第6页",
+          "sourceIds": [
+            "src-4fda33930eaf-pdf_page-00006"
+          ],
+          "quote": "32.53 C%), indicating that γ-Al2O3\nurea to PET.                                                                            may be slightly inactivated during pyrolysis regeneration, which was\n                                                                                        related to the loss of acidic sites on the surface of γ-Al2O3 and the\nsitu catalytic pyrolysis with the urea process was an effective way to"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r30",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "按600℃4 h烧焦再生并检查活性损失",
+      "summary": "四轮后产率下降，酸位与孔结构变化。",
+      "problem": "中等高温利于双腈；更高温促裂解和苯甲腈生成，最大 TPN 收率与最大选择性不完全一致。",
+      "when": "重复使用尿素热解γ-Al₂O₃",
+      "prerequisites": [
+        "本文催化剂和循环方法"
+      ],
+      "limitations": [
+        "有限循环不等于完全恢复。"
+      ],
+      "rationale": "四轮后产率下降，酸位与孔结构变化。",
+      "steps": [
+        {
+          "action": "按600℃4 h烧焦再生并检查活性损失",
+          "input": "本文催化剂和循环方法",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "温度、尿素量和再生的选择性权衡",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "6.pdf · 标题路径：Valorization of waste PET: Understanding the role of active ammonia in facilitating PET depolymerization and aromatic nitrile formation · PDF 第6页",
+      "sources": [
+        {
+          "locator": "6.pdf · 标题路径：Valorization of waste PET: Understanding the role of active ammonia in facilitating PET depolymerization and aromatic nitrile formation · PDF 第6页",
+          "sourceIds": [
+            "src-4fda33930eaf-pdf_page-00006"
+          ],
+          "quote": "600 ◦ C for 4 h to remove               of terephthalic acid ethylene glycol ester dimer (1, Fig. 8). Through\nthe coke and regenerate it. Fig. 7 shows the carbon yields of TPN,                      comparing the three decomposition mechanisms with and without the"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r31",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "同时看2%改性酸量和孔结构",
+      "summary": "过量磷提高酸量但可能破坏孔结构。",
+      "problem": "酸位与孔结构改变芳腈选择性；催化筛选必须把孔结构损失与酸量提高一起看。",
+      "when": "筛选磷改性γ-Al₂O₃",
+      "prerequisites": [
+        "P₂O₅质量标定与本文催化条件"
+      ],
+      "limitations": [
+        "酸位数量不能单独保证目标产率。"
+      ],
+      "rationale": "过量磷提高酸量但可能破坏孔结构。",
+      "steps": [
+        {
+          "action": "同时看2%改性酸量和孔结构",
+          "input": "P₂O₅质量标定与本文催化条件",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "氨气快速热解与磷改性 γ-Al₂O₃",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "7.pdf · 标题路径：Catalytic fast pyrolysis of polyethylene terephthalate plastic for the selective production of terephthalonitrile under ammonia atmosphere · PDF 第4页",
+      "sources": [
+        {
+          "locator": "7.pdf · 标题路径：Catalytic fast pyrolysis of polyethylene terephthalate plastic for the selective production of terephthalonitrile under ammonia atmosphere · PDF 第4页",
+          "sourceIds": [
+            "src-82267ef81808-pdf_page-00004"
+          ],
+          "quote": "315.7 lmol/g, which was 40% higher than                                     Besides, Entries 2–5 demonstrated the detailed product distri-\nc-Al2O3. With the mass ratio increasing from 2% to 8%, the total                               butions of CFP-A of PET over different modified c-Al2O3 catalysts.\nacid amounts of modi"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r32",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "在固定总流量下比较50%与纯氨",
+      "summary": "50%在所测条件接近纯氨，20%时含氧残物增加。",
+      "problem": "500℃兼顾腈形成与避免过裂解；氨比例与接触时间需要满足而不过度。",
+      "when": "希望减少NH₃载气用量",
+      "prerequisites": [
+        "PET0.5 g、催化剂1 g和总流160 mL/min"
+      ],
+      "limitations": [
+        "比例不能脱离总流量和负载使用。"
+      ],
+      "rationale": "50%在所测条件接近纯氨，20%时含氧残物增加。",
+      "steps": [
+        {
+          "action": "在固定总流量下比较50%与纯氨",
+          "input": "PET0.5 g、催化剂1 g和总流160 mL/min",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "热解窗口：温度、催化剂量、氨比例与循环",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "7.pdf · 标题路径：Catalytic fast pyrolysis of polyethylene terephthalate plastic for the selective production of terephthalonitrile under ammonia atmosphere · PDF 第6页",
+      "sources": [
+        {
+          "locator": "7.pdf · 标题路径：Catalytic fast pyrolysis of polyethylene terephthalate plastic for the selective production of terephthalonitrile under ammonia atmosphere · PDF 第6页",
+          "sourceIds": [
+            "src-82267ef81808-pdf_page-00006"
+          ],
+          "quote": "50% NH3 and 50% N2). Fig. 4 show the overall yield and nitriles                       gas with different content ammonia was investigated in the range\nselectivity of CFP-A with different catalyst dosage. In Fig. 4a, the                       of 100–20% by fixing temperature at 500 °C, catalyst amoun"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r33",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "在0.6–1.2 g中用1 g的比较窗口",
+      "summary": "更多接触不一定增产，还会促进副裂解。",
+      "problem": "500℃兼顾腈形成与避免过裂解；氨比例与接触时间需要满足而不过度。",
+      "when": "改变固定床催化剂量",
+      "prerequisites": [
+        "同温度和进料/气流条件"
+      ],
+      "limitations": [
+        "仅限所测固定床尺度。"
+      ],
+      "rationale": "更多接触不一定增产，还会促进副裂解。",
+      "steps": [
+        {
+          "action": "在0.6–1.2 g中用1 g的比较窗口",
+          "input": "同温度和进料/气流条件",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "热解窗口：温度、催化剂量、氨比例与循环",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "7.pdf · 标题路径：Catalytic fast pyrolysis of polyethylene terephthalate plastic for the selective production of terephthalonitrile under ammonia atmosphere · PDF 第6页",
+      "sources": [
+        {
+          "locator": "7.pdf · 标题路径：Catalytic fast pyrolysis of polyethylene terephthalate plastic for the selective production of terephthalonitrile under ammonia atmosphere · PDF 第6页",
+          "sourceIds": [
+            "src-82267ef81808-pdf_page-00006"
+          ],
+          "quote": "1.0 g, amides and oxygenates disap-                             under 50% ammonia (52.27% and 89.95%), and the difference could\npeared. Meanwhile, the carbon yield of nitriles reached the highest,                       be negligible. If ammonia content decreased further, the carbon\nand the unidentifi"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r34",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "550℃空气3 h烧焦后再测酸量和TPN",
+      "summary": "焦去除仍伴随酸位损失，五轮产率下降。",
+      "problem": "500℃兼顾腈形成与避免过裂解；氨比例与接触时间需要满足而不过度。",
+      "when": "再用磷改性催化剂",
+      "prerequisites": [
+        "本文磷改性样品"
+      ],
+      "limitations": [
+        "不能把再生次数直接当长期寿命。"
+      ],
+      "rationale": "焦去除仍伴随酸位损失，五轮产率下降。",
+      "steps": [
+        {
+          "action": "550℃空气3 h烧焦后再测酸量和TPN",
+          "input": "本文磷改性样品",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "热解窗口：温度、催化剂量、氨比例与循环",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "7.pdf · 标题路径：Catalytic fast pyrolysis of polyethylene terephthalate plastic for the selective production of terephthalonitrile under ammonia atmosphere · PDF 第6页",
+      "sources": [
+        {
+          "locator": "7.pdf · 标题路径：Catalytic fast pyrolysis of polyethylene terephthalate plastic for the selective production of terephthalonitrile under ammonia atmosphere · PDF 第6页",
+          "sourceIds": [
+            "src-82267ef81808-pdf_page-00006"
+          ],
+          "quote": "46.01%, respectively, slightly decreased as compared\n                                                                                           with the first cycle. Meanwhile, the yield of unidentified carbon\n                                                                                           increased from14.67% to 18.02%. The variation on the yield of coke,\n                                                                                           gases, and aromatics was not obvious, and kept at around 16%, 10%\n                                                                                           a"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r35",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "热甲醇溶解后−20℃重结晶",
+      "summary": "冷热溶解度差可把TPN从其他组分中分开。",
+      "problem": "甲醇冷热溶解度差支持 TPN 分离，但分析产率到纯产品仍有显著回收损失。",
+      "when": "分离快速热解冷阱中的TPN",
+      "prerequisites": [
+        "原混合物与甲醇分离条件"
+      ],
+      "limitations": [
+        "分离只回收约60%分析TPN。"
+      ],
+      "rationale": "冷热溶解度差可把TPN从其他组分中分开。",
+      "steps": [
+        {
+          "action": "热甲醇溶解后−20℃重结晶",
+          "input": "原混合物与甲醇分离条件",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "12 h结晶后过滤干燥并检查纯度。"
+        }
+      ],
+      "successChecks": [
+        "12 h结晶后过滤干燥并检查纯度。"
+      ],
+      "tags": [
+        "重结晶回收：分析高收率如何变成分离损失",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "7.pdf · 标题路径：Catalytic fast pyrolysis of polyethylene terephthalate plastic for the selective production of terephthalonitrile under ammonia atmosphere · PDF 第8页",
+      "sources": [
+        {
+          "locator": "7.pdf · 标题路径：Catalytic fast pyrolysis of polyethylene terephthalate plastic for the selective production of terephthalonitrile under ammonia atmosphere · PDF 第8页",
+          "sourceIds": [
+            "src-82267ef81808-pdf_page-00008"
+          ],
+          "quote": "Fig. 7. The schematic diagram of the separation and purification of TPN from the pyrolysis products"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r36",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "保留5 mol%作为已验证比较点",
+      "summary": "减少PdCl₂负载使TPN产率下降。",
+      "problem": "先把 PET 氨解为对苯二甲酰胺，再由 Pd 催化水转移生成对苯二腈；酰胺完全转化仍可能留下单腈。",
+      "when": "降低原文Pd水转移催化剂负载",
+      "prerequisites": [
+        "模型酰胺与原乙腈/水条件"
+      ],
+      "limitations": [
+        "不把该负载推广为其他Pd催化体系最优。"
+      ],
+      "rationale": "减少PdCl₂负载使TPN产率下降。",
+      "steps": [
+        {
+          "action": "保留5 mol%作为已验证比较点",
+          "input": "模型酰胺与原乙腈/水条件",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "低温 PET→双腈：路线与指标",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第4页",
+      "sources": [
+        {
+          "locator": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第4页",
+          "sourceIds": [
+            "src-e62068f57189-pdf_page-00004"
+          ],
+          "quote": "5 mol%, 6 mg), CH3CN (3 mL),\nH2O (3 mL), 100 °C, 18 h. acac: acetylacetonate, hfac: hexaﬂuoroacetylacetonate, dba: dibenzylideneacetone, EG: ethylene glycol, THF: tetrahydro-\nfuran, DMSO: dimethyl sulfoxide.\n\n\n\n\n   We also found that the reaction is sensit"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "r37",
+      "version": "1.0.0",
+      "kind": "rule",
+      "name": "预溶氨时冷却并捕集过量气体，温度不超过所测125℃",
+      "summary": "预溶控制暴露，温度选择避免约150℃以上副反应。",
+      "problem": "BHET→HCB→TPD 在 EG 中连续发生，定量必须同时考虑固体与液相；温度改变时氨溶解度也改变。",
+      "when": "按原文准备EG氨解动力学实验",
+      "prerequisites": [
+        "原文实验设施、操作与预饱和介质"
+      ],
+      "limitations": [
+        "方法卡用于理解文献；本文未验证更高温下模型可迁移。"
+      ],
+      "rationale": "预溶控制暴露，温度选择避免约150℃以上副反应。",
+      "steps": [
+        {
+          "action": "预溶氨时冷却并捕集过量气体，温度不超过所测125℃",
+          "input": "原文实验设施、操作与预饱和介质",
+          "output": "原文限定条件下的中间体、数据或比较结果。",
+          "check": "按本篇定量及条件检查，不将模型或有限试验视为普适保证。"
+        }
+      ],
+      "successChecks": [
+        "目标物与副产物分别定量，保持本篇指标口径。"
+      ],
+      "tags": [
+        "BHET 模型和双相取样：避免漏掉溶液中间体",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "4.pdf · 标题路径：Upcycling of Waste Poly(ethylene Terephthalate): Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl Terephthalate) and Particle Size Effects in Polymeric Substrates · PDF 第2页",
+      "sources": [
+        {
+          "locator": "4.pdf · 标题路径：Upcycling of Waste Poly(ethylene Terephthalate): Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl Terephthalate) and Particle Size Effects in Polymeric Substrates · PDF 第2页",
+          "sourceIds": [
+            "src-b1b3021b0f08-pdf_page-00002"
+          ],
+          "quote": "fume hood. The method for dissolv-                bring each reactor up to the setpoint temperature of 50 °C, 75 °C,\n  ing ammonia in EG was based on the procedure outlined by Zhou                 100 °C, or 125 °C. Product mixtures were harvested at intervals of\n  et al. and illustrated in Figure 1.["
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "f-tandem",
+      "version": "1.0.0",
+      "kind": "framework",
+      "name": "氨解—Pd 水转移串联",
+      "summary": "通过酰胺中间体将 PET 芳环转成双腈；两个官能团不保证相同转化程度。",
+      "problem": "先把 PET 氨解为对苯二甲酰胺，再由 Pd 催化水转移生成对苯二腈；酰胺完全转化仍可能留下单腈。",
+      "when": "比较 ≤120℃ PET→TPN 路线",
+      "prerequisites": [
+        "本篇原料、介质、装置或模型输入条件；不能把原文参数当作任意体系的通用值。"
+      ],
+      "limitations": [
+        "模型底物条件与 PET 全流程条件不能混同。"
+      ],
+      "rationale": "通过酰胺中间体将 PET 芳环转成双腈；两个官能团不保证相同转化程度。",
+      "steps": [
+        {
+          "action": "先将 PET 氨解并隔离水洗酰胺。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "将酰胺在 PdCl₂/乙腈/水体系中脱水。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "用 GC 与产品分离分别量化双腈、单腈和回收率。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        }
+      ],
+      "successChecks": [
+        "本单元所列条件、定量和分离指标一致；没有普适成功保证。"
+      ],
+      "tags": [
+        "氨解—Pd 水转移串联",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第1页",
+      "sources": [
+        {
+          "locator": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第1页",
+          "sourceIds": [
+            "src-e62068f57189-pdf_page-00001"
+          ],
+          "quote": "tandem process for the transformation of\n                                           poly(ethylene terephthalate) (PET) waste into terephthalonitrile under mild conditions (≤120 °C). The\n                                           process involves PET ammonolysis with ethylene glycol and ammonia, followed by liquid-phase dehydra-\n                                           tion of tere"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "f-compat",
+      "version": "1.0.0",
+      "kind": "framework",
+      "name": "串联中间体兼容性",
+      "summary": "残氨与 EG 抑制 Pd，洗涤隔离是两段催化剂兼容的条件。",
+      "problem": "氨和残留 EG 会抑制 Pd 脱水；真实原料耐受性与催化剂回收损失共同决定串联流程表现。",
+      "when": "判断能否一锅合并氨解和 Pd 脱水",
+      "prerequisites": [
+        "本篇原料、介质、装置或模型输入条件；不能把原文参数当作任意体系的通用值。"
+      ],
+      "limitations": [
+        "工业设备兼容是设计讨论，未给出商业工厂长期运行。"
+      ],
+      "rationale": "残氨与 EG 抑制 Pd，洗涤隔离是两段催化剂兼容的条件。",
+      "steps": [
+        {
+          "action": "完成氨解后过滤隔离酰胺。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "水洗去除残氨和 EG，再干燥。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "将清洗后的中间体加入脱水段并检查 Pd 黑及产物分布。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        }
+      ],
+      "successChecks": [
+        "本单元所列条件、定量和分离指标一致；没有普适成功保证。"
+      ],
+      "tags": [
+        "串联中间体兼容性",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第6页",
+      "sources": [
+        {
+          "locator": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第6页",
+          "sourceIds": [
+            "src-e62068f57189-pdf_page-00006"
+          ],
+          "quote": "one-pot transformation from PET to\n(CH3CN)x(H2O)y(OH)t species, which subsequently condense          terephthalonitrile by combining the ammonolysis and de-\ninto a dimer (major form) and a tetramer (minor form)             hydration steps were unsuccessful, even when the"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "f-crystal",
+      "version": "1.0.0",
+      "kind": "framework",
+      "name": "乙二醇解—冷却结晶",
+      "summary": "先生成 BHET，利用温度相关溶解度结晶分离，再氨解得到低溶解度酰胺。",
+      "problem": "PET 先成为 BHET，再成为对苯二甲酰胺；反应和结晶分离共同为下游 Hofmann 重排准备进料。",
+      "when": "分析中间体生成与分离耦合",
+      "prerequisites": [
+        "本篇原料、介质、装置或模型输入条件；不能把原文参数当作任意体系的通用值。"
+      ],
+      "limitations": [
+        "不同真实料条件并不完全相同，不能只按收率排名。"
+      ],
+      "rationale": "先生成 BHET，利用温度相关溶解度结晶分离，再氨解得到低溶解度酰胺。",
+      "steps": [
+        {
+          "action": "以 Zn(OAc)₂/EG 将 PET 转为 BHET。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "冷却至 0℃保持 24 h，少量加水改善晶粒并过滤。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "将 BHET 氨解为 TP，过滤干燥并测纯度。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        }
+      ],
+      "successChecks": [
+        "本单元所列条件、定量和分离指标一致；没有普适成功保证。"
+      ],
+      "tags": [
+        "乙二醇解—冷却结晶",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第3页",
+      "sources": [
+        {
+          "locator": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第3页",
+          "sourceIds": [
+            "src-214fbead528d-pdf_page-00003"
+          ],
+          "quote": "90.5% with 6-h\nand lead to more favorable reaction kinetics.45 For instance,\n                                                                             degradation time, 190 °C reaction temperature, 2 wt %\nammonolysis reactions involving BHET proceed with higher\nyields and faster rates compared to those utilizing TPA and                  catal"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "f-hofmann",
+      "version": "1.0.0",
+      "kind": "framework",
+      "name": "三阶段 e-Hofmann 重排",
+      "summary": "活性溴电卤化、加碱重排、热水解脱羧共同产生 PABA 与 PPD。",
+      "problem": "阳极产生活性溴，阴极生成碱；电卤化、碱重排和热水解脱羧共同形成 PABA/PPD。",
+      "when": "理解酰胺到芳环胺的路径",
+      "prerequisites": [
+        "本篇原料、介质、装置或模型输入条件；不能把原文参数当作任意体系的通用值。"
+      ],
+      "limitations": [
+        "电极保护改善效率，不等于已解决所有污染和循环问题。"
+      ],
+      "rationale": "活性溴电卤化、加碱重排、热水解脱羧共同产生 PABA 与 PPD。",
+      "steps": [
+        {
+          "action": "0℃电解，阳极形成活性溴并 N-溴化酰胺。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "加入碱后升至 40℃重排形成异氰酸酯。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "加水升至 100℃水解脱羧，分别定量 PABA/PPD。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        }
+      ],
+      "successChecks": [
+        "本单元所列条件、定量和分离指标一致；没有普适成功保证。"
+      ],
+      "tags": [
+        "三阶段 e-Hofmann 重排",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第5页",
+      "sources": [
+        {
+          "locator": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第5页",
+          "sourceIds": [
+            "src-214fbead528d-pdf_page-00005"
+          ],
+          "quote": "first stage, using methanol/water mixtures as the\ndirect ammonolysis would have difficulty separating TP from                 solvent, H2O or MeOH gets reduced at the cathode,\nthe partially degraded amide oligomers, and the preparation of              generating hydrogen gas along with"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "f-lca-boundary",
+      "version": "1.0.0",
+      "kind": "framework",
+      "name": "功能单位与 cradle-to-gate 边界",
+      "summary": "用同等质量 1 kg 聚合物比较收集至聚合的物料、能量与排放。",
+      "problem": "该论文评价的是废 PET 衍生单体制备 Kevlar 聚合物的 cradle-to-gate 模型，首先需要明确功能单位、原料负担和工业放大假设。",
+      "when": "开展 PET→芳纶环境比较",
+      "prerequisites": [
+        "本篇原料、介质、装置或模型输入条件；不能把原文参数当作任意体系的通用值。"
+      ],
+      "limitations": [
+        "未证明纤维成形、强度或商业工厂运行；SI 未上传。"
+      ],
+      "rationale": "用同等质量 1 kg 聚合物比较收集至聚合的物料、能量与排放。",
+      "steps": [
+        {
+          "action": "确定 1 kg 同质量聚合物与北美 cradle-to-gate 范围。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "列出两条单体支路及各段原料、能耗和回收假设。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "按背景数据库与影响方法计算四类指标。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        }
+      ],
+      "successChecks": [
+        "本单元所列条件、定量和分离指标一致；没有普适成功保证。"
+      ],
+      "tags": [
+        "功能单位与 cradle-to-gate 边界",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第3页",
+      "sources": [
+        {
+          "locator": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第3页",
+          "sourceIds": [
+            "src-42d155ded4e1-pdf_page-00003"
+          ],
+          "quote": "functional unit for this study is 1 kg of Kevlar                     allocation methodology for open-loop recycling.\nproduction. The system boundary is shown in Figure 1,                          2.3. Upcycled Kevlar. 2.3.1. Mechanical Recycling.\nillustrating the chemical upcycling process, starting from"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "f-allocation",
+      "version": "1.0.0",
+      "kind": "framework",
+      "name": "开放循环三种分配",
+      "summary": "cutoff、50/50 与废物价值法决定前世 PET 环境负担的归属。",
+      "problem": "是否分摊前一世 PET 的负担会改变结果；单体制备的溶剂与试剂是主要优化对象。",
+      "when": "比较开放循环产品的环境结果",
+      "prerequisites": [
+        "本篇原料、介质、装置或模型输入条件；不能把原文参数当作任意体系的通用值。"
+      ],
+      "limitations": [
+        "生态毒性只改善约 1%，不能笼统说所有环境风险大幅下降。"
+      ],
+      "rationale": "cutoff、50/50 与废物价值法决定前世 PET 环境负担的归属。",
+      "steps": [
+        {
+          "action": "按 cutoff 从废料收集开始，不分配前世原生 PET 负担。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "分别应用 50/50 与废物价值价格比分配。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "在同一功能单位下比较各指标变化，不混用分母。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        }
+      ],
+      "successChecks": [
+        "本单元所列条件、定量和分离指标一致；没有普适成功保证。"
+      ],
+      "tags": [
+        "开放循环三种分配",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第3页",
+      "sources": [
+        {
+          "locator": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第3页",
+          "sourceIds": [
+            "src-42d155ded4e1-pdf_page-00003"
+          ],
+          "quote": "Cut-Off Approach. The cutoff approach is most                       2.3.2. Depolymerization and Precursor Preparation. Part\ncommonly applied to avoid double-counting burdens between                   of chemical recycling includes PET polymer being broken\nproduct systems and to avoid assum"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "f-scenarios",
+      "version": "1.0.0",
+      "kind": "framework",
+      "name": "热点—单因素—组合情景",
+      "summary": "四个热点改进构成 S1–S8，场景结果需保留改动和比较基准。",
+      "problem": "替换碱、减少纯化溶剂和降低过量氯化剂可组合优化，但结果仍来自模型。",
+      "when": "评价降低试剂和纯化溶剂用量的潜力",
+      "prerequisites": [
+        "本篇原料、介质、装置或模型输入条件；不能把原文参数当作任意体系的通用值。"
+      ],
+      "limitations": [
+        "优化情景并非所有参数均已实测达到工业标准。"
+      ],
+      "rationale": "四个热点改进构成 S1–S8，场景结果需保留改动和比较基准。",
+      "steps": [
+        {
+          "action": "从热点中选择碱、氯仿、SOCl₂ 和乙醚四个因素。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "建立四个单因素和 Table 2 的四个组合情景。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "计算相对基线及相对原生路线变化并分别报告。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        }
+      ],
+      "successChecks": [
+        "本单元所列条件、定量和分离指标一致；没有普适成功保证。"
+      ],
+      "tags": [
+        "热点—单因素—组合情景",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第5页",
+      "sources": [
+        {
+          "locator": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第5页",
+          "sourceIds": [
+            "src-42d155ded4e1-pdf_page-00005"
+          ],
+          "quote": "s\n                                                                   18928                                   https://doi.org/10.1021/acssuschemeng.5c04073\n                                                                                                        ACS Sustainable Chem. Eng. 2025, 13, 18924−1893"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "f-sensitivity",
+      "version": "1.0.0",
+      "kind": "framework",
+      "name": "Monte Carlo 与敏感性分析",
+      "summary": "统计输入波动和逐因素扰动揭示结果稳健性及主导假设。",
+      "problem": "溶剂回收率和价格比小幅温度或收率变化更影响该模型；统计范围不消除清单假设的结构性限制。",
+      "when": "理解 LCA 不确定性和优化优先级",
+      "prerequisites": [
+        "本篇原料、介质、装置或模型输入条件；不能把原文参数当作任意体系的通用值。"
+      ],
+      "limitations": [
+        "Monte Carlo 不会证明缺失工厂数据可靠；SI 未提供。"
+      ],
+      "rationale": "统计输入波动和逐因素扰动揭示结果稳健性及主导假设。",
+      "steps": [
+        {
+          "action": "按前景与数据库不确定性进行 1000 次 Monte Carlo。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "分别扰动回收率、价格、收率和温度。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "比较影响变化并保留变动范围与回收附加负担。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        }
+      ],
+      "successChecks": [
+        "本单元所列条件、定量和分离指标一致；没有普适成功保证。"
+      ],
+      "tags": [
+        "Monte Carlo 与敏感性分析",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第5页",
+      "sources": [
+        {
+          "locator": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第5页",
+          "sourceIds": [
+            "src-42d155ded4e1-pdf_page-00005"
+          ],
+          "quote": "1000 iterations at a 95%\n                                                                           equipment and processes.\nconfidence level to estimate uncertainties.57,58 Given the\n                                                                              Preference is given to North American average values62 for\ninherent variability and limited data for the emerging upcycling\n                                                                           chemicals and so"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "f-tio2",
+      "version": "1.0.0",
+      "kind": "framework",
+      "name": "两次脱水与焦化竞争",
+      "summary": "TP 经单腈酰胺形成 TPN，过高温度或过长时间增加焦化损失。",
+      "problem": "TiO₂ 催化酰胺到 TPN，但高温或过长时间会把产物损失到焦化。",
+      "when": "选择 TiO₂/乙腈脱水的观察窗口",
+      "prerequisites": [
+        "本篇原料、介质、装置或模型输入条件；不能把原文参数当作任意体系的通用值。"
+      ],
+      "limitations": [
+        "该路线 260℃ 与 Pd 水转移 ≤120℃ 的催化环境不同。"
+      ],
+      "rationale": "TP 经单腈酰胺形成 TPN，过高温度或过长时间增加焦化损失。",
+      "steps": [
+        {
+          "action": "在所测 TiO₂/乙腈体系比较温度、时间和剂量。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "对 TP、单腈和 TPN 分别分析，识别四小时产率峰。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "用反溶剂结晶测分离收率及 HPLC/NMR 纯度。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        }
+      ],
+      "successChecks": [
+        "本单元所列条件、定量和分离指标一致；没有普适成功保证。"
+      ],
+      "tags": [
+        "两次脱水与焦化竞争",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "2.pdf · 标题路径：Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A route to diversify PET-derived chemicals · PDF 第5页",
+      "sources": [
+        {
+          "locator": "2.pdf · 标题路径：Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A route to diversify PET-derived chemicals · PDF 第5页",
+          "sourceIds": [
+            "src-fac9747cbb51-pdf_page-00005"
+          ],
+          "quote": "73.1 %. Following the selection            TPN conversion under optimized conditions (Fig. 3e). In three cycles,\nof TiO₂ as the optimal TP dehydration catalyst, we systematically eval­             the TPN yield remains above 65 %, demonstrating good reusability of\nuated the imp"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "f-pxda",
+      "version": "1.0.0",
+      "kind": "framework",
+      "name": "TPN 氢化到苄位二胺",
+      "summary": "双腈氢化生成两个 CH₂NH₂，保留苄位碳而区别于芳环直接连 NH₂ 的 PPD。",
+      "problem": "高纯 TPN 氢化可制得 PXDA；产物价格与流程经济性不是同一结论。",
+      "when": "区分 PXDA 与 PPD 的产物路线",
+      "prerequisites": [
+        "本篇原料、介质、装置或模型输入条件；不能把原文参数当作任意体系的通用值。"
+      ],
+      "limitations": [
+        "SI 未提供，不能核验全部副产物定量与总收率计算。"
+      ],
+      "rationale": "双腈氢化生成两个 CH₂NH₂，保留苄位碳而区别于芳环直接连 NH₂ 的 PPD。",
+      "steps": [
+        {
+          "action": "以高纯 TPN 在 Pd/C/MeOH 中氢化。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "定量 PXDA 产率与选择性，另列副产物。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "用盐酸盐分离确认产物形式和口径。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        }
+      ],
+      "successChecks": [
+        "本单元所列条件、定量和分离指标一致；没有普适成功保证。"
+      ],
+      "tags": [
+        "TPN 氢化到苄位二胺",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "2.pdf · 标题路径：Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A route to diversify PET-derived chemicals · PDF 第6页",
+      "sources": [
+        {
+          "locator": "2.pdf · 标题路径：Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A route to diversify PET-derived chemicals · PDF 第6页",
+          "sourceIds": [
+            "src-fac9747cbb51-pdf_page-00006"
+          ],
+          "quote": "87.4 % yield over a Pd/C catalyst at 65 ◦ C. An overall PXDA yield of\n54.5 % is achieved from PET. Crucially, the successful transformation of              Data will be made available on request.\nreal post-consumer plastic waste and scale-up experiments demonstrate\nthe r"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "f-sequential",
+      "version": "1.0.0",
+      "kind": "framework",
+      "name": "连续两步拟一级动力学",
+      "summary": "过量氨并入 k′，A→B→C 中间体先积累再耗尽。",
+      "problem": "DMT 先形成单酰胺 MCB，再形成 TPD；过量氨下可用两步拟一级模型，但速率不同。",
+      "when": "拟合 DMT→MCB→TPD 的浓度—时间曲线",
+      "prerequisites": [
+        "本篇原料、介质、装置或模型输入条件；不能把原文参数当作任意体系的通用值。"
+      ],
+      "limitations": [
+        "ΔG 和不可逆性属于模型依据与近似。"
+      ],
+      "rationale": "过量氨并入 k′，A→B→C 中间体先积累再耗尽。",
+      "steps": [
+        {
+          "action": "用 NMR 定量各组分并记录实际温度历程。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "在过量氨假设下拟合连续两步模型。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "跨温度拟合 Arrhenius 参数，并检查中间体曲线及残差。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        }
+      ],
+      "successChecks": [
+        "本单元所列条件、定量和分离指标一致；没有普适成功保证。"
+      ],
+      "tags": [
+        "连续两步拟一级动力学",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "3.pdf · 标题路径：Upcycling Waste PET: I. Ammonolysis Kinetics of Model Dimethyl Terephthalate and the Catalytic Effects of Ethylene Glycol · PDF 第4页",
+      "sources": [
+        {
+          "locator": "3.pdf · 标题路径：Upcycling Waste PET: I. Ammonolysis Kinetics of Model Dimethyl Terephthalate and the Catalytic Effects of Ethylene Glycol · PDF 第4页",
+          "sourceIds": [
+            "src-4833ddff420e-pdf_page-00004"
+          ],
+          "quote": "pseudo first order rate constants for reaction\nare used. The calculated activity coefficients were 5−15% away               step one and step two, respectively.\nfrom unity. Details of the activity calculations are provided in                Differential eqs 3-5 can be solved analytically"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "f-two-phase",
+      "version": "1.0.0",
+      "kind": "framework",
+      "name": "固液两相 NMR 质量平衡",
+      "summary": "同时分析 EG 液相与固体，避免漏计可溶 BHET/HCB。",
+      "problem": "BHET→HCB→TPD 在 EG 中连续发生，定量必须同时考虑固体与液相；温度改变时氨溶解度也改变。",
+      "when": "定量 BHET 氨解全过程",
+      "prerequisites": [
+        "本篇原料、介质、装置或模型输入条件；不能把原文参数当作任意体系的通用值。"
+      ],
+      "limitations": [
+        "只称最终干粉不足以支持全过程浓度曲线。"
+      ],
+      "rationale": "同时分析 EG 液相与固体，避免漏计可溶 BHET/HCB。",
+      "steps": [
+        {
+          "action": "淬冷取样后分离固液相。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "将液相混入 DMSO-d₆，固体另行溶解并 NMR。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "合并积分得到全样品各物质摩尔分数。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        }
+      ],
+      "successChecks": [
+        "本单元所列条件、定量和分离指标一致；没有普适成功保证。"
+      ],
+      "tags": [
+        "固液两相 NMR 质量平衡",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "4.pdf · 标题路径：Upcycling of Waste Poly(ethylene Terephthalate): Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl Terephthalate) and Particle Size Effects in Polymeric Substrates · PDF 第4页",
+      "sources": [
+        {
+          "locator": "4.pdf · 标题路径：Upcycling of Waste Poly(ethylene Terephthalate): Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl Terephthalate) and Particle Size Effects in Polymeric Substrates · PDF 第4页",
+          "sourceIds": [
+            "src-b1b3021b0f08-pdf_page-00004"
+          ],
+          "quote": "solid samples\n  reacting for 45 min at 50 °C, only 0.01 g (1 ppm) of the product is\n                                                                                showing the reaction trajectory from BHET through HCB to TPD.\n  recovered as a solid. The mass fraction recovered as solids\n  steadily increases with time as the reactant is converted"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "f-thiele",
+      "version": "1.0.0",
+      "kind": "framework",
+      "name": "有效因子与 Thiele 模数",
+      "summary": "用化学基准速率和颗粒几何构建 η–φ 关系，拟合条件依赖的有效扩散。",
+      "problem": "将 BHET 化学速率与 PET 颗粒表观速率比较，可构建有效因子；扩散系数是条件依赖的拟合量。",
+      "when": "分析毫米 PET 颗粒传质",
+      "prerequisites": [
+        "本篇原料、介质、装置或模型输入条件；不能把原文参数当作任意体系的通用值。"
+      ],
+      "limitations": [
+        "球形近似和溶胀介质限制了 D_eff 的可迁移性。"
+      ],
+      "rationale": "用化学基准速率和颗粒几何构建 η–φ 关系，拟合条件依赖的有效扩散。",
+      "steps": [
+        {
+          "action": "比较 PET 酯键消失与 BHET 基准速率得到有效因子。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "使用球形与体积/表面积近似计算 Thiele 模数。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "拟合有效扩散系数并说明温度、EG 溶胀和几何限制。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        }
+      ],
+      "successChecks": [
+        "本单元所列条件、定量和分离指标一致；没有普适成功保证。"
+      ],
+      "tags": [
+        "有效因子与 Thiele 模数",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "4.pdf · 标题路径：Upcycling of Waste Poly(ethylene Terephthalate): Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl Terephthalate) and Particle Size Effects in Polymeric Substrates · PDF 第8页",
+      "sources": [
+        {
+          "locator": "4.pdf · 标题路径：Upcycling of Waste Poly(ethylene Terephthalate): Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl Terephthalate) and Particle Size Effects in Polymeric Substrates · PDF 第8页",
+          "sourceIds": [
+            "src-b1b3021b0f08-pdf_page-00008"
+          ],
+          "quote": "effectiveness factor and the Thiele\n  limiting step Figure 8.                                                         modulus for spheres is expressed by Equation (20).\n        The ester conversion rates of PET were compared to the\n  ammonolysis rate of BHET at 100 °C to assess the effects of mass                      3\n                                                                                  η¼       ðϕ cothðϕÞ \u0003 1Þ                                                (20)\n  transfer lim"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "f-gas-solid",
+      "version": "1.0.0",
+      "kind": "framework",
+      "name": "无水氨气固氨解",
+      "summary": "无外加催化剂和反应溶剂条件下形成酰胺，延时碳化与纯度提升竞争。",
+      "problem": "无水氨与 PET 气固反应可生成酰胺；多种表征共同确认身份，纯度和产率仍独立。",
+      "when": "分析简化氨解流程的相态和指标",
+      "prerequisites": [
+        "本篇原料、介质、装置或模型输入条件；不能把原文参数当作任意体系的通用值。"
+      ],
+      "limitations": [
+        "特定厚度、负载和釜条件下的证据。"
+      ],
+      "rationale": "无外加催化剂和反应溶剂条件下形成酰胺，延时碳化与纯度提升竞争。",
+      "steps": [
+        {
+          "action": "按原文无水氨/PET 釜条件开展气固反应。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "反应后洗涤、过滤和干燥，保留洗液用于产物分析。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "HPLC 分别计算纯度与摩尔收率，结合多种表征确认身份。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        }
+      ],
+      "successChecks": [
+        "本单元所列条件、定量和分离指标一致；没有普适成功保证。"
+      ],
+      "tags": [
+        "无水氨气固氨解",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "5.pdf · 标题路径：Valorization of polyethylene terephthalate wastes to terephthalamide via catalyst-free ammonolysis · PDF 第3页",
+      "sources": [
+        {
+          "locator": "5.pdf · 标题路径：Valorization of polyethylene terephthalate wastes to terephthalamide via catalyst-free ammonolysis · PDF 第3页",
+          "sourceIds": [
+            "src-484e6d8b37d7-pdf_page-00003"
+          ],
+          "quote": "0.85 ± 0.05 MPa at 25 ◦ C. The reaction was con­\n                                                                                       functional groups of TP standard, PET flakes, and the ammonolysis\nducted at given temperatures in a range of 40 to 140 ◦ C with reaction\n                                                                                       powders, provided insightful distinctions (Fig. 3). The absorption peak\ntim"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "f-bbd",
+      "version": "1.0.0",
+      "kind": "framework",
+      "name": "Box–Behnken 响应面设计",
+      "summary": "三因素二次模型在试验范围内优化，需近似独立验证及物理约束检查。",
+      "problem": "三因素响应面可以描述试验范围内的产率和纯度变化，但预测纯度超出物理上限说明模型并未施加约束。",
+      "when": "比较时间、温度与投料量对响应的影响",
+      "prerequisites": [
+        "本篇原料、介质、装置或模型输入条件；不能把原文参数当作任意体系的通用值。"
+      ],
+      "limitations": [
+        "显著性标记和表头存在问题；不能当作规范统计教学模板。"
+      ],
+      "rationale": "三因素二次模型在试验范围内优化，需近似独立验证及物理约束检查。",
+      "steps": [
+        {
+          "action": "按三因素范围完成 15 组 BBD 运行。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "分别拟合产率与变换纯度并检查 ANOVA 与残差。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "在近似最优条件重复验证，同时检查纯度上限。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        }
+      ],
+      "successChecks": [
+        "本单元所列条件、定量和分离指标一致；没有普适成功保证。"
+      ],
+      "tags": [
+        "Box–Behnken 响应面设计",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "5.pdf · 标题路径：Valorization of polyethylene terephthalate wastes to terephthalamide via catalyst-free ammonolysis · PDF 第3页",
+      "sources": [
+        {
+          "locator": "5.pdf · 标题路径：Valorization of polyethylene terephthalate wastes to terephthalamide via catalyst-free ammonolysis · PDF 第3页",
+          "sourceIds": [
+            "src-484e6d8b37d7-pdf_page-00003"
+          ],
+          "quote": "Box-Behnken optimization design\nPET bottles, Sprite bottles, PET textiles and PET headgear was 0.04 %,\n                                                                                          Response surface methodology (RSM) was employed to optimize\n0.03 %, 0.12 % and 0.43 %, respectively. The bottles and products un­\n                                                                                       experimental param"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "f-daem",
+      "version": "1.0.0",
+      "kind": "framework",
+      "name": "分布活化能模型 DAEM",
+      "summary": "多种独立一阶反应的连续 Ea 分布描述整体 TG，不是单步分子势垒。",
+      "problem": "尿素与 PET 共热解出现协同降解；分布活化能模型描述复杂质量损失，不是某一步分子反应的本征能垒。",
+      "when": "分析 PET/尿素共热解协同",
+      "prerequisites": [
+        "本篇原料、介质、装置或模型输入条件；不能把原文参数当作任意体系的通用值。"
+      ],
+      "limitations": [
+        "式(6)转换量符号值得核对，不作为未经修正的标准计算式。"
+      ],
+      "rationale": "多种独立一阶反应的连续 Ea 分布描述整体 TG，不是单步分子势垒。",
+      "steps": [
+        {
+          "action": "采集三个升温速率的 TG/DTG。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "与无相互作用加权曲线比较，并在 DAEM 假设下拟合。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "报告活化能分布/平均值，区别于单步本征 Ea。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        }
+      ],
+      "successChecks": [
+        "本单元所列条件、定量和分离指标一致；没有普适成功保证。"
+      ],
+      "tags": [
+        "分布活化能模型 DAEM",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "6.pdf · 标题路径：Valorization of waste PET: Understanding the role of active ammonia in facilitating PET depolymerization and aromatic nitrile formation · PDF 第2页",
+      "sources": [
+        {
+          "locator": "6.pdf · 标题路径：Valorization of waste PET: Understanding the role of active ammonia in facilitating PET depolymerization and aromatic nitrile formation · PDF 第2页",
+          "sourceIds": [
+            "src-4fda33930eaf-pdf_page-00002"
+          ],
+          "quote": "first-order reaction conditions, driving researchers to search for more           2.3. Kinetic analysis\nprecise fitting models. Osman et al. (2020) successfully applied the\ndifferential iso-conversion method to calculate kinetic parameters for               The kinetic analysi"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "f-pyro-window",
+      "version": "1.0.0",
+      "kind": "framework",
+      "name": "气氛—温度—接触时间窗口",
+      "summary": "适量氨与合适固定床接触在腈形成和过裂解之间取得平衡。",
+      "problem": "500℃兼顾腈形成与避免过裂解；氨比例与接触时间需要满足而不过度。",
+      "when": "比较 NH₃ 快速热解操作变量",
+      "prerequisites": [
+        "本篇原料、介质、装置或模型输入条件；不能把原文参数当作任意体系的通用值。"
+      ],
+      "limitations": [
+        "有限循环不等于长期金属/酸位完全稳定。"
+      ],
+      "rationale": "适量氨与合适固定床接触在腈形成和过裂解之间取得平衡。",
+      "steps": [
+        {
+          "action": "固定 PET 进料与总气流量，比较温度、催化剂量和 NH₃ 比例。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "分别测腈碳产率、TPN 选择性、气焦与未识别碳。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "再生后重复并报告活性损失，不把筛选点当作尺度无关条件。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        }
+      ],
+      "successChecks": [
+        "本单元所列条件、定量和分离指标一致；没有普适成功保证。"
+      ],
+      "tags": [
+        "气氛—温度—接触时间窗口",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "7.pdf · 标题路径：Catalytic fast pyrolysis of polyethylene terephthalate plastic for the selective production of terephthalonitrile under ammonia atmosphere · PDF 第5页",
+      "sources": [
+        {
+          "locator": "7.pdf · 标题路径：Catalytic fast pyrolysis of polyethylene terephthalate plastic for the selective production of terephthalonitrile under ammonia atmosphere · PDF 第5页",
+          "sourceIds": [
+            "src-82267ef81808-pdf_page-00005"
+          ],
+          "quote": "500 °C; N2 and NH3 flow rate, 80 mL/min; PET fed in 0.5 g/batch.\n b\n   Nitriles: TPN, benzonitrile, acetonitrile and other alkyl aromatic nitriles.\n c\n   Aromatics: benzene, toluene, xylenes, biphenyl, naphthalene, etc.\n d\n   Amides: benzamide, terephthalamide"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "f-recrystal",
+      "version": "1.0.0",
+      "kind": "framework",
+      "name": "冷热溶解度差重结晶",
+      "summary": "热甲醇溶解和低温结晶提高 TPN 纯度，但回收只有部分分析产物。",
+      "problem": "甲醇冷热溶解度差支持 TPN 分离，但分析产率到纯产品仍有显著回收损失。",
+      "when": "解释分析收率到分离产品的损失",
+      "prerequisites": [
+        "本篇原料、介质、装置或模型输入条件；不能把原文参数当作任意体系的通用值。"
+      ],
+      "limitations": [
+        "甲醇使用与冷却能耗没有完整 LCA。"
+      ],
+      "rationale": "热甲醇溶解和低温结晶提高 TPN 纯度，但回收只有部分分析产物。",
+      "steps": [
+        {
+          "action": "将冷阱混合物热甲醇溶解。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "−20℃静置结晶 12 h，过滤干燥。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "用 NMR 确认纯度并独立计算分离碳收率和回收率。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        }
+      ],
+      "successChecks": [
+        "本单元所列条件、定量和分离指标一致；没有普适成功保证。"
+      ],
+      "tags": [
+        "冷热溶解度差重结晶",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "7.pdf · 标题路径：Catalytic fast pyrolysis of polyethylene terephthalate plastic for the selective production of terephthalonitrile under ammonia atmosphere · PDF 第8页",
+      "sources": [
+        {
+          "locator": "7.pdf · 标题路径：Catalytic fast pyrolysis of polyethylene terephthalate plastic for the selective production of terephthalonitrile under ammonia atmosphere · PDF 第8页",
+          "sourceIds": [
+            "src-82267ef81808-pdf_page-00008"
+          ],
+          "quote": "Fig. 7. The schematic diagram of the separation and purification of TPN from the pyrolysis products"
+        }
+      ],
+      "parents": []
+    },
+    {
+      "id": "f-sem",
+      "version": "1.0.0",
+      "kind": "framework",
+      "name": "SEM 形貌时间序列",
+      "summary": "对比有/无催化及甲胺/氨条件的表面变化，不能以图像替代整体转化和纯度。",
+      "problem": "氨与甲胺都可断 PET 酯键，但生成酰胺结构不同；称量、机理图和形貌不能相互替代。",
+      "when": "解释氨解/胺解形貌证据",
+      "prerequisites": [
+        "本篇原料、介质、装置或模型输入条件；不能把原文参数当作任意体系的通用值。"
+      ],
+      "limitations": [
+        "文中镀金厚度单位可疑，不用作标准 SEM 配方。"
+      ],
+      "rationale": "对比有/无催化及甲胺/氨条件的表面变化，不能以图像替代整体转化和纯度。",
+      "steps": [
+        {
+          "action": "保持各处理的原料与取样时间可比较。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "用 SEM 观察裂缝、层片、棒状残留和晶/非晶选择性。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        },
+        {
+          "action": "将形貌与称量分别报告，标明不可分离残片及机理推测边界。",
+          "input": "原文规定的进料或数据及适用条件。",
+          "output": "相应中间体、定量结果或模型比较。",
+          "check": "与本单元各项实验或模型口径核对，保留误差与证据边界。"
+        }
+      ],
+      "successChecks": [
+        "本单元所列条件、定量和分离指标一致；没有普适成功保证。"
+      ],
+      "tags": [
+        "SEM 形貌时间序列",
+        "PET 文献学习"
+      ],
+      "evidence": "material",
+      "source": "9.pdf · 标题路径：Scanning electron microscopic study of hazardous waste flakes of polyethylene terephthalate (PET) by aminolysis and ammonolysis · PDF 第1页",
+      "sources": [
+        {
+          "locator": "9.pdf · 标题路径：Scanning electron microscopic study of hazardous waste flakes of polyethylene terephthalate (PET) by aminolysis and ammonolysis · PDF 第1页",
+          "sourceIds": [
+            "src-b9d9a37600fe-pdf_page-00001"
+          ],
+          "quote": "methylamine and aqueous\nReceived 7 September 2009                                   ammonia, respectively at room temperature in the presence and absence of quaternary ammonium salt as\nReceived in revised form 15 January 2010                    a catalyst for different periods of time. The aminolysed and ammonol"
+        }
+      ],
+      "parents": []
+    }
+  ]
+}

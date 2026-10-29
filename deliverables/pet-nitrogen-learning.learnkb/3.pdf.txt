@@ -1,0 +1,833 @@
+
+=== 3.pdf PDF 1 ===
+ This article is licensed under CC-BY 4.0
+
+pubs.acs.org/journal/ascecg Research Article
+
+
+
+Upcycling Waste PET: I. Ammonolysis Kinetics of Model Dimethyl
+Terephthalate and the Catalytic Effects of Ethylene Glycol
+Richard-Joseph L. Peterson, Elanna P. Neppel, Lars Peereboom, P. Anh Trinh, Robert Y. Ofoli,
+and John R. Dorgan*
+ Cite This: ACS Sustainable Chem. Eng. 2025, 13, 4120−4131 Read Online
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​10/​4120/​42342431/​sc4c10238.​pdf by ZHEJIANG UNIV user on 09 September 2026
+ACCESS Metrics & More Article Recommendations *
+ sı Supporting Information
+
+
+ABSTRACT: Chemical upcycling of waste plastics can play an
+important role in developing greater circularity in the material
+flows associated with the plastics industries. In this study, a
+fundamental understanding of upcycling poly(ethylene tereph-
+thalate) (PET) using ammonolysis is established. First, rate
+constants are determined for model studies of the ammonolysis of
+dimethyl terephthalate (DMT) in methanol. Ammonolysis
+proceeds sequentially, and a first ester group of DMT reacts
+with ammonia to produce methanol and the monoamide methyl 4-
+carbamoylbenzoate (MCB). Next, MCB reacts with ammonia to
+yield methanol and terephthalamide (TPD). At 100 °C, the
+pseudo first order rate constants are k′1 = 0.25 ± 0.02 h−1 and k′2 =
+0.11 ± 0.02 h−1. Experiments conducted at 50, 75, 100, and 125
+°C yield activation energies for the first and second reactions of Ea1 = 27.9 ± 2.2 kJ/mol and Ea2 = 37.3 ± 3.3 kJ/mol. Ammonolysis
+is demonstrated to be catalyzed by ethylene glycol (EG) with a first order concentration dependence. At 100 °C with EG present in
+a 3:1 excess, the pseudo first order rate constants are k′3 = 6.3 ± 0.7 h−1 and k′4 = 1.7 ± 0.3 h−1, representing a 22-fold increase.
+Demonstration experiments with reclaimed mixed postconsumer thermoform containers reveal that the ammonolysis of PET is self-
+catalyzed by the generated EG; the upcycling reaction on polymer substrates is autocatalytic. This new detailed understanding of the
+self-catalyzed chemical kinetics of ammonolysis suggests EG as the natural choice for the solvent, a topic pursued in part II of this
+work.
+KEYWORDS: plastic waste, poly(ethylene terephthalate), recycling, upcycling, ammonolysis, terephthalamide, reaction kinetics
+
+
+1. INTRODUCTION recycling rate are so low include a low economic incentive for
+The unique properties of polymeric materials produce both recycling and the fact that plastics irreversibly degrade over
+benefits and detriments. Use of lightweight plastic for food multiple mechanical recycling iterations.11,12
+ There are several technological alternatives to mechanical
+packaging saves fuel during transport and reduces food waste
+ recycling. Chemical recycling, also called molecular recycling,
+due to damage and spoilage.1−3 However, many plastics are
+ breaks down plastics into new molecular building blocks. In
+recalcitrant in terms of natural degradation processes in the
+ some cases, these building blocks can be used to make virgin
+environment. Plastics that are improperly disposed of can be
+ grades of the materials from which they are derived. Chemical
+released into the environment and, upon weathering, become
+ upcycling refers to creating new materials with greater
+microplastics. Such microplastics infiltrate the food chain and
+ economic value than the original source polymer.
+are now found in human blood and feces.4−6 Long-term
+ Although poly(ethylene terephthalate) (PET) is recyclable,
+human health effects are unknown. Additionally, degradation
+ most of it ends up being discarded into the environment,
+of plastics based on nonrenewable fossil resources produces
+ incinerated, or dumped in landfills.13 PET accounts for 6% of
+carbon dioxide and methane emissions that contribute to
+ total plastic production, making it the fifth most produced
+climate change.7,8 The benefits of plastic materials require their
+continued use, but deleterious effects should be mitigated.
+ One approach for potentially improving the environmental Received: December 6, 2024
+consequences of plastics use is through developing better Revised: February 13, 2025
+recycling technologies. Global production of plastics is Accepted: February 14, 2025
+estimated as 400 million tons in 2021, so there is an Published: March 6, 2025
+abundance of material available.9 However, only 9% of plastics
+are recycled across the United States.10 Reasons that the
+ © 2025 The Authors. Published by
+ American Chemical Society https://doi.org/10.1021/acssuschemeng.4c10238
+ 4120 ACS Sustainable Chem. Eng. 2025, 13, 4120−4131
+
+
+=== 3.pdf PDF 2 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+Scheme 1. Reaction Scheme for Dimethyl Terephthalamide (DMT) to Terephthalamide (TPD)a
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​10/​4120/​42342431/​sc4c10238.​pdf by ZHEJIANG UNIV user on 09 September 2026
+a
+ Ammonia attacks one of the two equivalent ester bonds of DMT to give the monoamide, methyl(4-carbamoylbenzoate) (MCB). Ammonia reacts
+with the second ester of MCB to yield the TPD. Each step consumes one ammonia and produces one methanol.
+
+plastic.10 But only 30% of waste PET is recycled each year14 from shredding PET thermoforms do not produce significant
+with the majority being mechanical “bottle-to-bottle” recycling. diffusional limitations. Concluding remarks focus on how the
+However, PET is a promising candidate for chemical upcycling process can be improved and how it can be easily
+recycling.15 integrated into the existing infrastructure for chemical
+ It has been known for a long time that the chemical recycling of PET by methanolysis and glycolysis.37−40
+structure of PET makes it well suited for chemical
+recycling.16−21 There is inherent value in the aromatic moiety 2. MATERIALS AND METHODS
+found in its backbone and many chemical recycling strategies
+ Materials were secured from commercial and noncommercial sources.
+coproduce EG, an easily marketed commodity chemical. PET
+ Waste PET was obtained from the Michigan State University
+backbone linkages are susceptible to attack from various recycling center. DMT, DMSO-d6, and EG were purchased from
+reactive species. The Eastman Chemical Company operates Sigma-Aldrich. TPD was purchased from Combi-Blocks and nitrogen
+industrial glycolysis22−25 and methanolysis26−36 facilities for was purchased from Air-Gas.
+molecular recycling of PET.37−40 Other potential processes for Reactions were conducted in a Parr 5000 multireactor system
+chemical recycling include hydrolysis,41−46 aminolysis,47−52 utilizing a Parr 4870 process controller with pressure and temperature
+and ammonolysis. Of these processes, ammonolysis is the least data recording. Details are available in the Supporting Information
+studied. (SI). Briefly, the multireactor system had 6 individual 75 mL stainless
+ No detailed studies of the relevant chemical kinetics of PET steel reactors; each reactor had a Swagelok fitting connection to a
+ammonolysis are available in either the patent or journal pressure manifold, O-ring seals and a screw on caps reinforced with
+ bolts (rated to 5000 psi). The reactors were glass lined, contained a
+literature. It is known that hydrolysis of PET under
+ magnetic stir bar, and sat in a heated well with temperature control.
+hydrothermal conditions using a dilute aqueous ammonia Excellent mixing was provided by an integrated magnetic stirrer set to
+solution leads to minimal formation of terephthalamide.53 For 800 R.P.M.. As described in the S.M., reactions were halted by
+direct ammonolysis, Zengel and Bergfeld generated tereph- quenching the entire reactor in ice water.
+thalamide (TPD) from both DMT and PET feedstocks.54−56 To conduct ammonolysis of DMT, the as received DMT pellets
+These authors suspend PET in ethylene glycol and add were crushed into a fine powder using a mortar and pestle. The
+gaseous ammonia.57 However, other than simple conversion vs crushed DMT was dried in a vacuum oven overnight, weighed (1.0 g)
+time data at one operating temperature, no chemical kinetics and placed into the 75 mL Parr reactors. The reactors were closed and
+are reported. rubber septa were used to cover the Swagelock opening. Using a
+ The present study determines quantitative rate data that can syringe, 15 mL of 7N ammonia in methanol solution was injected
+ through the rubber septa into the reactors. The reactors were placed
+enable the design of modern chemical upcycling processes for in their heating mantles, the septa were removed, and a nitrogen gas
+PET. To determine ammonolysis kinetic parameters, model line was connected. The reactors were charged with 40 bar of
+studies using 7N ammonia dissolved in methanol are ultrahigh purity (99.999%) nitrogen. The stir rate was set to 800 rpm.
+performed on dimethyl terephthalate (DMT). Experiments Reactions were halted after a specified reaction time. The reactor
+are conducted to determine the rate constants over a range of was removed from the heating mantle and quenched by submersion in
+temperatures thus providing the Arrhenius parameters for each an ice bath until it reached 5 °C. The reactor was then vented,
+reaction. Based on older literature on small molecule opened, and the glass insert was removed. A 1 M hydrochloric acid
+esters,58−60 the hypothesis that ammonolysis is catalyzed by solution (10 mL) was immediately added, the mixture was stirred for
+EG is tested and confirmed. Experiments establish that 15 min, and the crystallized products were recovered via vacuum
+ filtration. The recovered solids were dried in a convection oven at 60
+ammonolysis of DMT in methanol is first order with respect
+ °C.
+to EG concentration. Recovered PET waste plastic is used to Products were analyzed using nuclear magnetic resonance (NMR)
+compare observed conversion rates to those obtained in model spectroscopy (Bruker 500 MHz). Products were dissolved in DMSO-
+studies; this comparison demonstrates the autocatalytic nature d6 and proton spectra were generated using a 2-s relaxation delay and
+of the ammonolysis of PET. Finally, the effects of particle size 32 scans. Peak integrations were performed using the software
+are briefly examined. Typical thicknesses of PET flakes derived MestreNova from Mestrelab.
+
+ 4121 https://doi.org/10.1021/acssuschemeng.4c10238
+ ACS Sustainable Chem. Eng. 2025, 13, 4120−4131
+
+
+=== 3.pdf PDF 3 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+ Catalytic effects were investigated by adding ethylene glycol to the composition of the reaction mixture as a function of time is
+reaction mixture and following the procedures described previously. very important.
+The molar ratio of EG to DMT varied from 1, to 2, to 3 by changing 3.2. Compositional Analysis. It is necessary to assign
+the amount of glycol added to the ammonia solutions. peaks in proton NMR spectra to a specific compound before
+ Postconsumer, thermoform PET containers were collected from
+the MSU recycling center, hand washed with mild dish soap, well
+ determining mole fractions. Figure 1 shows peak assignments
+rinsed, and cut into approximately 1 cm × 1 cm flakes. Some of this
+flake material was ground in a commercial blender (Waring model
+CB15) and separated using a series of sieving trays mounted on a
+motorized agitation tray (Humbolt Industries). The material fraction
+having particle sizes between 150 and 250 μm was collected for use in
+experiments.
+
+3. RESULTS AND DISCUSSION
+ 3.1. Thermochemistry. Before discussing chemical
+kinetics, it is prudent to examine the underlying thermochem-
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​10/​4120/​42342431/​sc4c10238.​pdf by ZHEJIANG UNIV user on 09 September 2026
+istry of the reactions shown in Scheme 1. The equilibrium
+constant, K, is related to the Gibbs free energy of reaction,
+ΔGrxn, through the elementary relationship of eq 1,
+ Grxn = RT lnK (1)
+where R is the ideal gas constant and T is the absolute
+temperature. In a first approximation, the entropy of reaction
+may be ignored and the enthalpy of reaction, ΔHrxn, used in
+place of the free energy. Enthalpy of reaction can be estimated
+as, “the sum of the bonds broken minus the sum of the bonds
+formed”. For the reaction of DMT to MCB, using bond values
+from LibreTexts61 gives a value of ΔHrxn = −23 kJ/mol. Since
+the same number and kinds of bonds are broken and formed, Figure 1. Proton NMR spectra for DMT, TPD, and a representative
+the corresponding value for the conversion of MCB to TPD is sample that ran at 100 °C for 100 h. Each of the compounds of
+also ΔHrxn = −23 kJ/mol. These first estimates indicate interest has 4 protons in the aromatic region. Peak assignments are
+exothermic reactions, which are usually easily performed. To Terephthalamide 1H NMR ((500 MHz, DMSO) δ 8.06 (s, 2H), 7.91
+obtain a more accurate estimation, neighboring electronic (s, 4H), 7.49 (s, 2H)), Dimethyl Terephthalate 1H NMR ((500
+ MHz, DMSO) δ 8.06 (s, 4H), 3.87 (s, 6H)), and Methyl 4
+effects can be captured using group contribution methods; carbamoylbenzoate (6757−31−9) 1H NMR ((500 MHz, DMSO) δ
+using the procedure described in the SM based on L. 8.15 (s, 1H), 8.03−7.93 (m, 4H), 7.56 (s, 1H), 3.85 (s, 3H)).
+Constantinou’s work,62 gives a Gibbs free energy of ΔGrxn=-
+10.54 kJ/mol for each reaction step. These revised values for DMT and TPD based on spectra of recrystallized
+correspond to an equilibrium constant of K1 = 30.0. Clearly, standards. Also shown are spectra for samples recovered at
+these estimated values indicate the reactions are thermody- different reaction times at 100 °C. No MCB standard was
+namically feasible in high yields and justify an exploration of available, but peak assignments became obvious. Over the
+their kinetics. course of the reaction, as the NMR peaks related to DMT
+ Because of its critical role, careful attention was paid to diminish, unknown peaks grow and as the unknown peaks are
+accurately determining the average temperature experienced extinguished, the peaks related to TPD grow. The unknown
+over the course of the reaction. Nominal temperatures are peaks consist of a multiplet between 8.03 and 7.93 ppm that
+presented in Table 1 and correspond to the set point integrates to four, two broad peaks at 8.15 and 7.56 ppm that
+ integrate to one each, an ester peak at 3.85 ppm that integrates
+Table 1. Reactions Times Used for Each Set Point to three. Based on the location of the peaks, the integrations,
+Temperature and the context of the reactions, the “unknown” peaks are
+ set point temperature (°C) reaction durations (hours) assigned to the reaction intermediate, MCB. The peak
+ assignments are thus as follows: Terephthalamide 1H NMR
+ 50 2, 6, 24, 48, 72, 120, 150, 168
+ ((500 MHz, DMSO) δ 8.06 (s, 2H), 7.91 (s, 4H), 7.49 (s,
+ 75 3, 6, 18, 24, 30, 48, 96
+ 2H)), Dimethyl Terephthalate 1H NMR ((500 MHz, DMSO)
+ 100 3, 5, 9, 13, 22, 48, 96
+ δ 8.06 (s, 4H), 3.87 (s, 6H)), and Methyl 4 carbamoylbenzoate
+ 125 1, 3, 4.5, 7, 18, 24, 48
+ (6757−31−9) 1H NMR ((500 MHz, DMSO) δ 8.15 (s, 1H),
+ 8.03−7.93 (m, 4H), 7.56 (s, 1H), 3.85 (s, 3H)). With peaks
+ assigned, mole fractions of the recovered solids are calculated
+temperature for the feedback controller of the Parr reactor from the relative ratios of the peaks as described in the SI.
+system. PID feedback control produces dynamic temperature To ensure accurate compositional measurement, mole
+profiles. The temperature takes about 30 min to equilibrate; fractions of each species are determined using proton NMR
+typical temperature profiles are shown in the SI. Factors that spectroscopy. Mole fractions are calculated by integrating the
+impact the profile include set-point temperature and the peaks in the aromatic region and determining the relative ratio
+specific reactor and thermal well used. Average temperatures of each species to one another. An in-depth explanation and an
+throughout each run were determined by the mean value example calculation can be found in the SI. Having carefully
+theorem. Like temperature, accurate determination of the determined the composition of the reacting mixtures as a
+ 4122 https://doi.org/10.1021/acssuschemeng.4c10238
+ ACS Sustainable Chem. Eng. 2025, 13, 4120−4131
+
+
+=== 3.pdf PDF 4 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​10/​4120/​42342431/​sc4c10238.​pdf by ZHEJIANG UNIV user on 09 September 2026
+Figure 2. Measured mole fractions of each component (points) and model fit (lines) as a function of time. The intermediate, MCB, passes through
+a maximum of about 60 mol % at 5 h. The product, TPD, is aches full conversion after 48 h with yields of 89−96%.
+
+function of time and temperature, these primary data can be dxMCB
+analyzed in the context of a conventional chemical kinetics = k1xAMMxDMT k 2xAMMxMCB = k1xDMT k 2xMCB
+ dt
+model. (4)
+ The first step in determining what type of kinetic model
+should be used is to examine the nonideality of the reaction dxTPD
+ = k1xAMMxDMT k 2xAMMxMCB = k1xDMT k 2xMCB
+mixture. To examine nonidealities, the software package dt
+ASPEN Plus63 is used to calculate activity coefficients in the (5)
+liquid phase. Several different well-established thermodynamic In eqs 3-5 xTPD represents the mole fraction of TPD and k′1
+models, namely PC-SAFT,64,65 NRTL,66−68 and UniQUAC69 and k′2 are the pseudo first order rate constants for reaction
+are used. The calculated activity coefficients were 5−15% away step one and step two, respectively.
+from unity. Details of the activity calculations are provided in Differential eqs 3-5 can be solved analytically using Laplace
+the SI. Application of activity corrections when regressing the transforms resulting in eqs 6-8 (details appear in the SI).
+primary data to the kinetics model did not improve the
+goodness of fit metrics. To facilitate the widest possible use of xDMT = xinitial , DMT exp( k1t ) (6)
+the results, mole fractions are adopted as the primary
+dependent variable in the chemical kinetics model. k1
+ xMCB = xinitial , DMT (exp( k 2t ) exp( k1t ))
+ 3.3. Chemical Kinetics Model Development. The k1 k2 (7)
+chemical kinetics model is developed in a conventional fashion
+and simplified using several well justified assumptions. The rate ij k2
+ xTPD = xinitial , DMT jjj1 + exp( k1t )
+at which ammonia is consumed is expressed as, j k1 k 2
+ k
+ dxAMM k1 yz
+ = k1xAMMxDMT k 2xAMM xMCB exp( k 2t )zzz
+ dt (2) k1 k 2 z
+ { (8)
+where xAMM, xDMT, and xMCB are the mole fractions of In eqs 6-8, t represents time and xinitial, DMT is the mole
+ammonia, DMT, and MCB, respectively. The rate constant fraction of DMT at time t = 0.
+k1 governs the first conversion of an ester to an amide and k2 is Equations giving the mole fraction of each species as a
+the rate constant of the second ester conversion. Here and function of time and temperature are desirable and may be
+elsewhere the reactions are considered irreversible based on obtained through application of the Arrhenius equation. Each
+the large equilibrium constants estimated based on the of the rate constants is governed by its own pre-exponential
+thermochemistry calculations. The model developed fits the (“collision factor”) and activation energy as expressed in eqs 9
+experimental data very well providing further justification for and 10
+treating the reactions as irreversible.
+ i Ea1 yz
+ Due to the large excess, the ammonia concentration changes k1 = A1expjjj zz
+very little and is therefore considered constant. This allows the k RT { (9)
+concentration of ammonia to be combined with the
+ i Ea2 yz
+fundamental rate constant giving eqs 3-5. k 2 = A 2expjjj zz
+ k RT { (10)
+ dxDMT Here, A1, A2, Ea1, and Ea2 are the corresponding collision
+ = k1xDMTxAMM = k1xDMT
+ dt (3) factors and activation energies of the two reactions.
+ 4123 https://doi.org/10.1021/acssuschemeng.4c10238
+ ACS Sustainable Chem. Eng. 2025, 13, 4120−4131
+
+
+=== 3.pdf PDF 5 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+ Activation energies and pre-exponential factors are deter- values are consistent with previously reported data on related
+mined by regressing model parameters in eqs 6 to 10 against systems. Wetzel et al.71 performed ammonolysis on various
+the experimental data, which consists of mole fractions, acetates including methyl, ethyl, n-propyl, and isopropyl,
+temperatures, and reaction times. The average temperature finding activation energies that range from 24.8 to 33.8 kJ/mol.
+was measured over the total reaction time and this average was The ammonolysis of the most simple aromatic ester, methyl
+designated as the assigned reaction temperature for that benzoate was studied72 and estimated to have an activation
+specific data set. Using the Python programming language, the energy of 96 kJ/mol73 but this value falls to 39.3 kJ/mol when
+library curve_fit in scipy.optimize is used to perform a fit of the catalyzed by clay.74 Gordon et al.60 state that primary alcohols
+data to the model and return the activation energies and pre- serve as catalysts for ammonolysis and determine catalyzed
+exponential factors as fitting parameters. For each reaction, the activation energies for the ammonolysis of several other esters;
+solver is fed an array of the mole fractions, average determined values range from 39.3 to 53.1 kJ/mol. Catalytic
+temperatures, and associated reaction times. The root mean effects of methanol evidently contribute to the lower activation
+squared error is minimized so that by fitting the model to the
+ energies found in the present study compared to the values
+reaction data, the “best fit” activation energies and pre-
+ reported by Wetzel. It follows that in interpreting the pseudo-
+exponential factors are returned. Example code is provided in
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​10/​4120/​42342431/​sc4c10238.​pdf by ZHEJIANG UNIV user on 09 September 2026
+the SI. first order rate constants the concentration of methanol might
+ The adopted model does an excellent job of fitting the data correctly be included in their definitions.
+with R2 values of 0.997,0.987, and 0.995 for curves “A”, “B” The activation energy determined for the nucleophilic attack
+and “C” respectively. Figure 2 shows measured mole fractions of ammonia on the first ester bond of DMT is different than
+(points) and model fits (lines) as a function of time for a the activation energy for the attack of ammonia on the MCB
+nominal reaction temperature of 100 °C (see SM for 50 °C, 75 intermediate. This is true despite the same functional groups
+°C, and 125 °C). The reactant, DMT, is consumed as time being involved in both reactions. Breaking down this two-step
+increases. The intermediate, MCB, is generated, achieves a reaction into what might be considered conventional func-
+maximum concentration, and is ultimately consumed. The final tional groups (aromatic methyl ester) would indicate that both
+product, TPD, is generated slowly at first, then more rapidly, steps of the reaction are identical. A methyl ester is attacked by
+and achieves its final concentration by 48 h. Conversion is ammonia and replaced by an amide, consuming the ammonia
+excellent; the yield of TPD ranged from 89 to 96 mol % of the and generating methanol. If the two reactions were equivalent,
+theoretical amount. the activation energy required for the first reaction would be,
+ An interesting aspect of the system is that the reaction within the precision of the measurements, identical to that of
+intermediate, MCB, passes through a large and broad the second. This simply is not the case.
+maximum, peaking at about 60 mol %. Figure 3 shows Figure 4 shows the Arrhenius plot of the two reaction steps
+ for which the ester is converted to an amide. In Figure 4, the y-
+ intercept is related to the pre-exponential factor, A, and the
+ slope is related to the activation energy (Ea) for each reaction.
+ The activation energy of the first reaction is Ea = 27.9 ± 2.2
+ kJ/mol, with a corresponding pre-exponential factor of 10031
+ ± 790 h−1. The activation energy of the second reaction is 37.3
+ ± 3.3 kJ/mol, with a pre-exponential factor of 68529 ± 6056
+ h−1. The slope of ln(k2) is steeper than that of ln(k1),
+ indicating the difference of activation energy. Clearly, despite
+ being the same reaction based on functional groups, the
+ second step has a significantly higher activation energy.
+ Collision factor A2 is nearly 7 times greater than A1. This
+ result implies there are more collisions of ammonia with MCB
+ per unit time compared to DMT. Factors that contribute to
+ increased collision frequencies include diffusivity and molec-
+ ular size (reaction cross-section). For solute−solvent reactions
+ the collision factor is directly proportional to the diffusivity of
+Figure 3. Calculated MCB mole fractions versus time for temper- the solute, which is a function of molecular weight. In the first
+atures from 273 to 425 K. The peak mole fraction of MCB ranges reaction step, the reactant undergoes a change in molecular
+from 0.40 to 0.72 and the peak broadens significantly at low weight from 194.19 g/mol to 179.18 g/mol. This 8% decrease
+temperatures. It is possible to target the generation and isolation of affects diffusivity and therefore the collision rate. An order of
+MCB which can be used in alternative upcycling cascades.
+ magnitude approximation of how the decrease in molecular
+ weight changes the diffusion rate can be obtained using
+model predictions of the mole fraction of MCB versus time for Graham’s Law75,76 as expressed by eq 11.
+temperatures ranging from 273 to 425 K. The maximum
+ 1
+concentration of MCB increases as reaction temperature D
+decreases. The peak also broadens with decreasing temper- Mw (11)
+ature. Overall, this behavior indicates the MCB intermediate
+can be easily isolated as a reaction product.70 In eq 11, D is the diffusivity, and Mw is the molecular weight
+ The activation energies of the ammonolysis of DMT are of the solute. The relative change in diffusivity based on the
+found to be 27.9 ± 2.2 kJ/mol and 37.3 ± 3.3 kJ/mol; these change in molecular weight is calculated in eq 12.
+ 4124 https://doi.org/10.1021/acssuschemeng.4c10238
+ ACS Sustainable Chem. Eng. 2025, 13, 4120−4131
+
+
+=== 3.pdf PDF 6 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​10/​4120/​42342431/​sc4c10238.​pdf by ZHEJIANG UNIV user on 09 September 2026
+Figure 4. Arrhenius plot according to the reaction data collected.
+
+ DMCB MW , DMT 194.19
+ = = 1.043
+ DDMT M w,MCB 179.18 (12)
+
+Where DMCB, and DDMT are the diffusivities of MCB and DMT
+and MW, MCB and MW, DMT are the molecular weights of MCB
+and DMT respectively. The result shows a modest 4.3%
+increase in diffusivity.
+ The molecular cross-section (σAB) can be thought of as the
+average distance between species when they collide and is
+directly proportional to the collision frequency. The decrease
+in molecular weight implies a decreased molecular cross-
+section which would mean a decreased collisional frequency.
+So, this effect cannot explain the observed differences.
+ Instead, the higher value of A2 compared to A1 may be
+partially explained by the fact that the bond angle of the ester
+in MCB is greater than the bond angle of the esters in DMT.
+Bond angles were calculated by using molecular dynamics in
+the ChemDraw 3D software package to minimize conforma-
+tional energies. Minimized structures are shown in Figure 5;
+the ester bond angles are calculated to be 116.0° and 118.7° Figure 5. Bond angles near the ester bond for DMT and MCB.
+for DMT and MCB, respectively. Since the pre-exponential is a
+measure for the number of collisions in the right orientation In summary, the data fitting to the model captures all salient
+for reaction, it is reasonable to hypothesize that a more experimental observations and provides a useful framework for
+accessible bond orientation, such as a larger bond angle results making predictions over a range of relevant temperatures.
+in a higher collision frequency of properly oriented ammonia However, the liquid medium makes interpretation of the
+molecules. While this explanation is consistent with the collision factors in classical terms, typically associated with
+observations, it is hard to envision it explaining the entirety gases, convoluted. Furthermore, the observed difference in
+of the observed difference. activation energies implies that as the temperature is raised, the
+ The activation energy differences between ammonia reacting second reaction would become faster than the first. Such
+with DMT versus MCB can be attributed to subtle differences relative reaction rates are implausible. Calculation of the
+in electronic structure. The ester in MCB has a higher electron hypothetical crossover temperature where k′1 = k′2 produces a
+density than the esters of DMT. This electronic effect is value of 315.0 °C. Such a high temperature is outside the range
+because the amide group is less electron withdrawing than an of validity for the model−at temperatures exceeding about 150
+ester group. Accordingly, the relatively delocalized electrons of °C it is observed that ammonia reacts with methanol to
+the aromatic ring are more available to the sole ester group in produce a mixture of methylamine, dimethylamine, and
+MCB. The availability of this additional electron density trimethylamine.77 The appropriate temperature range for the
+renders the carbon of the ester less susceptible to nucleophilic model is estimated to be from approximately 0−150 °C.
+attack. This mechanistic reasoning is consistent with the 3.4. Catalytic Effects of Ethylene Glycol. EG and other
+experimentally observed slower rate of reaction and a greater glycols have long been known to catalyze the reactions of
+activation energy. esters,58−60 and such effects must be understood for optimized
+ 4125 https://doi.org/10.1021/acssuschemeng.4c10238
+ ACS Sustainable Chem. Eng. 2025, 13, 4120−4131
+
+
+=== 3.pdf PDF 7 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​10/​4120/​42342431/​sc4c10238.​pdf by ZHEJIANG UNIV user on 09 September 2026
+Figure 6. Effect of ethylene glycol on the rate of reaction. Ethylene glycol acts as a catalyst for both reaction steps of the ammonolysis of DMT to
+TPD.
+
+
+
+
+Figure 7. Ammonolysis of DMT in methanol at 100C with 1-to-1 molar ratio of catalytic EG-to-DMT.
+
+chemical recycling of PET. Unfortunately, although the data would follow a parabolic shape. This observation allows
+catalytic effects of glycols have been known since 1948, the the construction of a new mathematical description.
+corresponding autocatalytic effect is ignored in the literature In the presence of significant quantities of EG, there is a
+on PET methanolysis26−36 and hydrolysis.41−46 To avoid this need to derive a set of differential equations that enables a
+obvious oversight in the present study, the effects of EG quantitative understanding of the catalytic effect of EG on the
+addition are investigated. Based on established literature, the in ammonolysis reactions. The resulting set of differential
+situ production of EG during conversion of PET to TPD equations are presented in eqs 13-16.
+should be expected to have an autocatalytic effect.
+ Figure 6 shows a first order relationship between the dxAMM
+ = k1xDMT k 2xMCB k 3xDMTxEG k4xMCBxEG
+reaction rate and the molar ratio of EG-to-DMT. To be clear, dt
+Figure 6 shows apparent rate constants, determined by fitting (13)
+eqs 6-8 to the catalyzed reaction data. This approach lumps the
+catalytic effect into the pseudo first order rate constants. The dxDMT
+observed rate enhancement corroborates the catalytic effect of = k1xDMT k 3xDMT xEG
+ dt (14)
+EG on ammonolysis. The linear nature of the relationship
+between apparent rate constants and the concentration of EG
+implies that both reactions are first order with respect to EG. If dxMCB
+ = k1xDMT + k 3xEG k 2xMCB k4xMCBxEG
+the rate dependence on concentration were second order, the dt (15)
+
+ 4126 https://doi.org/10.1021/acssuschemeng.4c10238
+ ACS Sustainable Chem. Eng. 2025, 13, 4120−4131
+
+
+=== 3.pdf PDF 8 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​10/​4120/​42342431/​sc4c10238.​pdf by ZHEJIANG UNIV user on 09 September 2026
+Figure 8. Model predictions for the ammonolysis of DMT at 100 °C using a 6-to-1 molar ratio of EG-to-DMT.
+
+Scheme 2. Reaction Scheme for the Depolymerization of PET including Direct Ammonolsys, Sequential Methanolysis and
+Ammonolysis, and Sequential Glycolsyis and Ammonolysisa
+
+
+
+
+a
+ The reaction pathways combine in the ammonolysis of PET conducted in this work.
+
+ dxTPD xinitial , DMT(k1 + k 3xEG)
+ = k 2xMCB + k4xMCBxEG Y=
+ dt (16) (k 2 + k4xEG) (k1 + k 3xEG) (20)
+ Here xEG is the mole fraction of ethylene glycol, k′3 is the
+ xinitial , DMT(k 2 + k4xEG)
+catalyzed pseudo-first order rate constant for the first reaction, Z1 =
+and k′4 is the catalyzed pseudo first rate constant for the second (k 2 + k4xEG) (k1 k 3xEG) (21)
+reaction. The differential equations can again be solved
+analytically using Laplace transforms (see SI) giving the results xinitial , DMT (k1 k 3xEG)
+of eqs 17-22. Z2 =
+ (k 2 + k4xEG) (k 1 k 3xEG) (22)
+ xDMT(t ) = xinitial , DMT exp( (k1 + k 3xEG)t ) (17) The model incorporating catalytic effects is fit to the
+ corresponding data. To do so, the two previously determined
+ xMCB(t ) = Y exp( (k1 + k 3xEG)t ) rate constants are fixed as k′1 = 0.25 ± 0.02h−1 and k′2 = 0.11 ±
+ 0.02h−1. The newly introduced rate constants, k′3 and k′4, are
+ Y exp( (k 2 + k4xEG)t ) (18) determined as fitting parameters. Figure 7 shows the kinetic
+ data (mole fraction vs time) regressed against the model (fits
+ xTPD(t ) = xinitial , DMT + Z1exp( (k1 + k 3xEG)t ) for the other molar ratios are provided in the SI). The resulting
+ “goodness of fit” (R2) values are 0.996, 0.989, and 0.997 for
+ + Z 2exp( (k 2 + k4xEG)t ) (19) curves A, B, and C, respectively. The new model is fit to the
+ catalyzed reaction data at 100 °C for each EG to calculate the
+ In eqs 17-22, auxiliary variables are defined by eqs 20-22. rate constants which are determined to be k′3 = 6.31 ± 0.70 h−1
+ 4127 https://doi.org/10.1021/acssuschemeng.4c10238
+ ACS Sustainable Chem. Eng. 2025, 13, 4120−4131
+
+
+=== 3.pdf PDF 9 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​10/​4120/​42342431/​sc4c10238.​pdf by ZHEJIANG UNIV user on 09 September 2026
+Figure 9. Production of MCB and TPD as a function of time at 100 °C using different feedstocks. Because ammonolysis of the ester linkage is rate
+limiting, differences are small.
+
+and k′4 = 1.65 ± 0.28 h−1. Rate constants for the catalyzed PET chain cleaves (by either ammonolysis or methanolysis),
+reactions increased by a factor of 22 times for the first reaction catalytic ethylene glycol is generated. The ethylene glycol can
+step and 15 times for the second reaction step. Accordingly, participate in the reaction as a catalyst and as a reactant via
+EG has considerable catalytic effects. transesterification. Transesterification with glycol produces an
+ Figure 7 shows that the overall conversion vs time does not ethyl-ester bond which provides another molecularly distinct
+increase dramatically when compared with the results of Figure site for ammonolysis.
+2. This is because the concentration of EG is relatively low. In Figure 9 shows the conversion of postconsumer PET waste
+comparison to no EG present, the overall rate of conversion to to MCB and TPD. Despite the multiple possible pathways,
+TPD increases by a factor of 1.6 at a 3-to-1 ratio of EG-to- small molecule production does not differ considerably from
+DMT. Previous studies,58−60 show saturation of the catalytic when DMT is used as the reactant. This finding is true when
+effect at a 3-to-1 molar ratio for monoesters; assuming the ratio PET is used as either 1 cm2 flakes or as granulated 150−250
+of EG to ester groups governs the catalysis, the present μm particles. One explanation of this experimental finding is
+catalytic effect should continue up to a 6-to-1 molar ratio for that methanolysis proceeds much faster than ammonolysis. For
+the diester of the present study. example, supercritical methanol depolymerizes PET into DMT
+ Under the assumption that it is the ratio of EG to ester within 30 min at 200 °C.29,31,33 Even at the moderate
+bonds that governs the catalysis, predictions based on the temperature of 120 °C, PET is 98% converted to DMT in 2 h
+model for a 6-to-1 molar ratio are presented in Figure 8. The for a particle size of 128 μm.32 Comparison of the present
+graph demonstrates the reaction should be completed in about findings to these previous studies establishes that the reaction
+20 h. This represents a 2.3 times decrease in the time required
+ rate of methanolysis is greater than the rate of ammonolysis.
+for complete conversion compared to having no added EG
+ Accordingly, when PET ammonolysis is conducted in
+present (compare Figure 8 to Figure 2). The rate increase
+ methanol, a significant fraction of the product is expected to
+illustrates the importance of the catalytic effect of EG on the
+ pass through the methanolysis pathway. An alternative
+ammonolysis of esters. With this better understanding of the
+catalytic effects of EG, ammonolysis of polymer substrates can explanation is that on average all ester bonds, independent
+be conducted and understood. of type (PET backbone, methyl ester, ethyl ester), react at the
+ 3.5. Ammonolysis of Waste PET Thermoforms. As same rate. Succinctly, ammonolysis of the ester linkage is the
+illustrated in Scheme 2, the ammonolysis of PET is rate limiting step in all of the reaction pathways of Scheme 2.
+considerably more complicated than the ammonolysis of In chemical recycling of plastics, mass transfer limitations are
+DMT. Ammonia, methanol and in situ generated EG each play of great concern. When mass transfer limitations are present,
+a role in depolymerization. Furthermore, if the size of the PET conversion rates are controlled by diffusion of reactants into
+solids used is large, significant diffusional limitations may be and products out of the piece of plastic material. The “rate
+present. Reaction with PET is similar to DMT because both limiting” step in the reaction pathway no longer limits the
+involve cleaving an ester bond to form an amide. However, conversion rate when mass transfer rates are slow. Rate limiting
+since both methanol and ammonia are present, there are mass transfer effects can generally be captured by studying
+multiple reaction pathways to TPD. Significantly, PET conversion rates with particles of different sizes. PET flakes
+transesterification with methanol converts the ester group in having a thickness of about 400 μm and granulated particles in
+the repeating chain to a molecularly distinct methyl ester. In the range of 150−250 μm are used as substrates to explore
+contrast, transesterification of DMT with methanol simply mass transfer limitations. Counterintuitively, despite the need
+yields DMT. For the polymer case, ammonolysis can occur at for diffusion of methanol and ammonia into PET, its
+two distinct sites, the ester of the PET backbone or at the conversion rate to TPD was faster than that of DMT. This
+methyl ester formed by transesterification. Additionally, as the interesting finding is attributable to the autocatalytic effect of
+ 4128 https://doi.org/10.1021/acssuschemeng.4c10238
+ ACS Sustainable Chem. Eng. 2025, 13, 4120−4131
+
+
+=== 3.pdf PDF 10 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+generating EG in situ during the ammonolysis of PET in
+methanol.
+ ■ AUTHOR INFORMATION
+ Corresponding Author
+ John R. Dorgan − Chemical Engineering and Materials
+4. CONCLUSIONS Science Department, Michigan State University, East Lansing,
+A comprehensive understanding of the ammonolysis of PET in Michigan 48823, United States; orcid.org/0000-0001-
+methanol is now available based on controlled experimentation 5277-4508; Email: jd@msu.edu
+and mathematical modeling. For the model compound DMT, Authors
+ammonia first attacks one of the two equivalent ester bonds to Richard-Joseph L. Peterson − Chemical Engineering and
+give the monoamide, methyl(4-carbamoylbenzoate) (MCB). Materials Science Department, Michigan State University,
+Ammonia subsequently reacts with the second ester of MCB to East Lansing, Michigan 48823, United States
+yield the diamide (TPD). Each step consumes one ammonia Elanna P. Neppel − Chemical Engineering and Materials
+and produces one methanol. A chemical kinetic model of the Science Department, Michigan State University, East
+ammonolysis of the model DMT is presented which captures Lansing, Michigan 48823, United States
+the observed experimental findings at a very high level of detail. Lars Peereboom − Chemical Engineering and Materials
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​10/​4120/​42342431/​sc4c10238.​pdf by ZHEJIANG UNIV user on 09 September 2026
+Rate constants and activation energies are obtained by fitting Science Department, Michigan State University, East
+the model to mole fractions as a function of time for reactions Lansing, Michigan 48823, United States
+conducted at different temperatures. The catalytic effects of P. Anh Trinh − Chemical Engineering and Materials Science
+ethylene glycol on ammonolysis are unequivocally demon- Department, Michigan State University, East Lansing,
+strated. Reaction rates for the ammonolysis of DMT are Michigan 48823, United States; Present Address: Present
+compared to ammonolysis reaction rates when EG is present. address: School of Chemical and Biomolecular
+It is demonstrated that a 3:1 molar ratio of EG:DMT increases Engineering, Georgia Institute of Technology, Atlanta, GA
+ 30332;
+the rate constants by more than 10-fold. A second detailed
+ Robert Y. Ofoli − Chemical Engineering and Materials Science
+kinetic model is presented which does an excellent job of Department, Michigan State University, East Lansing,
+capturing these catalytic effects. Michigan 48823, United States
+ Application of the new understanding is employed to
+understand results of practicing ammonolysis on postuse Complete contact information is available at:
+thermoformed PET clamshell containers, which remain largely https://pubs.acs.org/10.1021/acssuschemeng.4c10238
+unrecovered and are usually landfilled. The autocatalytic effects
+ Author Contributions
+of in situ generated ethylene glycol (EG) are clearly observed.
+ The first draft of the manuscript was written by RJ.L.P with
+The conversion rate of solid PET to terephthalamide (TPD) is
+ input from all authors. Edits, corrections, and extensive
+demonstrated to proceed faster than the uncatalyzed rewriting were provided by J.R.D. All authors have given
+conversion rate of DMT to TPD. That is, mass transfer approval to the final version of the manuscript.
+limitations for the ammonolysis of thermoformed PET flakes
+ Notes
+are not rate limiting. The exposition of the catalytic effects of
+EG, along with other factors, indicate EG is the natural solvent The authors declare no competing financial interest.
+medium for PET ammonolysis. The development of a detailed
+understanding of ammonolysis of PET in EG is the subject of
+part II of this work.
+ ■ ACKNOWLEDGMENTS
+ Dr. Dan Holmes, Director of the Max T. Rogers NMR facility
+ The present study demonstrates that ammonolysis may play at Michigan State University, was particularly helpful in
+an important role in the molecular recycling of PET. This is completing the spectroscopy contained in the article. This
+because it represents a facile modification to existing large-scale work was supported under Grant No. 2029374 from the
+commercial practices. Specifically, commercial operations National Science Foundation (NSF) program “Engineering the
+already conducting methanolysis and glycolysis can diversify Elimination of End-of-Life Plastics” (E3P), a program
+ Emerging Frontiers & Multidisciplinary Activities (EFMA).
+their product streams easily, simply by dissolving ammonia
+ Any opinions, findings, and conclusions or recommendations
+into the methanol or glycol feed streams. The economic expressed in this material are those of the author(s) and do not
+consequences of doing so is the subject of part III of this necessarily reflect the views of the National Science
+comprehensive work. Foundation. J.R.D. acknowledges additional financial support
+
+■ ASSOCIATED CONTENT
+ in the form of the David and Denise Lamp Endowed
+ Professorship in Chemical Engineering and Materials Science.
+*
+sı Supporting Information
+
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acssuschemeng.4c10238.
+ ■ ABBREVIATIONS
+ PET, poly(ethylene terephthalate); DMT, dimethyl tereph-
+ thalate; MCB, methyl 4-carbamoylbenzoate; TPD, terephtha-
+ The Supporting Information includes the method for lamide; EG, ethylene glycol
+ determining the mole fractions, thermochemistry
+ calculations, solving of the differential equations,
+ pictures of the reaction set up, temperature ramp
+ figures, NMR figures, model fit figures, activity model
+ ■ REFERENCES
+ (1) Alias, A. R.; Wan, M. K.; Sarbon, N. M. Emerging materials and
+ technologies of multi-layer film for food packaging application: A
+ figures, and Python code (PDF) review. Food Control 2022, 136, No. 108875.
+
+ 4129 https://doi.org/10.1021/acssuschemeng.4c10238
+ ACS Sustainable Chem. Eng. 2025, 13, 4120−4131
+
+
+=== 3.pdf PDF 11 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+ (2) Zhu, J.; Luo, Z.; Sun, T.; Li, W.; Zhou, W.; Wang, X.; Fei, X.; P.; Waymouth, R. M.; Horn, H. W.; Rice, J. E.; Hedrick, J. L.
+Tong, H.; Yin, K. Cradle-to-grave emissions from food loss and waste Organocatalytic depolymerization of poly(ethylene terephthalate). J.
+represent half of total greenhouse gas emissions from food systems. Polym. Sci., Part A: Polym. Chem. 2011, 49 (5), 1273−1281.
+Nat. Food 2023, 4 (3), 247−256. (24) Fukushima, K.; Coady, D. J.; Jones, G. O.; Almegren, H. A.;
+ (3) Abejón, R.; Bala, A.; Vázquez-Rowe, I.; Aldaco, R.; Fullana-i- Alabdulrahman, A. M.; Alsewailem, F. D.; Horn, H. W.; Rice, J. E.;
+Palmer, P. When plastic packaging should be preferred: Life cycle Hedrick, J. L. Unexpected efficiency of cyclic amidine catalysts in
+analysis of packages for fruit and vegetable distribution in the Spanish depolymerizing poly(ethylene terephthalate). J. Polym. Sci., Part A:
+peninsular market. Resources, Conservation and Recycling 2020, 155, Polym. Chem. 2013, 51 (7), 1606−1611.
+No. 104666. (25) McNeeley, A.; Liu, Y. A. Assessment of PET Depolymerization
+ (4) Yan, Z.; Liu, Y.; Zhang, T.; Zhang, F.; Ren, H.; Zhang, Y. Processes for Circular Economy. 2. Process Design Options and
+Analysis of Microplastics in Human Feces Reveals a Correlation Process Modeling Evaluation for Methanolysis, Glycolysis, and
+between Fecal Microplastics and Inflammatory Bowel Disease Status. Hydrolysis. Ind. Eng. Chem. Res. 2024, 63 (8), 3400−3424.
+Environ. Sci. Technol. 2022, 56 (1), 414−421. (26) Pham, D. D.; Cho, J. Low-energy catalytic methanolysis of
+ (5) Leslie, H. A.; van Velzen, M. J. M.; Brandsma, S. H.; Vethaak, A. poly(ethyleneterephthalate). Green Chem. 2021, 23 (1), 511−525.
+D.; Garcia-Vallejo, J. J.; Lamoree, M. H. Discovery and quantification (27) Kishimoto, Y.; Kajihara, T.; Kato, S. Study on the alcoholysis of
+of plastic particle pollution in human blood. Environ. Int. 2022, 163, aromatic polyesters and related esters using a high-pressure
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​10/​4120/​42342431/​sc4c10238.​pdf by ZHEJIANG UNIV user on 09 September 2026
+No. 107199. calorimeter. Polym. Bull. 1999, 42, 295−300.
+ (6) de Souza Machado, A. A.; Lau, C. W.; Till, J.; Kloas, W.; (28) Shibata, M.; Masuda, T.; Yosomiya, R.; Ling-Hui, M.
+Lehmann, A.; Becker, R.; Rillig, M. C. Impacts of Microplastics on the Depolymerization of Poly(butylene terephthalate) Using High-
+Soil Biophysical Environment. Environ. Sci. Technol. 2018, 52 (17), Temperature and High-Pressure Methanol. J. Appl. Polym. Sci.
+9656−9665. 2000, 77, 3228−3233.
+ (7) Kouloumpis, V.; Pell, R. S.; Correa-Cano, M. E.; Yan, X. (29) Sako, T.; Sugeta, T.; Otake, K.; Nakazawa, N.; Sato, M.;
+Potential trade-offs between eliminating plastics and mitigating Namiki, K.; Tsugumi, M. Depolymerization of polyethyle tereph-
+climate change: An LCA perspective on Polyethylene Terephthalate thalate to monomers with supercritical methanol. J. Chem. Eng. Jpn.
+(PET) bottles in Cornwall. Sci. Total Environ. 2020, 727, No. 138681. 1997, 30 (2), 342−346.
+ (8) Rosenboom, J. G.; Langer, R.; Traverso, G. Bioplastics for a (30) Yang, Y.; Lu, Y.; Xiang, H.; Xu, Y.; Li, Y. Study on methanolytic
+circular economy. Nat. Rev. Mater. 2022, 7 (2), 117−137. depolymerization of PET with supercritical methanol for chemical
+ (9) 2022 Size and Impact: Specialized Datasets, https://www. recycling. Polym. Degrad. Stab. 2002, 75, 185−191.
+plasticsindustry.org/data-report/size-and-impact-2022/ 2022, (ac- (31) Kurokawa, H.; Ohshima, M.-a.; Sugiyama, K.; Miura, H.
+cessed 2025−02−12). Methanolysis of polyethylene terephthalate (PET) in the presence of
+ (10) Plastics Europe, Plastics - the Facts 2022, https://plasticseurope. aluminium tiisopropoxide catalyst to form dimethyl terephthalate and
+org/knowledge-hub/plastics-the-facts-2022/ (accessed 2025−02− ethylene glycol. Polym. Degrad. Stab. 2003, 79 (3), 529−533.
+12). (32) Mishra, S.; Goje, A. S. Kinetic and thermodynamic study of
+ (11) Awaja, F.; Pavel, D. Recycling of PET. Eur. Polym. J. 2005, 41
+ methanolysis of poly(ethylene terephthalate) waste powder. Polym.
+(7), 1453−1477.
+ Int. 2003, 52 (3), 337−342.
+ (12) Ragaert, K.; Delva, L.; Van Geem, K. Mechanical and chemical
+ (33) Goto, M.; Koyamoto, H.; Kodama, A.; Hirose, T.; Nagaoka, S.;
+recycling of solid plastic waste. Waste Manag 2017, 69, 24−58.
+ McCoy, B. J. Degradation kinetics of polyethylene terephthalate in
+ (13) Salahuddin, U.; Sun, J.; Zhu, C.; Wu, M.; Zhao, B.; Gao, P. X.
+ supercritical methanol. AIChE J. 2002, 48 (1), 136−144.
+Plastic Recycling: A Review on Life Cycle, Methods, Misconceptions,
+ (34) Liu, Q.; Li, R.; Fang, T. Investigating and modeling PET
+and Techno-Economic Analysis. Adv. Sustainable Syst. 2023, 7 (7),
+ methanolysis under supercritical conditions by response surface
+No. 2200471.
+ (14) NAPCOR, 2023 PET Recycling Report, https://napcor.com/ methodology approach. Chemical Engineering Journal 2015, 270, 535−
+reports-resources/ (accessed 2025−02−12). 541.
+ (15) Thomas, S.; Rane, A. V.; Kanny, K.; Abitha, V. K.; Thomas, M. (35) Li, J.; Yan, D.; Cheng, X.; Rong, C.; Feng, J.; Feng, X.; Xin, J.;
+G. Recycling of Polyethylene Terephthalate bottles. Elsevier, 2019. Zhou, Q.; Li, Y.; Xu, J.; Lu, X. Efficient Methanolysis of PET
+ (16) Thiounn, T.; Smith, R. C. Advances and approaches for Catalyzed by Nonmetallic Deep Eutectic Solvents. Ind. Eng. Chem.
+chemical recycling of plastic waste. J. Polym. Sci. 2020, 58 (10), 1347− Res. 2024, 63 (28), 12373−12384.
+1364. (36) Genta, M.; Iwaya, T.; Sasaki, M.; Goto, M. Supercritical
+ (17) Espinoza García, K.; Navarro, R.; Ramírez-Hernández, A.; methanol for polyethylene terephthalate depolymerization: observa-
+Marcos-Fernández, Á . New routes to difunctional macroglycols using tion using simulator. Waste Manag 2007, 27 (9), 1167−77.
+ethylene carbonate: Reaction with bis-(2-hydroxyethyl) terephthalate (37) Eastman Chemical Company, Eastman to invest up to $1 billion
+and degradation of poly(ethylene terephthalate). Polym. Degrad. Stab. to accelerate circular economy through building world’s largest molecular
+2017, 144, 195−206. plastics recycling facility in France, https://www.eastman.com/en/
+ (18) Erhard, S.; Karl, M.; Process for the regeneration of terephthalic media-center/news-stories/2022/eastman-invest-accelerate-circular-
+acid dimethyl ester from polyethylene terephthalate. US Patent, economy 2022 (accessed 2023−10−21).
+US2884443A. 1959. (38) Brown, H. C. A Fight Over the Future of Recycling Brews as
+ (19) Rudolf, L.; Gerhard, W.; Clemens, N. Process for the recovery Plastics Legislation Gains Traction, https://www.wsj.com/articles/a-
+of dimethyl terephthalate from polyethylene terephthalate. US Patent, fight-over-the-future-of-recycling-brews-as-plastics-legislation-gains-
+US3321510A. 1967. traction-a30be3a4 (accessed 2024−10−18).
+ (20) Barkey, K. T.; Lefferts, E. B.; May, D. C. Polyester scrap (39) Toto, D. Eastman considers locations for second US methanolysis
+recovery processes. US Patent, US3488298A. 1970. site, https://www.recyclingtoday.com/news/eastman-considers-texas-
+ (21) Ligorati, F.; Aglietti, G.; Nova, V.Method of depolymerizing locations-methanolysis-recycling-process-pet/ 2022 (accessed 2024−
+poly-ethylene terephthalate. US Patent, US3776945A. 1973. 10−18).
+ (22) López-Fonseca, R.; Duque-Ingunza, I.; de Rivas, B.; Flores- (40) Tullo, A. H. Eastman will build a $250 million plastics recycling
+Giraldo, L.; Gutiérrez-Ortiz, J. I. Kinetics of catalytic glycolysis of PET plant, https://www.google.com/url?sa=t&source=web&rct=j&opi=
+wastes with sodium carbonate. Chemical Engineering Journal 2011, 168 89978449&url=https://cen.acs.org/environment/recycling/Eastman-
+(1), 312−320. build-250-million-plastics/99/web/2021/02&ved=
+ (23) Fukushima, K.; Coulembier, O.; Lecuyer, J. M.; Almegren, H. 2ahUKEwjAwePQ3v-KAxVXkokEHVE8GbYQFnoECBsQAQ&usg=
+A.; Alabdulrahman, A. M.; Alsewailem, F. D.; McNeil, M. A.; Dubois, AOvVaw16j9VvSVyVn-at3KPjE38s, 2021, (accessed 2024−10−18).
+
+ 4130 https://doi.org/10.1021/acssuschemeng.4c10238
+ ACS Sustainable Chem. Eng. 2025, 13, 4120−4131
+
+
+=== 3.pdf PDF 12 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+ (41) Rubio Arias, J. J.; Thielemans, W. Instantaneous hydrolysis of (62) Constantinou, L.; Gani, R. New group contribution method for
+PET bottles: an efficient pathway for the chemical recycling of estimating properties of pure compounds. AIChE J. 1994, 40 (10),
+condensation polymers. Green Chem. 2021, 23 (24), 9945−9956. 1697−1710.
+ (42) McNeeley, A.; Liu, Y. A. Assessment of PET Depolymerization (63) Al-Malah, K. I. M. ASPEN PLUS®: Chemical engineering
+Processes for Circular Economy. 1. Thermodynamics, Chemistry, apllications Second ed. ed.; John Wiley & Sons, Inc: 2023.
+Purification, and Process Design. Ind. Eng. Chem. Res. 2024, 63 (8), (64) Gross, J.; Sadowski, G. Perturned-Chain SAFT: An equation of
+3355−3399. State Based on a Perturbation Theory for Chain Molecules. Ind. Eng.
+ (43) Aguado, A.; Martínez, L.; Becerra, L.; Arieta-araunabeña, M.; Chem. Res. 2001, 40, 1244−1260.
+Arnaiz, S.; Asueta, A.; Robertson, I. Chemical depolymerisation of (65) Gross, J.; Sadowski, G. Application of the Pertubed-Chain
+PET complex waste: hydrolysis vs. glycolysis. Journal of Material SAFT Equation of State to Associating Systems. Ind. Eng. Chem. Res.
+Cycles and Waste Management 2014, 16 (2), 201−210. 2002, 41, 5510−5515.
+ (44) Yoshioka, T.; Okayama, N.; Okuwaki, A. kinetics of Hydrolysis (66) Renon, H.; Prausnitz, J. M. Local compositions in
+of PET Powder in Nitric Acid by a Modified Shrinking-Core Model. thermodynamic excess functions for liquid mixtures. AIChE J. 1968,
+Ind. Eng. Chem. Res. 1998, 37, 336−340. 14 (1), 135−144.
+ (45) Oda, K.; Wlodawer, A. Development of Enzyme-Based (67) Zhang, H.; Xia, Q.; Yang, Y.; Zhang, F.-B.; Zhang, G.-L.
+Approaches for Recycling PET on an Industrial Scale. Biochemistry Solubility of Dimethyl Terephthalate and Monomethyl Terephthalate
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​10/​4120/​42342431/​sc4c10238.​pdf by ZHEJIANG UNIV user on 09 September 2026
+2024, 63 (4), 369−401. in the Methanol Aqueous Solution and Its Application To Recycle
+ (46) Tournier, V.; Duquesne, S.; Guillamot, F.; Cramail, H.; Taton, Monomethyl Terephthalate from Crude Dimethyl Terephthalate. Ind.
+D.; Marty, A.; Andre, I. Enzymes’ Power for Plastics Degradation. Eng. Chem. Res. 2013, 52 (14), 5230−5234.
+Chem. Rev. 2023, 123 (9), 5612−5701. (68) Zhang, Z.; Qu, Y.; Li, M.; Wang, S.; Wang, J. Solubility and
+ (47) Fukushima, K.; Lecuyer, J. M.; Wei, D. S.; Horn, H. W.; Jones, Thermodynamic Modeling of Dimethyl Terephthalate in Pure
+G. O.; Al-Megren, H. A.; Alabdulrahman, A. M.; Alsewailem, F. D.; Solvents and the Evaluation of the Mixing Properties of the Solutions.
+McNeil, M. A.; Rice, J. E.; Hedrick, J. L. Advanced chemical recycling Journal of Chemical & Engineering Data 2019, 64 (10), 4565−4579.
+of poly(ethylene terephthalate) through organocatalytic aminolysis. (69) Abrams, D. S.; Prausnitz, J. M. Statistical thermodynamics of
+Polym. Chem. 2013, 4 (5), 1610−1616. liquid mixtures: A new expression for the excess Gibbs energy of
+ (48) Sabot, C.; Kumar, K. A.; Meunier, S.; Mioskowski, C. A partly or completely miscible systems. AIChE J. 1975, 21 (1), 116−
+convenient aminolysis of esters catalyzed by 1,5,7-triazabicyclo[4.4.0]- 128.
+dec-5-ene (TBD) under solvent-free conditions. Tetrahedron Lett. (70) Peterson, R. J.; Dorgan, J. R.; Upcycling of zero-valued
+2007, 48 (22), 3863−3866. poly(ethylene terephthalate) II: Ammonolysis kinetics of model
+ (49) Shamsi, R.; Abdouss, M.; Sadeghi, G. M. M.; Taromi, F. A. bis(2-hydroxyethyl) terephthalate and particle size effects in
+Synthesis and characterization of novel polyurethanes based on polymeric substrates, In Preparation.
+aminolysis of poly(ethylene terephthalate) wastes, and evaluation of (71) Wetzel, F. H.; Miller, J. G.; Day, A. R. Effect of Stucture. VII.
+their thermal and mechanical properties. Polym. Int. 2009, 58 (1), The energies of activation and entropies of activation for the
+22−30. ammonolysis of esters. J. Am. Chem. Soc. 1953, 75, 1150−1153.
+ (50) Spychaj, T.; Fabrycy, E.; Spychaj, S.; Kacperski, M. Aminolysis (72) Sun, H.; Page, M. I.; Atherton, J. H.; Hall, A. Kinetics of the
+and aminoglycolysis of waste poly(ethylene terephthalate). J. Mater. conversion of methyl benzoate to benzamide by the alumina catalysed
+Cycles Waste Manage. 2001, 3, 24−31. reaction with liquid ammonia at 120 °C. Catal. Sci. Technol. 2014, 4
+ (51) Tawfik, M. E.; Eskander, S. B. Chemical recycling of (11), 3870−3878.
+poly(ethylene terephthalate) waste using ethanolamine. Sorting of (73) Galabov, B.; Atanasov, Y.; Ilieva, S.; Schaefer, H. F., III
+the end products. Polym. Degrad. Stab. 2010, 95 (2), 187−194. Mechanism of the Aminolysis of Methyl Benzoate: a Computational
+ (52) Popoola, V. A. Polyester Formation: Amholytic Degradation Study. J. Phys. Chem. A 2005, 109, 11470−11474.
+and Proposed Mechanisms of the Reaction. J. Appl. Polym. Sci. 1988, (74) Wali, A.; Unnikrishnan, S.; Pillai, S. M.; Kaushik, V. K.; Satish,
+36, 1677−1683. S. Montmorillonite Clay Catalysis: Conversion of Methyl Benzoate
+ (53) Zenda, K.; Funazukuri, T. Depolymerization of poly(ethylene and NH3 into Benzonitrile and Amides. J. Catal. 1998, 173, 84−94.
+terephthalate) in dilute aqueous ammonia solution under hydro- (75) Graham, T. On the law of the diffusion of gases. London and
+thermal conditions. J. Chem. Technol. Biotechnol. 2008, 83 (10), Edinburgh Pilosophical Magazine and Journal of Science 1833, 2, 175−
+1381−1386. 190.
+ (54) Akzo NV, Preparation of terephthalic acid diamide. Patent, (76) Piiper, J.; Worth, H. Value and limits of Graham’s Law for
+GB1399405A. 1973. prediction of diffusivities of gases in gas mixtures. Respiration
+ (55) Zengel, H.-G.; Bergfeld, M., Production of P-aminobenzoic Physiology 1980, 41, 233−240.
+Acid. US Patent, US3931210A. 1976. (77) van Gysel, A. B.; Musin, W., Methylamines. In Ullmann’s
+ Encyclopedia of Industrial Chemistry; Wiley-VCH Verlag GmbH & Co.
+ (56) Zengel, H.; Bergfeld, M., Verfahren zur Herstellung von
+ KGaA., (2000).
+Terephthalsaurediamid. Patent, AT322538B. 1974.
+ (57) Zengel, H. G.; Bergfeld, M. J. A New Process for the
+Production of p-Phenylenediamine Alternatively from Polyester
+Waste, Terephthalic Ester, or Terephthalic Acid. Product R&D
+1976, 15 (3), 186−189.
+ (58) Rondestvedt, C. S. Aminations with ammonia and formamide.
+Synthesis of terephthalamic acid and of p-nitroaniline. Journal of
+Organic Chemistry 1977, 42 (19), 3118−3123.
+ (59) Koch, T. A.; Miller, J. G.; Day, A. R. Effect of Structure on
+Reactivity. VI. Catalysis in the Ammonolysis and Hydrolysis of
+Methyl Acetate. J. Am. Chem. Soc. 1953, 75 (4), 953−955.
+ (60) Gordon, M.; Miller, J. G.; Day, A. R. Effect of structure on
+reactivity; ammonolysis of esters with special reference to the electron
+release effects of alkyl and aryl groups. J. Am. Chem. Soc. 1948, 70 (5),
+1946−53.
+ (61) LibreTexts Bond Energies. https://chem.libretexts.org/ (ac-
+cessed 2024−09−17).
+
+ 4131 https://doi.org/10.1021/acssuschemeng.4c10238
+ ACS Sustainable Chem. Eng. 2025, 13, 4120−4131

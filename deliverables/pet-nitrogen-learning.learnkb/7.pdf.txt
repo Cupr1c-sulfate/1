@@ -1,0 +1,732 @@
+
+=== 7.pdf PDF 1 ===
+ Waste Management 92 (2019) 97–106
+
+
+
+ Contents lists available at ScienceDirect
+
+
+ Waste Management
+ journal homepage: www.elsevier.com/locate/wasman
+
+
+
+
+Catalytic fast pyrolysis of polyethylene terephthalate plastic for the
+selective production of terephthalonitrile under ammonia atmosphere
+Lujiang Xu a,b, Le-yao Zhang a, He Song a, Qian Dong a, Guo-hua Dong a, Xiao Kong a, Zhen Fang a,⇑
+a
+ Biomass Group, College of Engineering, Nanjing Agricultural University, 40 Dianjiangtai Road, Nanjing 210031, China
+b
+ Key Laboratory of Energy Thermal Conversion and Control of Ministry of Education, Southeast University, Nanjing 210096, China
+
+
+
+a r t i c l e i n f o a b s t r a c t
+
+Article history: Terephthalonitrile (TPN) was directly produced from polyethylene terephthalate (PET) plastic via cat-
+Received 15 November 2018 alytic fast pyrolysis with ammonia. The optimal condition for producing TPN was over 1 g c-Al2O3-
+Revised 16 April 2019 2 wt% catalyst at 500 °C under carrier gas (50% NH3 and 50% N2) with yield of nitriles and TPN of 58.1
+Accepted 6 May 2019
+ and 52.3 C%, respectively. The selectivity of TPN in the nitriles was around 90%. Meanwhile, a bit of aro-
+Available online 16 May 2019
+ matics, benzonitrile, acetonitrile were also produced as by-products with the total yields of less than 3 C
+ %. The catalyst deactivated slightly after 5 cycles. Possible reaction routes were proposed and it was found
+Keywords:
+ that terephthalic acid, benzoic acid, related esters and amides were the major intermediates from PET to
+Terephthalonitrile (TPN)
+Polyethylene terephthalate (PET)
+ nitriles. Acetonitrile could be produced from acetaldehyde and its corresponding imines. In addition, 32.1
+Catalytic fast pyrolysis C% TPN with high purity (>95%) was obtained via freezing recrystallization. Catalytic pyrolysis with
+Ammonia ammonia process was a promising technology for converting waste PET plastics to TPN. This study pro-
+c-Al2O3 vided a new method for producing N-containing chemicals from polyester plastics.
+ Ó 2019 Elsevier Ltd. All rights reserved.
+
+
+
+
+1. Introduction ganisms, it has been widely used as bottle materials, fibres, films,
+ sheets, households and carpet (Levchik and Weil, 2004; Datta
+ Due to the chemical activity of nitrile group, aromatic nitriles and Kopczyńska, 2016). The worldwide consumption and demand
+could be served as feedstock to synthesize a series of fine chemi- of PET reached about 60 million tons at 2011, and grew at about
+cals via hydrolysis and hydrogenation, which could be used for 4.5% each year (Al-Sabagh et al., 2016). However, the high stable
+pharmaceutical chemicals, agricultural chemicals, dyes, liquid properties of PET made it hardly degraded naturally in the environ-
+crystals and synthetic polymers (Kharasch and Beck, 2002; Kim ment, resulted in more and more PET plastics disposing into the
+et al., 2012; Bornschein et al., 2014). Terephthalonitrile (TPN), an ecosystem as waste product causing serious environmental prob-
+important aromatic nitrile, could be used to produce p- lems (George and Kurian, 2014; Lorenc-Grabowska et al., 2016).
+phenylenediamine, terephthalic acid, pyrethroids pesticide, light Thus, the recycling process of PET plastics has become urgent.
+sensitive materials and supercapacitors (Blackmon et al., 1990; Researchers have developed several methods for PET recycling,
+Kobayashi et al., 1988; Xie and Huang, 2009; Hao et al., 2012; such as mechanical and chemical recycling (Wong et al., 2015).
+Kholkhoev et al., 2010). Industrially, TPN is produced via the Mechanical recycling is re-melting PET wastes to produce low
+ammoxidation of p-xylene or ammoxidation of dipentene grade products. Chemical recycling follows the principles of ‘‘sus-
+(Adalbert and Rudolph, 1957; Trifiro and Jirů, 1988; tainable development” to produce intermediates, various value-
+Raghavendrachar and Ramachandran, 1992). However, p-xylene added chemicals, fuel and materials for industrial and commercial
+and dipentene are from non-renewable fossil-based resources. applications (Paszun and Spychaj, 1997). The chemical recycling
+Therefore, finding a renewable and environment friendly feedstock methods could also be divided as follows: alcoholysis, hydrolysis,
+to produce TPN on large scale is highly desirable. glycolysis, ammonolysis, carbonization and pyrolysis (Ragaert
+ PET is a kind of saturated polyester of terephthalic acid and et al., 2017; Singh et al., 2017; Zhou et al., 2019).
+ethylene glycol with high properties, high stiffness and safety. Particularly, ammonolysis is an efficient method of chemical
+Due to its resistance to strong acid, oxidizing agents and microor- degradation of PET with various primary amines (e.g., ammonia,
+ methylamine, ethylamine and ethylene diamine) to produce vari-
+ ⇑ Corresponding author.
+ ous N-containing chemicals and materials with wide applications,
+ such as secondary plasticizer, antibacterial drugs, textile dyes and
+ E-mail address: zhenfang@njau.edu.cn (Z. Fang).
+ URL: http://biomass-group.njau.edu.cn/ (Z. Fang). corrosion inhibitors (Geyer et al., 2016; More et al., 2017). Dozens
+
+https://doi.org/10.1016/j.wasman.2019.05.011
+0956-053X/Ó 2019 Elsevier Ltd. All rights reserved.
+
+
+=== 7.pdf PDF 2 ===
+98 L. Xu et al. / Waste Management 92 (2019) 97–106
+
+
+of studies on ammonolysis of PET have been carried out. Blackmon Bi-cyclohexane (99.5%), naphthalene (99.5%), terephthalonitrile
+et al. studied aminolysis of PET with anhydrous ammonia on PET in (TPN) (99.5%), benzonitrile (99.5%), p-phthalic acid (99%), ben-
+ethylene glycol environment to produce terephthalic acid amide zamide (99.5%), terephthalamide (>98%), methyl benzoate
+(Sinha et al., 2010). Hoang and Dang (2013) studied aminolysis of (99.5%), acetaldehyde (99%), benzaldehyde (99.5%) and
+PET with an excess amount of ethylenediamine (EDA) to produce dimethyl terephthalate (99%) were purchased from Aladin Chem-
+bis(2-aminoethyl) terephthalamide (BAET) and a,x-aminoligo(et ical Reagent Co. Ltd (Shanghai). PET powders (100 meshes) were
+hylene terephthalamide) (AOET). Sharma et al. chose PET as a sus- from Shanghai YoungLing-Tech co. Ltd. All the chemicals were
+tainable feedstock to prepare the benzoxazine monomer contain- used without further purification.
+ing amide linkages via microwave-assisted ammonolysis with All the c-Al2O3 with about 20 nm used in this study was pur-
+EDA and condensation of cardanol (Sharma et al., 2015). The amide chased from Aladin Chemical Reagent Co. Ltd (Shanghai). Air,
+could also be converted to nitriles via further catalytic dehydration NH3 (99.995%, AR), N2 (99.999%), Ar (99.999%), He (99.999%),
+reaction. 7.90% NH3 and 92.1% He gas mixture for NH3-TPD test were pur-
+ In addition, pyrolysis, especially catalytic pyrolysis, which chased from Nanjing Special Gases Factory. The standard gas (C6
+includes thermal decomposition, cracking, dehydration and other + 0.0920%, CH4 53.922%, C2H2 0.561%, C3H4 0.523%, trans -butane
+reactions, is also a promising technology for converting biomass 0.501%, cis-butane 0.505%, 1,3-butadiene 0.523%, N2 10.40%,C2H4
+and solid wastes to liquid fuels and chemicals (Liu et al., 2014; 1.01%, C3H8 1.01%, iso-butane 2.01%, n-butene 0.532%, isopentane
+Wang et al., 2018a, 2018b). Many studies about producing fuels 0.505%, CO2 2.02%, CO 0.986%, C2H6 1.05%, C3H6 1.01%, n-butane
+and chemicals via pyrolysis or catalytic fast pyrolysis of PET wastes 1.98%, isobutene 0.505%, n-pentane 0.515%, O2 5.10%, H2 14.74%)
+have been carried out (Almeida and Marques, 2016). Niksiar et al. was purchased from Dalian Special Gases Co., Ltd (Dalian, China)
+(2015) investigated the kinetic and pyrolysis behaviour of PET and for gas calibration.
+illustrated the effect of particle size on the heat and mass transfer
+during pyrolysis process. The main primary pyrolytic products 2.2. Catalysts preparation, regeneration and characterization
+were gases, terephthalic acid and benzoic acid (Yoshioka et al.,
+2004; Dziwiński et al., 2018; Honus et al., 2018a, 2018b). Diaz- For c-Al2O3, it was dispersed in distilled water (the mass ratio of
+Silvarrey et al. (2018) synthesized benzoic acid via catalytic pyrol- c-Al2O3 to water is 1:10), dried in an oven at 110 °C for 12 h, and
+ysis of PET over sulphated zirconia. Yoshioka et al. (2005) used Ca calcined at 550 °C for 4 h in air and another 5 h in nitrogen.
+(OH)2, NiO, TiO2 and Fe2O3 to catalyze the pyrolysis of PET and H3PO4 modified c-Al2O3 catalysts (2–8%) were prepared with
+found Ca(OH)2 led to the decarboxylation of terephthalic acid to incipient wetness impregnation using H3PO4 solution. The impreg-
+form benzene at 700 °C. Du et al. (2016) used ZSM-5 zeolite and nated Al2O3 catalysts were dried and calcined under the same con-
+CaO to catalyze the pyrolysis of PET to benzene-rich oil. Both cat- ditions as the above described. For catalyst regeneration after each
+alysts showed good performance on the deoxygenation of pyrolysis cycle, the used catalyst was calcined with air (100 mL/min) at
+products, and CaO presented better catalytic performance than 550 °C for 3 h to remove coke by oxidation. All the above catalysts
+ZSM-5. The similar results were also found by other researchers were crushed and screened between 40 and 60 meshes.
+(Xue et al., 2017; Kumagai et al., 2017, 2018). In addition, PET also XRD patterns were obtained on a theta rotating anode X-ray
+served as feedstock to produce bio-oil via co-pyrolysis with rice diffractometer (TTP-III, Rigaku, Tokyo) with CuKa radiation. The
+straw or waste tyres (Izzatie et al., 2017; Doğan-Sağlamtimur instrument was operated at a tube voltage of 40 kV and a tube cur-
+et al., 2018). The above studies (Table S1 in supplementary mate- rent of 40 mA. Intensities were measured at 2h of 10–70° at scan
+rial) mainly focused on producing bio-oil (chemicals) by pyrolysis rate of 10°/min. The N2-adsorption/desorption isotherms of the
+(catalytic pyrolysis) of PET under inert atmosphere. Few reports catalysts were measured by Autosorb-iQ (Quantachrome, Boynton
+were found in literatures aiming to produce TPN by fast pyrolysis Beach, FL). The surface area and total volume were determined by
+of PET plastics. the Barrett-Emmet-Taller (BET) method. The NH3-TPD for acidity
+ Herein, catalytic fast pyrolysis with ammonia (CFP-A) process, test of the catalyst was conducted with Chembet PULSAR TPR/
+combined ammonolysis and catalytic fast pyrolysis, was proposed TPD (Quantachrome, Boynton Beach, FL). Four different volumes
+for the catalytical conversion of PET plastic to produce TPN with (0.5, 1, 1.5, 2 mL) of a standard NH3 gas (7.9% NH3 and 92.1% He)
+high selectivity. Differently from traditional pyrolysis with N2, were used to calibrate total acid density with R2 > 0.999. The
+ammonia was not only served as carrier gas, but also a reactant detailed procedures of analysis can be referred to the previous
+during CFP-A process. Firstly, a series of c-Al2O3 and H3PO4 modi- work (Xu et al., 2015, 2016). The TG (Thermogravimetry) of PET
+fied c-Al2O3 as catalysts were synthesized and screened. Then, the was conducted in a Thermo-Gravimetric Analyzer (TGA, Perkin
+major technological parameters, including pyrolysis temperature, Elmer STA 6000, Waltham, MA) from 30 to 800 °C at a heating rate
+catalyst dosage, ammonia content of carrier gas were investigated of 10 °C/min under nitrogen environment (99.999%) at a flow rate
+systematically. In addition, bottle-based PET plastic experiments of 50 mL/min.
+and catalyst stability were carried out under the optimal condi-
+tions. Furthermore, the fresh and reused catalysts were character- 2.3. Pyrolysis experiments
+ized by X-Ray Diffraction (XRD), N2 adsorption/desorption,
+temperature programmed desorption of ammonia (NH3-TPD) anal- Catalytic pyrolysis of PET was carried out in a fixed bed reactor
+yses. The possible reaction pathways were also elucidated. The heated by an electric furnace with 3 kW (Fig. 1; height of 400 mm,
+separation and purification of TPN was further studied. internal diameter of 10 mm) at 450–700 °C. In each run, catalyst
+ (0.6–1.2 g) was fixed in the reactor that was heated to a desired
+ temperature, PET particles were subsequently fed batch by a syr-
+2. Materials and methods inge into the reactor for reactions under a certain rate (0.1 g/
+ min), purged with carrier gas (160 mL/min with ammonia content
+2.1. Materials of 20–100%), and kept for 5 min after feeding. The volatile products
+ were trapped in a cold trap (100 mL) by liquid nitrogen, and
+ Methanol (99.5%), benzene (99.5%), toluene (99.5%), xylene diluted with hot methanol (25 mL) for gas chromatograph (GC)
+(99.5%), biphenyl (99.5%) and benzoic acid (99.5%) were analysis. The non-condensable gas products were collected with
+purchased from Sinopharm Chemical Reagent Co Ltd (Beijing). a gas bag (2000 mL), and washed with phosphoric acid solution
+
+
+=== 7.pdf PDF 3 ===
+ L. Xu et al. / Waste Management 92 (2019) 97–106 99
+
+
+ Mass flow controller
+
+
+
+
+ PET
+
+
+
+
+ Catalyst
+ NH3
+ N2
+
+
+
+
+ Quartz wool
+
+ Gas-washing
+ bottle GC2014C
+ Cold trap
+ Gases
+ Bio-oil
+
+
+ GC2010Plus
+ Fig. 1. The schematic diagram of the pyrolysis system.
+
+
+(1000 mL) to remove excess ammonia. Then, the volume of gas ing conditions were as follows: carrier gas: nitrogen and argon;
+products was measured via drainage method (without saturating detector (FID and TCD): 150 °C; column temperature: 50 °C; oven
+water by NaHCO3), and the composition of gas products were temperature program: holding at 50 °C for 3 min, heating up to
+determined by GC described in the next section. 130 °C at a rate of 10 °C/min, and holding for 3 min. In addition,
+ due to the excess ammonia existing in this process, which is easy
+2.4. Pyrolysis products analysis to react with CO2 (formed in the pyrolysis process), thus CO2
+ couldn’t be detected by GC in this study.
+ The liquid samples were analyzed by GC-MS (Agilent 7890- The yield (C%) and selectivity of coke, gases, nitriles, aromatics,
+5977B, Santa Clara, CA) equipped with an HP-5 MS capillary col- amides and oxygenates were calculated based on equations 1–9,
+umn (30 m  0.25 mm  0.25 mm). Split injection was performed respectively.
+at a split ratio of 50 using helium (99.999%) as carrier gas. The oven Carbon moles in coke
+temperature was held at 40 °C for 3 min, heated to 280 °C at 10 °C/ coke yield ðC%Þ ¼  100% ð1Þ
+ Carbon moles in PET fed
+min, and held at 280 °C for 5 min.
+ The yield and selectivity (C%) of coke, bio-oil and gases products Carbon moles in gases
+were quantitatively determined, the detailed methods were listed gas yield ðC%Þ ¼  100% ð2Þ
+ Carbon moles in PET fed
+as follow. The coke in each test was weighted, and its carbon com-
+position was further determined by the elemental analysis. Carbon moles in nitriles
+ The products in cold trap (such as nitriles, aromatics and
+ nitriles yield ðC%Þ ¼  100% ð3Þ
+ Carbon moles in PET fed
+amides) were quantitatively determined by GC (GC-2010 plus, Shi-
+madzu, Kyoto) with a 30 m  0.25 mm  0.25 lm fused-silica cap- Carbon moles in aromatics
+ aromatics yieldð C%Þ ¼  100%
+illary column (DB-Wax, Shimadzu, Kyoto). The liquid sample was Carbon moles in PET fed
+mixed with bi-cyclohexane as the internal standard and diluted ð4Þ
+with hot methanol. The GC operating conditions were as follows:
+ Carbon moles in amides
+carrier gas: nitrogen; injection port: 250 °C in a split mode; detec- amides yield ðC%Þ ¼  100% ð5Þ
+ Carbon moles in PET fed
+tor (flame ionization detector; FID): 250 °C; column temperature:
+40 °C; oven temperature program: heating up to 250 °C at a rate Carbon moles in oxygenates
+of 10 °C/min, and holding at a final temperature of 250 °C for oxygenates yield ðC%Þ ¼  100%
+ Carbon moles in PET fed
+10 min.
+ ð6Þ
+ For gas product analysis, the entire gas of each run was col-
+lected with an air bag, weighed, and analyzed using GC (GC-
+ unidentifed carbon yield ðC%Þ ¼ 100%  identified carbon yield
+2014C, Shimadzu, Kyoto) with two detectors and four columns
+(PC1: P-N 80/100 mesh, 3.2  2.1 mm  1 m; MC-1: P-N 80/100 ð7Þ
+mesh, 3.2  2.1 mm  1.0 m; MC-2: MS-13X, 80/100 mesh,
+ Carbon moles in specific nitrile
+3.2  2.1 mm  2 m; MC-3: HP-Al2O3, 30 m  0.53 mm  15 lm), nitriles seletivity ð%Þ ¼
+ Carbon moles in all nitriles identified
+a thermal conductivity detector (TCD), PC-1, MC-1 and MC2 col-
+  100% ð8Þ
+umns for analysis of H2, CO, CH4 and CO2, and an FID and MC-3 col-
+umn for gas hydrocarbons. The moles of gas products were Carbon moles in specific gas
+externally calibrated with three different concentrations diluted gases seletivity ð%Þ ¼
+ Carbon moles in all gases identified
+with N2 from the standard gas mixture (with R2 of 0.9977 for H2,
+  100% ð9Þ
+0.9994 for CO2, 0.9994 for CH4 and CO for 0.9942). The GC operat-
+
+
+=== 7.pdf PDF 4 ===
+100 L. Xu et al. / Waste Management 92 (2019) 97–106
+
+
+3. Results and discussion 3.2. Catalyst selection
+
+3.1. Catalyst characterization The suitable catalyst is very important to produce the targeted
+ compounds in the catalytic fast pyrolysis process. Before the exper-
+ In this study, c-Al2O3 and H3PO4 modified c-Al2O3 were chosen iments of catalyst screening, the TGA of PET from 30 to 800 °C
+as the catalysts for producing TPN, which were good catalysts for under nitrogen was carried out firstly to determine the optimum
+the production of acetonitrile from acetic acid via catalytic ammo- pyrolysis temperature. In Fig. S2, the thermal decomposition of
+nization (Galanov et al., 2003, 2014). Fig. 2 shows the XRD patterns PET was in the range of 305–500 °C. Therefore, 500 °C was
+of c-Al2O3 and H3PO4 modified c-Al2O3 catalysts, the peaks at 37°, employed for further screening catalyst.
+46° and 67° (2h) were the characteristic ones for c-Al2O3. After the Table 2 shows the product distributions of CFP-A over different
+treatment with different mass ratios of H3PO4, no new peak c-Al2O3 based catalysts, the products were composed of coke,
+appeared, the treatment did not change the main crystal phase of gases, nitriles, aromatics, amides, and oxygenates. Nitriles, aromat-
+raw Al2O3. ics, amides and oxygenates were collected in the cold trap, and
+ Table 1 shows the typical properties of c-Al2O3-based catalysts, nitriles were the main product, the yield of nitriles (>40 C%) was
+such as BET surface area, pore volume, pore diameter and total acid much higher than others. When c-Al2O3 served as catalyst (Entry
+amounts. The BET surface area of c-Al2O3 without treatment was 1), the carbon yield of coke, gases, nitriles and aromatics was
+153.01 m2/g. After treatment, it decreased from 133.17 to 13.45%, 10.40%, 45.61% and 2.74%, respectively. The selectivity of
+109.11 m2/g as the mass ratio of H3PO4 (based on P2O5) increased benzonitrile, TPN, acetonitrile, and other alkyl aromatic nitriles in
+from 2% to 8%. The pore volume of c-Al2O3, Al2O3-2% and Al2O3-4% nitriles was 13.53%, 81.71%, 3.99% and 0.77%, respectively. TPN
+changed little and kept at about 0.71 cm3/g, but decreased to was the main product in the nitriles. The carbon yield of TPN
+0.62 cm3/g for both Al2O3-6% and Al2O3-8%. For pore diameter, c- was 37.26%. In addition, a few of amides and oxygenates were
+Al2O3 was 8.98 nm without treatment, and increased to 11.38 nm detected, the carbon yields of them were 1.31% and 1.42%, respec-
+after treatment with 2% and 4% H3PO4. When the mass ratio of tively. While when the modified catalysts were used (Entry 2–5),
+H3PO4 (based on P2O5) increased to 6% and 8%, the pore diameter no amides and oxygenates were detected. The difference may be
+was undetected. The above results show that the treatment with caused by the different acidities from different catalysts. H3PO4
+H3PO4 could destroy the pore structure of c-Al2O3. In addition, modified catalysts show stronger acidity and more acid sites than
+the total acid amounts of c-Al2O3-based catalysts were measured that of c-Al2O3. Amides and oxygenates (e.g., p-phthalic acid,
+by NH3-TPD and summarized in Table 1 (Fig. S1). The total acid methyl benzoate, dimethyl terephthalate, etc.) could be converted
+amount of c-Al2O3 was 231.5 lmol/g. After treatment, it (for c- to nitriles via further ammonolysis and dehydration reactions.
+Al2O3-2%) increased to 315.7 lmol/g, which was 40% higher than Besides, Entries 2–5 demonstrated the detailed product distri-
+c-Al2O3. With the mass ratio increasing from 2% to 8%, the total butions of CFP-A of PET over different modified c-Al2O3 catalysts.
+acid amounts of modified c-Al2O3 catalysts increased from 315.7 The carbon yield of gases and aromatics was similar to those of
+to 364.2 mmol/g. c-Al2O3, with about 11% and 2%, respectively. When modified c-
+ Al2O3 served as catalysts, a little more coke was produced with car-
+ bon yield of coke in the range of 15.69–18.69%. When c-Al2O3-2%
+ was used, the carbon yield of nitriles reached the highest of
+ 58.11%, the carbon yield and selectivity of TPN in nitriles were
+ 52.26% and 89.95%, respectively. When c-Al2O3-4% served as cata-
+ lyst, the carbon yield of nitriles, TPN (56.06% and 51.48%) was sim-
+ ilar to those of c-Al2O3-2%. The selectivity of TPN in nitriles of c-
+ Al2O3-4% was 90.97%, which was the highest among all the cata-
+ lysts. When c-Al2O3-6% and c-Al2O3-8% served as catalysts, the
+ carbon yield of nitriles and the selectivity of TPN in nitriles began
+ to decrease because of the destruction of structure of c-Al2O3-6%
+ and c-Al2O3-8% catalysts.
+ For gases, due to the excess ammonia existing in this process,
+ which was easy to react with CO2 (formed in the pyrolysis process),
+ thus CO2 couldn’t be detected by GC in this study. Therefore, there
+ was no quantitative data of CO2 in this study. CO, CH4 and C3 were
+ detected and quantitative analysis in Table 2. There was no obvious
+ effect of catalyst on the selectivity of gases. The selectivity of CO,
+ CH4 and C3 was about 80%, 12% and 8%, respectively. Based on
+ the above results, c-Al2O3-2% was chosen as the optimal catalyst
+ Fig. 2. The XRD patterns of Al2O3-based catalysts. for producing TPN in the following tests.
+
+
+
+
+Table 1
+The typical properties of the catalysts.
+
+ Catalysts BET surface area (m2/g) Pore volume (cm3/g) Pore diameter (nm) Total acidity amounts (lmol/g)
+ c-Al2O3 153.01 0.71 8.98 231.5
+ c-Al2O3-2%a 133.17 0.72 11.37 315.7
+ c-Al2O3-4% 127.81 0.71 11.38 336.6
+ c-Al2O3-6% 112.15 0.62 N.D. 351.3
+ c-Al2O3-8% 109.11 0.62 N.D 364.2
+ a
+ 2% mass ratio of H3PO4 (based on P2O5), other percentages for catalyst in the first column are the same follow; N.D.: not detectable.
+
+
+=== 7.pdf PDF 5 ===
+ L. Xu et al. / Waste Management 92 (2019) 97–106 101
+
+
+Table 2
+Product distributions of CFP-A of PET over different catalysts.a
+
+ Entry 1 2 3 4 5
+ Catalyst c-Al2O3 c-Al2O3-2% c-Al2O3-4% c-Al2O3-6% c-Al2O3-8%
+ Overall carbon yield (C%)
+ Coke 13.45 15.69 17.36 16.82 18.59
+ Gases 10.40 10.48 10.96 11.27 11.81
+ Nitrilesb 45.61 58.11 56.06 52.11 43.34
+ Aromaticsc 2.74 1.05 1.67 2.01 1.85
+ Amidesd 1.31 N.D N.D N.D N.D
+ Oxygenatese 1.42 N.D N.D N.D N.D
+ Nitriles selectivity (%)
+ Benzonitrile 13.53 6.49 5.58 7.41 9.97
+ TPN 81.71 89.95 90.97 88.39 85.67
+ Acetonitrile 3.99 2.85 2.53 3.19 3.53
+ Other alkyl aromatic nitrilesf 0.77 0.71 0.91 1.02 0.83
+ Gases selectivity (%)
+ CO 80.58 79.81 78.19 82.70 75.61
+ CH4 11.63 11.79 12.68 10.74 15.58
+ C3 7.79 8.40 9.12 6.57 8.81
+ a
+ Reaction conditions: catalyst dosage of 1 g; reaction temperature of 500 °C; N2 and NH3 flow rate, 80 mL/min; PET fed in 0.5 g/batch.
+ b
+ Nitriles: TPN, benzonitrile, acetonitrile and other alkyl aromatic nitriles.
+ c
+ Aromatics: benzene, toluene, xylenes, biphenyl, naphthalene, etc.
+ d
+ Amides: benzamide, terephthalamide, etc.
+ e
+ Oxygenates: p-phthalic acid, methyl benzoate, dimethyl terephthalate, etc.
+ f
+ Other alkyl aromatic nitriles: methyl benzonitrile, methyl TPN.
+
+
+3.3. Effect of temperature on the terephthalonitrile (TPN) production temperature is a key important factor on the TPN production. Tem-
+ perature was optimized over the c-Al2O3-2% catalyst bed at the
+ A number of reactions (e.g. thermal decomposition, ammonoly- range of 450–700 °C by fixing catalyst amount (1 g) and total gas
+sis, dehydration, decarboxylation, condensation, and coupling cok- flow rate at 160 mL/min (50% ammonia and 50% N2). Fig. 3 shows
+ing) occurred during the CFP-A of PET process. Pyrolysis the effect of temperature on (a) overall yield of products, (b)
+ nitriles selectivity and (c) gas yield. In Fig. 3a, the yield of coke
+ decreased from 23.09% to 8.81%, and the yield of gases and aromat-
+ ics increased from 6.98% and 0% to 19.50% and 11.84% with tem-
+ perature increasing from 450 to 700 °C. At 450 °C, no aromatic
+ compounds were detected, while amides and oxygenates could
+ be detected, the carbon yield of them was 4.51% and 6.04%, respec-
+ tively. When temperature increased to 500 °C, no amides and oxy-
+ genates were detected, the carbon yield of nitriles reached the
+ highest yield of 58%, and decreased as temperature increased fur-
+ ther. At 700 °C, the carbon yield of nitriles was only 34.79%.
+ Fig. 3b shows the effect of temperature on the selectivity of
+ benzonitrile, TPN, acetonitrile and other alkyl aromatic nitriles in
+ the nitriles. With temperature increasing, the selectivity of ben-
+ zonitrile, acetonitrile and other alkyl aromatic nitriles in the
+ nitriles increased, while the selectivity of TPN decreased. At
+ 450 °C, the selectivity of TPN reached 94.75%. The selectivity of
+ TPN obtained at 500 °C (89.95%) was the higher as compared to
+ that at 550 °C (81.46%). At 700 °C, the selectivity of TPN was only
+ 25.31%. Meanwhile, the selectivity of benzonitrile and acetonitrile
+ in the nitriles was 61.81% and 9.63%, respectively.
+ Fig. 3c gives the carbon yield of detected gases obtained at dif-
+ ferent temperatures. With temperature increasing, the carbon
+ yield of CO, CH4 and C3H6 increased a lot. At 700 °C, the carbon
+ yield of CO reached 15.20%, which was about 4 times of that
+ obtained at 450 °C. Combined with the yield of nitriles in Fig. 3a
+ and the selectivity of TPN in Fig. 3b, the highest carbon yield of
+ TPN was 52.27% at 500 °C. Meanwhile, the selectivity of TPN was
+ 89.95%. Therefore, the optimal temperature for producing TPN
+ was around 500 °C.
+
+ 3.4. Effect of catalyst dosage on the terephthalonitrile production
+
+ The catalyst was fixed as a catalyst bed in the reactor in this
+Fig. 3. The effect of pyrolysis temperature on (a) overall yield, (b) nitriles selectivity
+ study. The bed height was mainly influenced by the catalyst
+and (c) gas yield (Reaction conditions: catalyst Al2O3-2%; catalyst dosage 1 g; N2 dosage, which would affect the contacting time of pyrolytic vapors
+and NH3 flow rate, 80 mL/min; PET fed at 0.5 g/batch). with catalyst bed for the TPN production. Herein, the effect of
+
+
+=== 7.pdf PDF 6 ===
+102 L. Xu et al. / Waste Management 92 (2019) 97–106
+
+
+c-Al2O3-2% dosage was investigated in the range of 0.6–1.2 g by nitrogen. The suitable ammonia percentage is important to save
+fixing temperature at 500 °C and total gas flow rate at 160 mL/ the cost for nitriles production industrially. Herein, the carrier
+min (50% NH3 and 50% N2). Fig. 4 show the overall yield and nitriles gas with different content ammonia was investigated in the range
+selectivity of CFP-A with different catalyst dosage. In Fig. 4a, the of 100–20% by fixing temperature at 500 °C, catalyst amount (1 g),
+carbon yield of coke changed insignificantly with c-Al2O3-2% and total gas flow rate at 160 mL/min. Table 3 shows the overall
+dosage increasing, and kept at about 17%. Meanwhile, the carbon yield of products and the selectivity of nitriles, ammonia content
+yield of gases and aromatics increased, but the carbon yields of affected the product distributions slightly, when ammonia content
+amides, oxygenates and unidentified carbon decreased. When cat- of carrier gas was more than 50%. When pure ammonia served as
+alyst dosage was 0.6 g, the carbon yield of amides, oxygenates and carries gas, the carbon yield and selectivity of TPN was 53.23%
+unidentified carbon was 8.79%, 9.02% and 31.83%, respectively. and 90.92%, respectively, which was a bit higher than that obtained
+When catalyst usage was at 1.0 g, amides and oxygenates disap- under 50% ammonia (52.27% and 89.95%), and the difference could
+peared. Meanwhile, the carbon yield of nitriles reached the highest, be negligible. If ammonia content decreased further, the carbon
+and the unidentified carbon yield decreased to 14.67%. In addition, yield of nitriles would be affected significantly. At 20% ammonia,
+the excess catalyst would also decrease the nitriles yield, the some oxygenates could be detected in the products. In addition,
+nitriles yield decreased to 53.02% with catalyst usage increasing the selectivity of benzonitrile, TPN, acetonitrile and other alkyl aro-
+to 1.2 g. The above results indicated that amides and oxygenates matic nitriles in nitriles changed slightly, and kept at about 7%,
+were the key intermediates from PET to nitriles, and acid catalysis 90%, 2% and 1%, respectively. Therefore, the suitable ammonia con-
+was very important for CFP-A of PET. Fig. 4b show the effect of cat- tent of carrier gas for producing TPN in this study was 50%.
+alyst dosage on the nitriles selectivity. The selectivity of benzoni- The best conditions for the production of TPN were selected as
+trile, TPN, acetonitrile and other alkyl aromatic nitriles in nitriles 1 g c-Al2O3-2%, 500 °C under carrier gas with 50% ammonia, with
+changed slightly with the catalyst dosage changing, and kept at 52.27% TPN yield and 89.95% selectivity. In addition, CFP-A of
+10%, 87%, 2% and 1%, respectively. Therefore, the suitable usage bottle-based PET plastic to produce TPN was also conducted under
+of c-Al2O3-2% for TPN production is about 1.0 g. the optimal conditions. The carbon yield and selectivity of TPN was
+ 46.94% and 85.75%, respectively. It indicated that CFP-A was a suc-
+ cessful way to convert PET plastic to produce TPN.
+3.5. Effect of ammonia content in the carrier gas
+
+ 3.6. Catalyst cycles
+ Usually, nitrogen served as carrier gas in the pyrolysis process.
+In the CFP-A process, ammonia is not only the carrier gas but reac-
+ The stability of catalysts was very important practical applica-
+tant for producing nitriles. It is as important as PET and catalyst in
+ tions. Catalyst c-Al2O3-2% was studied by conducting five reac-
+this process. However, the price of ammonia is much higher than
+ tion/regeneration cycles at the best conditions. For each cycle,
+ the spent catalyst was calcined with air (100 mL/min) at 550 °C
+ for 3 h to remove the coke formed on the surface of the catalyst.
+ Fig. 5 shows (a) overall yield (b) yield of nitriles, and (c) the selec-
+ tivity of nitriles of each catalyst recycle. After five cycles, the car-
+ bon yield of nitriles and TPN decreased from 58.11% and 52.27%
+ to 50.76% and 46.01%, respectively, slightly decreased as compared
+ with the first cycle. Meanwhile, the yield of unidentified carbon
+ increased from14.67% to 18.02%. The variation on the yield of coke,
+ gases, and aromatics was not obvious, and kept at around 16%, 10%
+ and 2%, respectively. In addition, Fig. 5c also shows that the varia-
+ tion on the selectivity of benzonitrile, TPN, acetonitrile and other
+ alkyl aromatic nitriles in the nitriles was not obvious, and kept at
+ about 7%, 90%, 2% and 1%, respectively. Based on the results, the
+ catalyst has a bit deactivation. In addition, the nitrogen adsorp-
+ tion/desorption and NH3-TPD were conducted to study the changes
+ of pore structure and total acid amounts before and after 5 cycles
+ (Table 4 and Fig. S3). In Table 4, BET surface area, pore volume
+ and pore diameter changed slightly after 5 cycles. The total acid
+ amounts decreased from 315.7 to 260.25 lmol/g. Therefore, the
+ deactivation of c-Al2O3-2% could be caused by the acid site loss.
+
+ 3.7. Reaction pathways from PET to nitriles
+
+ In order to know the possible reaction pathways from PET to
+ nitriles, CFP-A of some intermediates was carried out in this study.
+ Artetxe et al. (2010) and Grause et al. (2011) reported that tereph-
+ thalic acid and benzoic acid, and their related esters were the main
+ compounds in PET thermal decomposition process. Edge et al.
+ (1996) also reported that beside the above compounds, acetalde-
+ hyde and benzaldehyde could also be formed in PET thermal
+ decomposition process. In addition, amides were the main com-
+ pounds in PET ammonolysis process. Therefore, benzoic acid,
+Fig. 4. The effect of catalyst dosage on (a) overall yield, and (b) nitriles selectivity
+ methyl benzoate, benzamide, terephthalic acid, dimethyl tereph-
+(Reaction conditions: catalyst c-Al2O3-2%; pyrolysis temperature of 500 °C; N2 and thalate, terephthalamide, acetaldehyde and benzaldehyde were
+NH3 flow rate, 80 mL/min; PET fed at 0.5 g/batch). employed as the feedstocks for producing nitriles via CFP-A process
+
+
+=== 7.pdf PDF 7 ===
+ L. Xu et al. / Waste Management 92 (2019) 97–106 103
+
+
+Table 3
+The effect of ammonia content of carrier gas on the product distributions of CFP-A of PET.a
+
+ Ammonia content 100% 80% 60% 50% 40% 20%
+ Overall carbon yield (C%)
+ Coke 16.32 16.39 15.23 15.69 13.27 14.12
+ Gases 11.02 12.94 11.41 10.48 9.77 13.21
+ Nitriles 58.55 57.44 58.02 58.11 52.98 49.53
+ Aromatics 1.32 1.24 0.93 1.05 1.17 1.43
+ Oxygenates N.D N.D N.D N.D N.D 1.55
+ Unidentified carbon 12.79 11.99 14.41 14.67 22.81 20.16
+ Nitriles selectivity (%)
+ Benzonitrile 6.45 6.05 7.50 6.49 6.63 6.67
+ Terephthalonitrile 90.92 90.94 89.59 89.95 90.22 89.61
+ Acetonitrile 2.63 2.80 2.62 2.85 2.70 3.15
+ Other alkyl aromatic nitriles 0.00 0.21 0.29 0.71 0.45 0.57
+ a
+ Reaction conditions: pyrolysis temperature: 500 °C; catalyst: Al2O3-2%; catalyst dosage of 1 g; PET fed at 0.5 g/batch; total flow rate of ammonia and nitrogen is 160 mL/
+min.
+
+
+
+ stocks, the product distribution was similar to that of PET (entry 4
+ to entry 6), the main product was TPN and a little of benzonitrile
+ could also be detected. In addition, when acetaldehyde served as
+ feedstock, acetonitrile was the only kind of nitrile, benzonitrile
+ was the main product of CFP-A of benzaldehyde (entry 7 and 8).
+ It could explain the acetonitrile detected in the products of CFP-A
+ of PET.
+ Based on all the above studies, the reaction pathways from PET
+ to nitriles were proposed and summarized in Fig. 6. PET initially
+ underwent a thermal decomposition to form terephthalic acid,
+ benzoic acid, related esters, acetaldehyde and benzaldehyde. Then,
+ the aromatic acid and related esters reacted with ammonia to form
+ amides, which were converted to nitriles via dehydration. Alde-
+ hyde compounds (acetaldehyde and benzaldehyde) also reacted
+ with ammonia to form imine compounds, which were converted
+ to nitriles via dehydration. Finally, the amides and imine com-
+ pounds were converted to nitriles via catalytic dehydration reac-
+ tion. Meanwhile, some side reactions, such as decarbonylation,
+ cracking, coupling, alkylation and oligomerization, were also
+ occurred with certain amounts of coke, gases, hydrocarbons and
+ alkyl aromatic nitriles formed.
+
+ 3.8. Separation and purification of TPN
+
+ The separation and purification of TPN from the pyrolysis prod-
+ ucts were also investigated. According to the above results, the
+ pyrolysis products collected in the cold trap included nitriles (ben-
+ zonitrile, TPN, acetonitrile, etc.) and aromatics (benzene, tolune,
+ and biphenyl, etc.). TPN was solid under natural conditions, insol-
+ uble in water, slightly soluble in methanol and ethanol and some
+ other organic solvents. It could be only soluble in hot methanol
+ and benzene. In addition, benzonitrile, acetonitrile and aromatics
+Fig. 5. Catalyst cycles (a) overall yield, (b) nitriles yield, (c) selectivity. (Reaction
+ were easily soluble in the methanol, even at low temperature
+conditions: catalyst c-Al2O3-2%, 1 g; pyrolysis temperature of 500 °C; N2 and NH3 (20 °C). Thus, TPN could be separated via recrystallization based
+flow rate, 80 mL/min; PET fed at 0.5 g/batch). on the different solubility of pyrolysis products in methanol sol-
+ vent at low temperature. Fig. 7 displays the schematic diagram of
+ the separation and purification of TPN from the pyrolysis products.
+(Table 5). When benzoic acid, methyl benzoate and benzamide In 1H NMR spectra of separated sample (Fig. 7 and Fig. S5),
+served as feedstocks (entry 1 to entry 3), benzonitrile was the main 1.55 ppm was attributed to hydrogen of H2O, 7.28 ppm was attrib-
+product, and the carbon yield was above 50%. When terephthalic uted to hydrogen of the solvent (deuterium generation of chloro-
+acid, dimethyl terephthalate, and terephthalamide served as feed- form, Chloroform-d), 7.80 ppm was attributed to hydrogen of
+
+
+Table 4
+The typical properties of the catalysts before and after 5 cycles.
+
+ Catalysts BET surface area (m2/g) Pore volume (cm3/g) Pore diameter (nm) Total acid amounts (lmol/g)
+ Al2O3-2%-fresh 133.17 0.72 11.37 315.7
+ Al2O3-2%-after 5 cycles 128.16 0.70 11.40 260.25
+
+
+=== 7.pdf PDF 8 ===
+104 L. Xu et al. / Waste Management 92 (2019) 97–106
+
+
+Table 5
+Summary of CFP-A of different intermediates for the mechanism study.a
+
+ Entry 1 Entry 2 Entry 3 Entry 4 Entry 5 Entry 6 Entry 7b Entry 8c
+ Feedstocks Benzoic Methyl Benzamide Terephthalic Bimethyl Terephthalamide Acetaldehyde Benzaldehyde
+ acid benzoate acid terephthalate
+ Overall carbon yield (C %)
+ Coke 17.58 20.03 18.44 15.91 18.85 16.23 25.17 21.64
+ Nitriles 60.56 55.07 54.01 57.84 60.19 59.54 43.24 39.37
+ Aromatics 3.69 3.27 1.79 4.55 2.15 2.06 N.D 4.32
+ Overall carbon yield of nitriles
+ Benzonitrile 60.56 51.66 52.95 2.01 4.38 2.02 N.D 39.37
+ Terephthalonitrile N.D N.D N.D 56.83 53.04 56.69 N.D N.D
+ Acetonitrile N.D N.D N.D N.D N.D N.D 43.24 N.D
+ Other alkyl aromatic N.D 3.41 1.06 N.D 2.77 0.83 N.D N.D
+ nitriles
+ a
+ Reaction conditions: catalyst: Al2O3-2%; catalyst dosage of 1 g; PET fed at 0.5 g/batch; total flow rate of carrier gas of 160 mL/min, ammonia content of 50%.
+ b
+ Acetaldehyde was diluted with water, the content of acetaldehyde in solution fed is 40%.
+ c
+ The detailed experiment reactor is shown in Supplementary material.
+
+
+
+
+ Fig. 6. The proposed reaction pathways from PET to aromatic nitriles.
+
+
+
+
+ Fig. 7. The schematic diagram of the separation and purification of TPN from the pyrolysis products.
+
+
+=== 7.pdf PDF 9 ===
+ L. Xu et al. / Waste Management 92 (2019) 97–106 105
+
+
+TPN. Beside the above mentioned, no other organic compounds Datta, J., Kopczyńska, P., 2016. From polymer waste to potential main industrial
+ products: actual state of recycling and recovering. Crit. Rev. Environ. Sci.
+were detected via 1H NMR. TPN with high purity (>95% based on
+1 Technol. 46, 905–946.
+ H NMR) could be separated from pyrolysis products via thermal Diaz-Silvarrey, L.S., McMahon, A., Phan, A.N., 2018. Benzoic acid recovery via waste
+solution, freezing recrystallization, filtration and desiccation pro- poly(ethylene terephthalate) (PET) catalytic pyrolysis using sulphated zirconia
+cedures after pyrolysis. The separated carbon yield of TPN was catalyst. J. Anal. Appl. Pyrolysis 134, 621–631.
+ Doğan-Sağlamtimur, N., Bilgil, A., Güven, A., Ötgün, H., Yildirim, E.D., Arican, B.,
+about 32.13%, which was about 60% of TPN before separation pro- 2018. Producing of qualified oil and carbon black from waste tyres and pet
+cess. Therefore, the better separation process should be developed bottles in a newly designed pyrolysis reactor. J. Therm. Anal. Calorim. https://
+in the future study. doi.org/10.1007/s10973-018-7576-1.
+ Du, S., Valla, J.A., Parnas, R.S., Bollas, G.M., 2016. Conversion of polyethylene
+ terephthalate based waste carpet to benzene-rich oils through thermal,
+ catalytic, and catalytic steam pyrolysis. ACS Sustain. Chem. Eng. 4, 2852–2860.
+4. Conclusions Dziwiński, E.J., Iłowska, J., Gniady, J., 2018. Py-GC/MS analyses of poly(ethylene
+ terephthalate) film without and with the presence of tetramethylammonium
+ TPN was efficiently produced with high selectivity from poly- acetate reagent. Comparative study. Polym. Test. 65, 111–115.
+ Edge, M., Wiles, R., Allen, N.S., McDonald, W.A., Mortlockb, S.V., 1996.
+ethylene terephthalate (PET) plastic in one step by catalytic fast Characterisation of the species responsible for yellowing in melt degraded
+pyrolysis with ammonia. Variables of types of catalysts, pyrolysis aromatic polyesters-I: yellowing of poly (ethylene terephthalate). Polym.
+temperature, catalyst dosage, ammonia content in the carrier gas Degrad. Stab. 53, 141–151.
+ Galanov, S.I., Sidorova, O.I., Kurina, L.N., Golovko, A.K., 2003. Catalytic synthesis of
+were optimized for PET conversion and TPN production. The best
+ acetonitrile by ammonolysis of acetic acid. Petrol. Chem. 43, 283–285.
+conditions for producing TPN was1 g c-Al2O3-2% at 500 °C under Galanov, S.I., Sidorova, O.I., Gavrilenko, M.A., 2014. The process of acetonitrile
+carrier gas with 50% ammonia with carbon yield of nitriles and synthesis over c-Al2O3 promoted by phosphoric acid catalysts. Procedia Chem.
+ 10, 108–113.
+TPN of 58.11% and 52.27%, respectively. The selectivity of TPN in
+ George, N., Kurian, T., 2014. Recent developments in the chemical recycling of
+the nitriles was around 90%. Aromatics, benzonitrile, acetonitrile postconsumer poly (ethylene terephthalate) waste. Ind. Eng. Chem. Res. 53,
+were also produced with total carbon yield less than 3%. After 5 14185–14198.
+cycles, the catalyst was stable and deactivated slightly. Reaction Geyer, B., Lorenz, G., Kandelbauer, A., 2016. Recycling of poly (ethylene
+ terephthalate) – a review focusing on chemical methods. Express. Polym. Lett.
+paths were proposed and terephthalic acid, benzoic acid, related 10, 559–586.
+esters and amides were the major intermediates from PET to Grause, G., Buekens, A., Sakata, Y., Okuwaki, A., Yoshioka, T., 2011. Feedstock
+nitriles. Acetonitrile could be produced from acetaldehyde and its recycling of waste polymeric material. J. Mater. Cycles. Waste Manage. 13, 265–
+ 282.
+corresponding imines. TPN was further recovered and purified by Hao, L., Luo, B., Li, X., Jin, M., Fang, Y., Tang, Z., Jia, Y., Liang, M., Thomas, A., Yang, J.,
+freezing recrystallization way. Zhi, L., 2012. Terephthalonitrile-derived nitrogen-rich networks for high
+ Although preliminary progress has been made in the prepara- performance supercapacitors. Energy Environ. Sci. 5, 9747–9751.
+ Hoang, C.N., Dang, Y.H., 2013. Aminolysis of poly (ethylene terephthalate) waste
+tion of TPN from PET plastic via CFP-A process, there are still many with ethylenediamine and characterization of a, x-diamine products. Polym.
+difficulties and challenges, such as catalyst stability, separation and Degrad. Stab. 98 (3), 697–708.
+purification of products, reactor design and reaction system com- Honus, S., Kumagai, S., Fedorko, G., Molnár, V., Yoshioka, T., 2018a. Pyrolysis gases
+ produced from individual and mixed PE, PP, PS, PVC, and PET-Part I: production
+patibility. Therefore, more research works to realize the large-
+ and physical properties. Fuel 221, 346–360.
+scale recycling of PET plastics and the industrial production of Honus, S., Kumagai, S., Molnár, V., Fedorko, G., Yoshioka, T., 2018b. Pyrolysis gases
+TPN would be done in the future. produced from individual and mixed PE, PP, PS, PVC, and PET-Part II: Fuel
+ characteristics. Fuel 221, 361–373.
+ Izzatie, N.I., Basha, M.H., Uemura, Y., Hashim, M.S.M., Amin, N.A.M., Hamid, M.F.,
+Acknowledgment 2017. Co-pyrolysis of rice straw and Polyethylene Terephthalate (PET) using a
+ fixed bed drop type pyrolyzer. J. Phys.: Conf. Ser. 908, 012073.
+ Kharasch, M.S., Beck, T.M., 2002. The chemistry of organic gold compounds. V.
+ The authors are grateful to the financial supports from the Nat- Auration of aromatic nitriles. J. Am. Chem. Soc. 56, 2057–2060.
+ural Science Foundation of Jiangsu Province (No. BK20180548), Kholkhoev, B.C., Burdukovskii, V.F., Mognonov, D.M., 2010. Synthesis of
+National Natural Science Foundation of China (No. 21878161), polyamidines based on 1, 4-dicyanobenzene and 4, 4́-diaminodiphenyl oxide
+ in ionic liquids. Russ. Chem. Bull. 59, 2159–2160.
+Nanjing Agricultural University (77J-0603, 68Q-0603), Open Fund- Kim, J., Kim, H.J., Chang, S., 2012. Synthesis of aromatic nitriles using nonmetallic
+ing of Key Laboratory of Energy Thermal Conversion and Control of cyano-group sources. Angew. Chem. Int. Ed. 51, 11948–11959.
+the Ministry of Education of China at Southeast University, ‘‘Inno- Kobayashi, M., Nagasawa, T., Yamada, H., 1988. Regiospecific hydrolysis of dinitrile
+ compounds by nitrilase from rhodococcus rhodochrous J1. Appl. Microbial.
+vation & Entrepreneurship Talents” Introduction Plan of Jiangsu Biotechnol. 29, 231–233.
+Province. Kumagai, S., Yamasaki, R., Kameda, T., Saito, Y., Watanabe, A., Watanabe, C.,
+ Teramae, N., Yoshiok, T., 2017. Tandem l -reactor-GC/MS for online monitoring
+ of aromatic hydrocarbon production via CaO-catalysed PET pyrolysis. React.
+Appendix A. Supplementary material Chem. Eng. 2, 776–784.
+ Kumagai, S., Yamasaki, R., Kameda, T., Saito, Y., Watanabe, A., Watanabe, C.,
+ Teramae, N., Yoshiok, T., 2018. Aromatic hydrocarbon selectivity as a function of
+ Supplementary data to this article can be found online at CaO basicity and aging during CaO-catalyzed PET pyrolysis using tandem m-
+https://doi.org/10.1016/j.wasman.2019.05.011. reactor-GC/MS. Chem. Eng. J. 332, 169–173.
+ Levchik, S.V., Weil, E.D., 2004. A review on thermal decomposition and combustion
+ of thermoplastic polyesters. Polym. Adv. Technol. 15, 691–700.
+References Liu, C., Wang, H., Karim, A.M., Sun, J., Wang, Y., 2014. Catalytic fast pyrolysis of
+ lignocellulosic biomass. Chem. Soc. Rev. 43, 7594–7623.
+ Lorenc-Grabowska, E., Diez, M.A., Gryglewicz, G., 2016. Influence of pore size
+Adalbert, F., Rudolph, R., 1957. Production of terephthalonitrile. US Patent 2784213.
+ distribution on the adsorption of phenol on PET-based activated carbons. J.
+Almeida, D., Marques, M.F., 2016. Thermal and catalytic pyrolysis of plastic waste.
+ Colloid. Interf. Sci. 469, 205–212.
+ Polímeros 26, 44–51.
+ More, A.P., Kokate, S.R., Rane, P.C., Mhaske, S.T., 2017. Studies of different
+Al-Sabagh, A.M., Yehia, F.Z., Harding, D.R.K., Eshaq, G., ElMetwally, A.E., 2016. Fe3O4-
+ techniques of aminolysis of poly (ethylene terephthalate) with
+ boosted MWCNT as an efficient sustainable catalyst for PET glycolysis. Green
+ ethylenediamine. Polym. Bull. 74, 3269–3282.
+ Chem. 18, 3997–4003.
+ Niksiar, A., Faramarzi, A.H., Sohrabi, M., 2015. Mathematical modeling of
+Artetxe, M., Lopez, G., Amutio, M., Elordi, G., Olazar, M., Bilbao, J., 2010. Operating
+ polyethylene terephthalate pyrolysis in a spouted bed. AIChE J. 61, 1900–1911.
+ conditions for the pyrolysis of poly-(ethylene terephthalate) in a conical
+ Wang, S., Jiang, D., Cao, B., Qian, L., Hu, Y., Liu, L., Yuan, C., Abomohra, A., He, Z.,
+ spouted-bed reactor. Ind. Eng. Chem. Res. 49, 2064–2069.
+ Wang, Q., Zhang, B., 2018a. Bio-char and bio-oil characteristics produced from
+Blackmon, K.P., Fox, D.W., Shafer, S.J., 1990. Process for converting pet scrap to
+ the interaction of Enteromorpha clathrate volatiles and rice husk bio-char
+ diamine monomers. US Patent 4973746.
+ during co-pyrolysis in a sectional pyrolysis furnace: a complementary study. J.
+Bornschein, C., Werkmeister, S., Wendt, B., Jiao, H., Alberico, E., Baumann, W., Junge,
+ Anal. Appl. Pyrolysis 135, 219–230.
+ H., Junge, K., Beller, M., 2014. Mild and selective hydrogenation of aromatic and
+ Wang, S., Cao, B., Liu, X., Xu, L., Hu, Y., Afonaa-Mensah, S., Abomohra, A., He, Z.,
+ aliphatic (di)nitriles with a well-defined iron pincer complex. Naturecommun.
+ Wang, Q., Xu, S., 2018b. A comparative study on the quality of bio-oil derived
+ 5, 4111.
+
+
+=== 7.pdf PDF 10 ===
+106 L. Xu et al. / Waste Management 92 (2019) 97–106
+
+
+ from green macroalgae Enteromorpha clathrata over metal modified ZSM-5 Xie, G.Y., Huang, C., 2009. Preparation of terephthalonitrile by p-xylene
+ catalysts. Bioresour. Technol. 256, 446–455. ammoxidation. Chem. Eng. (China) 37, 32–35.
+Wong, S.L., Ngadi, N., Abdullah, T.A.T., Inuwa, I.M., 2015. Current state and future Xu, L., Han, Z., Yao, Q., Ding, J., Zhang, Y., Fu, Y., Guo, Q., 2015. Towards the
+ prospects of plastic waste as source of fuel: a review. Renew. Sustain. Energ. sustainable production of pyridines via thermo-catalytic conversion of glycerol
+ Rev. 50, 1167–1180. with ammonia over zeolite catalysts. Green. Chem. 17, 2426–2435.
+Paszun, D., Spychaj, T., 1997. Chemical recycling of poly (ethylene terephthalate). Xu, L., Yao, Q., Han, Z., Zhang, Y., Fu, Y., 2016. Producing pyridines via
+ Ind. Eng. Chem. Res. 36, 1373–1383. thermocatalytic conversion and ammonization of waste polylactic acid over
+Raghavendrachar, P., Ramachandran, S., 1992. Liquid-phase catalytic oxidation of p- zeolites. ACS Sustain. Chem. Eng. 4, 1115–1122.
+ xylene. Ind. Eng. Chem. Res. 31, 453–462. Xue, Y., Johnston, P., Bai, X., 2017. Effect of catalyst contact mode and gas
+Ragaert, K., Delva, L., Van Geem, K., 2017. Mechanical and chemical recycling of atmosphere during catalytic pyrolysis of waste plastics. Energy Conver. Manage.
+ solid plastic waste. Waste Manage. 69, 24–58. 142, 441–451.
+Sharma, P., Lochab, B., Kumar, D., Roy, P.K., 2015. Sustainable bis-benzoxazines from Yoshioka, T., Grause, G., Eger, C., Kaminsky, W., Okuwaki, A., 2004. Pyrolysis of poly
+ cardanol and PET-derived terephthalamides. ACS Sustain. Chem. Eng. 4, 1085– (ethylene terephthalate) in a fluidised bed plant. Polym. Degrad. Stab. 86, 499–
+ 1093. 504.
+Singh, N., Hui, D., Singh, R., Ahuja, I.P.S., Feo, L., Fraternali, F., 2017. Recycling of Yoshioka, T., Handa, T., Grause, G., Lei, Z., Inomata, H., Mizoguchi, T., 2005. Effects of
+ plastic solid waste: a state of art review and future applications. Compos. Part B metal oxides on the pyrolysis of poly (ethylene terephthalate). J. Anal. Appl.
+ 115, 409–422. Pyrolysis 73, 139–144.
+Sinha, V., Patel, M.R., Patel, J.V., 2010. PET waste management by chemical Zhou, X., Wang, C., Fang, C., Yu, R., Li, Y., Lei, W., 2019. Structure and thermal
+ recycling: a review. J. Polym. Environ. 18, 8–25. properties of various alcoholysis products from waste poly(ethylene
+Trifiro, F., Jirů, P., 1988. About some possibilities and causes of changes in selectivity terephthalate). Waste Manage. 85, 164–174.
+ of vanadium containing zeolitic catalysts in oxidation reactions. Catal. Today 3,
+ 519–524.

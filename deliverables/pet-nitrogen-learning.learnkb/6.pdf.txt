@@ -1,0 +1,631 @@
+
+=== 6.pdf PDF 1 ===
+ Journal of Cleaner Production 434 (2024) 140204
+
+
+ Contents lists available at ScienceDirect
+
+
+ Journal of Cleaner Production
+ journal homepage: www.elsevier.com/locate/jclepro
+
+
+
+
+Valorization of waste PET: Understanding the role of active ammonia in
+facilitating PET depolymerization and aromatic nitrile formation
+Geliang Xie a, 1, Guoqiang Zhu a, 1, Yifan Kang a, Mingxu Zhu a, Qianqian Lu b, Chao He c,
+Lujiang Xu a, *, Zhen Fang a
+a
+ Biomass Group, College of Engineering, Nanjing Agricultural University, No. 40 Dianjiangtai Road, Nanjing, 210031, China
+b
+ College of Sciences, Nanjing Agricultural University, No. 1 Weigang, Xuanwu District, Nanjing, 210095, China
+c
+ Faculty of Engineering and Natural Sciences, Tampere University, Tampere, Finland
+
+
+
+
+A R T I C L E I N F O A B S T R A C T
+
+Handling Editor: Kathleen Aviso Realizing the recovery and valorization of waste polyethylene terephthalate (PET) plastics into value-added
+ products have gained significant importance. This study successfully synthesized aromatic nitriles, specifically
+Keywords: terephthalonitrile (TPN), from waste polyethylene terephthalate (PET) plastic through in situ catalytic pyrolysis
+Polyethylene terephthalate with urea and γ-Al2O3 catalyst. Based on distributed activation energy model, positive interaction between waste
+Catalytic pyrolysis
+ PET and urea is responsible for improved thermal decomposition kinetics. The dosage of urea and pyrolysis
+Thermodynamics
+ temperature significantly influenced TPN production. TPN yield reached 32.5% with ca. selectivity of 85% at
+Terephthalonitrile
+Density functional theory 550 ◦ C and equivalent urea dosage. Density functional theory calculations validated the role of active ammonia
+ in reducing energy barriers and thus facilitating PET depolymerization. The study highlights the feasibility of
+ recycling waste PET into valuable aromatic nitriles through in situ catalytic pyrolysis with urea and enhances the
+ understanding of the pyrolysis process.
+
+
+
+
+1. Introduction with wide applications (Hao et al., 2012; Schelter et al., 2008; Tsuchiya
+ et al., 2013). Especially in the pesticide production industry, aromatic
+ Polyethylene terephthalate plastics (PET) with series of advantages nitriles can be used as raw materials to synthesize a variety of pesticides,
+(e.g., excellent thermal properties, mechanical properties, ecological such as pyrethroid insecticides (e.g., transfluthrin, fenfluthrin, meper­
+suitability, and stability) are used widely as bottles, fibers, films, fluthrin, etc.) and fungicides such as azoxystrobin (Xu et al., 2019a,b).
+households, and electrical appliances (Ragaert et al., 2017; Sharuddin Industrially, terephthalonitrile is mainly produced through
+et al., 2016). Annually, over 30 million tons of PET are produced and petroleum-based synthesis processes. Firstly, the crude oil underwent
+consumed, which will lead to large amounts of wasted PET plastics every the cracking process to produce aromatic hydrocarbons, then aromatic
+year (Liu et al., 2022; Wong et al., 2015). The excellent thermal and hydrocarbons were alkylated to produce p-xylene, and finally under­
+environmental stabilities also limit its decomposition naturally, and lead went the catalytic ammoxidation process to form terephthalonitrile (Pan
+to tremendous pressure to the environment (Datta and Kopczynska, et al., 2014; Qu et al., 2015; Tsuchiya et al., 2013). The raw materials of
+2016). Additionally, PET plastics have uniform chemical structures and this production process are from petrochemical resources, which are
+functional groups (e.g., aromatic rings and ester), which are ideal non-renewable and unsustainable. Moreover, the ammoxidation pro­
+sources for producing aromatic chemicals (Peng et al., 2023). Thus, duction process of aromatic nitrile has certain operational risks and
+selective cleavage and utilization of C–C and C–O bonds within aromatic environmental pollution risks. Accordingly, producing terephthaloni­
+ring structures show great promise in converting waste PET plastics into trile from recyclable or environment-friendly feedstock to with mild
+high-value products, addressing their recovery and upgrade for more conditions is desirable.
+valuable utilization, and emphasizing its significant importance. Catalytic pyrolysis can effectively convert waste PET plastics into
+ Terephthalonitrile (TPN) is an important kind of aromatic nitriles valuable materials with great advantages of green, fast, efficient, and
+
+
+
+ * Corresponding author.
+ E-mail address: lujiangxu@njau.edu.cn (L. Xu).
+ 1
+ These authors contributed equally to this work.
+
+https://doi.org/10.1016/j.jclepro.2023.140204
+Received 26 September 2023; Received in revised form 13 December 2023; Accepted 13 December 2023
+Available online 22 December 2023
+0959-6526/© 2024 Elsevier Ltd. All rights reserved.
+
+
+=== 6.pdf PDF 2 ===
+G. Xie et al. Journal of Cleaner Production 434 (2024) 140204
+
+
+easy-to-scale-up production, and has been recognized as a promising LTD. Nano γ-Al2O3 (20 nm, catalyst), terephthalonitrile (>99%), and
+technology for solid waste valorization (Li et al., 2022; Sharuddin et al., benzonitrile (>99%) were purchased from Shanghai Aladdin Chemical
+2016; Xu et al., 2021). Yoshioka et al. (Kumagai et al., 2018; Yoshioka Reagent Co. Ltd. Waste PET powders were offered by Shanghai Young­
+et al., 2005) reported that catalytically pyrolyze wasted PET plastic with ling Electromechanical Technology Co. Ltd (Shanghai, CHN). Gases,
+CaO to produce aromatic-rich bio-oil. Bollas et al. (Du et al., 2016) also such as Air, Nitrogen (N2, 99.999%), Helium (He, 99.999%) were
+reported that ZSM-5 catalyst exhibited good decarboxylation perfor­ offered by Nanjing Special Gases Factory (Nanjing, CHN).
+mance in catalytic pyrolysis of waste PET plastics into
+aromatic-enriched bio-oil. In addition to catalytic pyrolysis under inert
+ 2.2. Thermogravimetric analysis and kinetic study
+atmosphere, we proposed the catalytic pyrolysis under ammonia at­
+mosphere, which can effectively convert biomass or waste
+ The thermogravimetric (TG) experiments of substrates (e.g., PET,
+oxygen-containing plastics into Nitrogen-containing chemicals
+ urea, a mixture of PET, and urea) were performed on the NETZSCH
+(including pyrroles, pyridines, indoles, aromatic amines, and acetoni­
+ synchronous thermal analyzer (STA449, Germany). 10 mg of sample
+trile, etc.) (Xu et al., 2015a,b, 2016, 2019a). Specifically, the depoly­
+ was placed in a ceramic crucible and heated from 30 ◦ C to 800 ◦ C at
+merization of waste PET plastics can yield aromatic monomers rich in
+ certain heating rates (10 ◦ C/min, 20 ◦ C/min, and 30 ◦ C/min) under the
+active functional groups, which have the potential to convert into aro­
+ 20 mL/min flow of argon. The samples’ weight loss was obtained
+matic nitriles in an ammonia atmosphere. Previous studies have re­
+ directly and was calculated based on the obtained product’s weight loss.
+ported that TPN could be directionally produced from waste PET plastic
+ The kinetic analysis was performed and calculated from the TG results.
+over 2%- P2O5/Al2O3 catalyst (Xu et al., 2019a). Moreover, waste PET
+ The detailed procedure and equations for calculating R2 and activation
+plastics could be selectively converted into benzonitrile over an acid/­
+ energy (EA) were based on the distributed activation energy model
+base bifunctional catalyst (4%Ca(OH)2/Al2O3) at higher pyrolysis tem­
+ (DAEM) in the previous studies (Li et al., 2022; Singh et al., 2022; Tao
+perature (Xu et al., 2019b). Therefore, the value-added recovery of
+ et al., 2021). The calculated fitting mass and DTG in the TG-DTG curves
+waste PET plastic can be realized by ammonia catalytic pyrolysis of
+ were calculated based on equations (1) and (2). (X1, Y1: the mass and
+waste PET plastic to Benzonitrile and TPN.
+ DTG of PET in the TG-DTG curve; Y2: the mass and DTG of urea in the
+ Despite the existing studies on the production of aromatic nitriles
+ TG-DTG curve; N1: the ratio of PET; N2: the ratio of urea). The ΔW
+through catalytic pyrolysis of waste PET plastics with ammonia, the
+ between the experimental and calculated TG curve was calculated based
+effects of active ammonia sources and catalysts on the pyrolysis
+ on equation (3).
+behavior and thermodynamics of PET have not been thoroughly inves­
+tigated. Presently, the research on PET pyrolysis kinetics primarily fo­ X1 ∗ N1 + X2 ∗ N2
+ Cal. Mass (%) = × 100% (1)
+cuses on the pyrolysis behavior under inert atmospheres. Various N1 + N2
+modeling approaches, such as model-free, Coats-Redfern (CR), and
+Kissinger-Akahira-Sunose (KAS), have been employed to analyze the Cal. DTG (%) =
+ Y1 ∗ N1 + Y2 ∗ N2
+ × 100% (2)
+weight loss and weight loss change curves (Thermogravimetry-deriva­ N1 + N2
+tive thermogravimetry: TG-DTG) during PET pyrolysis and determine
+ ΔW (%) = Exp. Mass (%) − Cal. Mass (%) (3)
+kinetic parameters like activation energy (EA) and pre-exponential fac­
+tor (A) (Al-Juaidiyah, 2015; Çepelioğullar and Pütün, 2013; Miandad
+et al., 2017; Mishra et al., 2019). Ganeshan et al. (2017) had highlighted
+the limitations of obtaining accurate results using the CR model under
+first-order reaction conditions, driving researchers to search for more 2.3. Kinetic analysis
+precise fitting models. Osman et al. (2020) successfully applied the
+differential iso-conversion method to calculate kinetic parameters for The kinetic analysis was calculated by the distributed activation
+PET pyrolysis, demonstrating high accuracy, minimal error, and broad energy model (DAEM) and based on the following assumptions: (a) The
+applicability (Ko et al., 2014). However, few studies on the pyrolytic reaction system consists of numerous independent first-order reactions
+kinetic behaviors between PET and active ammonia are reported. Hence, and their derived activation energies are different. (b) The activation
+it is essential to develop a suitable kinetic model to investigate the re­ energy of each reaction presents a continuous distribution function
+action kinetics of PET to TPN in ammonia catalytic pyrolysis systems, (Chen et al., 2022; Luo et al., 2022; Shagali et al., 2023).
+which will provide further insights into the conversion mechanism of Eq. (4) is the Arrhenius formula, which is the fundamental model.
+PET and serve as a theoretical basis to produce aromatic nitriles from k = k0 e− E/RT (4)
+PET.
+ This study focuses on the synthesize TPN through in-situ catalytic where k is rate parameter, k0 is pre-exponential factor, E is the activation
+pyrolysis of PET employing urea as an active ammonia source and energy (J ⋅mol− 1 ), R is the universal gas constant (8.314 J ⋅mol− 1 ⋅K− 1 ), T
+commercial γ-Al2O3 catalyst. The interactions between PET and urea is thermodynamic temperature (K).
+during the pyrolysis process were evaluated and analyzed through Furthermore, the calculation method of conversion rate (Eq. (5)) can
+thermogravimetric analysis. Moreover, the kinetic analysis was also be obtained after derivation of Eq. (4).
+conducted and discussed using the distributed activation energy model ∫ +∞ ( ( ∫ ( ) )
+(DAEM). The in-situ catalytic pyrolysis of PET and urea with γ-Al2O3 was α(T) = 1 − exp −
+ k0 T
+ exp −
+ E
+ dT f (E)dE (5)
+carried out to investigate the production of aromatic nitriles and 0 β T0 RT
+assessed the impact of key parameters (e.g., pyrolysis temperature, urea
+dosage, etc.) on TPN production. Finally, Density functional theory where conversion is defined as Eq (6):
+(DFT) calculations were performed to elucidate the mechanistic aspects MT − M0
+of TPN generation via the in-situ catalytic pyrolysis process of PET. Conversion(%) = α(T) = (6)
+ M0 − M∞
+
+2. Experimental section where MT is the mass percentage corresponding to T(K), M0 and M∞ are
+ the mass percentage corresponding to the initial and end reaction tem­
+2.1. Materials perature, respectively. T0 and T are the initial and reaction temperature.
+ f(E) is activation energy distribution function. β is heating rate.
+ Methanol (>99.5%) was from Sinopharm Chemical Reagents Co., The derivative of T on both sides of Eq. (5) can get Eq. (7).
+
+ 2
+
+
+=== 6.pdf PDF 3 ===
+G. Xie et al. Journal of Cleaner Production 434 (2024) 140204
+
+ ∫ +∞ ( ∫T ( ) )
+dα k0 E k0 E 3. Results and discussions
+ = exp − − exp − dT f (E)dE (7)
+dT 0 β RT β T0 RT
+ 3.1. The thermal decomposition behaviors study
+ dα
+where dT is conversion rate. f(E) can be calculated by Eq. (8).
+∫∞ 3.1.1. TG and DTG analysis
+ f (E)dE = 1 (8) Fig. 1 shows the thermogravimetric analysis (TGA, including TG and
+ 0 DTG curves) of PET, urea, and their mixtures in 1:1 ratio at different
+ To simplify the calculation, Eq. (9) is summarized by Eqs. (4)–(8). heating rates (10, 20, and 30 ◦ C/min) in the inert atmosphere. Fig. 1a
+ ( ) ( ) displayed that about 90% of PET was decomposed in the temperature
+ β
+Ln 2 = Ln
+ k0 R
+ + 0.6075 −
+ E
+ (9) range of 360–550 ◦ C and finally formed about 10% of carbon deposits,
+ T E RT which was similar to the results reported by Ganeshan et al. (2017).
+ To deeply study the distribution of activation energy, the theoretical Only one pyrolysis peak was observed in the DTG curve of PET pyrolysis,
+activation energy can be calculated by Eq. (10). indicating that the pyrolysis process of PET with uniform structure was
+ relatively simple, involving homogenization and β-cis elimination re­
+ECal = mEPET + (1 − m)Eurea (10) actions, etc. (Tsuchiya et al., 2013). Fig. 1b showed that urea almost
+ completely decomposed, and the pyrolysis temperature range was much
+where m is the percentage of PET in the mixture, EPET and EUrea are wider, starting from 200 ◦ C and ending at 500 ◦ C. Moreover, the py­
+activation energies for pure PET and pure Urea, respectively. rolysis process of urea was more complicated and underwent 2 pyrolysis
+ stages. In the first stage (140–320 ◦ C), about 60% of urea was decom­
+2.4. DFT calculation posed to form ammonia (NH3) and cyanic acid (HCNO), also reacted
+ with HCNO to form biuret, cyanuric acid, etc. (Schaber et al., 2004).
+ All density functional theory (DFT) calculations were performed Then in the second stage (320–500 ◦ C), the formed compounds (such as
+with Gaussian 16. Geometry optimizations were conducted at the HCNO, etc.) were further decomposed to form NH3 and CO2 until
+B3P862/6–31++G(d,p)3 level of theory. Frequency analyses were car­ completely degraded (Wang et al., 2019).
+ried out at the same level of theory to ensure the stationary point to be Fig. 1c displays that the co-pyrolysis process of PET and urea (1:1)
+minima (zero imaginary frequency) or transition state (one imaginary started at about 130 ◦ C, which was much lower than those of PET
+frequency). The reported energies are enthalpy values (Huang et al., (360 ◦ C) and urea (140 ◦ C). Moreover, the decomposition process of the
+2022). mixture was also more complex than PET and urea, indicating that
+ significant interactions existed and affected the pyrolysis behaviors of
+2.5. Bench-top experiments PET and urea. To further clarify the interactions between urea and PET
+ during the pyrolysis process, TG-DTG curves for experiments with PET
+ The in-situ bench-top pyrolysis experiments were conducted via a and urea mixtures (1:1) and the calculated fitting TG-DTG curves at
+vertical pyrolysis reactor (Anhui Kemi Co. LTD, Hefei, CHN). In each 10 ◦ C/min were compared and shown in Fig. 1d. TG-DTG curves for
+run, 1.0 g of PET and a certain amount of catalyst or urea were mixed experiments with PET and urea mixtures differed from the theoretically
+evenly to form a mixture. Then, the mixture was fed by an injector with calculated fitting curves in many ways, such as initial decomposition
+carrier gas flowing (~200 mL/min) at a certain rate (about 0.4 g/min). temperature, maximum decomposition rates, and related temperatures,
+After the feeding was over, kept it for 10 min. The formed bio-oil product etc. The TG curves in Fig. 1d shows that the mass loss of Exp. TG curve
+was collected in a cold trap (liquid N2). The condensate products in the was much more than that of Cal. TG curve in the range of 130–480 ◦ C
+cold trap were firstly dissolved with hot methanol into a collection bottle indicates that an obvious positive promotion effect existed in the py­
+and then further analyzed and quantified with Agilent GC-MS (Gas rolysis of PET with the urea process.
+Chromatography, Mass Spectrometer, 7890B-5977B) with bi- According to the experimental and calculated fitting DTG curves, the
+cyclohexane as the internal standard (Xu et al., 2021; Zhou et al., 2021). experimental and calculated fitting decomposition of the PET and urea
+ process was further divided into 3 and 4 stages, respectively. The key
+2.6. Products analysis parameters for TG and DTG curves (Cal. and Exp.) were summarized in
+ Table 1. The initial decomposition temperature for the co-
+ The quantitative analysis of the carbon yield of biochar and gas decomposition of PET and urea process was about 130 ◦ C, which was
+products has been reported in detail in previous studies about producing lower than that of urea (140 ◦ C), the mass loss of stage 1 for exp. was
+aromatic nitriles by ammonia-catalyzed pyrolysis process. The mass of 37.32 % (equivalent to 74.64% of urea) was higher than 33.02%
+char was measured by weighing the mass of the quartz tube before and (equivalent to 66.04% of urea) for the calculated curve. Besides, co-
+after the reaction. Then, the carbon content of the char was analyzed pyrolysis could advance the temperature of the maximum DTG value
+with the elemental analyzer. The carbon yield of char was calculated of stage 1 from 220 ◦ C (Cal.) to 200 ◦ C (Exp.) and increase the related
+based on equation (11). The gas yield was also calculated based on maximum DTG value from 5.68 %/min (Cal.) to 6.83 %/min (Exp.).
+equation (12). The detailed components of the bio-oil were analyzed and Stage 2 from 232 to 275 ◦ C in the co-decomposition of PET and urea
+identified by GC-MS with a US NIST library (NIST17.L) and quantified might be the second decomposition stage of urea. Almost 90% of urea
+by GC-FID (Gas chromatography with hydrogen flame ionization de­ was decomposed in the range of 130–275 ◦ C through two thermal
+tector) with bi-cyclohexane as the internal standard. The yield (C%) of decomposition stages, which was much earlier than the theoretically
+nitriles and aromatics was calculated based on equations (12) and (13). fitted process (144–377 ◦ C). Thus, PET had a facilitating effect on urea
+ mass of char × carbon content decomposition during the co-pyrolysis of PET and urea process. The 3rd
+Char yield (C%) = × 100% (11) decomposition stage was in the range of 275–376 ◦ C with 20.80% of
+ carbon moles in PET fed
+ weight loss, in which PET started to decompose and might react with
+ carbon moles in collected aromatics urea or its-derived products, which was much earlier than that of pure
+Aromatics yield (C%) = × 100% (12)
+ carbon moles in PET fed PET (377–498 ◦ C), indicating that urea also had a positive effect on the
+ decomposition of PET during the co-pyrolysis of PET and urea process.
+Nitriles yield (C%) =
+ carbon moles in collected nitriles
+ × 100% (13) The last stage was in the range of 376–508 ◦ C, which was similar to the
+ carbon moles in PET fed decomposition stage of pure PET, corresponding to the decomposition of
+ remaining PET. Therefore, the thermogravimetric analysis revealed that
+
+ 3
+
+
+=== 6.pdf PDF 4 ===
+G. Xie et al. Journal of Cleaner Production 434 (2024) 140204
+
+
+
+
+Fig. 1. TG-DTG curves of pure PET (a), pure urea (b), mixture of PET: Urea = 1:1 (c) at different heating rates, PET: Urea = 1:1 (Cal. and Exp. 10 ◦ C/min) (d).
+
+
+ for pure PET (a), pure urea (b), cal. and exp. of the mixture of PET and
+Table 1
+ urea (c), and the difference between cal. and exp. (d). Fig. 3a shows the
+Parameters for experimental and calculated fitting TG and DTG curves of PET:
+ activation energies of the PET pyrolysis process range from 211.0 to
+Urea = 1:1.
+ 269.0 kJ/mol, and the average activation energy was 246.3 kJ/mol.
+ Stage Temp. range Mass loss Max. DTG T max. When the conversion rate was about 40%, the activation energy reached
+ (◦ C) (%) (%/min) (◦ C)
+ 269.0 kJ/mol, and the DTG value was also maximized. Fig. 3a shows the
+ Cal. 1 140–264 33.02 − 5.68 220 activation energies of the urea pyrolysis process were in the range of
+ 2 264–377 14.30 − 2.90 345
+ 95.6–168.8 kJ/mol, and the average activation energy was 122.4 kJ/
+ 3 377–498 43.29 − 9.12 437
+ mol. In addition, higher activation energy was observed in the latter
+ Exp. 1 130–232 37.32 − 6.83 200
+ degradation stage of urea (second pyrolysis stage), reaching 168.8 kJ/
+ 2 232–275 7.31 − 2.82 244
+ 3 275–376 20.80 − 4.20 330
+ mol (Xu et al., 2019a). Fig. 3c shows that the activation energies for
+ 4 376–508 27.00 − 4.00 429 co-pyrolysis of PET and urea, the activation energies were in the range of
+ 30.4–186.6 kJ/mol, and the average activation energy was 87.8 kJ/mol.
+ Compared with the calculated fitting activation energies, the activation
+positive interactions between PET and urea existed and could accelerate of the co-pyrolysis process was significantly reduced in the conversion
+the decomposition of each other during the pyrolysis process. range of 10–70%, indicating that a significant synergy existed between
+ PET and urea, which could promote the reaction between PET and urea
+3.2. The kinetic study of co-pyrolysis of PET and urea and was very beneficial for the subsequent preparation of downstream
+ nitrogenous compounds of PET. Fig. 3d further reveals the difference
+ To further investigate the effect of urea on the PET pyrolysis process, between the theoretical fitting activation energy and the actual activa­
+the pyrolysis kinetics of pure PET, pure urea, and the mixture of PET and tion energy, and the results shows that there was an obvious synergistic
+urea (1:1) were analyzed using the results of the DAEM method at effect in the co-pyrolysis reaction between urea and PET, especially in
+different heating rates (10, 20 and 30 ◦ C/min). Fig. 2 shows the plots of the conversion rate range of 10–70%, the average activation energy was
+Ln (β/T2) with 1/T at a certain conversion rate (α) for pure PET (Fig. 2a), reduced by 96.5 kJ/mol. Therefore, the calculation of pyrolysis activa­
+pure urea (Fig. 2b), and PET and urea mixture (Fig. 2c). The detailed tion energy further confirmed that urea input has a promoting effect on
+specific linear fitting equations and R2 were listed in Tables S1–S3 in the PET pyrolysis.
+supplementary information. The three points corresponding to the three
+heating rates for each α value were in a straight line, as predicted by the
+method. The slope of the line in the plots can be used as an estimate of 3.3. In situ catalytic pyrolysis of PET and urea with γ-Al2O3 for producing
+the activation energy at a certain conversion rate (Eα), and the slope of TPN
+the fitted linear equation has a negative linear correlation with the
+magnitude of the activation energy. In addition to investigating the effects of urea andγ-Al2O3 on the
+ Fig. 3 shows the curves of activation energy (E) and conversion rate thermal decomposition behaviors of PET, the bench-top experiments of
+
+ 4
+
+
+=== 6.pdf PDF 5 ===
+G. Xie et al. Journal of Cleaner Production 434 (2024) 140204
+
+
+ the pyrolysis reaction could lead to fewer nitriles and more char formed.
+ While, less urea also resulted in more unidentified carbon, which might
+ be the oligomer of PET decomposition that could not be detected and
+ quantified. Therefore, the dosage of urea is crucial for producing nitriles
+ via in situ catalytic pyrolysis process.
+ Table 2 also shows that the urea dosage had an important effect on
+ the production of TPN, especially when the urea dosage was less than
+ that of PET. When the urea dosage was 0.5 of PET, the carbon yield of
+ TPN was only 14.57%, while when the amount of urea reached 1 time of
+ PET, the TPN yield increased to 28.27 C%, which was a great
+ improvement. Moreover, the yields of TPN and aromatic nitriles did not
+ increase significantly with the further increase of urea dosage. Mean­
+ while, the urea dosage had little effect on the selectivity of TPN in the
+ aromatic nitriles, the selectivity of TPN in the aromatic nitriles remained
+ at about 90%. The suitable urea dosage for producing TPN via catalytic
+ pyrolysis of PET with urea dosage was around 1 time of PET, and the
+ mole ratio of urea to PET monomer was about 3.2.
+
+ 3.3.2. Effect of pyrolysis temperature on the TPN production
+ The catalytic pyrolysis process from PET to TPN should undergo a
+ series of reactions, including PET decomposition, urea decomposition,
+ ammonization of pyrolysis intermediates, dehydration reactions, and
+ other cracking side reactions that were highly affected by the pyrolysis
+ temperature. Therefore, pyrolysis temperature is another key important
+ factor in TPN production. Herein, the effect of pyrolysis temperatures
+ from 500 to 700 ◦ C on the production of TPN and aromatic nitriles was
+ investigated in detail.
+ Fig. 5 indicates that pyrolysis temperature had an obvious effect on
+ the distribution of pyrolysis products. Higher pyrolysis led to more
+ intense cracking reactions and resulted in less coke and more gas
+ products. In addition, the products, such as nitriles and aromatics,
+ collected in the cold trap were also significantly affected by the pyrolysis
+ temperature. The maximum carbon yield of nitriles was obtained at
+ 550 ◦ C and reached 38.7 C%. The carbon yield of nitriles started to
+ decrease with the pyrolysis temperature further increasing, which was
+ only about 17 C% at 700 ◦ C. However, for the aromatics, the higher
+ pyrolysis temperature resulted in higher carbon yields of aromatics.
+ While the pyrolysis temperature reached 700 ◦ C, the carbon yield of
+ aromatics reached about 20 C%. This could be caused by the decar­
+ boxylation and deamidation reactions of the products and intermediates
+ (such as aromatic esters, aromatic amides, and aromatic nitriles)
+ generated during the catalytic pyrolysis of urea and PET under high-
+Fig. 2. Plots of Ln(β/T2) versus 1/T of PET (a), urea (b), and PET: urea = 1:1 (c) temperature pyrolysis temperature. Therefore, pyrolysis temperature
+at different conversion rates. is a crucial factor for TPN production during the in situ catalytic py­
+ rolysis process.
+in situ catalytic pyrolysis of PET and urea with γ-Al2O3 for producing Fig. 6 displays the carbon yields and selectivity of TPN and benzo­
+terephthalonitrile were also carried out. The important parameters for nitrile varying with pyrolysis temperatures. The yield and selectivity of
+TPN production, such as urea usage, and pyrolysis temperature, were TPN were highly affected by the pyrolysis temperature. When the py­
+also systematically studied. rolysis temperature was at 550 ◦ C, the yield of TPN reached 32.53 C%,
+ and then TPN yield decreased with the increase of pyrolysis tempera­
+3.3.1. Effect of urea usage on the TPN production ture. Meanwhile, the yield of benzonitrile increased with the pyrolysis
+ The ammonization reactions of PET pyrolysis intermediates with temperature increasing until it reached a maximum of 17.54 C% at
+active ammonia in the catalytic pyrolysis process which are essential for 650 ◦ C. In addition, when the pyrolysis temperature over 550 ◦ C, the
+converting PET into TPN, and the amount of active ammonia added is higher the pyrolysis temperature, the lower the yield of aromatic nitrile,
+one of the important factors that can affect the production of TPN. Urea especially TPN, indicating that the excessively high pyrolysis tempera­
+was the source of reactive ammonia; the effect of urea dosage on TPN ture was not conducive to the generation of TPN and aromatics, which
+production was investigated. Herein, the effect of urea dosage was might be caused by the excessively high pyrolysis temperature and it’s
+studied by controlling the mass ratio of urea and PET in the range of resulting in serious cracking reactions. For the selectivity of aromatic
+0.5–2. Meanwhile, the mole ratio of urea to PET monomer was also nitriles, the higher the pyrolysis temperature, the lower the selectivity of
+calculated based on the mass ratio of urea and PET, which ranged from TPN in aromatic nitriles, the trend of benzonitrile with temperature was
+1.6 to 6.4 and was consistent with the mass ratio of urea to PET. Fig. 4 opposite to that of TPN. While the pyrolysis temperature reached 700 ◦ C,
+displays the overall carbon yields of pyrolysis products under different the selectivity of TPN was only about 20%, while the selectivity of
+ratios of urea to PET, the pyrolysis products included coke, gas, nitrile benzonitrile reached around 80%. Accordingly, around 550 ◦ C is a
+and aromatic hydrocarbons. As shown in Fig. 8, the mass ratio of urea to suitable temperature for pyrolysis to produce TPN. The suitable condi­
+PET had an obvious influence on product distribution. Less urea used in tions to produce TPN were 550 ◦ C and urea equivalent to PET quality,
+ with 32.53 C% TPN yield and about 85% selectivity. It indicated that in
+
+ 5
+
+
+=== 6.pdf PDF 6 ===
+G. Xie et al. Journal of Cleaner Production 434 (2024) 140204
+
+
+
+
+Fig. 3. Plots of Activation energy (E) and conversion rate for pure PET (a), pure urea (b), cal. and exp. of the mixture of PET and urea (c), and difference between cal.
+and exp. (d).
+
+
+
+ Table 2
+ Effect of urea usage on the TPN Production.
+ The mass ratio of urea to PET 0.5 1.0 1.5 2.0
+
+ The mole ratio of urea to PET monomer 1.6 3.2 4.8 6.4
+ Total aromatic nitriles yield (C%) 15.91 30.61 33.96 33.66
+ Terephthalonitrile (C%) 14.57 28.27 31.21 30.51
+ Benzonitrile (C%) 1.34 2.34 2.75 3.15
+ Selectivity of TPN in the aromatic nitriles
+ Terephthalonitrile (%) 91.58 92.36 91.90 90.64
+ Benzonitrile (%) 8.42 7.64 8.10 9.36
+
+ Conditions: 1g of PET, 1.5g of γ-Al2O3, pyrolysis temperature 500 ◦ C, carrier gas:
+ 200 mL/min.
+
+
+ benzonitrile and aromatics in different cycles. As shown in Fig. 7, the
+ carbon yields of aromatics remained around 5% in each cycle. However,
+ there was a slight difference in the carbon yields of TPN and benzonitrile
+ between regenerated catalysts and fresh catalysts. In particular, the
+ carbon yield of TPN decreased to 28.66 C% after four cycles, which was
+Fig. 4. The overall carbon yields of pyrolysis products under different ratios of lower than that of fresh catalyst (~32.53 C%), indicating that γ-Al2O3
+urea to PET. may be slightly inactivated during pyrolysis regeneration, which was
+ related to the loss of acidic sites on the surface of γ-Al2O3 and the
+situ catalytic pyrolysis with the urea process was an effective way to collapse of pore structure. Therefore, a new catalyst with higher stability
+recycle waste PET into TPN, which also laid the foundation for the should be developed in the future.
+subsequent fluidized bed continuous experiments.
+
+ 3.5. Possible reaction pathways from PET to TPN
+3.4. Catalyst stability tests
+ To further understand the reaction mechanism of co-thermal
+ The stability of commercial γ-Al2O3 catalyst during the catalytic decomposition of polyethylene terephthalate (PET) with urea, the DFT
+pyrolysis process was studied through four reaction/regeneration cycles. calculations were performed to explore the decomposition mechanism
+In each cycle, the used γ-Al2O3 was calcined at 600 ◦ C for 4 h to remove of terephthalic acid ethylene glycol ester dimer (1, Fig. 8). Through
+the coke and regenerate it. Fig. 7 shows the carbon yields of TPN, comparing the three decomposition mechanisms with and without the
+
+ 6
+
+
+=== 6.pdf PDF 7 ===
+G. Xie et al. Journal of Cleaner Production 434 (2024) 140204
+
+
+ This indicates that active ammonia, such as NH3 and urea, plays a
+ prominent role in promoting the depolymerization of PET, which is
+ consistent with the results of TG kinetics calculations. Moreover, the
+ calculation results also suggest that the ammonolysis of PET was more
+ prone to form amide (1 → TS2 → 5) rather than aromatic acid ammo­
+ nium salt (1 → TS3 → 4). This also verifies that aromatic amides (such as
+ terephthalamide and benzanilide) are important intermediates in the
+ catalytic co-thermal decomposition of PET and urea for the synthesis of
+ aromatic nitriles. Based on the results, the mechanism towards the for­
+ mation of aromatic nitriles were further proposed. As shown in Fig. 8c,
+ the initial decomposition product 5 could undergo either dehydration of
+ the amide bond to nitrile (5 → TS4) or ammonolysis of another ester
+ bond to amide (5 → TS7). And the calculations revealed that ammo­
+ nolysis (151.5–164.0 kJ/mol) was more plausible than the dehydration
+ of amide (298.3–435.6 kJ/mol). Therefore, ammonolysis of the ester
+ bond in PET to form aromatic amide followed by dehydration of amide
+ to aromatic nitrile is more feasible for the co-thermal decomposition
+ mechanism of PET with urea (Fig. 8c).
+ Fig. 5. Effect of pyrolysis temperature on the pyrolysis distributions.
+
+ 4. Conclusions
+
+ This study has successfully synthesized aromatic nitriles, particularly
+ TPN, through in situ catalytic pyrolysis of waste PET plastic employing
+ urea as an active ammonia source and commercial γ-Al2O3 catalyst.
+ Results of TG-DTG and DAEM kinetic analysis demonstrated that posi­
+ tive interaction between the waste PET and urea led to facilitated
+ thermal decomposition. Urea dosage and pyrolysis temperature were
+ pivotal in achieving optimal TPN production. Under 550 ◦ C and urea
+ equivalent to PET, a TPN yield of 32.5% with 85% selectivity was ob­
+ tained. Furthermore, DFT calculations corroborated these findings by
+ affirming the role of active ammonia in lowering energy barriers and
+ facilitating PET depolymerization, resulting in the formation of aromatic
+ amides and subsequent dehydration to produce aromatic nitriles. The
+ study presents a novel approach method for recycling waste PET into
+ valuable aromatic nitriles through in situ catalytic pyrolysis with urea
+ and enhances the understanding of the pyrolysis process. Furthermore,
+ the pyrolysis process aligns with the principles of the circular economy
+ and the growing emphasis on reducing plastic waste, thereby demon­
+Fig. 6. Effect of pyrolysis temperature on the carbon yield and selectivity of strating a potential pathway for transforming waste into high-value
+aromatic nitriles in the catalytic pyrolysis process. chemicals.
+ Looking forward, further research should be carried out in multiple
+ directions to ensure the successful application of this technology. Firstly,
+ it is important to explore different catalyst materials that are more stable
+ and efficient, as well as to further optimize the parameters of in situ
+ catalytic pyrolysis for the industrial production of aromatic nitriles from
+ PET. Additionally, thorough studies on the scale-up and industrializa­
+ tion potential of the proposed in situ catalytic pyrolysis process, which
+ includes techno-economic analysis, process optimization, and assess­
+ ment of environmental impact, are essential. Furthermore, it is impor­
+ tant to broaden the scope of the study to encompass a wider range of
+ waste plastics beyond PET, and to assess the potential of catalytic py­
+ rolysis with active ammonia for recycling other waste plastics into
+ valuable N-containing compounds. By addressing these research di­
+ rections, further progress can be achieved in the field of sustainable
+ plastic waste management and the production of high-value chemicals,
+ thus contributing to both environmental and economic sustainability.
+
+ CRediT authorship contribution statement
+
+ Geliang Xie: Writing – original draft, Investigation, Formal analysis,
+ Fig. 7. The carbon yields of nitriles and aromatics vs. catalyst cycle.
+ Data curation, Conceptualization. Guoqiang Zhu: Software, Investiga­
+ tion, Formal analysis, Data curation, Conceptualization. Yifan Kang:
+assistance of active ammonia (Fig. 8a and b), it was found that the en­ Investigation, Formal analysis, Data curation. Mingxu Zhu: Investiga­
+ergy barriers of decomposition paths involving active ammonia are tion, Formal analysis. Qianqian Lu: Validation, Formal analysis. Chao
+165.7 kJ/mol and 151.5 kJ/mol (TS2 and TS3), which were signifi­ He: Validation, Formal analysis, Data curation. Lujiang Xu: Writing –
+cantly lower than that without active ammonia (TS1, 185.4 kJ/mol). review & editing, Validation, Supervision, Funding acquisition, Data
+
+ 7
+
+
+=== 6.pdf PDF 8 ===
+G. Xie et al. Journal of Cleaner Production 434 (2024) 140204
+
+
+
+
+Fig. 8. (a) Proposed mechanisms for the decomposition of PET. (b) the transition states involved in the decomposition of PET. (c) The reaction mechanisms for PET
+decomposition with ammonia. Energies are given in kJ/mol.
+
+
+curation. Zhen Fang: Writing – review & editing, Validation, Datta, J., Kopczynska, P., 2016. From polymer waste to potential main industrial
+ products: actual state of recycling and recovering. Crit. Rev. Environ. Sci. Technol.
+Supervision.
+ 46, 905–946. https://doi.org/10.1080/10643389.2016.1180227.
+ Du, S.C., Valla, J.A., Parnas, R.S., Bollas, G.M., 2016. Conversion of polyethylene
+ terephthalate based waste carpet to benzene-rich oils through thermal, catalytic, and
+Declaration of competing interest catalytic steam pyrolysis. ACS Sustain. Chem. Eng. 4, 2852–2860. https://doi.org/
+ 10.1021/acssuschemeng.6b00450.
+ The authors declare that they have no known competing financial Ganeshan, G., Shadangi, K.P., Mohanty, K., 2017. Degradation kinetic study of pyrolysis
+ and co-pyrolysis of biomass with polyethylene terephthalate (PET) using
+interests or personal relationships that could have appeared to influence Coats–Redfern method. J. Therm. Anal. Calorim. 131, 1803–1816. https://doi.org/
+the work reported in this paper. 10.1007/s10973-017-6597-5.
+ Hao, L., Luo, B., Li, X.L., Jin, M.H., Fang, Y., Tang, Z.H., Jia, Y.Y., Liang, M.H.,
+ Thomas, A., Yang, J.H., Zhi, L.J., 2012. Terephthalonitrile-derived nitrogen-rich
+Data availability networks for high performance supercapacitors. Energy Environ. Sci. 5, 9747–9751.
+ https://doi.org/10.1039/C2EE22814A.
+ Data will be made available on request. Huang, J., Meng, H., Luo, X., Mu, X., Xu, W., Jin, L., Lai, B., 2022. Insights into the
+ thermal degradation mechanisms of polyethylene terephthalate dimer using DFT
+ method. Chemosphere 291, 133112. https://doi.org/10.1016/j.
+Acknowledgments chemosphere.2021.133112.
+ Ko, K.-H., Rawal, A., Sahajwalla, V., 2014. Analysis of thermal degradation kinetics and
+ carbon structure changes of co-pyrolysis between macadamia nut shell and PET
+ The authors are grateful to the financial support from, the National using thermogravimetric analysis and 13C solid state nuclear magnetic resonance.
+Natural and Science Foundation of China (52376196, 52106243), Nat­ Energy Convers. Manag. 86, 154–164. https://doi.org/10.1016/j.
+ural Science Foundation of Jiangsu Province (No. BK20231477). enconman.2014.04.060.
+ Kumagai, S., Yamasaki, R., Kameda, T., Saito, Y., Watanabe, A., Watanabe, C.,
+ Teramae, N., Yoshioka, T., 2018. Aromatic hydrocarbon selectivity as a function of
+Appendix A. Supplementary data CaO basicity and aging during CaO-catalyzed PET pyrolysis using tandem mu-
+ reactor-GC/MS. Chem. Eng. J. 332, 169–173. https://doi.org/10.1016/j.
+ cej.2017.09.077.
+ Supplementary data to this article can be found online at https://doi. Li, C., Sun, Y.F., Yi, Z.J., Zhang, L.J., Zhang, S., Hu, X., 2022. Co-pyrolysis of coke bottle
+org/10.1016/j.jclepro.2023.140204. wastes with cellulose, lignin and sawdust: impacts of the mixed feedstock on char
+ properties. Renew. Energy 181, 1126–1139. https://doi.org/10.1016/j.
+ renene.2021.09.103.
+References Liu, Y.F., Fu, W.M., Liu, T., Zhang, Y.N., Li, B.X., 2022. Microwave pyrolysis of
+ polyethylene terephthalate (PET) plastic bottle sheets for energy recovery. J. Anal.
+Al-Juaidiyah, J., 2015. Pyrolysis kinetics of recycled polyesters. Int. J. Cloth. Sci. Appl. Pyrolysis 161, 7. https://doi.org/10.1016/j.jaap.2021.105414.
+ Technol. 27, 523–531. https://doi.org/10.1108/IJCST-04-2014-0048. Luo, G., Wang, W., Xie, W., Tang, Y., Xu, Y., Wang, K., 2022. Co-pyrolysis of corn stover
+Çepelioğullar, Ö., Pütün, A.E., 2013. Thermal and kinetic behaviors of biomass and and waste tire: pyrolysis behavior and kinetic study based on Fraser-Suzuki
+ plastic wastes in co-pyrolysis. Energy Convers. Manag. 75, 263–270. https://doi.org/ deconvolution procedure. J. Anal. Appl. Pyrol. 168 https://doi.org/10.1016/j.
+ 10.1016/j.enconman.2013.06.036. jaap.2022.105743.
+Chen, B., Zhou, C., Qin, L., Fan, K., Xue, J., Guo, Y., 2022. Quantum chemistry simulation Miandad, R., Barakat, M.A., Rehan, M., Aburiazaiza, A.S., Ismail, I.M.I., Nizami, A.S.,
+ and kinetic analysis of organic nitrogen transfer during oil shale pyrolysis. Energy 2017. Plastic waste to liquid oil through catalytic pyrolysis using natural and
+ 256. https://doi.org/10.1016/j.energy.2022.124709.
+
+
+ 8
+
+
+=== 6.pdf PDF 9 ===
+G. Xie et al. Journal of Cleaner Production 434 (2024) 140204
+
+ synthetic zeolite catalysts. Waste Manag. 69, 66–78. https://doi.org/10.1016/j. by TG-FTIR. J. Anal. Appl. Pyrolysis 158, 5. https://doi.org/10.1016/j.
+ wasman.2017.08.032. jaap.2021.105267.
+Mishra, R.K., Sahoo, A., Mohanty, K., 2019. Pyrolysis kinetics and synergistic effect in co- Tsuchiya, D., Kawagoe, Y., Moriyama, K., Togo, H., 2013. Direct oxidative conversion of
+ pyrolysis of Samanea saman seeds and polyethylene terephthalate using methylarenes into aromatic nitriles. Org. Lett. 15, 4194–4197. https://doi.org/
+ thermogravimetric analyser. Bioresour. Technol. 289 https://doi.org/10.1016/j. 10.1021/ol401906q.
+ biortech.2019.121608. Wang, D.H., Dong, N., Niu, Y.Q., Hui, S.E., 2019. A review of urea pyrolysis to produce
+Osman, A.I., Farrell, C., Al-Muhtaseb, A.H., Al-Fatesh, A.S., Harrison, J., Rooney, D.W., NH3 used for NOx removal. J. Chem. 2019, 11. https://doi.org/10.1155/2019/
+ 2020. Pyrolysis kinetic modelling of abundant plastic waste (PET) and in-situ 6853638.
+ emission monitoring. Environ. Sci. Eur. 32 https://doi.org/10.1186/s12302-020- Wong, S.L., Ngadi, N., Abdullah, T.A.T., Inuwa, I.M., 2015. Current state and future
+ 00390-x. prospects of plastic waste as source of fuel: a review. Renew. Sustain. Energy Rev.
+Pan, J.B., Huang, J.M., Li, J.X., Jiang, Z.Y., Lan, J.L., Qian, C., Chen, X.Z., 2014. 50, 1167–1180. https://doi.org/10.1016/j.rser.2015.04.063.
+ Ammoxidation of 2-picoline catalyzed by modified V2O5/TiO2. Monatsh. Chem. Xu, L.J., He, Z.J., Zhang, H., Wu, S.H., Dong, C.Y., Fang, Z., 2021. Production of aromatic
+ 145, 1365–1369. https://doi.org/10.1007/s00706-014-1196-7. amines via catalytic co-pyrolysis of lignin and phenol-formaldehyde resins with
+Peng, Y., Yang, J., Deng, C., Deng, J., Shen, L., Fu, Y., 2023. Acetolysis of waste ammonia over commercial HZSM-5 zeolites. Bioresour. Technol. 320, 10. https://
+ polyethylene terephthalate for upcycling and life-cycle assessment study. Nat. doi.org/10.1016/j.biortech.2020.124252.
+ Commun. 14, 3249. https://doi.org/10.1038/s41467-023-38998-1. Xu, L.J., Jiang, Y.Y., Yao, Q., Han, Z., Zhang, Y., Fu, Y., Guo, Q.X., Huber, G.W., 2015a.
+Qu, Q.H., Gao, X.F., Gao, J., Yuan, G.Q., 2015. A highly efficient electrochemical route Direct production of indoles via thermo-catalytic conversion of bio-derived furans
+ for the conversion of aldehydes to nitriles. Sci. China-Chem. 58, 747–750. https:// with ammonia over zeolites. Green Chem. 17, 1281–1290. https://doi.org/10.1039/
+ doi.org/10.1007/s11426-015-5331-z. C4GC02250E.
+Ragaert, K., Delva, L., Van Geem, K., 2017. Mechanical and chemical recycling of solid Xu, L.J., Na, X.W., Zhang, L.Y., Dong, Q., Dong, G.H., Wang, Y.T., Fang, Z., 2019a.
+ plastic waste. Waste Manage. 69, 24–58. https://doi.org/10.1016/j. Selective production of terephthalonitrile and benzonitrile via pyrolysis of
+ wasman.2017.07.044. polyethylene terephthalate (PET) with ammonia over Ca(OH)(2)/Al2O3 catalysts.
+Schaber, P.A., Colson, J., Higgins, S., Thielen, D., Anspach, B., Brauer, J., 2004. Thermal Catalysts 9, 14. https://doi.org/10.3390/catal9050436.
+ decomposition (pyrolysis) of urea in an open reaction vessel. Thermochim. Acta 424, Xu, L.J., Yao, Q., Deng, J., Han, Z., Zhang, Y., Fu, Y., Huber, G.W., Guo, Q.X., 2015b.
+ 131–142. https://doi.org/10.1016/j.tca.2004.05.018. Renewable N-heterocycles production by thermocatalytic conversion and
+Schelter, E.J., Veauthier, J.M., Graves, C.R., John, K.D., Scott, B.L., Thompson, J.D., ammonization of biomass over ZSM-5. ACS Sustain. Chem. Eng. 3, 2890–2899.
+ Pool-Davis-Tournear, J.A., Morris, D.E., Kiplinger, J.L., 2008. 1,4-dicyanobenzene as https://doi.org/10.1021/acssuschemeng.5b00841.
+ a scaffold for the preparation of bimetallic actinide complexes exhibiting metal- Xu, L.J., Yao, Q., Han, Z., Zhang, Y., Fu, Y., 2016. Producing pyridines via
+ metal communication. Chem. Eur J. 14, 7782–7790. https://doi.org/10.1002/ thermocatalytic conversion and ammonization of waste polylactic acid over zeolites.
+ chem.200800585. ACS Sustain. Chem. Eng. 4, 1115–1122. https://doi.org/10.1021/
+Shagali, A.A., Hu, S., Li, H., Chi, H., Qing, H., Xu, J., Jiang, L., Wang, Y., Su, S., Xiang, J., acssuschemeng.5b01178.
+ 2023. Thermal behavior, synergistic effect and thermodynamic parameter Xu, L.J., Zhang, L.Y., Song, H., Dong, Q., Dong, G.H., Kong, X., Fang, Z., 2019b. Catalytic
+ evaluations of biomass/plastics co–pyrolysis in a concentrating photothermal TGA. fast pyrolysis of polyethylene terephthalate plastic for the selective production of
+ Fuel 331. https://doi.org/10.1016/j.fuel.2022.125724. terephthalonitrile under ammonia atmosphere. Waste Manage. 92, 97–106. https://
+Sharuddin, S.D.A., Abnisa, F., Daud, W., Aroua, M.K., 2016. A review on pyrolysis of doi.org/10.1016/j.wasman.2019.05.011.
+ plastic wastes. Energy Convers. Manag. 115, 308–326. https://doi.org/10.1016/j. Yoshioka, T., Handa, T., Grause, G., Lei, Z.G., Inomata, H., Mizoguchi, T., 2005. Effects of
+ enconman.2016.02.037. metal oxides on the pyrolysis of poly(ethylene terephthalate). J. Anal. Appl.
+Singh, S., Tagade, A., Verma, A., Sharma, A., Tekade, S.P., Sawarkar, A.N., 2022. Insights Pyrolysis 73, 139–144. https://doi.org/10.1016/j.jaap.2005.01.004.
+ into kinetic and thermodynamic analyses of co-pyrolysis of wheat straw and plastic Zhou, X.J., Jiang, L.Q., Zhang, H., Dong, C.Y., Xu, L.J., 2021. Catalytic co-pyrolysis of
+ waste via thermogravimetric analysis. Bioresour. Technol. 356, 14. https://doi.org/ cellulose and waste polyoxymethylene to improve producing pyridines compounds
+ 10.1016/j.biortech.2022.127332. over commercial HZSM-5 zeolites under ammonia atmosphere. J. Anal. Appl.
+Tao, L.L., Ma, X.M., Ye, L.H., Jia, J.W., Wang, L., Ma, P.Y., Liu, J., 2021. Interactions of Pyrolysis 158, 7. https://doi.org/10.1016/j.jaap.2021.105275.
+ lignin and LDPE during catalytic co-pyrolysis: thermal behavior and kinetics study
+
+
+
+
+ 9

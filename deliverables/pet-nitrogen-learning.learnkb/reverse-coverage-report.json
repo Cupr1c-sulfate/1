@@ -1,0 +1,1431 @@
+{
+  "schemaVersion": "learn-from-materials/reverse-coverage-report-v1",
+  "totalSourceBlocks": 101,
+  "mappedSourceBlocks": 101,
+  "unmappedSourceBlocks": 0,
+  "unmappedRatio": 0.0,
+  "unmappedSourceIds": [],
+  "intentionallyOmittedSourceBlocks": 0,
+  "intentionallyOmittedRatio": 0.0,
+  "intentionallyOmittedSourceIds": [],
+  "sampleSize": 101,
+  "sample": [
+    {
+      "sourceId": "src-484e6d8b37d7-pdf_page-00010",
+      "filename": "5.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "status": "no-content"
+    },
+    {
+      "sourceId": "src-82267ef81808-pdf_page-00007",
+      "filename": "7.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u30"
+      ],
+      "mappedClaims": [
+        "claim-189",
+        "claim-190"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00009",
+      "filename": "3.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u17",
+        "u18"
+      ],
+      "mappedClaims": [
+        "claim-117",
+        "claim-120",
+        "claim-121"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00007",
+      "filename": "12.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u10"
+      ],
+      "mappedClaims": [
+        "claim-069",
+        "claim-071"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00004",
+      "filename": "12.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u09"
+      ],
+      "mappedClaims": [
+        "claim-057",
+        "claim-058",
+        "claim-059",
+        "claim-060",
+        "claim-062"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00006",
+      "filename": "1.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u02",
+        "u03"
+      ],
+      "mappedClaims": [
+        "claim-013",
+        "claim-014",
+        "claim-016",
+        "claim-017",
+        "claim-018"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00005",
+      "filename": "3.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u16",
+        "u17"
+      ],
+      "mappedClaims": [
+        "claim-110",
+        "claim-113",
+        "claim-115"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-214fbead528d-pdf_page-00009",
+      "filename": "11.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "status": "no-content"
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00004",
+      "filename": "4.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u19",
+        "u20"
+      ],
+      "mappedClaims": [
+        "claim-126",
+        "claim-127",
+        "claim-136"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-82267ef81808-pdf_page-00010",
+      "filename": "7.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "status": "no-content"
+    },
+    {
+      "sourceId": "src-214fbead528d-pdf_page-00003",
+      "filename": "11.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u05"
+      ],
+      "mappedClaims": [
+        "claim-028",
+        "claim-029",
+        "claim-030",
+        "claim-034"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00014",
+      "filename": "12.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "status": "no-content"
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00003",
+      "filename": "1.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u01",
+        "u04"
+      ],
+      "mappedClaims": [
+        "claim-003",
+        "claim-004",
+        "claim-006",
+        "claim-025"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-484e6d8b37d7-pdf_page-00006",
+      "filename": "5.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "status": "no-content"
+    },
+    {
+      "sourceId": "src-82267ef81808-pdf_page-00004",
+      "filename": "7.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u29",
+        "u31"
+      ],
+      "mappedClaims": [
+        "claim-183",
+        "claim-194"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00006",
+      "filename": "12.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u10",
+        "u12"
+      ],
+      "mappedClaims": [
+        "claim-066",
+        "claim-067",
+        "claim-070",
+        "claim-082"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-fac9747cbb51-pdf_page-00003",
+      "filename": "2.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u13",
+        "u14",
+        "u15"
+      ],
+      "mappedClaims": [
+        "claim-090",
+        "claim-091",
+        "claim-092",
+        "claim-097",
+        "claim-101"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-fac9747cbb51-pdf_page-00005",
+      "filename": "2.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u14",
+        "u15"
+      ],
+      "mappedClaims": [
+        "claim-095",
+        "claim-096",
+        "claim-098",
+        "claim-099",
+        "claim-102"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00005",
+      "filename": "1.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u02"
+      ],
+      "mappedClaims": [
+        "claim-011",
+        "claim-012",
+        "claim-015"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00009",
+      "filename": "12.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u11"
+      ],
+      "mappedClaims": [
+        "claim-077",
+        "claim-078",
+        "claim-080"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-484e6d8b37d7-pdf_page-00003",
+      "filename": "5.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u23",
+        "u24"
+      ],
+      "mappedClaims": [
+        "claim-150",
+        "claim-151",
+        "claim-156"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00009",
+      "filename": "1.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u04"
+      ],
+      "mappedClaims": [
+        "claim-024"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00005",
+      "filename": "4.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u20"
+      ],
+      "mappedClaims": [
+        "claim-130",
+        "claim-133"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-82267ef81808-pdf_page-00002",
+      "filename": "7.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u29"
+      ],
+      "mappedClaims": [
+        "claim-181"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-82267ef81808-pdf_page-00009",
+      "filename": "7.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u32"
+      ],
+      "mappedClaims": [
+        "claim-197",
+        "claim-198"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00011",
+      "filename": "1.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "status": "no-content"
+    },
+    {
+      "sourceId": "src-484e6d8b37d7-pdf_page-00007",
+      "filename": "5.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u24"
+      ],
+      "mappedClaims": [
+        "claim-157",
+        "claim-160",
+        "claim-161"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-214fbead528d-pdf_page-00005",
+      "filename": "11.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u05",
+        "u06"
+      ],
+      "mappedClaims": [
+        "claim-033",
+        "claim-035"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-484e6d8b37d7-pdf_page-00001",
+      "filename": "5.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u23"
+      ],
+      "mappedClaims": [
+        "claim-148"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00001",
+      "filename": "3.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u16"
+      ],
+      "mappedClaims": [
+        "claim-105"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-4fda33930eaf-pdf_page-00005",
+      "filename": "6.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u27"
+      ],
+      "mappedClaims": [
+        "claim-173",
+        "claim-174",
+        "claim-175"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-82267ef81808-pdf_page-00003",
+      "filename": "7.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u29"
+      ],
+      "mappedClaims": [
+        "claim-182"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00008",
+      "filename": "3.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u17",
+        "u18"
+      ],
+      "mappedClaims": [
+        "claim-118",
+        "claim-119"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00003",
+      "filename": "4.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u19",
+        "u20"
+      ],
+      "mappedClaims": [
+        "claim-125",
+        "claim-129"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00001",
+      "filename": "4.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u19",
+        "u20"
+      ],
+      "mappedClaims": [
+        "claim-123",
+        "claim-132"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-b9d9a37600fe-pdf_page-00007",
+      "filename": "9.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u34"
+      ],
+      "mappedClaims": [
+        "claim-208",
+        "claim-209"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00007",
+      "filename": "4.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u21"
+      ],
+      "mappedClaims": [
+        "claim-138",
+        "claim-139",
+        "claim-141",
+        "claim-142"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-b9d9a37600fe-pdf_page-00002",
+      "filename": "9.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u33"
+      ],
+      "mappedClaims": [
+        "claim-200",
+        "claim-203"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-214fbead528d-pdf_page-00007",
+      "filename": "11.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u06",
+        "u07",
+        "u08"
+      ],
+      "mappedClaims": [
+        "claim-041",
+        "claim-043",
+        "claim-044",
+        "claim-046",
+        "claim-047",
+        "claim-048",
+        "claim-049",
+        "claim-053"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-484e6d8b37d7-pdf_page-00008",
+      "filename": "5.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u23",
+        "u24",
+        "u25"
+      ],
+      "mappedClaims": [
+        "claim-155",
+        "claim-157",
+        "claim-163"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-4fda33930eaf-pdf_page-00008",
+      "filename": "6.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u28"
+      ],
+      "mappedClaims": [
+        "claim-177"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00002",
+      "filename": "4.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u19",
+        "u20"
+      ],
+      "mappedClaims": [
+        "claim-124",
+        "claim-128",
+        "claim-135"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-4fda33930eaf-pdf_page-00009",
+      "filename": "6.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "status": "no-content"
+    },
+    {
+      "sourceId": "src-484e6d8b37d7-pdf_page-00005",
+      "filename": "5.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u23"
+      ],
+      "mappedClaims": [
+        "claim-153",
+        "claim-154",
+        "claim-155"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00007",
+      "filename": "3.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u17"
+      ],
+      "mappedClaims": [
+        "claim-116"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00008",
+      "filename": "4.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u21",
+        "u22"
+      ],
+      "mappedClaims": [
+        "claim-140",
+        "claim-143",
+        "claim-144"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00004",
+      "filename": "1.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u01",
+        "u02"
+      ],
+      "mappedClaims": [
+        "claim-005",
+        "claim-007",
+        "claim-010"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00001",
+      "filename": "12.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u09"
+      ],
+      "mappedClaims": [
+        "claim-054"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00003",
+      "filename": "12.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u09",
+        "u10"
+      ],
+      "mappedClaims": [
+        "claim-056",
+        "claim-063",
+        "claim-064"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-fac9747cbb51-pdf_page-00002",
+      "filename": "2.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u13"
+      ],
+      "mappedClaims": [
+        "claim-089"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00007",
+      "filename": "1.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u03",
+        "u04"
+      ],
+      "mappedClaims": [
+        "claim-019",
+        "claim-020",
+        "claim-021",
+        "claim-022"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00011",
+      "filename": "3.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "status": "no-content"
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00005",
+      "filename": "12.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u09",
+        "u11",
+        "u12"
+      ],
+      "mappedClaims": [
+        "claim-061",
+        "claim-072",
+        "claim-073",
+        "claim-076",
+        "claim-079",
+        "claim-081"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00008",
+      "filename": "1.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u04"
+      ],
+      "mappedClaims": [
+        "claim-023"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-214fbead528d-pdf_page-00006",
+      "filename": "11.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u06",
+        "u07"
+      ],
+      "mappedClaims": [
+        "claim-036",
+        "claim-037",
+        "claim-038",
+        "claim-039",
+        "claim-040",
+        "claim-042",
+        "claim-045"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00003",
+      "filename": "3.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u16"
+      ],
+      "mappedClaims": [
+        "claim-107",
+        "claim-109"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-b9d9a37600fe-pdf_page-00001",
+      "filename": "9.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u33"
+      ],
+      "mappedClaims": [
+        "claim-199"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-b9d9a37600fe-pdf_page-00004",
+      "filename": "9.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u33",
+        "u34"
+      ],
+      "mappedClaims": [
+        "claim-202",
+        "claim-205"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-fac9747cbb51-pdf_page-00006",
+      "filename": "2.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u15"
+      ],
+      "mappedClaims": [
+        "claim-100",
+        "claim-103",
+        "claim-104"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00010",
+      "filename": "12.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u11",
+        "u12"
+      ],
+      "mappedClaims": [
+        "claim-074",
+        "claim-075",
+        "claim-083"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-214fbead528d-pdf_page-00010",
+      "filename": "11.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "status": "no-content"
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00012",
+      "filename": "3.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "status": "no-content"
+    },
+    {
+      "sourceId": "src-82267ef81808-pdf_page-00001",
+      "filename": "7.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u29"
+      ],
+      "mappedClaims": [
+        "claim-180"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-484e6d8b37d7-pdf_page-00002",
+      "filename": "5.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u23"
+      ],
+      "mappedClaims": [
+        "claim-149"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-484e6d8b37d7-pdf_page-00004",
+      "filename": "5.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u23"
+      ],
+      "mappedClaims": [
+        "claim-152"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-214fbead528d-pdf_page-00002",
+      "filename": "11.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u05"
+      ],
+      "mappedClaims": [
+        "claim-027"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-82267ef81808-pdf_page-00008",
+      "filename": "7.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u31",
+        "u32"
+      ],
+      "mappedClaims": [
+        "claim-191",
+        "claim-192",
+        "claim-193",
+        "claim-196"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-4fda33930eaf-pdf_page-00001",
+      "filename": "6.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u26"
+      ],
+      "mappedClaims": [
+        "claim-166"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-b9d9a37600fe-pdf_page-00003",
+      "filename": "9.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u33"
+      ],
+      "mappedClaims": [
+        "claim-201",
+        "claim-204"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00010",
+      "filename": "4.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u20",
+        "u22"
+      ],
+      "mappedClaims": [
+        "claim-134",
+        "claim-147"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-fac9747cbb51-pdf_page-00007",
+      "filename": "2.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "status": "no-content"
+    },
+    {
+      "sourceId": "src-4fda33930eaf-pdf_page-00003",
+      "filename": "6.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u26"
+      ],
+      "mappedClaims": [
+        "claim-168"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00002",
+      "filename": "1.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u01"
+      ],
+      "mappedClaims": [
+        "claim-002",
+        "claim-008"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-4fda33930eaf-pdf_page-00004",
+      "filename": "6.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u26"
+      ],
+      "mappedClaims": [
+        "claim-169",
+        "claim-170",
+        "claim-171"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-fac9747cbb51-pdf_page-00004",
+      "filename": "2.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u13",
+        "u14"
+      ],
+      "mappedClaims": [
+        "claim-093",
+        "claim-094"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00002",
+      "filename": "3.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u16"
+      ],
+      "mappedClaims": [
+        "claim-106"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-82267ef81808-pdf_page-00006",
+      "filename": "7.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u30"
+      ],
+      "mappedClaims": [
+        "claim-186",
+        "claim-187",
+        "claim-188",
+        "claim-189"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00013",
+      "filename": "12.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "status": "no-content"
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00006",
+      "filename": "3.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u17"
+      ],
+      "mappedClaims": [
+        "claim-114"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-484e6d8b37d7-pdf_page-00009",
+      "filename": "5.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u24",
+        "u25"
+      ],
+      "mappedClaims": [
+        "claim-158",
+        "claim-159",
+        "claim-162",
+        "claim-164",
+        "claim-165"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00010",
+      "filename": "3.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u18"
+      ],
+      "mappedClaims": [
+        "claim-122"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00011",
+      "filename": "12.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u12"
+      ],
+      "mappedClaims": [
+        "claim-084",
+        "claim-085",
+        "claim-086",
+        "claim-087"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00011",
+      "filename": "4.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "status": "no-content"
+    },
+    {
+      "sourceId": "src-4fda33930eaf-pdf_page-00002",
+      "filename": "6.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u26"
+      ],
+      "mappedClaims": [
+        "claim-167",
+        "claim-172"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-82267ef81808-pdf_page-00005",
+      "filename": "7.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u30",
+        "u31"
+      ],
+      "mappedClaims": [
+        "claim-184",
+        "claim-185",
+        "claim-195"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00010",
+      "filename": "1.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "status": "no-content"
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00004",
+      "filename": "3.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u16"
+      ],
+      "mappedClaims": [
+        "claim-108",
+        "claim-111",
+        "claim-112"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-fac9747cbb51-pdf_page-00001",
+      "filename": "2.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u13"
+      ],
+      "mappedClaims": [
+        "claim-088"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-214fbead528d-pdf_page-00008",
+      "filename": "11.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u08"
+      ],
+      "mappedClaims": [
+        "claim-050",
+        "claim-051",
+        "claim-052"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00006",
+      "filename": "4.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u20"
+      ],
+      "mappedClaims": [
+        "claim-131",
+        "claim-137"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-214fbead528d-pdf_page-00001",
+      "filename": "11.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u05"
+      ],
+      "mappedClaims": [
+        "claim-026"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00009",
+      "filename": "4.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u22"
+      ],
+      "mappedClaims": [
+        "claim-145",
+        "claim-146"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-b9d9a37600fe-pdf_page-00006",
+      "filename": "9.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u34"
+      ],
+      "mappedClaims": [
+        "claim-207"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-b9d9a37600fe-pdf_page-00005",
+      "filename": "9.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u34"
+      ],
+      "mappedClaims": [
+        "claim-206"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-214fbead528d-pdf_page-00004",
+      "filename": "11.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u05"
+      ],
+      "mappedClaims": [
+        "claim-031",
+        "claim-032"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00001",
+      "filename": "1.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u01"
+      ],
+      "mappedClaims": [
+        "claim-001",
+        "claim-009"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00002",
+      "filename": "12.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u09"
+      ],
+      "mappedClaims": [
+        "claim-055"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00012",
+      "filename": "12.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "status": "no-content"
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00008",
+      "filename": "12.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u10"
+      ],
+      "mappedClaims": [
+        "claim-065",
+        "claim-068"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-4fda33930eaf-pdf_page-00006",
+      "filename": "6.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u27"
+      ],
+      "mappedClaims": [
+        "claim-174",
+        "claim-175",
+        "claim-176"
+      ],
+      "status": "covered"
+    },
+    {
+      "sourceId": "src-4fda33930eaf-pdf_page-00007",
+      "filename": "6.pdf",
+      "locatorType": "pdf_page",
+      "covered": true,
+      "mappedUnits": [
+        "u28"
+      ],
+      "mappedClaims": [
+        "claim-177",
+        "claim-178",
+        "claim-179"
+      ],
+      "status": "covered"
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,1322 @@
+{
+  "schemaVersion": "learn-from-materials/action-rule-ledger-v2",
+  "pageId": "pet-nitrogen-systematic-2026",
+  "learningDepth": "systematic",
+  "units": [
+    {
+      "unitId": "u01",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-e62068f57189-pdf_page-00001",
+        "src-e62068f57189-pdf_page-00002",
+        "src-e62068f57189-pdf_page-00003",
+        "src-e62068f57189-pdf_page-00004"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u02",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-e62068f57189-pdf_page-00004",
+        "src-e62068f57189-pdf_page-00005",
+        "src-e62068f57189-pdf_page-00006"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u03",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-e62068f57189-pdf_page-00006",
+        "src-e62068f57189-pdf_page-00007"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u04",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-e62068f57189-pdf_page-00003",
+        "src-e62068f57189-pdf_page-00007",
+        "src-e62068f57189-pdf_page-00008",
+        "src-e62068f57189-pdf_page-00009"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u05",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-214fbead528d-pdf_page-00001",
+        "src-214fbead528d-pdf_page-00002",
+        "src-214fbead528d-pdf_page-00003",
+        "src-214fbead528d-pdf_page-00004",
+        "src-214fbead528d-pdf_page-00005"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u06",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-214fbead528d-pdf_page-00005",
+        "src-214fbead528d-pdf_page-00006",
+        "src-214fbead528d-pdf_page-00007"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u07",
+      "status": "no-rules",
+      "reviewedSourceIds": [
+        "src-214fbead528d-pdf_page-00006",
+        "src-214fbead528d-pdf_page-00007"
+      ],
+      "note": "本单元保留原理、计算、评价或原文疑点；回读未发现可独立保留的条件—操作—原因规则，不将模型审核建议伪装成作者方法。"
+    },
+    {
+      "unitId": "u08",
+      "status": "no-rules",
+      "reviewedSourceIds": [
+        "src-214fbead528d-pdf_page-00007",
+        "src-214fbead528d-pdf_page-00008"
+      ],
+      "note": "本单元保留原理、计算、评价或原文疑点；回读未发现可独立保留的条件—操作—原因规则，不将模型审核建议伪装成作者方法。"
+    },
+    {
+      "unitId": "u09",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-42d155ded4e1-pdf_page-00001",
+        "src-42d155ded4e1-pdf_page-00002",
+        "src-42d155ded4e1-pdf_page-00003",
+        "src-42d155ded4e1-pdf_page-00004",
+        "src-42d155ded4e1-pdf_page-00005"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u10",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-42d155ded4e1-pdf_page-00003",
+        "src-42d155ded4e1-pdf_page-00006",
+        "src-42d155ded4e1-pdf_page-00007",
+        "src-42d155ded4e1-pdf_page-00008"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u11",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-42d155ded4e1-pdf_page-00005",
+        "src-42d155ded4e1-pdf_page-00009",
+        "src-42d155ded4e1-pdf_page-00010"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u12",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-42d155ded4e1-pdf_page-00005",
+        "src-42d155ded4e1-pdf_page-00006",
+        "src-42d155ded4e1-pdf_page-00010",
+        "src-42d155ded4e1-pdf_page-00011"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u13",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-fac9747cbb51-pdf_page-00001",
+        "src-fac9747cbb51-pdf_page-00002",
+        "src-fac9747cbb51-pdf_page-00003",
+        "src-fac9747cbb51-pdf_page-00004"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u14",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-fac9747cbb51-pdf_page-00003",
+        "src-fac9747cbb51-pdf_page-00004",
+        "src-fac9747cbb51-pdf_page-00005"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u15",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-fac9747cbb51-pdf_page-00003",
+        "src-fac9747cbb51-pdf_page-00005",
+        "src-fac9747cbb51-pdf_page-00006"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u16",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-4833ddff420e-pdf_page-00001",
+        "src-4833ddff420e-pdf_page-00002",
+        "src-4833ddff420e-pdf_page-00003",
+        "src-4833ddff420e-pdf_page-00004",
+        "src-4833ddff420e-pdf_page-00005"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u17",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-4833ddff420e-pdf_page-00005",
+        "src-4833ddff420e-pdf_page-00006",
+        "src-4833ddff420e-pdf_page-00007",
+        "src-4833ddff420e-pdf_page-00008",
+        "src-4833ddff420e-pdf_page-00009"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u18",
+      "status": "no-rules",
+      "reviewedSourceIds": [
+        "src-4833ddff420e-pdf_page-00008",
+        "src-4833ddff420e-pdf_page-00009",
+        "src-4833ddff420e-pdf_page-00010"
+      ],
+      "note": "本单元保留原理、计算、评价或原文疑点；回读未发现可独立保留的条件—操作—原因规则，不将模型审核建议伪装成作者方法。"
+    },
+    {
+      "unitId": "u19",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-b1b3021b0f08-pdf_page-00001",
+        "src-b1b3021b0f08-pdf_page-00002",
+        "src-b1b3021b0f08-pdf_page-00003",
+        "src-b1b3021b0f08-pdf_page-00004"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u20",
+      "status": "no-rules",
+      "reviewedSourceIds": [
+        "src-b1b3021b0f08-pdf_page-00001",
+        "src-b1b3021b0f08-pdf_page-00002",
+        "src-b1b3021b0f08-pdf_page-00003",
+        "src-b1b3021b0f08-pdf_page-00004",
+        "src-b1b3021b0f08-pdf_page-00005",
+        "src-b1b3021b0f08-pdf_page-00006",
+        "src-b1b3021b0f08-pdf_page-00010"
+      ],
+      "note": "本单元保留原理、计算、评价或原文疑点；回读未发现可独立保留的条件—操作—原因规则，不将模型审核建议伪装成作者方法。"
+    },
+    {
+      "unitId": "u21",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-b1b3021b0f08-pdf_page-00007",
+        "src-b1b3021b0f08-pdf_page-00008"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u22",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-b1b3021b0f08-pdf_page-00008",
+        "src-b1b3021b0f08-pdf_page-00009",
+        "src-b1b3021b0f08-pdf_page-00010"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u23",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-484e6d8b37d7-pdf_page-00001",
+        "src-484e6d8b37d7-pdf_page-00002",
+        "src-484e6d8b37d7-pdf_page-00003",
+        "src-484e6d8b37d7-pdf_page-00004",
+        "src-484e6d8b37d7-pdf_page-00005",
+        "src-484e6d8b37d7-pdf_page-00008"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u24",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-484e6d8b37d7-pdf_page-00003",
+        "src-484e6d8b37d7-pdf_page-00007",
+        "src-484e6d8b37d7-pdf_page-00008",
+        "src-484e6d8b37d7-pdf_page-00009"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u25",
+      "status": "no-rules",
+      "reviewedSourceIds": [
+        "src-484e6d8b37d7-pdf_page-00008",
+        "src-484e6d8b37d7-pdf_page-00009"
+      ],
+      "note": "本单元保留原理、计算、评价或原文疑点；回读未发现可独立保留的条件—操作—原因规则，不将模型审核建议伪装成作者方法。"
+    },
+    {
+      "unitId": "u26",
+      "status": "no-rules",
+      "reviewedSourceIds": [
+        "src-4fda33930eaf-pdf_page-00001",
+        "src-4fda33930eaf-pdf_page-00002",
+        "src-4fda33930eaf-pdf_page-00003",
+        "src-4fda33930eaf-pdf_page-00004"
+      ],
+      "note": "本单元保留原理、计算、评价或原文疑点；回读未发现可独立保留的条件—操作—原因规则，不将模型审核建议伪装成作者方法。"
+    },
+    {
+      "unitId": "u27",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-4fda33930eaf-pdf_page-00005",
+        "src-4fda33930eaf-pdf_page-00006"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u28",
+      "status": "no-rules",
+      "reviewedSourceIds": [
+        "src-4fda33930eaf-pdf_page-00007",
+        "src-4fda33930eaf-pdf_page-00008"
+      ],
+      "note": "本单元保留原理、计算、评价或原文疑点；回读未发现可独立保留的条件—操作—原因规则，不将模型审核建议伪装成作者方法。"
+    },
+    {
+      "unitId": "u29",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-82267ef81808-pdf_page-00001",
+        "src-82267ef81808-pdf_page-00002",
+        "src-82267ef81808-pdf_page-00003",
+        "src-82267ef81808-pdf_page-00004"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u30",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-82267ef81808-pdf_page-00005",
+        "src-82267ef81808-pdf_page-00006",
+        "src-82267ef81808-pdf_page-00007"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u31",
+      "status": "no-rules",
+      "reviewedSourceIds": [
+        "src-82267ef81808-pdf_page-00004",
+        "src-82267ef81808-pdf_page-00005",
+        "src-82267ef81808-pdf_page-00008"
+      ],
+      "note": "本单元保留原理、计算、评价或原文疑点；回读未发现可独立保留的条件—操作—原因规则，不将模型审核建议伪装成作者方法。"
+    },
+    {
+      "unitId": "u32",
+      "status": "reviewed",
+      "reviewedSourceIds": [
+        "src-82267ef81808-pdf_page-00008",
+        "src-82267ef81808-pdf_page-00009"
+      ],
+      "note": "核对完整来源与图表、参数选择、失败及停止条件；具体实验/模型关系进入候选，非作者指令的审核意见留在内容结论。"
+    },
+    {
+      "unitId": "u33",
+      "status": "no-rules",
+      "reviewedSourceIds": [
+        "src-b9d9a37600fe-pdf_page-00001",
+        "src-b9d9a37600fe-pdf_page-00002",
+        "src-b9d9a37600fe-pdf_page-00003",
+        "src-b9d9a37600fe-pdf_page-00004"
+      ],
+      "note": "本单元保留原理、计算、评价或原文疑点；回读未发现可独立保留的条件—操作—原因规则，不将模型审核建议伪装成作者方法。"
+    },
+    {
+      "unitId": "u34",
+      "status": "no-rules",
+      "reviewedSourceIds": [
+        "src-b9d9a37600fe-pdf_page-00004",
+        "src-b9d9a37600fe-pdf_page-00005",
+        "src-b9d9a37600fe-pdf_page-00006",
+        "src-b9d9a37600fe-pdf_page-00007"
+      ],
+      "note": "本单元保留原理、计算、评价或原文疑点；回读未发现可独立保留的条件—操作—原因规则，不将模型审核建议伪装成作者方法。"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "candidate-r01",
+      "unitId": "u01",
+      "sourceIds": [
+        "src-e62068f57189-pdf_page-00004"
+      ],
+      "quote": "maximum yield                     61%. At 100 °C and 120 °C, the reaction reached equilibrium\nobtained at a 1 : 1 ratio (Fig. 2d). When the substrate amount            after 8 hours and 4 hours, respectively.\nvaried from 200 mg to 25 mg, we observed higher selectivity                   We then conducted NMR and FT-IR an",
+      "when": "复现 Pd/乙腈/水脱水并希望提高双腈比例",
+      "do": "比较 1:1 介质和底物稀释条件",
+      "because": "该实验观察到介质比及浓度改变双腈选择性。",
+      "prerequisites": [
+        "模型酰胺、指定 Pd 与溶剂体系"
+      ],
+      "exceptions": [
+        "25 mg 条件的 68% 不是 PET 总收率。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r01",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r02",
+      "unitId": "u02",
+      "sourceIds": [
+        "src-e62068f57189-pdf_page-00004"
+      ],
+      "quote": "equilibrium\nobtained at a 1 : 1 ratio (Fig. 2d). When the substrate amount            after 8 hours and 4 hours, respectively.\nvaried from 200 mg to 25 mg, we observed higher selectivity                   We then conducted NMR and FT-IR analyses to monitor the\nfor terephthalonitrile over 4-cyan",
+      "when": "100℃或120℃曲线已到观察到的平衡平台",
+      "do": "按平衡平台比较产率而不把延时等同继续增产",
+      "because": "100℃约8 h、120℃约4 h 后双腈产率受平衡限制。",
+      "prerequisites": [
+        "本文 Pd 水转移体系"
+      ],
+      "exceptions": [
+        "温度变化只在测试范围内解释。"
+      ],
+      "stopCondition": "平台以后不承诺达到100%双腈。",
+      "status": "retained",
+      "targetRuleId": "r02",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r03",
+      "unitId": "u03",
+      "sourceIds": [
+        "src-e62068f57189-pdf_page-00006"
+      ],
+      "quote": "one-pot transformation from PET to\n(CH3CN)x(H2O)y(OH)t species, which subsequently condense          terephthalonitrile by combining the ammonolysis and de-\ninto a dimer (major form) and a tetramer (minor form)             hydration steps were unsuccessful, even when the",
+      "when": "氨解中间体将进入 Pd 脱水",
+      "do": "先隔离、水洗和干燥酰胺",
+      "because": "残氨强配位与 EG 促进 Pd 黑导致一锅不兼容。",
+      "prerequisites": [
+        "已完成 PET 氨解"
+      ],
+      "exceptions": [
+        "清洗和隔离意味着额外操作，不是无损一锅串联。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r03",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r04",
+      "unitId": "u03",
+      "sourceIds": [
+        "src-e62068f57189-pdf_page-00007"
+      ],
+      "quote": "12.5 : 1, approximately 93% purity) (Fig. S7). The                tional approach from p-xylene, our approach achieves a 28%\nproduct was further purified by recrystallization from an aceto-           lower carbon footprint (Fig. 5d), benefiting from the utilization\nnitrile–w",
+      "when": "回收 Pd 水转移反应中的 TPN",
+      "do": "蒸发后水洗并按需求进一步重结晶",
+      "because": "分离 TPN 与溶于水的乙酰胺/单腈可改善纯度并减少逆反应组分。",
+      "prerequisites": [
+        "本文反应后混合物"
+      ],
+      "exceptions": [
+        "水洗约93%纯度，金属回收有损失。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r04",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r05",
+      "unitId": "u04",
+      "sourceIds": [
+        "src-e62068f57189-pdf_page-00007"
+      ],
+      "quote": "more than half of the total CO2\nreusability of the PdCl2 catalyst. An eﬀective recyclability               emissions originate from solvent evaporation due to the high\nsystem should recover terephthalonitrile with high purity and              latent heat of water (Fig. S10), making the s",
+      "when": "模型中蒸发贡献超过一半排放",
+      "do": "比较提高酰胺进料浓度的流程情景",
+      "because": "每公斤产品的水/乙腈蒸发负荷降低。",
+      "prerequisites": [
+        "本篇工艺和 LCA 边界"
+      ],
+      "exceptions": [
+        "高浓度改善来自模型，需保证分离与反应仍可运行。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r05",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r06",
+      "unitId": "u05",
+      "sourceIds": [
+        "src-214fbead528d-pdf_page-00003"
+      ],
+      "quote": "100 μm with water; Figure S2), facilitating subsequent\nWhen the catalyst loading was increased to 2%, the BHET                      centrifugal filtration and reducing product loss.\n                                                                      7609                                   https://doi.org/10.1021/acssuschemeng.5c02544\n                                                                                                            ACS Sustainable Chem. Eng. 2025",
+      "when": "从 EG 中分离 BHET",
+      "do": "冷却至0℃并用少量水改善晶粒",
+      "because": "温度相关溶解度和晶粒增大便于过滤。",
+      "prerequisites": [
+        "已生成 BHET 的乙二醇解液"
+      ],
+      "exceptions": [
+        "少量水条件限定本篇，不能任意加入。"
+      ],
+      "stopCondition": "24 h 结晶后过滤。",
+      "status": "retained",
+      "targetRuleId": "r06",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r07",
+      "unitId": "u05",
+      "sourceIds": [
+        "src-214fbead528d-pdf_page-00003"
+      ],
+      "quote": "90.5% with 6-h\nand lead to more favorable reaction kinetics.45 For instance,\n                                                                             degradation time, 190 °C reaction temperature, 2 wt %\nammonolysis reactions involving BHET proceed with higher\nyields and faster rates compared to those utilizing TPA and                  catal",
+      "when": "复现 Zn(OAc)₂ 催化乙二醇解的产率峰",
+      "do": "比较2 wt%催化剂而非继续增加",
+      "because": "更高负载未改善并有活性位覆盖的解释。",
+      "prerequisites": [
+        "190℃/6 h及指定 EG 比"
+      ],
+      "exceptions": [
+        "不同真实料杂质会改变产率。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r07",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r08",
+      "unitId": "u06",
+      "sourceIds": [
+        "src-214fbead528d-pdf_page-00005"
+      ],
+      "quote": "first stage, using methanol/water mixtures as the\ndirect ammonolysis would have difficulty separating TP from                 solvent, H2O or MeOH gets reduced at the cathode,\nthe partially degraded amide oligomers, and the preparation of              generating hydrogen gas along with",
+      "when": "执行本文 TP 到 PABA/PPD 的 e-Hofmann 路线",
+      "do": "分开电卤化、加碱重排和热水解三阶段",
+      "because": "活性溴、碱和温度在三个阶段承担不同作用。",
+      "prerequisites": [
+        "原文不分隔电解体系和介质"
+      ],
+      "exceptions": [
+        "不是所有阶段都由电流直接完成。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r08",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r09",
+      "unitId": "u06",
+      "sourceIds": [
+        "src-214fbead528d-pdf_page-00006"
+      ],
+      "quote": "5−10 F/mol charge passed revealed nearly identical                   from the oxidation of Br− to Br3− (3Br− ⇌ Br3− + 2e−), while\nconcentrations of active bromine (7.6 mM), indicating that the            the second one is attributed to the oxidation of Br3− to Br2\n                                                                   7612                                  https://doi.org",
+      "when": "施加电量达到约5 F/mol后产率不再改善",
+      "do": "将产率平台与活性溴回还原一起分析",
+      "because": "额外电量可被阴极副反应消耗而不增加目标物。",
+      "prerequisites": [
+        "所测石墨/Pt不分隔体系"
+      ],
+      "exceptions": [
+        "阈值仅限原文，非任意电解槽通用。"
+      ],
+      "stopCondition": "不把5–10 F/mol继续加电当作必然增产。",
+      "status": "retained",
+      "targetRuleId": "r09",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r10",
+      "unitId": "u06",
+      "sourceIds": [
+        "src-214fbead528d-pdf_page-00006"
+      ],
+      "quote": "43.4%, and a\nHofmann rearrangement. We monitored the progress of the                   significantly improved total yield of 72.2% for PPD and PABA\nreaction while increasing the charge input into the solution,             was achieved, which was 21.5% higher than that without\nand PPD w",
+      "when": "评估阴极活性溴还原对 FE 的损失",
+      "do": "比较0.94 mM重铬酸盐保护层条件",
+      "because": "Cr(OH)₃ 层抑制阴极活性溴还原并提高总产率。",
+      "prerequisites": [
+        "本文条件、需保留 Cr(VI) 使用事实"
+      ],
+      "exceptions": [
+        "改善不等于完全无危险试剂，不能推广成一般推荐。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r10",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r11",
+      "unitId": "u09",
+      "sourceIds": [
+        "src-42d155ded4e1-pdf_page-00003"
+      ],
+      "quote": "functional unit for this study is 1 kg of Kevlar                     allocation methodology for open-loop recycling.\nproduction. The system boundary is shown in Figure 1,                          2.3. Upcycled Kevlar. 2.3.1. Mechanical Recycling.\nillustrating the chemical upcycling process, starting from",
+      "when": "比较废PET与原生Kevlar聚合物",
+      "do": "先固定1 kg同质量聚合物和北美系统边界",
+      "because": "功能单位和质量假设保证模型比较对象一致。",
+      "prerequisites": [
+        "从收集到聚合的 LCI"
+      ],
+      "exceptions": [
+        "同质量是假设而非纤维力学实测。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r11",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r12",
+      "unitId": "u10",
+      "sourceIds": [
+        "src-42d155ded4e1-pdf_page-00003"
+      ],
+      "quote": "Cut-Off Approach. The cutoff approach is most                       2.3.2. Depolymerization and Precursor Preparation. Part\ncommonly applied to avoid double-counting burdens between                   of chemical recycling includes PET polymer being broken\nproduct systems and to avoid assum",
+      "when": "用cutoff评价开放循环PET升级",
+      "do": "从废料收集开始且不额外记替代原生PET信用",
+      "because": "前世负担已归原系统，额外信用会改变既定边界。",
+      "prerequisites": [
+        "本篇 cutoff 模型"
+      ],
+      "exceptions": [
+        "不能将此法结果与50/50直接拼接。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r12",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r13",
+      "unitId": "u11",
+      "sourceIds": [
+        "src-42d155ded4e1-pdf_page-00010"
+      ],
+      "quote": "4.8% and the cost by 6.1% compared with the baseline                        compared to optimizing diethyl ether consumption. The best-\nscenario. A previous study also reports that substituting KOH               case scenario, identified as S8, incorporates all modifications\nwith NaOH re",
+      "when": "评估TCL制备的过量SOCl₂热点",
+      "do": "比较5.3与3当量情景",
+      "because": "过量氯化剂贡献成本与环境负担，模型减少其用量。",
+      "prerequisites": [
+        "保留目标TCL产率和纯度的场景假设"
+      ],
+      "exceptions": [
+        "不是本文实测工业配方验证。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r13",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r14",
+      "unitId": "u12",
+      "sourceIds": [
+        "src-42d155ded4e1-pdf_page-00011"
+      ],
+      "quote": "37% and                          lower ecotoxicity impacts. Transportation and waste have a\necotoxicity by 30%. Sensitivity analysis reveals that more reuse              minimal impact compared to raw materials and chemicals.\nof solvents lowers the environmental impact of chemical                       Hots",
+      "when": "解释溶剂回收率的环境敏感性",
+      "do": "同时核对回收范围和再回收的额外投入",
+      "because": "净收益来自溶剂替代信用与能耗/试剂负担的权衡。",
+      "prerequisites": [
+        "原模型95%基线及敏感性范围"
+      ],
+      "exceptions": [
+        "副产物提高回收未必总带来净改善。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r14",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r15",
+      "unitId": "u13",
+      "sourceIds": [
+        "src-fac9747cbb51-pdf_page-00003"
+      ],
+      "quote": "32.4 %, and a considerable amount\n    Typically, TP (0.1 g), TiO2 (0.1 g) and acetonitrile (5 g) were loaded        of soluble oligomers remains (Fig. S1). In contrast, the yield of TP in THF\ninto a stainless-steel autoclave reactor. The reactor underwent three N₂          reac",
+      "when": "选择ZnCl₂氨解PET的溶剂",
+      "do": "比较THF溶胀和目标TP产率",
+      "because": "甲苯中高PET消失仍只生成较低TP比例。",
+      "prerequisites": [
+        "本篇220℃氨解条件"
+      ],
+      "exceptions": [
+        "THF条件不能直接迁移到低温EG或气固体系。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r15",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r16",
+      "unitId": "u13",
+      "sourceIds": [
+        "src-fac9747cbb51-pdf_page-00003"
+      ],
+      "quote": "85.3 %) is achieved with only 10 mg ZnCl2,\n TP conversion = 1 −                     × 100%                         (4)\n                          minitial Tp                                             and further increasing the dosage of the catalyst has little effect on the\n                                                                                  TP yield. Finally, the influence of ammonia pressure on the TP yield was\n                nproduced TPN\nTPN yield =                      × 100%",
+      "when": "提高原文第一段有效氨供给",
+      "do": "比较NH₃分压0.2到0.5 MPa",
+      "because": "较高氨压在所测条件提高TP收率。",
+      "prerequisites": [
+        "ZnCl₂/THF和N₂总压条件"
+      ],
+      "exceptions": [
+        "不外推为任意增压均安全或均提高产量。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r16",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r17",
+      "unitId": "u14",
+      "sourceIds": [
+        "src-fac9747cbb51-pdf_page-00005"
+      ],
+      "quote": "carbon yield, likely attributed to coke formation               attributable to the solvent, CDCl3. No additional peaks are observed,\nfrom TP degradation at higher temperature [31]. The influence of re­                especially those originating from 4-cyanobenzamide, indicatin",
+      "when": "TiO₂脱水超过产率峰或继续升温",
+      "do": "用260℃/4 h观察窗口比较而不无限延时升温",
+      "because": "焦化与产物损失使TPN收率下降。",
+      "prerequisites": [
+        "指定TiO₂/乙腈和N₂压力"
+      ],
+      "exceptions": [
+        "温度更低可有较高选择性但产率不同。"
+      ],
+      "stopCondition": "超过4 h产率下降时停止以延时增产的假设。",
+      "status": "retained",
+      "targetRuleId": "r17",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r18",
+      "unitId": "u14",
+      "sourceIds": [
+        "src-fac9747cbb51-pdf_page-00003"
+      ],
+      "quote": "− 4 ◦ C overnight to precip­\n                                                                                  itate TPN. The purified TPN was then obtained via filtration, washing,\n                                                                                  and drying.\n2.2. Catalytic performance evaluation\n                                                                                  2.2.3. TPN to PXDA process\n2.2.1. PET ammonolysis process                                                        Typically, TPN (0.1 g), Pd/C (10 mg) and metha",
+      "when": "从TiO₂/乙腈反应液分离TPN",
+      "do": "加水作反溶剂并低温结晶",
+      "because": "TPN可分离为高纯固体供后续氢化。",
+      "prerequisites": [
+        "脱水完成后移除固体和溶剂"
+      ],
+      "exceptions": [
+        "65%是分离率，73.1%是分析率。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r18",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r19",
+      "unitId": "u15",
+      "sourceIds": [
+        "src-fac9747cbb51-pdf_page-00003"
+      ],
+      "quote": "chloride. Finally, the purified product was obtained via filtration,\nnumber of moles and MwPET represented the molar masses of the PET                 washing and drying.\nrepeating unit (192 g/mol).\n                    (\n                         mundepolymerized PET\n                                              )                                   3. Results and discussion\nPET conversion = 1 −                            × 100",
+      "when": "分离PXDA氢化产物",
+      "do": "加盐酸形成二盐酸盐并结晶",
+      "because": "盐酸盐形式便于隔离与结构确认。",
+      "prerequisites": [
+        "氢化后的原文产物液"
+      ],
+      "exceptions": [
+        "盐酸盐质量不能直接当游离胺摩尔产率。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r19",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r20",
+      "unitId": "u16",
+      "sourceIds": [
+        "src-4833ddff420e-pdf_page-00003"
+      ],
+      "quote": "average temperature experienced                       extinguished, the peaks related to TPD grow. The unknown\nover the course of the reaction. Nominal temperatures are                        peaks consist of a multiplet between 8.03 and 7.93 ppm that\npresented in Table 1 and correspond to the set poin",
+      "when": "从温度实验拟合氨解速率",
+      "do": "使用记录的平均温度而非只用设定点",
+      "because": "升温历程影响反应时间和Arrhenius拟合。",
+      "prerequisites": [
+        "可靠温度记录和NMR组分数据"
+      ],
+      "exceptions": [
+        "并不自动处理所有反应器非稳态温差。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r20",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r21",
+      "unitId": "u17",
+      "sourceIds": [
+        "src-4833ddff420e-pdf_page-00006"
+      ],
+      "quote": "315.0 °C. Such a high temperature is outside the range\nbecause the amide group is less electron withdrawing than an                  of validity for the model−at temperatures exceeding about 150\nester group. Accordingly, the relatively delocalized electrons of             °C it is ob",
+      "when": "使用DMT氨解模型进行温度预测",
+      "do": "将解释限定在0–150℃并保留介质变化",
+      "because": "高温会出现甲胺等额外反应，315℃交叉是无效外推。",
+      "prerequisites": [
+        "MeOH/NH₃模型与原参数定义"
+      ],
+      "exceptions": [
+        "预测不等于实测。"
+      ],
+      "stopCondition": "不将315℃模型交叉当工艺优化点。",
+      "status": "retained",
+      "targetRuleId": "r21",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r22",
+      "unitId": "u19",
+      "sourceIds": [
+        "src-b1b3021b0f08-pdf_page-00004"
+      ],
+      "quote": "solid samples\n  reacting for 45 min at 50 °C, only 0.01 g (1 ppm) of the product is\n                                                                                showing the reaction trajectory from BHET through HCB to TPD.\n  recovered as a solid. The mass fraction recovered as solids\n  steadily increases with time as the reactant is converted",
+      "when": "定量BHET氨解早期样品",
+      "do": "固液两相分别NMR并合并质量平衡",
+      "because": "可溶BHET/HCB占液相，单测固体会漏计。",
+      "prerequisites": [
+        "按原文溶解和取样方法"
+      ],
+      "exceptions": [
+        "质量平衡依赖峰归属和代表性取样。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r22",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r23",
+      "unitId": "u21",
+      "sourceIds": [
+        "src-b1b3021b0f08-pdf_page-00007"
+      ],
+      "quote": "costs associated with energy-intensive\n                                                                                       Here x ET1 is the mole fraction of ET1 bonds, k is the apparent\n                                                                                   rate constant, and k 0 is the apparent pseudo–first-order rate con-\n                                                                                   stant. The mole fraction of ET1 bonds is defined by Equation (14).\n                                                                                                            nET1\n                                                                                   x ET1 ¼                                                              (14)\n                                                                                             nET",
+      "when": "处理原文所测约400 μm厚PET薄片",
+      "do": "先用简单切片而不默认增加昂贵细磨",
+      "because": "薄片与150–250 μm颗粒转化接近，进一步研磨增益小。",
+      "prerequisites": [
+        "所测EG氨解薄膜体系"
+      ],
+      "exceptions": [
+        "不能推广到毫米厚粒子或不同形状。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r23",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r24",
+      "unitId": "u22",
+      "sourceIds": [
+        "src-b1b3021b0f08-pdf_page-00009"
+      ],
+      "quote": "1.37 \u0001\n                                                                                    0.48 E-7 cm2 s\u00031) falls within the range of known ammonia diffu-\n                                                                                   sivities in other polymers at temperatures above their glass transi-\n                                                                                   tion temperatures.\n                                                                                        While published literature lacks specific information on the\n                                                                                   diffusion of ammonia in PET, mod",
+      "when": "拟合粒径引起的反应利用率差异",
+      "do": "将有效因子、球形几何和D_eff联合拟合",
+      "because": "化学基准与颗粒速率差反映内部扩散影响。",
+      "prerequisites": [
+        "BHET基准及三档颗粒数据"
+      ],
+      "exceptions": [
+        "D_eff限于100℃EG溶胀多组分体系。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r24",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r25",
+      "unitId": "u23",
+      "sourceIds": [
+        "src-484e6d8b37d7-pdf_page-00005"
+      ],
+      "quote": "90.6 mol%) was achieved within approximately 2 h,\nmelting point and thermal stability (decomposition temperature >                    accompanied by a purity of 96.2 %. The comparison of this study with a\n300 ◦ C). These findings, consistent with the prior elucidation, rei",
+      "when": "提高无水氨气固酰胺产率同时保证纯度",
+      "do": "比较120℃2 h与长时条件的两项响应",
+      "because": "长时纯度提高但碳化降低目标收率。",
+      "prerequisites": [
+        "本篇PET薄片/无水氨釜条件"
+      ],
+      "exceptions": [
+        "不能只按最高纯度选择12 h。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r25",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r26",
+      "unitId": "u23",
+      "sourceIds": [
+        "src-484e6d8b37d7-pdf_page-00008"
+      ],
+      "quote": "300 rpm                                                                                                       (4)\nstirring yielded a notably elevated TP yield and purity (Fig. 6e) and the                          + 0.0885XBC − 1.28XA2 − 0.6874XB2 − 0.0982XC2\nfollowing experimental condition of stirring were set at 300 rpm.\n                                                                                             where A, B, and C are the coded values of reaction time, tempera",
+      "when": "筛选气固氨解混合和投料参数",
+      "do": "比较300 rpm及PET/NH₃比而不任意减氨",
+      "because": "过低有效氨供给及不合适搅拌降低表现。",
+      "prerequisites": [
+        "原文装置和试验负载"
+      ],
+      "exceptions": [
+        "搅拌转速非尺度无关。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r26",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r27",
+      "unitId": "u24",
+      "sourceIds": [
+        "src-484e6d8b37d7-pdf_page-00009"
+      ],
+      "quote": "87.34\nmol% yield and 94.50 % purity across three repetitions (Table S5),                    This work was supported by the funding of Guangdong Basic and\naligning within a 95 % confidence interval, thereby verifying the                  Applied Basic Research Foundation, China (2022A15150",
+      "when": "响应面模型给出近似最优条件",
+      "do": "独立重复验证产率与纯度",
+      "because": "实际87.34/94.50与模型88.83/100.46不同，拟合度不能代替验证。",
+      "prerequisites": [
+        "原BBD试验范围"
+      ],
+      "exceptions": [
+        "模型预测纯度超过100%，原表显著性有差异。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r27",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r28",
+      "unitId": "u27",
+      "sourceIds": [
+        "src-4fda33930eaf-pdf_page-00005"
+      ],
+      "quote": "28.27 C%, which was a great\n                                                                                         improvement. Moreover, the yields of TPN and aromatic nitriles did not\n                                                                                         increase significantly with the further increase of urea dosage. Mean­\n                                                                                         while, the urea dosage had little effect on the selectivity of TPN in the\n                                                                                         aromatic nitri",
+      "when": "增加尿素作为供氨剂",
+      "do": "比较质量比1附近而不以更多尿素保证增产",
+      "because": "500℃时0.5→1改善而更高用量趋平台。",
+      "prerequisites": [
+        "本篇PET/γ-Al₂O₃固定进料条件"
+      ],
+      "exceptions": [
+        "质量比与摩尔比不能混写。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r28",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r29",
+      "unitId": "u27",
+      "sourceIds": [
+        "src-4fda33930eaf-pdf_page-00006"
+      ],
+      "quote": "32.53 C%), indicating that γ-Al2O3\nurea to PET.                                                                            may be slightly inactivated during pyrolysis regeneration, which was\n                                                                                        related to the loss of acidic sites on the surface of γ-Al2O3 and the\nsitu catalytic pyrolysis with the urea process was an effective way to",
+      "when": "以TPN为尿素热解目标",
+      "do": "比较550℃收率峰和500℃选择性",
+      "because": "更高温引发苯甲腈/芳烃而损失双腈选择性。",
+      "prerequisites": [
+        "所测原位热解体系"
+      ],
+      "exceptions": [
+        "最高收率与最高选择性不同。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r29",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r30",
+      "unitId": "u27",
+      "sourceIds": [
+        "src-4fda33930eaf-pdf_page-00006"
+      ],
+      "quote": "600 ◦ C for 4 h to remove               of terephthalic acid ethylene glycol ester dimer (1, Fig. 8). Through\nthe coke and regenerate it. Fig. 7 shows the carbon yields of TPN,                      comparing the three decomposition mechanisms with and without the",
+      "when": "重复使用尿素热解γ-Al₂O₃",
+      "do": "按600℃4 h烧焦再生并检查活性损失",
+      "because": "四轮后产率下降，酸位与孔结构变化。",
+      "prerequisites": [
+        "本文催化剂和循环方法"
+      ],
+      "exceptions": [
+        "有限循环不等于完全恢复。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r30",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r31",
+      "unitId": "u29",
+      "sourceIds": [
+        "src-82267ef81808-pdf_page-00004"
+      ],
+      "quote": "315.7 lmol/g, which was 40% higher than                                     Besides, Entries 2–5 demonstrated the detailed product distri-\nc-Al2O3. With the mass ratio increasing from 2% to 8%, the total                               butions of CFP-A of PET over different modified c-Al2O3 catalysts.\nacid amounts of modi",
+      "when": "筛选磷改性γ-Al₂O₃",
+      "do": "同时看2%改性酸量和孔结构",
+      "because": "过量磷提高酸量但可能破坏孔结构。",
+      "prerequisites": [
+        "P₂O₅质量标定与本文催化条件"
+      ],
+      "exceptions": [
+        "酸位数量不能单独保证目标产率。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r31",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r32",
+      "unitId": "u30",
+      "sourceIds": [
+        "src-82267ef81808-pdf_page-00006"
+      ],
+      "quote": "50% NH3 and 50% N2). Fig. 4 show the overall yield and nitriles                       gas with different content ammonia was investigated in the range\nselectivity of CFP-A with different catalyst dosage. In Fig. 4a, the                       of 100–20% by fixing temperature at 500 °C, catalyst amoun",
+      "when": "希望减少NH₃载气用量",
+      "do": "在固定总流量下比较50%与纯氨",
+      "because": "50%在所测条件接近纯氨，20%时含氧残物增加。",
+      "prerequisites": [
+        "PET0.5 g、催化剂1 g和总流160 mL/min"
+      ],
+      "exceptions": [
+        "比例不能脱离总流量和负载使用。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r32",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r33",
+      "unitId": "u30",
+      "sourceIds": [
+        "src-82267ef81808-pdf_page-00006"
+      ],
+      "quote": "1.0 g, amides and oxygenates disap-                             under 50% ammonia (52.27% and 89.95%), and the difference could\npeared. Meanwhile, the carbon yield of nitriles reached the highest,                       be negligible. If ammonia content decreased further, the carbon\nand the unidentifi",
+      "when": "改变固定床催化剂量",
+      "do": "在0.6–1.2 g中用1 g的比较窗口",
+      "because": "更多接触不一定增产，还会促进副裂解。",
+      "prerequisites": [
+        "同温度和进料/气流条件"
+      ],
+      "exceptions": [
+        "仅限所测固定床尺度。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r33",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r34",
+      "unitId": "u30",
+      "sourceIds": [
+        "src-82267ef81808-pdf_page-00006"
+      ],
+      "quote": "46.01%, respectively, slightly decreased as compared\n                                                                                           with the first cycle. Meanwhile, the yield of unidentified carbon\n                                                                                           increased from14.67% to 18.02%. The variation on the yield of coke,\n                                                                                           gases, and aromatics was not obvious, and kept at around 16%, 10%\n                                                                                           a",
+      "when": "再用磷改性催化剂",
+      "do": "550℃空气3 h烧焦后再测酸量和TPN",
+      "because": "焦去除仍伴随酸位损失，五轮产率下降。",
+      "prerequisites": [
+        "本文磷改性样品"
+      ],
+      "exceptions": [
+        "不能把再生次数直接当长期寿命。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r34",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r35",
+      "unitId": "u32",
+      "sourceIds": [
+        "src-82267ef81808-pdf_page-00008"
+      ],
+      "quote": "Fig. 7. The schematic diagram of the separation and purification of TPN from the pyrolysis products",
+      "when": "分离快速热解冷阱中的TPN",
+      "do": "热甲醇溶解后−20℃重结晶",
+      "because": "冷热溶解度差可把TPN从其他组分中分开。",
+      "prerequisites": [
+        "原混合物与甲醇分离条件"
+      ],
+      "exceptions": [
+        "分离只回收约60%分析TPN。"
+      ],
+      "stopCondition": "12 h结晶后过滤干燥并检查纯度。",
+      "status": "retained",
+      "targetRuleId": "r35",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r36",
+      "unitId": "u01",
+      "sourceIds": [
+        "src-e62068f57189-pdf_page-00004"
+      ],
+      "quote": "5 mol%, 6 mg), CH3CN (3 mL),\nH2O (3 mL), 100 °C, 18 h. acac: acetylacetonate, hfac: hexaﬂuoroacetylacetonate, dba: dibenzylideneacetone, EG: ethylene glycol, THF: tetrahydro-\nfuran, DMSO: dimethyl sulfoxide.\n\n\n\n\n   We also found that the reaction is sensit",
+      "when": "降低原文Pd水转移催化剂负载",
+      "do": "保留5 mol%作为已验证比较点",
+      "because": "减少PdCl₂负载使TPN产率下降。",
+      "prerequisites": [
+        "模型酰胺与原乙腈/水条件"
+      ],
+      "exceptions": [
+        "不把该负载推广为其他Pd催化体系最优。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r36",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    },
+    {
+      "id": "candidate-r37",
+      "unitId": "u19",
+      "sourceIds": [
+        "src-b1b3021b0f08-pdf_page-00002"
+      ],
+      "quote": "fume hood. The method for dissolv-                bring each reactor up to the setpoint temperature of 50 °C, 75 °C,\n  ing ammonia in EG was based on the procedure outlined by Zhou                 100 °C, or 125 °C. Product mixtures were harvested at intervals of\n  et al. and illustrated in Figure 1.[",
+      "when": "按原文准备EG氨解动力学实验",
+      "do": "预溶氨时冷却并捕集过量气体，温度不超过所测125℃",
+      "because": "预溶控制暴露，温度选择避免约150℃以上副反应。",
+      "prerequisites": [
+        "原文实验设施、操作与预饱和介质"
+      ],
+      "exceptions": [
+        "方法卡用于理解文献；本文未验证更高温下模型可迁移。"
+      ],
+      "stopCondition": "",
+      "status": "retained",
+      "targetRuleId": "r37",
+      "reason": "保留原材料中的实验参数选择或条件—处理关系，限定到本篇体系。"
+    }
+  ],
+  "independentRules": [],
+  "independentFrameworks": [],
+  "relationStatus": "mapped",
+  "relationReason": "同篇步骤有物质交接，跨篇对比明确标为inference；没有凭连线推出普适路线优劣。",
+  "relationReview": {
+    "framework": [
+      {
+        "type": "prerequisite",
+        "status": "mapped",
+        "edgeIds": [
+          "edge-02",
+          "edge-04",
+          "edge-06",
+          "edge-15"
+        ],
+        "reason": "逐条核对框架间的该类关系；材料顺序/输入/比较维度与跨论文推断分别标注。"
+      },
+      {
+        "type": "sequence",
+        "status": "mapped",
+        "edgeIds": [
+          "edge-09",
+          "edge-10",
+          "edge-24"
+        ],
+        "reason": "逐条核对框架间的该类关系；材料顺序/输入/比较维度与跨论文推断分别标注。"
+      },
+      {
+        "type": "causes",
+        "status": "mapped",
+        "edgeIds": [
+          "edge-14"
+        ],
+        "reason": "逐条核对框架间的该类关系；材料顺序/输入/比较维度与跨论文推断分别标注。"
+      },
+      {
+        "type": "supports",
+        "status": "mapped",
+        "edgeIds": [
+          "edge-01",
+          "edge-07",
+          "edge-13",
+          "edge-16",
+          "edge-20",
+          "edge-21",
+          "edge-22",
+          "edge-23"
+        ],
+        "reason": "逐条核对框架间的该类关系；材料顺序/输入/比较维度与跨论文推断分别标注。"
+      },
+      {
+        "type": "contrasts",
+        "status": "mapped",
+        "edgeIds": [
+          "edge-11",
+          "edge-12",
+          "edge-18",
+          "edge-25",
+          "edge-26"
+        ],
+        "reason": "逐条核对框架间的该类关系；材料顺序/输入/比较维度与跨论文推断分别标注。"
+      },
+      {
+        "type": "part_of",
+        "status": "unsupported",
+        "edgeIds": [],
+        "reason": "框架卡具有各自用途，没有把其整张定义成另一张的组成部分；层次包含放在整体结构。"
+      },
+      {
+        "type": "applies",
+        "status": "mapped",
+        "edgeIds": [
+          "edge-03",
+          "edge-05",
+          "edge-17",
+          "edge-19"
+        ],
+        "reason": "逐条核对框架间的该类关系；材料顺序/输入/比较维度与跨论文推断分别标注。"
+      },
+      {
+        "type": "feedback",
+        "status": "unsupported",
+        "edgeIds": [],
+        "reason": "论文报告优化与循环性能，但没有规定一个跨论文统一回返修订流程；不据不确定性编造反馈回路。"
+      },
+      {
+        "type": "parallel",
+        "status": "mapped",
+        "edgeIds": [
+          "edge-08"
+        ],
+        "reason": "逐条核对框架间的该类关系；材料顺序/输入/比较维度与跨论文推断分别标注。"
+      }
+    ],
+    "methodology": [
+      {
+        "type": "main",
+        "status": "mapped",
+        "edgeIds": [
+          "m-edge-14",
+          "m-edge-15",
+          "m-edge-19"
+        ],
+        "reason": "逐条核对整体结构的该类关系；材料顺序/输入/比较维度与跨论文推断分别标注。"
+      },
+      {
+        "type": "branch",
+        "status": "unsupported",
+        "edgeIds": [],
+        "reason": "各目标路线作为层次及比较分支呈现；材料没有统一可执行分支选择阈值，因此不画决策树条件。"
+      },
+      {
+        "type": "feedback",
+        "status": "unsupported",
+        "edgeIds": [],
+        "reason": "论文报告优化与循环性能，但没有规定一个跨论文统一回返修订流程；不据不确定性编造反馈回路。"
+      },
+      {
+        "type": "supports",
+        "status": "mapped",
+        "edgeIds": [
+          "m-edge-17",
+          "m-edge-18",
+          "m-edge-21"
+        ],
+        "reason": "逐条核对整体结构的该类关系；材料顺序/输入/比较维度与跨论文推断分别标注。"
+      },
+      {
+        "type": "contains",
+        "status": "mapped",
+        "edgeIds": [
+          "m-edge-01",
+          "m-edge-02",
+          "m-edge-03",
+          "m-edge-04",
+          "m-edge-05",
+          "m-edge-06",
+          "m-edge-07",
+          "m-edge-08",
+          "m-edge-09",
+          "m-edge-10",
+          "m-edge-11"
+        ],
+        "reason": "逐条核对整体结构的该类关系；材料顺序/输入/比较维度与跨论文推断分别标注。"
+      },
+      {
+        "type": "causes",
+        "status": "unsupported",
+        "edgeIds": [],
+        "reason": "整体层次节点汇聚不同证据，不以跨论文主题相关性宣称节点级因果。"
+      },
+      {
+        "type": "prerequisite",
+        "status": "mapped",
+        "edgeIds": [
+          "m-edge-13"
+        ],
+        "reason": "逐条核对整体结构的该类关系；材料顺序/输入/比较维度与跨论文推断分别标注。"
+      },
+      {
+        "type": "parallel",
+        "status": "mapped",
+        "edgeIds": [
+          "m-edge-12",
+          "m-edge-20"
+        ],
+        "reason": "逐条核对整体结构的该类关系；材料顺序/输入/比较维度与跨论文推断分别标注。"
+      },
+      {
+        "type": "contrasts",
+        "status": "mapped",
+        "edgeIds": [
+          "m-edge-16"
+        ],
+        "reason": "逐条核对整体结构的该类关系；材料顺序/输入/比较维度与跨论文推断分别标注。"
+      }
+    ]
+  }
+}

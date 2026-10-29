@@ -1,0 +1,393 @@
+
+=== 2.pdf PDF 1 ===
+ Chemical Engineering Journal 524 (2025) 168710
+
+
+ Contents lists available at ScienceDirect
+
+
+ Chemical Engineering Journal
+ journal homepage: www.elsevier.com/locate/cej
+
+
+
+
+Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A
+route to diversify PET-derived chemicals
+Songlei Mo a,b, Xiaohui Liu a,b, Yanqin Wang a,b,*
+a
+ Shanghai Key Laboratory of Functional Materials Chemistry, Research Institute of Industrial Catalysis, School of Chemistry and Molecular Engineering, East China
+University of Science and Technology, Shanghai, 200237, PR China
+b
+ State Key Laboratory of Green Chemical Engineering and Industrial Catalysis, Research Institute of Industrial Catalysis, School of Chemistry and Molecular Engineering,
+East China University of Science and Technology, Shanghai 200237, PR China
+
+
+
+
+A R T I C L E I N F O A B S T R A C T
+
+Keywords: The upcycling of polyethylene terephthalate (PET) waste into value-added chemicals is of great interest. How­
+Polyethylene terephthalate ever, the diversity of currently accessible PET-derived high-value products remains limited, posing a significant
+Upcycling challenge to expanding their scope. Herein, we report a three-step catalytic process for converting PET waste into
+PET-derived high-value products
+ p-xylylenediamine (PXDA)—an essential monomer for producing high-market-value polyamides, polyimides,
+Terephthalonitrile
+P-xylylenediamine
+ and nonisocyanate polyurethanes. Specifically, PET is first transformed into terephthalamide (TP) via ammo­
+ nolysis, and subsequently dehydrated to terephthalonitrile (TPN), the key intermediate for PXDA synthesis.
+ Successful separation of each intermediate ensures efficient hydrogenation of TPN to PXDA, achieving an overall
+ PXDA yield of 54.5 % from PET. Furthermore, the transformation of common real plastic waste and scale-up
+ experiments demonstrate the robustness and substantial industrial potential of this catalytic route. This study
+ establishes a viable and promising strategy for upcycling PET waste into high value-added product PXDA,
+ significantly broadening the scope of PET-derived chemicals and stimulating further exploration of other valu­
+ able derivatives.
+
+
+
+
+1. Introduction strategies have been developed for recycling PET waste (Scheme 1a),
+ including hydrolysis [7,8], methanolysis [9,10], glycolysis [11,12], and
+ Carbon neutrality goals are intensifying global focus on energy and hydrogenolysis [13,14]. These strategies depolymerize PET into mono­
+environmental challenges, particularly overreliance on petroleum, mers suitable for direct repolymerization into PET or repolymerization
+thereby fueling significant interest in developing alternative carbon after oxidation [5]. Notably, upcycling PET waste into high-value
+resources. PET is widely used in the manufacturing of textiles, single-use chemicals has attracted significant attention, transcending conven­
+beverage bottles, and so on, with nearly 70 million tons produced tional recycling to fully unlock its potential (Scheme 1a). Lately, Li et al.
+annually worldwide [1]. Importantly, as a petroleum-derived synthetic [15] reported a two-step strategy for the selective conversion of PET to
+polymer, PET is rich in hydrocarbon components, and its waste is methyl p-methyl benzoate (MMB) with 86 % selectivity over a Cu/m-
+essentially a potential carbon resource. However, only 9 % of PET waste ZrO2 catalyst. The MMB is a key chemical widely used in the production
+is recycled, and 79 % ends up in landfills or the natural environment, of fine chemicals such as pharmaceuticals, agrochemicals, and dyes. Xie
+which not only threatens the ecological environment and human health, et al. [16] demonstrated the catalytic conversion of PET to1,4-
+but also wastes potential carbon resources [2–4]. Therefore, re/upcy­ phenylenedimethanol with 88 % yield over a quinaldine-Ru complex,
+cling PET waste plastic is urgent, both in terms of environmental followed by hydrogenation to 1,4-cyclohexanedimethanol (CHDM) with
+pollution control and resource utilization. 57 % yield over a Ru/Al₂O₃ catalyst. Importantly, CHDM, as a key
+ Chemical recycling and upcycling of PET represent the most prom­ building block for high-end co-polyesters, commands significant market
+ising strategy for PET waste management due to their efficiency, sus­ demand and high economic value [17]. Recently, Cao et al. [18]
+tainability, and environmental benefits [5,6]. A variety of chemical developed an alternative pathway for converting PET into CHDM, which
+
+
+ * Corresponding author at: Shanghai Key Laboratory of Functional Materials Chemistry, Research Institute of Industrial Catalysis, School of Chemistry and Mo­
+lecular Engineering, East China University of Science and Technology, Shanghai, 200237, PR China.
+ E-mail address: wangyanqin@ecust.edu.cn (Y. Wang).
+
+https://doi.org/10.1016/j.cej.2025.168710
+Received 1 August 2025; Accepted 18 September 2025
+Available online 26 September 2025
+1385-8947/© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+
+=== 2.pdf PDF 2 ===
+S. Mo et al. Chemical Engineering Journal 524 (2025) 168710
+
+
+included the first hydrogenating PET into polyethylene-1,4- conversion of PET to TPN with high yield and the subsequent separation
+cyclohexanedicarboxylate (PECHD), then the hydrogenolysis of of TPN.
+PECHD into CHDM. Concurrently, our group [19] developed another Herein, we developed an innovative and compact three-step catalytic
+PET-to-CHDM conversion strategy, which involved the efficient meth­ process for upcycling PET waste to PXDA (Scheme 1d). Firstly, PET is
+anolysis/hydrogenation of PET to dimethyl cyclohexane-1,4- converted into TP with 85.3 % yield over a ZnCl₂ catalyst in THF solution
+dicarboxylate (DMCD) and the subsequent hydrogenolysis of DMCD to at 220 ◦ C via ammonolysis. Subsequently, the obtained TP is dehydrated
+CHDM, as high as 83.8 % yield of CHDM was achieved from PET. These to TPN with 73.1 % yield over a TiO2 catalyst in acetonitrile solution at
+approaches exploit PET's ester linkages to selectively produce high-value 260 ◦ C. Critically, TPN was successfully isolated with 65 % yield
+oxygenates. Nevertheless, challenges persist in maximizing PET waste (purity>99 %, analyzed by HPLC) through antisolvent crystallization.
+valorization and diversifying product portfolios. Finally, the isolated TPN is hydrogenated to give PDXA with 87.4 %
+ To unlock alternative valuable PET-derived products, we attempted yield over a commercial Pd/C catalyst at 65 ◦ C. The overall yield of
+to develop a catalytic strategy for converting PET into PXDA. As a high- PXDA from PET reaches 54.5 %. Common real plastics transformation
+value monomer essential for both thermoset and thermoplastic poly­ and scale-up experiments were further conducted, demonstrating the
+mers, PXDA serves as a key building block for polyamides, polyimides, potential for industrial application of this process. The successful
+and non-isocyanate polyurethanes production. [20,21]. Currently, implementation of the three-step catalytic process for upcycling PET
+PXDA is produced primarily from petroleum-derived p-xylene (PX) via a waste into PXDA holds significant implications for broadening the di­
+multi-step process of oxidation, amination, and hydrogenation steps versity of PET-derived chemicals and advancing sustainable waste
+under stringent reaction conditions, with TPN serving as a key inter­ utilization.
+mediate (Scheme 1b). Against this backdrop, utilizing PET waste as an
+alternative to petroleum resources to produce PXDA, is highly 2. Experimental section
+appealing. Critically, Fang et al. [22] used urea as the nitrogen source to
+pyrolyze PET into TPN with 32.5 % yield over γ-Al2O3 catalyst at a high 2.1. Reagents and materials
+temperature (550 ◦ C), which indicates the technical feasibility of
+upcycling PET waste into PXDA (Scheme 1c). However, the high- Toluene (Sinopharm, 99 %); 1,4-Dioxane (Macklin, 99 %); Acetoni­
+temperature pyrolysis process suffers from excessive coking, complex trile (Macklin, 99 %); Methylcyclohexane (Macklin, 99 %); Tetrahy­
+product distribution, and separation challenges for TPN, limiting its drofuran (General-Regent, 99 %); Dimethyl sulfoxide (General-Regent,
+further conversion to PXDA. Consequently, upcycling PET waste into 99 %); Methanol (General-Regent, 99 %); Terephthalamide (Macklin,
+PXDA still presents challenges, with the core difficulty lying in the 99 %); Terephthalonitrile (Macklin, 99 %); P-xylylenediamine (Macklin,
+
+
+
+
+Scheme 1. (a) Evolution of PET waste chemical re/upcycling strategies. (b) Traditional petroleum-based pathway for PXDA production. (c) Previous work on the
+conversion of PET to TPN. (d) The proposed PET-based pathway for PXDA production.
+
+ 2
+
+
+=== 2.pdf PDF 3 ===
+S. Mo et al. Chemical Engineering Journal 524 (2025) 168710
+
+
+99 %); ZnCl2 (Macklin, 99 %); TiO2 (Rhawn); Pd/C (Rhawn, 5 wt% Pd); reaction liquid was concentrated through vacuum distillation at 50 ◦ C.
+PET was purchased from Aladdin Reagent Co., Ltd. PET bottles and PET Following the addition of excess deionized water to the concentrated
+films were purchased on commercial Taobao platform. reaction solution, the mixture was stored at − 4 ◦ C overnight to precip­
+ itate TPN. The purified TPN was then obtained via filtration, washing,
+ and drying.
+2.2. Catalytic performance evaluation
+ 2.2.3. TPN to PXDA process
+2.2.1. PET ammonolysis process Typically, TPN (0.1 g), Pd/C (10 mg) and methanol (3 g) were loaded
+ Typically, PET (0.5 g), ZnCl2 (10 mg) and THF (5 g) were loaded into into a stainless-steel autoclave reactor. The reactor was first purged
+a stainless-steel autoclave reactor. After purging the reactor with NH3 three times with H₂ and then pressurized to the target pressure of 5 MPa.
+three times, the NH3 pressure was charged to the target pressure (0.5 Subsequently, the reaction was carried out at 65 ◦ C with magnetic
+MPa), and then N2 was replenished to 2 MPa. Next, the reaction was stirring at 600 rpm for the designated period. At the end of the reaction,
+carried out at the target temperature (220 ◦ C) at a magnetic stirring the autoclave was immediately quenched in an ice-water bath. Next, the
+speed of 600 rpm for the designated period. At the end of the reaction, catalyst and reaction liquid were obtained by centrifugation. The
+the autoclave was immediately quenched in an ice-water bath. Then, an quantitative analysis of products was conducted on a GC2060 system
+appropriate amount of DMSO was added to dissolve the reaction prod­ equipped with a OV-1701 column, and biphenyl was used as the internal
+ucts. The undissolved solid was the unreacted PET, and the PET con­ standard. The PET conversion and PXDA yield were calculated by the
+version could be determined by weighing. The reaction liquid was following formula.
+qualitatively analyzed with GC–MS system (Agilent 7890A). The quan­
+ nproduced PXDA
+titative analysis of products (external standard method) was performed PXDA yield = × 100% (6)
+ ntheoretical PXDA
+by an Agilent 1200 Series HPLC apparatus equipped with XDB-C18
+(Eclipse USA) chromatographic column and G1314B ultraviolet detec­ The separation process of PXDA was as follows. After the reaction
+tor (VWD). A mixture of water and methanol (volume ratio of 5: 5) was was completed, the catalyst and the reaction liquid were separated by
+used as the mobile phase with a flow of 0.45 mL min− 1, the ultraviolet centrifugation, and an appropriate amount of hydrochloric acid solution
+(UV) wavelength was 254 nm, and the column temperature was main­ was added to the reaction liquid. Then, the reaction liquid was stored at
+tained at 45 ◦ C. The PET conversion and TP yield were calculated by the − 4 ◦ C overnight to precipitate 1,4-phenylenedimethanamine dihydro­
+following formula, where m represented the mass, n represented the chloride. Finally, the purified product was obtained via filtration,
+number of moles and MwPET represented the molar masses of the PET washing and drying.
+repeating unit (192 g/mol).
+ (
+ mundepolymerized PET
+ ) 3. Results and discussion
+PET conversion = 1 − × 100% (1)
+ minitial PET
+ 3.1. PET ammonolysis
+ minitial PET
+ntheoretical TP = nPET repeating units = (2) To realize the conversion of PET waste to PXDA, we firstly used
+ MwPET
+ ammonia to ammonolysis PET to obtain TP. As a transcarbamoylation
+ nproduced TP reaction, the PET ammonolysis reaction usually requires a Lewis acid
+TP yield = × 100% (3)
+ ntheoretical TP catalyst to activate the C––O bond in the ester group [23,24]. Therefore,
+ For TP separation process, after complete conversion of PET, TP was in this step, we selected ZnCl₂, a typical Lewis acid, as the catalyst.
+separated by simple filtration, washing, and drying, exploiting its Meanwhile, since the swelling effect of solvents plays a crucial role in
+insolubility in THF. the depolymerization process of PET [25,26], we screened solvent first
+ and the results are shown in Fig. 1a. For toluene, while PET conversion
+2.2.2. TP to TPN process exceeds 90 %, the TP yield is merely 32.4 %, and a considerable amount
+ Typically, TP (0.1 g), TiO2 (0.1 g) and acetonitrile (5 g) were loaded of soluble oligomers remains (Fig. S1). In contrast, the yield of TP in THF
+into a stainless-steel autoclave reactor. The reactor underwent three N₂ reaches the highest, at 80.7 %, which could be attributed to THF's su­
+purges prior to pressurization to 4 MPa. Then, the reaction was con­ perior swelling capacity for PET [26]. Consequently, we choose THF as
+ducted at the target temperature of 260 ◦ C with magnetic stirring at 600 the reaction solvent and further explore the influence of reaction tem­
+rpm for the designated period. Upon completion of the reaction, the perature on TP yield. As shown in Fig. 1b, TP yield increases substan­
+autoclave was immediately quenched in an ice-water bath. Then, the tially from 55.0 % to 86.5 % between 200 ◦ C and 220 ◦ C. This trend is
+solid and the reaction liquid were separated by centrifugation. The solid consistent with the endothermic nature of PET ammonolysis, as this
+contained the catalyst and unreacted TP, and the reaction liquid mainly reaction is thermodynamically favored at higher temperatures. Subse­
+contained the target product TPN. The TP conversion was calculated by quently, the influence of reaction time on the TP yield is depicted in
+weighing the solid. The products in the reaction liquid were quantita­ Fig. 1c, showing that the yield of TP gradually increases with the
+tively analyzed by HPLC (Agilent 1200). The TP conversion and TPN extension of the reaction time. After 2 h, the reaction reaches equilib­
+yield were calculated by the following formula. rium and the yield of TP is no longer increased. Next, we explored the
+ ( ) influence of catalyst dosage on PET ammonolysis. It is found that
+ munreacted Tp remarkably high TP yield (85.3 %) is achieved with only 10 mg ZnCl2,
+ TP conversion = 1 − × 100% (4)
+ minitial Tp and further increasing the dosage of the catalyst has little effect on the
+ TP yield. Finally, the influence of ammonia pressure on the TP yield was
+ nproduced TPN
+TPN yield = × 100% (5) investigated, and the results are shown in the Fig. 1e. As ammonia
+ ntheoretical TPN
+ pressure increases from 0.2 MPa to 0.5 MPa, the TP yield rises from 70.3
+ For the catalyst reusability experiment, the catalyst was separated by % to 85.3 %, indicating that higher ammonia pressure enhances the
+centrifugation after reaction completion and reused directly in the next ammonolysis reaction. In summary, we successfully depolymerized PET
+run without any treatment. waste into TP with high yield via ammonolysis, and the optimized re­
+ The TPN was separated through antisolvent crystallization, and the action conditions are 220 ◦ C, 2 h,10 mg ZnCl2 and 0.5 MPa NH3.
+specific process was as follows. After the reaction was completed, the To simulate the actual production process of PET-to-TP, we con­
+solid and the reaction liquid were separated by centrifugation. Then, the ducted common real plastic conversion experiments (Fig. 2a). All
+
+ 3
+
+
+=== 2.pdf PDF 4 ===
+S. Mo et al. Chemical Engineering Journal 524 (2025) 168710
+
+
+
+
+Fig. 1. (a) The influence of solvents on PET conversion and TP yield. Reaction conditions: 0.5 g PET, 5 g solvent, 100 mg ZnCl2, 0.5 MPa NH3, 2 MPa N2, 210 ◦ C, 2 h.
+(b) The influence of reaction temperature on PET conversion and TP yield. Reaction conditions: 0.5 g PET, 5 g THF, 100 mg ZnCl2, 0.5 MPa NH3, 2 MPa N2, 2 h. (c)
+The influence of reaction time on PET conversion and TP yield. Reaction conditions: 0.5 g PET, 5 g THF, 100 mg ZnCl2, 0.5 MPa NH3, 2 MPa N2, 220 ◦ C. (d) The
+influence of catalyst dosage on PET conversion and TP yield. Reaction conditions: 0.5 g PET, 5 g THF, 0.5 MPa NH3, 2 MPa N2, 220 ◦ C, 2 h. (e) The influence of NH3
+pressure on PET conversion and TP yield. Reaction conditions: 0.5 g PET, 5 g THF, 10 mg ZnCl2, 2 MPa N2, 220 ◦ C, 2 h.
+
+
+
+
+Fig. 2. (a) Common real PET waste plastic conversion experiments. (b) The flow chart of PET ammonolysis scale-up experiment. (c) 13C NMR spectrum of the
+isolated TP. DMSO‑d6 was used as the solvent.
+
+
+examined plastics, including colorless beverage bottles, colorless films, 3.2. Converting TP to TPN
+and even colored beverage bottles, are successfully converted to TP with
+yields exceeding 80 %, demonstrating strong tolerance toward diverse Next, to produce TPN, an essential intermediate for PXDA synthesis
+PET waste sources. Moreover, the practicality of this process was further from TP, we selected acetonitrile as the reaction solvent due to its role as
+validated through a 2.5-g scale experiment, affording TP in 80 % iso­ a dehydrating agent, which can facilitate this reaction [27,28]. In par­
+lated yield (Fig. 2b). Next, the purity of the isolated TP was further allel, given the necessity of acid catalysts for dehydration rection
+analyzed by 13C NMR spectroscopy. As shown in Fig. 2c, characteristic [29,30], we evaluated the typical acidic metal oxides and zeolites in this
+TP signals occur at 127.4, 136.6, and 167.3 ppm, while the resonance at step, and the results are shown in Fig. 3a. It is found that neither Al₂O₃
+approximately 40 ppm corresponds to DMSO‑d₆. No additional signals nor H-ZSM-5 catalysts facilitate effective TP conversion or generated
+are observed, unambiguously confirming the high purity of the isolated detectable TPN. In contrast, NbPO4, Nb2O5 and TiO2 catalysts exhibit
+TP. good to excellent catalytic activity, yielding 63.5 % to 73.1 % TPN,
+
+
+ 4
+
+
+=== 2.pdf PDF 5 ===
+S. Mo et al. Chemical Engineering Journal 524 (2025) 168710
+
+
+
+
+Fig. 3. (a) Catalytic performance of various investigated catalysts. Reaction conditions: 0.1 g TP, 100 mg catalyst, 5 g CH3CN, 4 MPa N2, 260 ◦ C, 4 h. (b) The
+influence of reaction temperature on TP conversion and TPN yield. Reaction conditions: 0.1 g TP, 100 mg TiO2, 5 g CH3CN, 4 MPa N2, 4 h. (c) The influence of
+reaction time on TP conversion and TPN yield. Reaction conditions: 0.1 g TP, 100 mg TiO2, 5 g CH3CN, 4 MPa N2, 260 ◦ C. (d) The influence of catalyst dosage on TP
+conversion and TPN yield. Reaction conditions: 0.1 g TP, 5 g CH3CN, 4 MPa N2, 260 ◦ C, 4 h. (e) The reusability of TiO2 in the TP dehydration rection. Reaction
+conditions: 0.1 g TP, 100 mg TiO2, 5 g CH3CN, 4 MPa N2, 260 ◦ C, 4 h. (f) 13C NMR spectrum of the isolated TPN. CDCl3 was used as the solvent.
+
+
+where TiO₂ achieved the highest yield of 73.1 %. Following the selection TPN conversion under optimized conditions (Fig. 3e). In three cycles,
+of TiO₂ as the optimal TP dehydration catalyst, we systematically eval­ the TPN yield remains above 65 %, demonstrating good reusability of
+uated the impact of reaction temperature on TP conversion and TPN the catalyst. Additionally, the pure TPN was isolated with 65 % yield via
+yield. As shown in Fig. 3b, as the reaction temperature increases from antisolvent crystallization for the subsequent hydrogenation step to
+240 ◦ C to 260 ◦ C, the conversion of TP and the yield of TPN increase prepare PXDA. The purity of the TPN was verified by 13C NMR spec­
+from 74.1 % to 99.9 % and 49.1 % to 73.1 %, respectively. Notably, troscopy and HPLC analysis. The signals at 116.9, 117.1 and 132.9 ppm
+further increasing the reaction temperature did not improve TPN yield in Fig. 3f are attributable to the TPN. The signal at about 77 ppm is
+and instead reduced carbon yield, likely attributed to coke formation attributable to the solvent, CDCl3. No additional peaks are observed,
+from TP degradation at higher temperature [31]. The influence of re­ especially those originating from 4-cyanobenzamide, indicating the high
+action time on the TPN yield is present in Fig. 3c, it is found that over the purity of the obtained TPN. HPLC analysis further confirms that the
+reaction course, the intermediate 4-cyanobenzamide is progressively purity of TPN is above 99 % (Fig. S3), echoing the 13C NMR spectroscopy
+converted to TPN, with its yield stabilizing at 10.9 % after 6 h. Para­ result. Thus, we have successfully obtained high-purity TPN from PET,
+doxically, the TPN yield reaches a maximum of 73.1 % at 4 h, but further paving the way for the preparation of PXDA.
+reaction time results in decreased TPN yield and carbon balance. To
+explain this phenomenon, TPN was heated in acetonitrile at 260 ◦ C as a 3.3. Converting TPN to PXDA
+control (Fig. S2). The time-dependent decline in TPN recovery estab­
+lishes its propensity for coke formation under elevated temperatures as Following the successful conversion of PET to TPN and isolation of
+well, thus providing a mechanistic basis for the observed yield reduc­ high-purity TPN in the previous two steps, we subsequently hydroge­
+tion. Finally, we explored the effect of catalyst dosage on TP yield nated TPN to PXDA using a commercial Pd/C catalyst. After a series of
+(Fig. 3d). As the catalyst was reduced below 100 mg, TP conversion reaction condition optimization, the optimal reaction conditions are
+remains 99.9 %, yet TPN yield decreases significantly with considerable determined as 65 ◦ C, 60 min, 5 MPa H₂, mass ratio of TPN to Pd/C =
+accumulation of the intermediate 4-cyanobenzamide. This establishes 10:1, affording PXDA in 87.4 % yield (PXDA selectivity: 90.8 %, Fig. 4a,
+100 mg TiO₂ as the optimal dosage. Summarily, TP was successfully Table S1-S4). The scale-up experiment was also conducted, and
+converted into TPN with 73.1 % yield over TiO2 at 260 ◦ C within 4 h. encouragingly, the PXDA yield is still over 85 %, indicating the practi­
+ Given the critical importance of catalyst reusability for practical cality of this process (Fig. S4). Ultimately, by adding hydrochloric acid,
+applications, we evaluated the reusability of TiO₂ catalyst in the TP-to- we obtained the 1,4-phenylenedimethanamine dihydrochloride, and the
+
+ 5
+
+
+=== 2.pdf PDF 6 ===
+S. Mo et al. Chemical Engineering Journal 524 (2025) 168710
+
+
+
+
+Fig. 4. (a) The conversion from TPN to PXDA. Reaction conditions: 0.1 g TPN, 3 g CH3OH, 10 mg Pd/C, 5 MPa H2, 65 ◦ C, 60 min. (b) 13C NMR spectrum of the
+isolated 1,4-phenylenedimethanamine dihydrochloride. D2O was used as the solvent. (c) Market prices for PXDA and other PET depolymerization products as of July
+2025. Source: 100ppi.com.
+
+
+purity of the obtained product was analyzed 13C NMR spectrum. As CRediT authorship contribution statement
+shown in Fig. 4b, no additional NMR signals beyond those of the product
+are observed, revealing the high purity of the obtained product. Songlei Mo: Writing – original draft, Investigation, Formal analysis,
+Collectively, we successfully converted PET into PXDA with 54.5 % yield Data curation. Xiaohui Liu: Validation, Investigation. Yanqin Wang:
+of via a three-step catalytic process. Writing – review & editing, Supervision, Funding acquisition,
+ PXDA serves as a key component in producing polyamides, poly­ Conceptualization.
+imides, and non-isocyanate polyurethanes, exhibiting significant market
+value and demand [20,21]. To further highlight the enhanced economic Declaration of competing interest
+appeal of the PET-to-PXDA process over alternative PET re/upcycling
+strategies, we conducted a comparative market value analysis between The authors declare no competing financial interest.
+PXDA and other PET depolymerization products (Fig. 4c). Obviously, it
+is found that the market value of PXDA is 8638 $/ton, which is higher Acknowledgements
+than that of other PET depolymerization products, indicating the eco­
+nomic competitiveness of the PET-to-PXDA process. The authors thank the financially supports by the National Natural
+ Science Foundation of China (22172048), the National Key Research
+4. Conclusion and Development Program of China (2022YFA1504903) and Science
+ and Technology Commission of Shanghai Municipality (10dz2220500).
+ In summary, we have established a novel and economical strategy for
+upcycling PET plastic waste into high value-added p-xylylenediamine Appendix A. Supplementary data
+(PXDA) via a three-step catalytic process. This process comprises: i)
+Ammonolysis of PET to terephthalamide (TP) with 85.3 % yield over a Supplementary data to this article can be found online at https://doi.
+ZnCl₂ catalyst in THF at 220 ◦ C; ii) Dehydration of TP to tereph­ org/10.1016/j.cej.2025.168710.
+thalonitrile (TPN) with 73.1 % yield (isolated yield: 65 %) over a TiO₂
+catalyst in acetonitrile at 260 ◦ C; iii) Hydrogenation of TPN to PXDA Data availability
+with 87.4 % yield over a Pd/C catalyst at 65 ◦ C. An overall PXDA yield of
+54.5 % is achieved from PET. Crucially, the successful transformation of Data will be made available on request.
+real post-consumer plastic waste and scale-up experiments demonstrate
+the robustness and significant industrial potential of this catalytic route. References
+This work paves the way for the selective upcycling of PET into PXDA
+and will inspire the development of novel processes for converting PET [1] Z.W. Gao, B. Ma, S. Chen, J.Q. Tian, C. Zhao, Converting waste PET plastics into
+ automobile fuels and antifreeze components, Nat. Commun. 13 (2022) 3343,
+into other valuable derivatives. https://doi.org/10.1038/s41467-022-31078-w.
+
+
+ 6
+
+
+=== 2.pdf PDF 7 ===
+S. Mo et al. Chemical Engineering Journal 524 (2025) 168710
+
+ [2] C.M. Rachman, Microplastics research - from sink to source, Science 360 (2018) [18] Z.H. Sun, K.Z. Wang, Q. Lin, W.D. Guo, M.G. Chen, C. Chen, C. Zhang, J.C. Fei, Y.
+ 28–29, https://doi.org/10.1126/science.aar7734. F. Zhu, J.B. Li, Y.M. Liu, H.Y. He, Y. Cao, Value-added upcycling of PET to 1,4-
+ [3] W. Cornwall, The plastic eaters bacterial enzymes can digest some plastic waste. cyclohexanedimethanol by a hydrogenation/hydrogenolysis relay catalysis,
+ Scientists want to harness them for recycling, Science 373 (2021) 37–39, https:// Angew. Chem. Int. Ed. 63 (2024) e202408561, https://doi.org/10.1002/
+ doi.org/10.1126/science.373.6550.36. anie.202408561.
+ [4] I.E. Meyer-Cifuentes, J. Werner, N. Jehmlich, S.E. Will, M. Neumann-Schaal, [19] S.L. Mo, J. Kou, J.R. Zeng, K.P. Song, Y.Y. Zhang, S.M. He, Y.F. Hu, Y. Guo, X.
+ B. Öztürk, Synergistic biodegradation of aromatic-aliphatic copolyester plastic by a H. Liu, X. Chen, Y.Q. Wang, Upcycling PET wastes into high value-added 1,4-
+ marine microbial consortium, Nat. Commun. 11 (2020) 5790, https://doi.org/ cyclohexanedimethanol (CHDM) via tandem reactions, Chem. Eng. J. 500 (2024)
+ 10.1038/s41467-020-19583-2. 157249, https://doi.org/10.1016/j.cej.2024.157249.
+ [5] E. Barnard, J.J.R. Arias, W. Thielemans, Chemolytic depolymerisation of PET: a [20] J. Nanclares, Z.S. Petrovic, I. Javni, M. Ionescu, F. Jaramillo, Segmented
+ review, Green Chem. 23 (2021) 3765–3789, https://doi.org/10.1039/ polyurethane elastomers by nonisocyanate route, J. Appl. Polym. Sci. 132 (2015)
+ d1gc00887k. 42492, https://doi.org/10.1002/app.42492.
+ [6] M.Y. Chu, Y. Liu, X.X. Lou, Q. Zhang, J.X. Chen, Rational design of chemical [21] E. Stavila, G. van Ekenstein, K. Loos, Enzyme-catalyzed synthesis of aliphatic-
+ catalysis for plastic recycling, ACS Catal. 12 (2022) 4659–4679, https://doi.org/ aromatic oligoamides, Biomacromolecules 14 (2013) 1600–1606, https://doi.org/
+ 10.1021/acscatal.2c012 86. 10.1021/bm400243a.
+ [7] M.J. Kang, H.J. Yu, J. Jegal, H.S. Kim, H.G. Cha, Depolymerization of PET into [22] G.L. Xie, G.Q. Zhu, Y.F. Kang, M.X. Zhu, Q.Q. Lu, C. He, L.J. Xu, Z. Fang,
+ terephthalic acid in neutral media catalyzed by the ZSM-5 acidic catalyst, Chem. Valorization of waste PET: understanding the role of active ammonia in facilitating
+ Eng. J. 398 (2020) 125655, https://doi.org/10.1016/j.cej.2020.125655. PET depolymerization and aromatic nitrile formation, J. Clean. Prod. 434 (2024)
+ [8] S. Ügdüler, K.M. Van Geem, R. Denolf, M. Roosen, N. Mys, K. Ragaert, S. De 140204, https://doi.org/10.1016/j.jclepro.2023.140204.
+ Meester, Towards closed-loop recycling of multilayer and coloured PET plastic [23] D.A. Mersha, T.N. Gesese, Z.B. Sendekie, A.T. Admase, A.J. Bezie, Operating
+ waste by alkaline hydrolysis, Green Chem. 22 (2020) 5376–5394, https://doi.org/ conditions, products and sustainable recycling routes of aminolysis of polyethylene
+ 10.1039/d0gc00894j. terephthalate (PET) - a review, Polym. Bull. 81 (2024) 11563–11579, https://doi.
+ [9] D.D. Pham, J. Cho, Low-energy catalytic methanolysis of poly org/10.1007/s00289-024-05259-0.
+ (ethyleneterephthalate), Green Chem. 23 (2021) 511–525, https://doi.org/ [24] J. Gopal, G. Elumalai, A.A.H. Tajuddin, I. Yoshikazu, S. Vajiravelu, D. Ravikumar,
+ 10.1039/d0gc03536j. Recyclable clay-supported heteropolyacid catalysts for complete glycolysis and
+[10] Q.L. Liu, R.S. Li, T. Fang, Investigating and modeling PET methanolysis under aminolysis of post-consumer PET beverage bottles, J. Polym. Environ. 30 (2022)
+ supercritical conditions by response surface methodology approach, Chem. Eng. J. 2614–2630, https://doi.org/10.1007/s10924-022-02386-5.
+ 270 (2015) 535–541, https://doi.org/10.1016/j.cej.2015.02.039. [25] S. Zhang, W.H. Xu, R.C. Du, L. Yan, X.H. Liu, S.M. Xu, Y.Z. Wang, Internal water
+[11] S.L. Mo, Y. Guo, X.H. Liu, Y.Q. Wang, Efficient depolymerization of PET over Ti- circulation mediated synergistic co-hydrolysis of PET/cotton textile blends in
+ doped SBA-15 with abundant Lewis acid sites via glycolysis, Catal. Sci. Technol. 13 gamma-valerolactone, Nat. Commun. 15 (2024) 4498, https://doi.org/10.1038/
+ (2023) 6561–6569, https://doi.org/10.1039/d3cy01127e. s41467-024-48937-3.
+[12] Q. Sun, Y.Y. Zheng, L.X. Yun, H. Wu, R.K. Liu, J.T. Du, Y.H. Gu, Z.G. Shen, J. [26] E. Luna, I. Olazabal, M. Roosen, A. Mueller, C. Jehanno, M. Ximenis, S. de Meester,
+ X. Wang, Fe3O4 nanodispersions as efficient and recoverable magnetic H. Sardon, Towards a better understanding of the cosolvent effect on the low-
+ nanocatalysts for sustainable PET glycolysis, ACS Sustain. Chem. Eng. 11 (2023) temperature glycolysis of polyethylene terephthalate (PET), Chem. Eng. J. 482
+ 7586–7595, https://doi.org/10.1021/acssus chemeng.3c01206. (2024) 148861, https://doi.org/10.1016/j.cej.2024.148861.
+[13] Y.X. Jing, Y.Q. Wang, S.Y. Furukawa, J. Xia, C.Y. Sun, M.J. Hülsey, H.F. Wang, [27] S.I. Maffioli, E. Marzorati, A. Marazzi, Mild and reversible dehydration of primary
+ Y. Guo, X.H. Liu, N. Yan, Towards the circular economy: converting aromatic amides with PdCl2 in aqueous acetonitrile, Org. Lett. 7 (2005) 5237–5239, https://
+ plastic waste back to arenes over a Ru/Nb2O5 catalyst, Angew. Chem. Int. Ed. 60 doi.org/10.1021/ol052100l.
+ (2021) 5527–5535, https://doi.org/10.1002/anie.202011063. [28] M.H. Al-Huniti, J. Rivera-Chávez, K.L. Colón, J.L. Stanley, J.E. Burdette, C.
+[14] M.X. Ye, Y.R. Li, Z.R. Yang, C. Yao, W.X. Sun, X.X. Zhang, W.Y. Chen, G. Qian, X. J. Pearce, N.H. Oberlies, M.P. Croatt, Development and utilization of a palladium-
+ Z. Duan, Y.Q. Cao, L.A. Li, X.G. Zhou, J. Zhang, Ruthenium/TiO2-catalyzed catalyzed dehydration of primary amides to form nitriles, Org. Lett. 20 (2018)
+ hydrogenolysis of polyethylene terephthalate: reaction pathways dominated by 6046–6050, https://doi.org/10.1021/acs.orglett.8b02422.
+ coordination environment, Angew. Chem. Int. Ed. 62 (2023) e202301024, https:// [29] Y. Wang, Z.L. Xie, Z.L. Zeng, C.C. Li, J.H. An, Q.Q. Hao, H.B. Ge, H.Y. Chen, X.
+ doi.org/10.1002/anie.202301024. X. Ma, Q.X. Luo, Kinetics and mechanism of integrated catalytic ammonolysis and
+[15] J.N. Cheng, J. Xie, Y.J. Xi, X.J. Wu, R.H. Zhang, Z.H. Mao, H.F. Yang, Z.L. Li, C. Li, dehydration from methyl salicylate over ZnAl2O4 spinel, ACS Catal. 14 (2024)
+ Selective upcycling of polyethylene terephthalate towards high-valued oxygenated 10475–10490, https://doi.org/10.1021/acscatal.4c01477.
+ chemical methyl p-methyl benzoate using a cu/ZrO2 catalyst, Angew. Chem. Int. [30] Z.M. Chen, W. Chen, L. Zhang, W.Q. Fu, G.R. Cai, A.M. Zheng, T.D. Tang, Acidic
+ Ed. 63 (2024) e202319896, https://doi.org/10.1002/anie.202319896. hierarchical porous ZSM-5 assembled palladium catalyst: a green substitute to
+[16] Y. Hu, S.Y. Zhang, J.F. Xu, Y. Liu, A.A.I. Yu, J. Qian, Y.J. Xie, Highly efficient transform primary amides to nitriles, Appl. Catal. Environ. 302 (2022) 120835,
+ depolymerization of waste polyesters enabled by transesterification/hydrogenation https://doi.org/10.1016/j.apcatb.2021.120835.
+ relay under mild conditions, Angew. Chem. Int. Ed. 62 (2023) e202312564, [31] J.H. Liang, J.X. Fu, H.W. Lin, J.Y. Chen, S.Y. Peng, Y.Y. Sun, Y.J. Xu, S.M. Kang,
+ https://doi.org/10.1002/anie. 202312564. Valorization of polyethylene terephthalate wastes to terephthalamide via catalyst-
+[17] J.C. Worch, H. Prydderch, S. Jimaja, P. Bexis, M.L. Becker, A.P. Dove, free ammonolysis, J. Ind. Eng. Chem. 132 (2024) 578–587, https://doi.org/
+ Stereochemical enhancement of polymer properties, Nat. Rev. Chem. 3 (2019) 10.1016/j.jiec.2023.11.053.
+ 514–535, https://doi.org/10.1038/s41570-019-0117-z.
+
+
+
+
+ 7

@@ -1,0 +1,543 @@
+
+=== 5.pdf PDF 1 ===
+ Journal of Industrial and Engineering Chemistry 132 (2024) 578–587
+
+
+ Contents lists available at ScienceDirect
+
+
+ Journal of Industrial and Engineering Chemistry
+ journal homepage: www.elsevier.com/locate/jiec
+
+
+
+
+Valorization of polyethylene terephthalate wastes to terephthalamide via
+catalyst-free ammonolysis
+Jianhao Liang a, Jinxia Fu b, Hongwei Lin a, Junyue Chen a, Shiyu Peng c, Yuyue Sun c,
+Yongjun Xu a, Shimin Kang a, *
+a
+ Guangdong Provincial Key Laboratory of Distributed Energy Systems, Dongguan University of Technology, Dongguan, Guangdong 523808, China
+b
+ Hawaii Natural Energy Institute, University of Hawaii at Manoa, Honolulu, HI 96822, USA
+c
+ Tsinglan School, Dongguan, Guangdong 523808, China
+
+
+
+
+A R T I C L E I N F O A B S T R A C T
+
+Keywords: Valorization for the recycling of polyethylene terephthalate (PET) wastes has garnered significant attention. An
+Polyethylene terephthalate innovative one-step approach, devoid of catalysts and solvent, was developed for the ammonolysis of PET to
+Ammonolysis terephthalamide (TP) at mild temperatures (40–120 ◦ C). The study extensively explored and discussed the im­
+Terephthalamide
+ pacts of key process parameters such as temperature, reaction time, material ratio, stirring speed, and various
+Respond surface methodology
+ PET-containing materials. The reaction conditions were further optimized via Response Surface Methodology.
+ The results demonstrated proposed ammonolysis technique facilitates the straightforward recovery of high TP
+ yield (>90 mol%) and purity (>95 %), establishing an effective avenue for TP production through PET waste
+ valorization.
+
+
+
+
+Introduction (EG). Ammonolysis is also harnessed for PET degradation [19,20] to
+ produce valuable terephthalamide (TP), which is an intermediate for the
+ Polyethylene terephthalate (PET), characterized by its semi- synthesis of pesticides, pharmaceuticals and fine organics, epoxy hard­
+crystalline thermoplastic resin nature, possesses attributes such as eners, and additives in composite materials [21].
+non-toxicity, tastelessness, lightweight, exceptional transparency, and The conventional degradation of PET through anhydrous ammonia
+robust chemical stability. It is extensively used in the domains of food monohydrate under ambient conditions, however, is not favored due to
+packaging, engineering plastics, and textiles [1]. The global PET market low reaction efficiency and extended reaction time [21–23]. Even with
+was 80.9 million tons in 2021 and is projected to reach 114.7 million the inclusion of zinc acetate as a catalyst, the PET conversion requires a
+tons by the year 2028 [2]. Noteworthy for its enduring stability, a substantial 15-day duration [22]. Zengel and Bergfeld [24] and Black­
+substantial portion of utilized PET necessitates several centuries to un­ mon et al [25] have pioneered the ammonolysis of PET in ethylene
+dergo complete degradation [3]. Moreover, the degradation process can glycol (EG) at elevated pressures (0.1–1.0 MPa) of anhydrous ammonia,
+lead to the fracturing of PET into particles and even microplastics [4], yielding 50 % to 95 % TP. However, the incorporation of copious
+thereby posing threats to the health and safety of both aquatic and amounts of EG (a high-boiling point and toxic solvent) complicates
+terrestrial organisms [5,6]. Consequently, a consensus has emerged to downstream separation and purification processes, thereby elevating
+engage in PET recycling as a means to curtail resource wastage and overall process costs. Moreover, the exothermic dissolution of anhy­
+mitigate environmental risks [7,8]. drous ammonia into EG imparts challenges in controlling reaction
+ Chemical recovery is a promising way for depolymerization of PET to temperatures. To address these concerns, a catalyst-free, one-pot
+value-added chemicals. Diverse methodologies, including hydrolysis ammonolysis approach for TP synthesis within an anhydrous ammonia
+[9–13] employing both acidic and alkaline catalysts, as well as meth­ atmosphere has been developed. This strategy aims to streamline reac­
+anolysis [9,14] and glycolysis [15–18] have been developed to produce tion procedures and alleviate safety concerns. Additionally, the appli­
+chemicals, such as terephthalic acid (TPA), dimethyl terephthalate cation of response surface methodology to optimize reaction conditions
+(DMT), bis(2-hydroxyethyl) terephthalate (BHET), and ethylene glycol is introduced to enhance process efficiency.
+
+
+
+ * Corresponding author.
+ E-mail address: kangshimin@dgut.edu.cn (S. Kang).
+
+https://doi.org/10.1016/j.jiec.2023.11.053
+Received 18 September 2023; Received in revised form 16 November 2023; Accepted 26 November 2023
+Available online 29 November 2023
+1226-086X/© 2023 The Korean Society of Industrial and Engineering Chemistry. Published by Elsevier B.V. All rights reserved.
+
+
+=== 5.pdf PDF 2 ===
+J. Liang et al. Journal of Industrial and Engineering Chemistry 132 (2024) 578–587
+
+
+
+
+ Fig. 1. Reaction process for the conversion of PET to TP.
+
+
+
+
+Fig. 2. GC–MS spectra of PET ammonolysis products obtained at 120 ◦ C for 1 h with 300 rpm. (a) The washed and dried product dissolved in DMSO; (b) the
+compounds extracted by methanol from ammonolysis products.
+
+
+
+
+ 579
+
+
+=== 5.pdf PDF 3 ===
+J. Liang et al. Journal of Industrial and Engineering Chemistry 132 (2024) 578–587
+
+
+ water, filtration through a 60-mesh screen, and drying at 60 ◦ C for 24 h.
+
+ Characterization
+ The products of PET ammonolysis and the substance of TP reacted
+ with NH3 were dissolved in DMSO and subsequently subjected to
+ qualitative analysis by gas chromatography-mass spectrometer (GC–MS,
+ Shimadzu QP 2010 Plus). 1H NMR and 13C NMR analysis was conducted
+ employing a fourier transform nuclear magnetic resonance spectrometer
+ (Avance Neo 600 M, Bruker Germany) operating at a frequency of 600
+ MHz utilizing DMSO solvent. FT-IR analysis was executed on a Perki­
+ nElmer Spectrum Two FT-IR equipped with attenuated total reflectance
+ (Kent, UK). Thermogravimetric analysis was performed on a Netzsch
+ thermal gravimetric analyzer (STA 449 F5, Germany). Differential
+ scanning calorimetry (DSC) curves were recorded utilizing a Metter
+ Toledo DSC 3 Star (Stockholm, Sweden).
+
+ Purity and yield calculation
+ TP underwent quantitative analysis using a Shimadzu SIL-16 HPLC
+ instrument (Japan), outfitted with a Shim-pack GIS 5 μm HILIC column
+ (4.6 mm × 250 mm, Shimazu). The mobile phase consisted of a mixture
+Fig. 3. FT-IR spectra of PET ammonolysis powders. The ammonolysis powders of water and acetonitrile in a 1:1 ratio, flowing at a rate of 0.5 mL/min.
+were obtained via 10 g PET reacted with 3.5 g NH3 for 12 h with 300 rpm, while The analysis was conducted at a wavelength of 292 nm, corresponding
+a-i represent the products obtained at reaction temperature of 40–120 ◦ C to the maximum absorption of TP (Figure S1). The purity and yield of TP
+respectively. were determined using equations (1) and (2), respectively.
+ mi
+Materials and methods Purity(%) = × 100% (1)
+ m0
+
+Materials where mi is the measured TP mass by HPLC analysis, and m0 refers to the
+ weighed mass of the ammonolysis product for testing.
+ Recycled colorless PET bottles (Fig. 1, Master Kong Beverage Hold­
+ings Co, Ltd.) were procured from municipal waste originating in Yield(mol%) =
+ mt × purity(%) × 192.11
+ × 100% (2)
+Dongguan, China. Colored PET bottles (sourced from the Coca-Cola mr × 164.16
+Company) were previously used as Sprite bottles. PET textiles were ac­
+ where mt is the mass of the ammonolysis product, mr is the mass of PET
+quired from Dongguan Zuoshi Clothing Co., Ltd., while PET headgear
+ flakes for reaction.
+was sourced was obtained from Beijing Yongaijie Cleaning Service Co.,
+Ltd. Following collection. The ash (inorganic salt) content of colorless
+ Box-Behnken optimization design
+PET bottles, Sprite bottles, PET textiles and PET headgear was 0.04 %,
+ Response surface methodology (RSM) was employed to optimize
+0.03 %, 0.12 % and 0.43 %, respectively. The bottles and products un­
+ experimental parameters governing the process of PET ammonolysis.
+derwent an initial cleansing procedure using distilled water, after which
+ Concentrating on achieving optimal yield and purity, a Box-Behnken
+they were subjected to fragmentation into small flakes (~1 cm × 1 cm ×
+ design (BBD) with three factors and three levels was chosen as the
+0.2 mm). Subsequently, these flakes underwent a thorough purification
+ experimental setup, utilizing Design Expert 12.0.3.0 software (Stat-Ease,
+process utilizing ultrapure water for a duration of 20 min, followed by
+ Minneapolis, MN, USA). The coded and uncoded independent variables
+drying at a temperature of 60 ◦ C for 12 h.
+ and levels of the BBD were outlined in Table S2.
+ Dimethyl sulfoxide (DMSO, >99.9 % purity) and N, N - Dime­
+thylformamide (DMF, > 99.9 % purity) were procured from Shanghai
+ Results and discussion
+Macklin Biochemical Co., Ltd., China. Terephthalamide (TP, >98 %
+purity) was obtained from Shanghai Aladdin Biochemical Technology
+ Ammonolysis products
+Co., Ltd. Anhydrous ammonia (>99.97 % purity) was purchased from
+Dongkehong Gas Power Technology Co., Ltd, Dongguan, China.
+ The ammonolysis process applied to PET sourced from colorless
+ transparent recycled bottles yielded powders of a white or grey friable
+Methods
+ nature (Fig. 1). Analysis conducted via GC–MS on the powders dissolved
+ in DMSO conclusively revealed TP as the primary component (Fig. 2a),
+Ammonolysis process
+ indicating the successful occurrence of PET ammonolysis through a
+ ~10 g PET flakes were introduced into a 50 mL reactor (MC-50
+ catalyst-free process executed at mild temperatures (40–120 ◦ C). In the
+reactor, Beijing Century Senlong Experimental Apparatus Co. Ltd.). The
+ pursuit of comprehending the characteristics of the resulting products,
+reactor was gradually cooled down to 15 ◦ C. Approximately 3.0 ± 0.5 g
+ focused evaluation was conducted on the powder product obtained at
+anhydrous ammonia was then introduced into the reactor, resulting in
+ 40–120 ◦ C for 12 h. A comparison of FT-IR spectra, encompassing the
+an initial pressure of 0.85 ± 0.05 MPa at 25 ◦ C. The reaction was con­
+ functional groups of TP standard, PET flakes, and the ammonolysis
+ducted at given temperatures in a range of 40 to 140 ◦ C with reaction
+ powders, provided insightful distinctions (Fig. 3). The absorption peak
+time spanning from 0.5 to 12 h with a stirring speed of 100–500 rpm.
+ at 1715 cm− 1 (C = O stretch of ester) served as an indicator of the extent
+Note that the reaction pressure was lower than the saturated vapor
+ to which ester groups in PET flakes were subjected to a complete reac­
+pressure of ammonia (refer to Table S1), signifying that the ammonol­
+ tion. Notably, the peak at 1715 cm− 1 of the ammonolysis powders was
+ysis process is a gas (anhydrous ammonia)-solid (PET) reaction. The
+ prominently apparent at relatively lower temperatures (≤70 oC), pro­
+initiation of the reaction time was recorded once the temperature
+ gressively diminishing at elevated temperatures (90–120 ◦ C) with the
+reached the pre-set value. Following the reaction, the solid products
+ 12 h reaction duration. Therefore, elevated temperatures (≥90 oC) are
+underwent a series of procedures including washing with ultrapure
+
+ 580
+
+
+=== 5.pdf PDF 4 ===
+J. Liang et al. Journal of Industrial and Engineering Chemistry 132 (2024) 578–587
+
+
+
+
+ Fig. 4. NMR spectra of PET ammonolysis powder obtained at 120 ◦ C for 12 h with 300 rpm (a) 1H NMR, (b) 13C NMR.
+
+
+
+
+ 581
+
+
+=== 5.pdf PDF 5 ===
+J. Liang et al. Journal of Industrial and Engineering Chemistry 132 (2024) 578–587
+
+
+
+
+ Fig. 5. Thermograms of PET ammonolysis powder obtained at 120 ◦ C for 12 h with 300 rpm. (a) DSC spectrum, (b) TG spectrum.
+
+
+advocated for efficient and thorough PET degradation. Remarkably, the 120 ◦ C, TP with a high purity of 99.5 % was obtained. The relatively low
+absorption peaks of all ammonolysis powders exhibited striking simi­ purity of TP observed at lower reaction temperatures (particularly ≤
+larities to those of the TP standard. This encompasses peaks at 3355 70 ◦ C) can be attributed to the presence of unreacted PET residues, in
+cm− 1 and 3151 cm− 1 (symmetric and asymmetric N–H stretch, charac­ accordance with the FT-IR analysis detailed earlier. The TP yield
+teristic of primary amides), 1655 cm− 1 and 1613 cm− 1 (coupled vibra­ exhibited an increasing trend from 40 to 110 ◦ C, followed by a slight
+tions originating from C = O stretch and N–H bending), and 1387 cm− 1 decrease within the range of 100 to 120 ◦ C. This phenomenon may be
+(C-N stretch). Especially for the ammonolysis powders obtained at ascribed to the potential carbonization of PET at elevated temperatures,
+90–120 ◦ C, their absorption peaks closely mirrored those of the TP substantiated by the observation of small quantities of black solids in the
+standard, strongly indicating the presence of TP, likely with high purity, ammonolysis powders under conditions of 120 ◦ C for 12 h. Subsequent
+in the ammonolysis powders. Raman analysis (Figure S2) delineated that these separated black solids
+ The 1H NMR and 13C NMR spectra (Fig. 4) provided corroborative differ from the conventional ammonolysis powders, characterized by the
+evidence reinforcing the dominance of TP in the ammonolysis powders. presence of two carbon peaks at 1351 cm− 1 (D band, sp3 sites, defects)
+The peaks in 13C NMR and 1H NMR spectra are 127.8172 ppm (4C, ArC- and 1587 cm− 1 (G band, sp2 sites, graphitic) [31]. A supplementary
+H), 137.0339 ppm (2C, C = O), 167.7434 ppm (2C, ArC-C = O), and blank experiment on TP under ammonolysis atmosphere (140 ◦ C for 6 h)
+7.4710 ppm (2H singlet NH2) and 7.9153 ppm (4H singlet Ar-H). Note was conducted, and few low-molecular-weight byproducts could be
+that the resonances at 3.3357 ppm and 8.0532 ppm value are associated detected by the GC–MS analysis (Fig. S3a). Notably, the TP (white
+with the presence of H2O and CHCl3, respectively, which are the im­ powder) transformed into black solids (Fig. S3b), signifying carboniza­
+purities in deuterated DMSO [26–28]. Moreover, both the absorption tion at the elevated temperature. Mitigating the carbonization of PET
+wavelength (Figure S1) and thermal properties (Fig. 5) of the ammo­ and TP appears to be a potential avenue for enhancing TP yield.
+nolysis powders were analyzed and compared to those of the TP stan­ Reaction temperature and time have synergetic impact on the effi­
+dard. As expected, the ammonolysis powders and TP standard have the ciency of PET degradation to TP. (Fig. 6a). When operating at 120 ◦ C, a
+same maximum absorption wavelength (292 nm), as well as similar favorable TP yield (90.6 mol%) was achieved within approximately 2 h,
+melting point and thermal stability (decomposition temperature > accompanied by a purity of 96.2 %. The comparison of this study with a
+300 ◦ C). These findings, consistent with the prior elucidation, reinforce limited number of previous works is presented in Table 4. In contrast to
+the predominant presence of TP while concurrently suggesting the ex­ PET degradation conducted in ammonia aqueous solutions, our
+istence of few low-boiling-point constituents within the ammonolysis approach demonstrates significantly reduced reaction times (several
+powders. hours compared to several days) and eliminates the need for costly
+ In the quest to discern any byproducts within the washing solution, catalysts such as zinc acetate and cetyl ammonium bromide. Although
+the ammonolysis products were also washed using methanol and sub­ the EG-assisted ammonolysis process could achieve a higher yield, it
+sequently analyzed by GCMS. As expected, EG (a crucial structural unit relied on a substantial quantity of EG (mass ratio of EG to PET ranging
+of PET) was detected (Fig. 2b). The concurrent formation of EG and TP from 1.5 to 7), leading to potential issues related to energy consumption
+serves as evidence substantiating that the PET degradation follows a and separation. Consequently, this catalyst-free ammonolysis process
+conventional amidation reaction pathway [22], as ammonium is a stands out for its clear technological advantages, characterized by an
+highly active molecule to react with esters even in absence of catalyst efficient reaction process and a simple post-processing procedure.
+and mild temperatures [29,30]. Under the elevated temperatures (e.g., Notably, extending the reaction duration beyond this point had an
+120 ◦ C), the amidation reaction should involve the cleavage of ester adverse effect on TP yield. However, at 90 ◦ C, both the yield and purity
+bonds in PET, generation of amide (TP), and release of alcohol (EG) exhibited a consistent upward trend as the reaction duration extended to
+under the unique ammonia environment. 12 h.
+ The influence of the material ratio (PET: NH3) on reaction outcomes
+ was systematically investigated (Fig. 6d). Broadly speaking, augmenting
+Impacts of process parameters
+ the PET dosage up to a ratio of 6.4 g PET/g anhydrous ammonia resulted
+ in a marginal reduction in both TP yield and purity. Intriguingly, a
+ Temperature emerged as a pivotal determinant in the ammonolysis
+ pronounced shift in outcomes occurred once the PET concentration
+process conducted at 40–120 ◦ C for 12 h (Fig. 6a). Notably, an over­
+ reached 8.0 g PET/g anhydrous ammonia. Stirring emerged as an
+arching trend showcased the favorable role of higher temperatures in
+ effective method for promoting the exchange of mass and heat between
+fostering TP formation along with enhanced purity. At a temperature of
+
+ 582
+
+
+=== 5.pdf PDF 6 ===
+J. Liang et al. Journal of Industrial and Engineering Chemistry 132 (2024) 578–587
+
+
+
+
+Fig. 6. Influence of process parameters. (a) 12 h with 300 rpm, (b) 90 ◦ C with 300 rpm, (c) 120 ◦ C with 300 rpm, (d) 120 ◦ C for 4 h with 300 rpm, (e) 120 ◦ C, for 1 h.
+
+
+
+
+ 583
+
+
+=== 5.pdf PDF 7 ===
+J. Liang et al. Journal of Industrial and Engineering Chemistry 132 (2024) 578–587
+
+
+Table 1
+Experimental design and results based on BBD.
+ Run Reaction time (h, A) Temperature (oC, B) PET dosage (g, C) Yield (mol%) Purity (%)
+
+ 1 8 120 15 82.3 96.3
+ 2 4.5 90 15 72.6 75.2
+ 3 4.5 90 15 69.7 74.7
+ 4 4.5 120 25 77.6 85.4
+ 5 8 90 25 80.1 83.6
+ 6 1 90 25 9.3 19.5
+ 7 4.5 60 5 46.0 46.2
+ 8 8 90 5 83.3 91.2
+ 9 1 60 15 3.6 10.6
+ 10 4.5 120 5 78.0 97.0
+ 11 8 60 15 54.1 53.5
+ 12 1 120 15 39.1 43.81
+ 13 4.5 90 15 74.2 78.0
+ 14 1 90 5 36.5 39.0
+ 15 4.5 60 25 33.0 34.0
+
+
+
+
+Table 2
+ANOVA for the quadratic model for TP yield by none transformation.
+ Source SS1 DF2 MS3 F-value P-value Significant4
+
+ Model 9854.74 9 1094.97 39.68 0.0004 Yes
+ A 5582.55 1 5582.55 202.31 < 0.0001 Yes
+ B 2462.97 1 2462.97 89.26 0.0002 Yes
+ C 240.02 1 240.02 8.7 0.0319 Yes
+ AB 13.73 1 13.73 0.4975 0.5121 No
+ AC 144 1 144 5.22 0.0711 No
+ BC 39.69 1 39.69 1.44 0.2841 No
+ A2 1050.46 1 1050.46 38.07 0.0016 Yes
+ B2 410.35 1 410.35 14.87 0.0119 Yes
+ C2 32.78 1 32.78 1.19 0.3255 No
+ Residual 137.97 5 27.59
+ Lack of fit 127.56 3 42.52 8.17 0.111 No
+ Pure error 10.41 2 5.2
+ Total 9992.71 14
+ 1
+ Sum of squares.
+ 2
+ Degrees of freedom.
+ 3
+ MS: mean square.
+ 4
+ P < 0.5 is recognized as significant.
+
+
+
+
+Table 3
+ANOVA for the quadratic model for TP yield by square root transformation.
+ Source SS1 DF2 MS3 F-value P-value Significant4
+
+ Model 58.08 9 6.45 164.62 < 0.0001 Yes
+ A 29.25 1 29.25 746.1 < 0.0001 Yes
+ B 18.99 1 18.99 484.48 < 0.0001 Yes
+ C 1.79 1 1.79 45.76 0.0011 Yes
+ AB 0.1887 1 0.1887 4.81 0.0797 No
+ AC 0.5013 1 0.5013 12.79 0.0159 Yes
+ BC 0.0313 1 0.0313 0.7992 0.4123 No
+ A2 6.03 1 6.03 153.83 < 0.0001 Yes
+ B2 1.74 1 1.74 44.51 0.0011 Yes
+ C2 0.0356 1 0.0356 0.9083 0.3843 Yes
+ Residual 0.196 5 0.0392
+ Lack of fit 0.175 3 0.0583 5.56 0.1562 No
+ Pure error 0.021 2 0.0105
+ Total 58.27 14
+ 1
+ Sum of squares.
+ 2
+ Degrees of freedom.
+ 3
+ MS: Mean square.
+ 4
+ P < 0.5 is recognized as significant.
+
+
+
+
+ 584
+
+
+=== 5.pdf PDF 8 ===
+J. Liang et al. Journal of Industrial and Engineering Chemistry 132 (2024) 578–587
+
+
+Table 4
+Comparison of the developed ammonolysis with previous works.
+ Methods Reaction condition Catalyst Yield (mol%) Ref.
+
+ Catalysis-free Under anhydrous ammonia (g) atmosphere at 120 C for 2 h
+ ◦
+ – 90.6 This work a
+ ammonolysis
+ Ammonia hydrolysis Stirring in aqueous ammonia at ambient conditions or 40 ◦ C for days Zinc acetate (dihydrate), Cetyl ammonium Not [22]b, [23]
+ c
+ bromide mentioned
+ EG assisted Under ammonia (g) atmosphere at 100–140 ◦ C for 1.5––20 h, EG/PET – >95 [24] d
+ ammonolysis = 3–7 (g/g)
+ EG assisted Under ammonia (g) atmosphere 120 ◦ C for 7 h, EG/PET = 1.5 (g/g) – 93 [25] e
+ ammonolysis
+ a
+ post-consumer PET bottle.
+ b
+ post-consumer PET bottle.
+ c
+ PET waste from industry.
+ d
+ Unspecified PET waste.
+ e
+ PET beverage container.
+
+
+
+
+ Fig. 7. 3D response surface plots (a - c) and 2D contour plots (d - f) of TP yield.
+
+
+solid PET flakes and anhydrous ammonia. Particularly under specific √̅̅
+ y = 8.72 + 1.91XA + 1.54XB − 0.4735XC − 0.2172XAB + 0.354XAC
+conditions of 120 ◦ C and a duration of 1 h, the application of 300 rpm (4)
+stirring yielded a notably elevated TP yield and purity (Fig. 6e) and the + 0.0885XBC − 1.28XA2 − 0.6874XB2 − 0.0982XC2
+following experimental condition of stirring were set at 300 rpm.
+ where A, B, and C are the coded values of reaction time, temperature,
+ and PET dosage, respectively.
+Optimization of reaction conditions
+ Analysis of variance (ANOVA) for Eq (3) and (4) is detailed in Table 2
+ and Table 3. In the yield equation, the model was significant as the F-
+ RSM was utilized to fine-tune the reaction variables, encompassing
+ value is 39.68 and the P-value is 0.0004 (<0.05). Lack of fit exhibited a
+reaction durations of 1–8 h, temperatures ranging from 60 to 120 ◦ C,
+ non-statistically significant relationship to pure error, with a P-value of
+and PET dosages spanning 5 to 25 g PET; the results are listed in Table 1.
+ 0.1110 (>0.05). The hierarchy of the effect of experimental factors on
+To enhance model fitting, five mathematical transformations were
+ the reaction was established through the F-value, namely: reaction time
+employed, considering five critical indexes (details see Table S3 and
+ > temperature > PET dosage. Similarly, the model for purity was sig­
+Table S4). Ultimately, the Y transformations were chosen, resulting in
+ nificant (F-value of 164.62 and P-value < 0.0001), while lack of fit was
+quadratic equations for TP yield and purity as equations (3) and (4),
+ insignificant (F-value of 5.56 and P-value of 0.1562). The impact of
+respectively.
+ experimental factors on purity mirrored that of yield.
+Y = 72.17 + 26.54XA + 17.55XB − 5.6XC − 1.85XAB + 6.25XAC + 3.15XBC Residual normal distribution plots (Fig. S3a and S3b) affirmed the
+ − 16.99XA2 − 10.42 X 2B − 3.1XC2 robustness of the models. Coefficients of 0.9862 for yield (Fig. S4c) and
+ 0.9966 for purity (Fig. S4d) demonstrated strong concordance between
+ (3)
+
+
+ 585
+
+
+=== 5.pdf PDF 9 ===
+J. Liang et al. Journal of Industrial and Engineering Chemistry 132 (2024) 578–587
+
+
+
+
+ Fig. 8. 3D response surface plots (a - c) and 2D contour plots (d - f) of TP purity.
+
+
+actual data and models. The 3D response surface plots and 2D contour purity (>95 %), positioning TP as a potential direct application product
+plots versus interactions of yield (Fig. 7) and purity (Fig. 8) portrayed without necessitating further post-processing steps.
+the interplay of yield and purity concerning interactions between reac­
+tion time, PET dosage, and temperature. Overall, both yield and purity Declaration of competing interest
+augmented with the increase of any of the three factors. Notably, the
+predicted optimal conditions via RSM with BBD were a reaction at The authors declare that they have no known competing financial
+114.2 ◦ C for 7.3 h with a loading of 18.1 g PET. interests or personal relationships that could have appeared to influence
+ Validation experiments closely approximating the predicted optimal the work reported in this paper.
+conditions (18.5 g PET, 115 ◦ C for 7.5 h) were conducted, for which the
+predicted TP yield and purity are 88.83 mol% and 100.46 %, respec­ Acknowledgements
+tively. After the reaction, actual experimental results averaged 87.34
+mol% yield and 94.50 % purity across three repetitions (Table S5), This work was supported by the funding of Guangdong Basic and
+aligning within a 95 % confidence interval, thereby verifying the Applied Basic Research Foundation, China (2022A1515010578),
+model’s accuracy. Moreover, a preliminary exploration involving other Guangdong Provincial Key Laboratory of Distributed Energy Systems,
+PET-containing materials such as Sprite drink bottles, PET broomheads, China (2020B1212060075), the College Students’ Climbing Plan of
+and dacron of PET was conducted via the same ammonolysis process Guangdong Province, China (pdjh2022a0508; pdjh2023a0507), and the
+(Table S6). The relatively lower TP purity obtained from these PET 2023 Songshan Lake Science and Technology Commissioner, China (No.
+wastes can be attributed to two probable reasons: (1) impurities in the 20234406-01KCJ-G).
+raw materials, and (2) suboptimal reaction conditions (115 ◦ C for 7.5 h),
+resulting in the presence of unreacted PET or oligomers. Nevertheless, Appendix A. Supplementary material
+this underscores the universality of the developed ammonolysis tech­
+nique for TP recovery from various PET plastics and PET-containing Supplementary data to this article can be found online at https://doi.
+materials, necessitating further investigation. org/10.1016/j.jiec.2023.11.053.
+
+Conclusions References
+
+ A proficient ammonolysis approach has been established to reclaim [1] L.N. Ji, Appl. Mech. Mater. 312 (2013) 406–410, https://doi.org/10.4028/www.
+ scientific.net/AMM.312.406.
+TP from PET plastics and PET-containing refuse, effectively aided by a [2] Global polyethylene terephthalate (PET) resin market to boost in coming years –
+systematically designed response surface methodology to optimize the projected to reach worth 114.7 million tons in 2028. https://www.globenewswire.
+reaction conditions. Addressing both PET waste management and TP com/news-release/2022/04/04/2415938/0/en/Global-Polyethylene-Terephth
+ alate-PET-Resin-Market-to-Boost-in-Coming-Years-Projected-to-Reach-Worth-114-
+production, this technique presents notable merits: (1) transformation of
+ 7-Million-Tons-in-2028-BlueWeave-Consulting.html. (Accessed 1 Sep 2023).
+discarded PET into valuable TP through a streamlined, one-step reaction [3] N.A.S. Suhaimi, F. Muhamad, N.A. Abd Razak, E. Zeimaran, Polym. Eng. Sci. 62 (8)
+process, thus realizing waste-to-resource conversion; (2) operation (2022) 2355–2375, https://doi.org/10.1002/pen.26017.
+within a mild temperature regime (≤120 ◦ C) devoid of catalysts and [4] A.L. Andrady, Mar. Pollut. Bull. 119 (1) (2017) 12–22, https://doi.org/10.1016/j.
+ marpolbul.2017.01.082.
+solvents, culminating in a user-friendly, economical, and energy- [5] F. Ribeiro, J.W. O’Brien, T. Galloway, K.V. Thomas, TrAC, Trends Anal. Chem. 111
+efficient process; (3) attainment of high TP yield (>90 mol%) and (2019) 139–147, https://doi.org/10.1016/j.trac.2018.12.010.
+
+
+ 586
+
+
+=== 5.pdf PDF 10 ===
+J. Liang et al. Journal of Industrial and Engineering Chemistry 132 (2024) 578–587
+
+ [6] K. Duis, A. Coors, Environ. Sci. Eur. 28 (1) (2016) 2, https://doi.org/10.1186/ [18] H. Zhang, J.I. Choi, J.-W. Choi, S.-M. Jeong, P.-S. Lee, D.-Y. Hong, J. Ind. Eng.
+ s12302-015-0069-y. Chem. 115 (2022) 251–262, https://doi.org/10.1016/j.jiec.2022.08.006.
+ [7] V. Sinha, M.R. Patel, J.V. Patel, J. Polym. Environ. 18 (1) (2010) 8–25, https://doi. [19] M. Debowski, A. Iuliano, A. Plichta, S. Kowalczyk, Z. Florjanczyk, Polimery 64
+ org/10.1007/s10924-008-0106-7. (2019) 764–776, https://doi.org/10.14314/polimery.2019.11.5.
+ [8] R.L. Smith, S. Takkellapati, R.C. Riegerix, ACS Sustain. Chem. Eng. 10 (2022) [20] P. Gupta, S. Bhandari, in: S. Thomas, A. Rane, K. Kanny, A. V.K, M.G. Thomas
+ 2084–2096, https://doi.org/10.1021/acssuschemeng.1c06845. (Eds.), William Andrew Publishing, New York, 2019 pp. 109-134.
+ [9] M. Han, in: S. Thomas, A. Rane, K. Kanny, A. V.K, M.G. Thomas (Eds.), William [21] A. Verma, R.K. Soni, M. Teotia, J. Appl. Polym. Sci. 136 (40) (2019) 48022,
+ Andrew Publishing, New York, 2019 pp. 85-108. https://doi.org/10.1002/app.48022.
+[10] G. Grause, W. Kaminsky, G. Fahrbach, Polym. Degrad. Stab. 85 (1) (2004) [22] A. Jain, R.K. Soni, J. Polym. Res. 14 (6) (2007) 475–481, https://doi.org/10.1007/
+ 571–575, https://doi.org/10.1016/j.polymdegradstab.2003.10.020. s10965-007-9131-9.
+[11] S.D. Ohmura, C. Muroi, H. Sakata, M. Wada, N. Miyoshi, J. Polym. Environ. 25 (2) [23] A. Mittal, R.K. Soni, K. Dutt, S. Singh, J. Hazard. Mater. 178 (1) (2010) 390–396,
+ (2017) 250–257, https://doi.org/10.1007/s10924-016-0802-7. https://doi.org/10.1016/j.jhazmat.2010.01.092.
+[12] M.N. Siddiqui, D.S. Achilias, H.H. Redhwi, D.N. Bikiaris, K.A.G. Katsogiannis, G. [24] H.G. Zengel, M.J. Bergfeld, Product R&D 15 (3) (1976) 186–189, https://doi.org/
+ P. Karayannidis, Macromol. Mater. Eng. 295 (6) (2010) 575–584, https://doi.org/ 10.1021/i360059a009.
+ 10.1002/mame.201000050. [25] K. P. Blackmon, D. W. Fox, S. J. Shafer, US Patent (4973746), 2005.
+[13] P. Pereira, P.E. Savage, C.W. Pester, ACS Sustain. Chem. Eng. 11 (18) (2023) [26] A. Verma, R.K. Soni, M. Teotia, J. Appl. Polym. Sci. 136 (2019) 48022–48035,
+ 7203–7209, https://doi.org/10.1021/acssuschemeng.3c00946. https://doi.org/10.1002/app.48022.
+[14] Z. Jiang, D. Yan, J. Xin, F. Li, M. Guo, Q. Zhou, J. Xu, Y. Hu, X. Lu, Polym. Degrad. [27] G.R. Fulmer, A.J.M. Miller, N.H. Sherden, H.E. Gottlieb, A. Nudelman, B.M. Stoltz,
+ Stab. 199 (2022), 109905, https://doi.org/10.1016/j. J.E. Bercaw, K.I. Goldberg, Organometallics 29 (9) (2010) 2176–2179, https://doi.
+ polymdegradstab.2022.109905. org/10.1021/om100106e.
+[15] S. Zahova, I. Tsacheva, K. Troev, V. Mitova, Polym. Degrad. Stab. 212 (2023), [28] H.E. Gottlieb, V. Kotlyar, A. Nudelman, J. Org. Chem. 62 (1997) 7512–7515.
+ 110353, https://doi.org/10.1016/j.polymdegradstab.2023.110353. [29] M. Gordon, J.G. Miller, A.R. Day, J. Am. Chem. Soc. 70 (5) (1948) 1946–1953,
+[16] A. Sheel, D. Pant, in: S. Thomas, A. Rane, K. Kanny, A. V.K, M.G. Thomas (Eds.), https://doi.org/10.1021/ja01185a090.
+ William Andrew Publishing, New York, 2019 pp. 61-84. [30] J. Griffin, J. Atherton, M.I. Page, J. Phys. Org. Chem. 26 (2013) 12, https://doi.
+[17] S. Javed, D. Vogt, ACS Sustain. Chem. Eng. 11 (2023) 11541–11547, https://doi. org/10.1002/poc.3148.
+ org/10.1021/acssuschemeng.3c01872. [31] H. Zhang, X.-L. Zhou, L.-M. Shao, F. Lü, P.-J. He, Sci. Total Environ. 772 (2021),
+ 145309, https://doi.org/10.1016/j.scitotenv.2021.145309.
+
+
+
+
+ 587

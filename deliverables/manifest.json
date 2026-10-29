@@ -1,0 +1,500 @@
+{
+  "files": [
+    {
+      "file": "pet-nitrogen-learning.delivery.json",
+      "bytes": 15126,
+      "sha256": "fa3f096c3de0a5b3f97d0218ddb17cf4b175dcdcf76e9d067265d76a039e8059",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.html",
+      "bytes": 4488391,
+      "sha256": "62f2ac36bc3399acf836f20996d1b3b0561e2070eb20293feb3c6a0abf921624",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/1.pdf.txt",
+      "bytes": 48924,
+      "sha256": "6a25221b959510d689c14ed63bfb48efd9682be1f4ab3d53363ed0f144b90950",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/11.pdf.txt",
+      "bytes": 55598,
+      "sha256": "4de059649a2c06145618a7955b4fd819b6351a3c457727d85598851960307489",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/12.pdf.txt",
+      "bytes": 76009,
+      "sha256": "92c295364915995fbe97864a2f4ac174c4f4c0033329aa75e73f93c22911e42d",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/2.pdf.txt",
+      "bytes": 34261,
+      "sha256": "b6314966975af13794ebf1790e5b20549b4e8a0046df40c2c90a7857143ab7d9",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/3.pdf.txt",
+      "bytes": 61987,
+      "sha256": "89c7de8b45e79050beb3ee273ab4a9218da97de22d8dd6b614743774f32c2d95",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/4.pdf.txt",
+      "bytes": 51420,
+      "sha256": "48f8b1934baf5c2fb03d910df44ea4b5ae1bfddc7f4ac07eccf4ec2dde68ddba",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/5.pdf.txt",
+      "bytes": 31118,
+      "sha256": "abcc04d1b141094876c335801629b79d2b8aa974ce40151c59a1620e93432092",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/6.pdf.txt",
+      "bytes": 47447,
+      "sha256": "bb54ea078dc4c9393f5ab469a71b279533325fabd5780cc594e0fb5d04d73df4",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/7.pdf.txt",
+      "bytes": 50871,
+      "sha256": "b42c554e9b5e7f2c6a516e4e5e1baa34107efc8ab2050760e8a8e858ebe9a88d",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/9.pdf.txt",
+      "bytes": 22636,
+      "sha256": "9a1b525f71fa3b7379662c3819bdad94e4bc208fc3a1e8058b142e361cc3cb58",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/INDEX.md",
+      "bytes": 2784,
+      "sha256": "5565745fb6010dd381ae95360cfde209a18385a4dd9ce188f6974b266d08d35c",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/action-rule-ledger.json",
+      "bytes": 60447,
+      "sha256": "8cffab58508dd52623a54f41c6a9385313500762b3e8c51aeaa9479a9682c624",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/authored-source-notes.json",
+      "bytes": 583388,
+      "sha256": "b7e611ae9a3eaae415d611f801df962f451b726e4967a44c1717c4ad498fc10f",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/cheatsheet.md",
+      "bytes": 1502,
+      "sha256": "3684c148a650cff0bc44f1473be2ba1aea34aad1ffa9b1a64ec5196fcb926d31",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/content-review.json",
+      "bytes": 461075,
+      "sha256": "e5dff7fb06263b26ad41f4c1efcc7b4cc2b5a464a47403537d1b9f7d8dbc072f",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/coverage-audit.json",
+      "bytes": 28474,
+      "sha256": "ae613d485b436e6803cc00ecf74e3d6c997dd8ec3a4c5f5a858d156279bc6835",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/coverage-audit.md",
+      "bytes": 29417,
+      "sha256": "01fd705fd37a4e1c041ba55035e403e896a36dd9ceb00e98fd32e7b808dab792",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/full_text.md",
+      "bytes": 677925,
+      "sha256": "d812445eb337a4362905691a023faf9a59d54e706503a0f77a222881d805b1e7",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/full_text.txt",
+      "bytes": 679987,
+      "sha256": "6a8b772b09dee0df419550dd1dd76d31818b30750cd0836fbefa34d3a9695e5a",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/glossary.md",
+      "bytes": 32388,
+      "sha256": "712cf2c3661d33ade49372b12acc7009c59df6f06a248d814ee74b7e0f738ca8",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/material-security-report.json",
+      "bytes": 2488,
+      "sha256": "879b3f523af7045a88d24620e8b28547e5829b54dc7fb36c5993ffb5a02d2295",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/metadata.json",
+      "bytes": 9623,
+      "sha256": "6d24f27a347a3bc04126b7f01ff8b32e4a3673c8ecc079f3de665ef4c163a290",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/methodology.json",
+      "bytes": 58080,
+      "sha256": "62ad74b3613536a31075d8777bf6651d47f3e0ae1f98e704da3350372ff0d119",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/methodology.md",
+      "bytes": 21425,
+      "sha256": "b27cf3e1f57636b120e4f0e413785fdc50c735281c86faa99af20b4ff2e78413",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/methods.json",
+      "bytes": 136133,
+      "sha256": "2fa3e18c84846ff74678d0f1ca7f83845bed5ff85e0fda5d2ef2b11b7cbfeb2d",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/page_map.json",
+      "bytes": 28181,
+      "sha256": "04e3ee813c27c48c6563fef1b95a4d0d7bdacf74d8b91bd90061b0a31a819f40",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/patterns.md",
+      "bytes": 97542,
+      "sha256": "de84afd8f5dff24a78c0888d991901a87d8a8090066a9f6585bcfca8ce69ded7",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/performance-report.json",
+      "bytes": 2097,
+      "sha256": "3629bcfd74d0651a1b0db36dec1ede1c22c69c4b7157fca3b578900a620a1e54",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/practice.md",
+      "bytes": 11056,
+      "sha256": "ad46edce3ee5ce59f66e29427a019c192f87177fc5512fc998d48ba0e25b9c5a",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/question-bank.json",
+      "bytes": 154,
+      "sha256": "6d4c24f0c7fcd5ac3dba225fadd6d11badb61fafdd88a6991e0644a92543eeb9",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/reverse-coverage-report.json",
+      "bytes": 30624,
+      "sha256": "16c4346dc451c352b456be13fd844c66f411261f4ed53435d837273a5c756d87",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/source-heading-index.json",
+      "bytes": 6276,
+      "sha256": "a4d82fad32988e40be6e29274ef02f8b2fd91986f785822dc2d23cf34215f222",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/source_manifest.json",
+      "bytes": 8638,
+      "sha256": "6f62efa7717208bdaed131febed3b8861e025583c8e4497f483fd7a5c972e261",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/source_map.json",
+      "bytes": 28181,
+      "sha256": "04e3ee813c27c48c6563fef1b95a4d0d7bdacf74d8b91bd90061b0a31a819f40",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/summary-ledger.json",
+      "bytes": 121633,
+      "sha256": "4048c597ddd50dd2757461e81b3dd5bdcaade5a7d15febdc73f5a8482980db6d",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/unit-dependency-map.json",
+      "bytes": 22365,
+      "sha256": "61d5a2719425462bf63d98e518d6223bc9562ba97a1983372dd11197ed3f604f",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u01.md",
+      "bytes": 6556,
+      "sha256": "f229bced957224bbb2e8366df760d8ca101c70d9521bd0ecdeed18166f524f9b",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u02.md",
+      "bytes": 4102,
+      "sha256": "b33aa46dd3016e231f258480ad95756f327b226db85bc206705dcc1a8fe29dc0",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u03.md",
+      "bytes": 3995,
+      "sha256": "d0a532f9e34ae580a31bf93bb672f30073c0fe966a259da3f1aca8c6e21d491a",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u04.md",
+      "bytes": 3002,
+      "sha256": "bbbb0b3936eda5071d03ebb1b031fa5eb643ad1a0c69e426683bdcb7b8a0ef95",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u05.md",
+      "bytes": 5783,
+      "sha256": "7cb0ee80fe82f1ee425396fcae184623dc33db442258e1d814e92f5ed3a44f6f",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u06.md",
+      "bytes": 5487,
+      "sha256": "a6f31e4c42c07609304fd65ca3154fc6a37cba8fb4795b3f8711270f25a52df9",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u07.md",
+      "bytes": 5630,
+      "sha256": "33c0f4cbf00b01bb4e03d91033c12f6289bfc9b648301bd9a9fcba6de36ad60e",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u08.md",
+      "bytes": 2633,
+      "sha256": "572db5e5832a73d80063efe7228e5cfc125a9708e3432750f88f22d4cded6b14",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u09.md",
+      "bytes": 6265,
+      "sha256": "f86556e05b1ab11201ba5d3579c62128c10ec60648f8314f54699f483d93e608",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u10.md",
+      "bytes": 5593,
+      "sha256": "6f39b615ab3b72c367385e2881caa50cb7fa3105177bdcbf80cc174ad824d2b7",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u11.md",
+      "bytes": 4941,
+      "sha256": "3e0fe874c7a3649a9c3fbcd84e16bf9ee4900dd5769e0c267f6d14976d9abc17",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u12.md",
+      "bytes": 4179,
+      "sha256": "fadedec8660010b720ace5328f9961a8404979665a06066090e4eabc40d4a18a",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u13.md",
+      "bytes": 4282,
+      "sha256": "c5f6c3f3cb583255712e5c04cd5f64def87dcd63eeb4c1c72b2b1a4e388eb10b",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u14.md",
+      "bytes": 4883,
+      "sha256": "350c664a7ff2cc8cca14051280504611f15c532f668a05ac70cf4719ecfb4a3c",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u15.md",
+      "bytes": 3110,
+      "sha256": "f25e67263460d4d6a08d0bad51b73b0c47ed9f69c31134dcb769c6916183cfcf",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u16.md",
+      "bytes": 5629,
+      "sha256": "575f2a887a5fc8645cac0450fab7bb5dc5bfb0a5859acd7b29e37facf7c0e438",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u17.md",
+      "bytes": 4473,
+      "sha256": "fa9d017cb88b6d32bb8abaafa41c3df11eb2a19cfdfcd46c984c9ee3f5afab60",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u18.md",
+      "bytes": 2523,
+      "sha256": "8629701d03d1c3849803477635741ad4df92120a49e8d57a62c0f5a17296b9df",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u19.md",
+      "bytes": 3268,
+      "sha256": "6007b6d1091c59e9e997c411c042e8d2b4a977ab0dd93a26f103ca774a97fdc0",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u20.md",
+      "bytes": 4982,
+      "sha256": "9046b0fc814b91894a05e2c3f49fee1399974207c02de29743d6da150fcd2468",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u21.md",
+      "bytes": 3492,
+      "sha256": "44623ab6c48e6cf78e61cbcea023d0dd2bf8f641ba23bb6559088f1c0aaf7385",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u22.md",
+      "bytes": 3298,
+      "sha256": "671c5b1192eafc6377246f96d9a8c9f678338de3c150ffa9040fd4a078f7bfd4",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u23.md",
+      "bytes": 4522,
+      "sha256": "e12c9aed47184683efbf13b28d907341ec6618b0bf925670b6a04eb46311ae76",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u24.md",
+      "bytes": 4129,
+      "sha256": "74077bea358a0ed363a9521a16de57f8e0274bdebb3b27e510f747b836882e7c",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u25.md",
+      "bytes": 1996,
+      "sha256": "e07e3693479c2714b6fd2b283fcd55600505e66b0b2f196df4ea5c6f8464cc36",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u26.md",
+      "bytes": 4512,
+      "sha256": "06a34d2506270d67b19d13233ee7d809831c78d7063a772df13c296f17fdb250",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u27.md",
+      "bytes": 3801,
+      "sha256": "25bb0aee66783a5d962f5ecfaccca27aa03ccad3c9f5ae0864886c8cc01ca534",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u28.md",
+      "bytes": 2820,
+      "sha256": "e0caef2fa1831268fb2ae8373b0c269a5b61343f048fa9c6c555067f59614d09",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u29.md",
+      "bytes": 3754,
+      "sha256": "05056cde22ad012a70f09fa8a2828dd119c2fd16e95a4d852f4e54b28e466d17",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u30.md",
+      "bytes": 5205,
+      "sha256": "415b93ec37581dd7f507c0740d40598f352663cb37cced19f149634ba8d92c5d",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u31.md",
+      "bytes": 3062,
+      "sha256": "0b85958feb5273f240fc441e497351455863daffe2d1cd690520251c6916d48a",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u32.md",
+      "bytes": 2384,
+      "sha256": "3998e2420dc91af1ec9be572a6897ace1d63c3dd582cd6a61d3480acb3856902",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u33.md",
+      "bytes": 4134,
+      "sha256": "2e8b47b720817a42f7767fc52d27c2394280268f06093350972d598138bcb48b",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/units/u34.md",
+      "bytes": 3022,
+      "sha256": "8d67871957f662f1cd6c63f83b77da388f3518196bc3999d068268e2ccad4f6b",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/verification-notes.md",
+      "bytes": 1272,
+      "sha256": "78fa32f0a52f1cdb8154b3f43340fd22cef083aa7e5ccfb755fbb68c7c72d35e",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/visual/11-page-4.png",
+      "bytes": 324256,
+      "sha256": "9450fa2502edb4bd23c8775c572f7e37f275eafa165be3aee3bb7c4f6767873a",
+      "check": "image decoded"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/visual/12-page-5.png",
+      "bytes": 284834,
+      "sha256": "f32527b1250833e94893b4bf86ff903aa42df5c0d955a624d24f25dd8220c60b",
+      "check": "image decoded"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/visual/3-page-4.png",
+      "bytes": 234640,
+      "sha256": "5ff3c39dda8337c57dfd52a4a0fad7d7f8ee315eab4ca7245bdd1a6a6757887d",
+      "check": "image decoded"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/visual/5-page-5.png",
+      "bytes": 233619,
+      "sha256": "39aaacd4cce302f5874ab50a447de8fbd6756a70be186cdc4f935d0aa71b358e",
+      "check": "image decoded"
+    },
+    {
+      "file": "pet-nitrogen-learning.learnkb/visual/6-page-8.png",
+      "bytes": 216633,
+      "sha256": "7c8446009a15cbc4c7dd3d030017572e53cdbe2fd8f682d4a384541b8b0a2ef0",
+      "check": "image decoded"
+    },
+    {
+      "file": "pet-nitrogen-learning.md",
+      "bytes": 189130,
+      "sha256": "c0e6c97fffc3c137cc0f77470927397659212da9748cef79d40f3464448a37ae",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.page.json",
+      "bytes": 492359,
+      "sha256": "4defa8d262083abc773178be9339e0ba3b659e25e67d4387e8e3a6cb19a8eebb",
+      "check": "readable"
+    },
+    {
+      "file": "pet-nitrogen-learning.zip",
+      "bytes": 5133102,
+      "sha256": "d23dcd0f1b009b7bf32010f6b6a393db443c724658677fa072eec9832f5d36f8",
+      "check": "zip CRC + all text/JSON/HTML members checked"
+    }
+  ],
+  "secretScan": "No private-key blocks or common token patterns found; no credential/config files included.",
+  "missingDeliverables": [
+    "PET醇解24页PDF",
+    "PET醇解学习HTML/Markdown/ZIP及方法论"
+  ],
+  "notGenerated": [
+    "Word (.docx)",
+    "Excel (.xlsx)"
+  ],
+  "htmlValidation": "HTML parsing and existing static validation; full browser interaction not revalidated."
+}

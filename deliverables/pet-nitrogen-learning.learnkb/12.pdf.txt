@@ -1,0 +1,946 @@
+
+=== 12.pdf PDF 1 ===
+ This article is licensed under CC-BY 4.0
+
+pubs.acs.org/journal/ascecg Research Article
+
+
+
+Life Cycle Assessment of Chemical Upcycling of Postconsumer
+Polyethylene Terephthalate to Kevlar Polymer
+Published as part of ACS Sustainable Chemistry & Engineering special issue “Advancing a Circular Economy”.
+Jaewon Han, Preeti Nain, Richard-Joseph L. Peterson, Elanna P. Neppel, and Annick Anctil*
+ Cite This: ACS Sustainable Chem. Eng. 2025, 13, 18924−18937 Read Online
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​44/​18924/​42350301/​sc5c04073.​pdf by ZHEJIANG UNIV user on 09 September 2026
+ACCESS Metrics & More Article Recommendations *
+ sı Supporting Information
+
+
+ABSTRACT: Due to its low cost and chemical stability,
+poly(ethylene terephthalate) (PET) is widely used in single-use
+items, such as plastic bottles and packaging materials. The high
+demand has resulted in a significant amount of discarded PET
+waste, underscoring the need for effective recycling strategies. One
+promising approach is PET chemical upcycling, but it requires
+evaluation of the environmental impact of the entire process, from
+waste collection to polymer synthesis. This study, for the first time,
+uses life cycle assessment (LCA) to assess the environmental
+impact of chemical upcycling of postconsumer PET to Kevlar
+polymer. The study models the life cycle inventory of chemical
+upcycling via PET ammonolysis and hydrolysis, developing
+scenarios based on the environmental hotspots of each chemical process for future optimization. The results show that upcycled
+Kevlar (15.22 kg CO2 eq/kg Kevlar) has lower impacts than virgin Kevlar polymer production, with a 15% reduction in global
+warming potential (GWP), 30% in cumulative energy demand (CED), 1% in ecotoxicity, and 40% in fossil fuel depletion. Hotspot
+analysis identifies monomer preparation as the most impactful process, particularly due to the use of solvents such as chloroform and
+diethyl ether. Chloroform, used in the p-phenylenediamine (PPD) preparation process, is one of the largest contributors, accounting
+for approximately 20.8% of GWP and 12.1% of ecotoxicity. The best-case scenario, which replaces potassium hydroxide with sodium
+hydroxide and reduces solvent consumption for purifying and extracting monomers, results in a 19.9% decrease in GWP and a 21.1%
+reduction in costs compared to those of the baseline. These results highlight that upcycled Kevlar has the potential to reduce the
+environmental burden of Kevlar production by utilizing PET waste. However, achieving adoption on an industrial scale requires
+targeted process optimization, addressing process hotspots, and replacing conventional solvents with greener alternatives.
+KEYWORDS: plastic recycling, chemical upcycling, polyethylene terephthalate, kevlar, life cycle assessment, green chemistry
+
+
+1. INTRODUCTION plastics are continuously reintroduced into the production
+Global plastics production reached 359 million tons in 2018 process in a closed loop.4,7 Currently, mechanical recycling of
+and is projected to increase further, reaching 1.1 billion tons by PET waste is the most widely adopted approach, though it
+2050.1,2 One of the most commonly used plastics is often results in the deterioration of material performance.8−10
+polyethylene terephthalate (PET) due to its lightweight Compared with mechanical recycling, chemical recycling of
+nature, high chemical stability, and outstanding barrier PET breaks down the polymer into monomers, which can be
+properties.3 Owing to these features, PET is used for bottled used again for polymerization.11 Common chemical recycling
+beverages, food packaging, textiles, medical devices, and technologies for waste PET include depolymerization through
+electrical applications.4 The widespread use of plastics across methanolysis, glycolysis, ammonolysis, and hydrolysis.12−14
+various industries, their short lifespan as single-use items, and With respect to chemical recycling, previous studies are limited
+inadequate disposal practices have led to a substantial to monomers such as bis(hydroxyethyl) terephthalate (BHET)
+accumulation of discarded PET plastic in the solid waste
+stream.5 The growing plastic waste has emerged as one of the Received: April 28, 2025
+most pressing environmental challenges. Only 10% of the total Revised: October 16, 2025
+plastic waste collected is recycled, while most is dumped in Accepted: October 22, 2025
+landfills or left to accumulate in natural environments.6 Published: October 29, 2025
+ Recycling plastic waste offers multiple benefits, minimizing
+waste, conserving petroleum resources, and ensuring that
+ © 2025 The Authors. Published by
+ American Chemical Society https://doi.org/10.1021/acssuschemeng.5c04073
+ 18924 ACS Sustainable Chem. Eng. 2025, 13, 18924−18937
+
+
+=== 12.pdf PDF 2 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​44/​18924/​42350301/​sc5c04073.​pdf by ZHEJIANG UNIV user on 09 September 2026
+Figure 1. System boundary of chemical upcycling of postconsumer PET to Kevlar polymer and virgin Kevlar production. T1-T4 correspond to the
+transportation of intermediate materials to the processes.
+
+and terephthalic acid, utilizing various solvents, including impacts and allows for decision-making on improving the
+water, alcohol, and amines, to dissolve PET.4 Despite recycling process.10,23 Most previous LCA studies considered
+variations in products, the GWP values for depolymerization mechanical recycling of PET, showing its low environmental
+consistently fall within a certain range, with BHET having a impacts, mainly due to the avoidance of virgin PET resin
+GWP of 2.59 kg CO2 eq/kg15 and DMT ranging from 2.71 to production and reduced fossil resource consumption.24−26
+4.18 kg CO2 eq/kg.16 Previous LCA studies on chemical recycling show a wide range
+ Within the realm of chemical recycling technologies, of environmental impacts, depending on the system
+depolymerization via ammonolysis and hydrolysis dissolves boundaries and technologies considered.27 However, LCA
+PET into monomers, which can be subsequently upcycled into studies of PET chemical recycling are limited to depolymeriza-
+a value-added polymer such as Kevlar.17 Kevlar, developed by tion into monomers, while a significant gap remains in
+DuPont in 1965, was the first para-aramid fiber, and this high- assessing the environmental impact of upcycling PET-derived
+performance fiber was first commercially used in the monomers into higher-value polymers, such as Kevlar.17,18
+automobile industry.18 The Kevlar fiber and its composites Only one study evaluated the life cycle impacts of Kevlar, but
+possess a very high ratio of tensile to compression strength, inventory and modeling details were not provided.28 To
+finding application in military and aerospace applications.19 commercialize PET waste into Kevlar, understanding the
+Globally, the annual production capacity for recycled PET environmental impacts at various process stages and solvent
+(rPET) is estimated at approximately 20 million tons, notably consumption is required.
+exceeding the global production capacity for para-aramid fibers To fill the above research gaps, this study aims to (i) model
+(Kevlar) of approximately 160,000 tons per year.20 Approx- the life cycle inventory of waste PET upcycling to the Kevlar
+imately 1.62% of recycled PET production capacity would be polymer process via ammonolysis and hydrolysis and virgin
+required to meet global Kevlar demand. This demonstrates the Kevlar polymer production, (ii) assess the environmental
+feasibility of utilizing this abundant waste stream as a feedstock impacts associated with the chemical upcycling process and
+for high-value applications. However, as chemical upcycling is a compare them with the virgin polymer production, and (iii)
+new technology, it is important to assess it for its environ- propose scenarios to reduce the environmental impact of the
+mental impact.10 upcycling process by replacing or reducing chemical
+ Life cycle assessment (LCA) is commonly used to evaluate consumption.
+the potential environmental impacts of a product or new
+technology based on ISO 14040:2006 and ISO 2. METHODOLOGY
+14044:2006.21,22 Applying LCA modeling to plastic recycling 2.1. LCA Goal and Scope. The environmental impact of
+provides a comprehensive understanding of the environmental chemical processes of upcycled Kevlar from PET and fossil-
+ 18925 https://doi.org/10.1021/acssuschemeng.5c04073
+ ACS Sustainable Chem. Eng. 2025, 13, 18924−18937
+
+
+=== 12.pdf PDF 3 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+based virgin polymer production is quantified by LCA based The prices of baled PET waste and virgin PET bottle grade
+on the ISO 14040 and 14044 standards.22 The chemical resin are obtained from the monthly prices of North America
+upcycling process involves depolymerizing PET flakes through plastics published by A Resource Recycling Inc. and Business
+ammonolysis and hydrolysis to obtain Kevlar polymer Analytiq for the last five years.33,34 In general, the AF is in the
+precursors. The study also aims to develop a life cycle range of 11−51%, and the average AF, approximately 24.5%, is
+inventory for the chemical upcycling process and identify assumed to shift the environmental burden of virgin PET to
+environmental hotspots in each step for future optimization. the upcycling process.
+The comparison assumes identical purity and quality between In this study, we started the analysis with the cutoff
+upcycled Kevlar and the virgin Kevlar polymer. As the chemical approach, where the system boundary of PET chemical
+upcycling is currently at the laboratory scale, the life cycle upcycling begins with the collection of mixed waste to produce
+inventory is modeled by scaling up data from lab experiments Kevlar. In addition, two alternative approaches, 50/50 and the
+using available data from patents and published studies. waste valuation approach, are introduced to compare the
+ The functional unit for this study is 1 kg of Kevlar allocation methodology for open-loop recycling.
+production. The system boundary is shown in Figure 1, 2.3. Upcycled Kevlar. 2.3.1. Mechanical Recycling.
+illustrating the chemical upcycling process, starting from mixed Mechanical recycling of mixed plastic waste produces clean
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​44/​18924/​42350301/​sc5c04073.​pdf by ZHEJIANG UNIV user on 09 September 2026
+plastic waste collection to product polymer synthesis. recycled PET flakes for upcycling. The plastic waste is
+ 2.2. Allocation for Open-Loop Recycling. An open-loop collected at material recovery facilities to be pressed, sorted,
+allocation procedure applies to product systems where the and cleaned. The PET flakes undergo a pretreatment process
+material is recycled into other product systems and the to remove contaminants, including labels, adhesives, and
+material undergoes a change to its inherent properties.22 The residual liquids, ensuring a high-purity feedstock. The flakes
+virgin material production, recycling, and final waste manage- are extruded by using a melt filter to remove further impurities.
+ment activities involved in open-loop recycling are multifunc- The study does not consider pellet processing since the
+tional processes since they provide different product life cycles upcycling process does not require a pellet shape for the
+with different functions.15 Although various approaches have reaction. Transportation of plastic waste includes curbside,
+been proposed, there has been no standardized allocation consumer drop-off, CRV drop-off, and commercial collec-
+methodology for open-loop recycling.26,29 tion.35
+ 2.2.1. Cut-Off Approach. The cutoff approach is most 2.3.2. Depolymerization and Precursor Preparation. Part
+commonly applied to avoid double-counting burdens between of chemical recycling includes PET polymer being broken
+product systems and to avoid assumptions on market down into monomers via various depolymerization technolo-
+conditions.29,30 In the cutoff approach, the environmental gies.15,36 Two routes for chemically recycling PET are
+burdens from material production and waste generation are investigated in this study: depolymerization through ammo-
+fully assigned to the original product, and recycling starts from nolysis and hydrolysis to yield terephthalamide and tereph-
+waste treatment.30 thalic acid. The foundational chemical processes for PET
+ 2.2.2. 50/50 Approach. The 50/50 approach allocates 50% depolymerization via ammonolysis and hydrolysis, along with
+of the burdens of virgin material production and the recycling subsequent polymerization steps, are established in prior
+process to the virgin product and the recycled product's life.31 research.37,38 During the ammonolysis reaction, bis(2-hydrox-
+The rationale underlying this method is that both supply and yethyl) terephthalate reacts with ammonia in the presence of
+demand for recycled materials are necessary to enable excess ethylene glycol to form terephthalamide at 125 °C.
+recycling.32 Terephthalic acid is obtained through base-catalyzed hydrol-
+ The equations for the environmental impact (EI) are ysis of PET at 50 °C with sodium hydroxide and ethanol.37
+ These monomers can be further reacted to prepare two
+ First life(recycling) precursors for Kevlar (p-phenylene terephthalamide, PPTA)
+ = EI virgin production + 0.5 × EI recycling process synthesis: p-phenylenediamine (PPD) and terephthaloyl
+ chloride (TCL). PPD is prepared through the Hofmann
+ 0.5 × EI virgin production rearrangement of terephthalamide obtained from PET
+ ammonolysis. TCL is prepared by chlorinating the terephthalic
+ Second life(use of recycled material) acid obtained from PET hydrolysis with excessive thionyl
+ chloride and dimethylformamide at 80 °C from PET
+ = 0.5 × EI virgin production + 0.5 × EI recycling process hydrolysis.
+ 2.3.3. Kevlar Polymer Synthesis. Virgin Kevlar production
+ + EIsecond life production
+ uses petrochemical-derived monomers, while upcycling uses
+ 2.2.3. Waste Valuation. The waste valuation approach waste PET, differing only in feedstocks. To synthesize PPTA,
+considers waste as a valuable resource. The environmental PPD and TCL monomers obtained from PET ammonolysis
+impact of virgin PET production should be allocated to the and hydrolysis are added to N-Methyl-2-Pyrrolidone (NMP)
+second life based on the economic allocation factor, since mass solution with calcium chloride to improve the molecular
+allocation cannot be assumed due to different products from weight of the polymer.37,39 It undergoes a condensation
+each life cycle. The allocation factor (AF) is defined as the reaction between PPD and TCL, producing hydrochloric acid
+ratio of the market value of baled PET waste to the market as a byproduct. Traditionally, these monomers are derived
+value of virgin PET bottle grade resin. from petroleum. Using monomers derived from waste, as
+ previously described, adds value to the waste and reduces the
+ Second life(useof recycled material) need for petrochemicals in polymer synthesis.
+ 2.4. Life Cycle Inventory. 2.4.1. Chemicals Inventory.
+ = EIcut off + AF × EI virgin production
+ The chemical consumption data for modeling the upcycling
+ 18926 https://doi.org/10.1021/acssuschemeng.5c04073
+ ACS Sustainable Chem. Eng. 2025, 13, 18924−18937
+
+
+=== 12.pdf PDF 4 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+Table 1. Assumptions on Inventory Data for the Industrial Scale Production of PET Chemical Upcycling to Kevlar Polymer
+ Process Inventory Assumption Reference
+ Mechanical recycling yield 85% 43
+ Depolymerization to terephthal amide yield 87% 44
+ NH3 1:2 wt % to PET flake 38
+ Depolymerzation to terephthalic acid yield 93% 45
+ KOH same mole with 0.5 kg NaOH/kg PET 46
+ EG 1:1 mass ratio to water 45
+ H2SO4 0.36 mL/g 38
+ PPD preparation yield 90% 38
+ NaOH 2.22 kg/kg PPD 47
+ Cl2 1.32 kg/kg PPD 47
+ DI water 3 M NaOH 38
+ chloroform 2:1 vol % 38
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​44/​18924/​42350301/​sc5c04073.​pdf by ZHEJIANG UNIV user on 09 September 2026
+ TCL preparation yield 96% 37
+ TCL 7 mL/3 g acid 48
+ diethyl ether 2.5:1 vol % 37
+ PPTA synthesis NMP 16 wt % to CaCl2 37
+ DI water 2:1 vol % to NMP 37
+
+process are mainly derived from original patents, published and 500L batch reactors, and a 10% higher reactor volume
+literature, and the Ecoinvent v3.10 database. Publicly compared to the reaction mixture volume is applied based on
+inaccessible chemical inventory data are estimated using expert estimates. The heat can be calculated with heat capacity
+stoichiometric calculations. Solvent regeneration with a 95% (Cp), the reaction mixture (mmix), and the gap in reaction
+recovery rate and byproduct recovery rate of 68% is assumed temperature (Tr) and starting temperature (T0) according to
+for all chemical processes.40,41 The waste from chemical eq 2. To calculate the heat loss, the surface area of the reactor
+processes is calculated based on the system mass balance and (A), the thermal conductivity of the insulation material (ka),
+treated through hazardous waste incineration, which is the the thickness of the insulation (s), the temperature difference
+most common waste management for industrial chemical between the inside and outside of the reactor (Tr − Tout), and
+waste. 42 The inventory of important parameters and the time of the reaction (t) are considered. Detailed
+assumptions of the process is summarized in Table 1. Detailed information for calculating energy consumption and reaction
+assumptions and life cycle inventory for intermediate products conditions is available in Tables S3 and S4.
+are provided in Tables S1 and S2. Additionally, the mass 2.4.3. Transportation. The transportation modeling in-
+balance diagram for 1 kg of upcycled Kevlar is available in volves collecting mixed plastic waste to the material recovery
+Figure S1. facility (MRF) and transporting clean PET flakes to the
+ 2.4.2. Energy Consumption. Since the upcycling process is manufacturing plant for upcycling. Waste is collected curbside,
+an emerging technology, the energy consumption is scaled up through consumer drop-off, deposit, and commercial collec-
+from the laboratory work done by a coauthor to an industrial tion, primarily by truck.43 The study assumes mechanical
+scale based on the scaling-up method.41 The calculation recycling of PET waste is located at PolyQuest, a PET
+involves the energy required for heating during reaction, reclaimer in South Carolina,49 and all chemical processes are
+stirring, distillation, drying, and solvent regeneration. The located in Dupont’s Virginia plant.50 Those locations were
+inputs for the equation, such as the mass of the reaction selected because Dupont is the largest Kevlar production plant
+mixture, are scaled up from the laboratory process. The specific in the US, and PolyQuest is the nearest major PET reclaimer
+heat capacity of solvents for each process is calculated by eqs 1 from the plant to source the recycled PET flake.
+and 2. The amount of mixed waste and clean flake is calculated
+ Q heat + Q loss based on the yield of each process to produce 1 kg of Kevlar
+ Q react = polymer with 91% sorting efficiency and 85% flake processing
+ heat (1) loss.43 Transportation of raw chemicals for virgin Kevlar
+ production is done by truck, and the distance is 224 km for
+ Q react = basic chemicals based on the 2017 commodity flow survey.51
+ k
+ The life cycle inventory of the chemical upcycling process,
+ Cp × mmix × (Tr T0) + A × sa × (Tr Tout) × t including intermediate products and virgin Kevlar production,
+ is provided in Tables S1 and S2. Inventory data for each
+ heat process refer to the input and output for 1 kg of production of
+ (2) each process.
+ The heating energy required consists of the energy needed 2.5. Life Cycle Impact Assessment. Environmental data
+to raise the reaction mixture to a specific temperature and of materials, energy, and emissions is obtained from the
+maintain it throughout the reaction (Qreact). This is calculated Ecoinvent 3.10,52 following the methods outlined in ISO
+as the sum of the energy for raising the temperature (Qheat) 14040 and 14044 standards21,22 to analyze four impact
+and heat loss on the reaction surface (Qloss) divided by the categories in the North American context: global warming
+reactor efficiency (ηheat). Considering the level of the new potential (GWP), cumulative energy demand (CED),
+technology, we calculate the energy consumption for a 100L ecotoxicity, and fossil fuel depletion. TRACI 2.1 v1.09 is
+ 18927 https://doi.org/10.1021/acssuschemeng.5c04073
+ ACS Sustainable Chem. Eng. 2025, 13, 18924−18937
+
+
+=== 12.pdf PDF 5 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+Table 2. List of Scenarios Evaluated, Including Single Factor Modifications and Combinations
+
+
+
+
+used for GWP (kg CO2 equiv), ecotoxicity (CTUe), and fossil setup, which condenses and recycles the solvent back into the
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​44/​18924/​42350301/​sc5c04073.​pdf by ZHEJIANG UNIV user on 09 September 2026
+fuel depletion (MJ surplus), and Cumulative Energy Demand reaction mixture in industrial plants.60 The modification on
+v1.12 is used for CED (MJ). GWP is selected to assess climate thionyl chloride consumption is made based on the average of
+change impacts, and CED is used to quantify the total energy the molar ratio applied in the patent and the theoretically
+demand of the process. Ecotoxicity is included to account for required molar ratio. However, the scenario analysis excluded
+environmental risk from chemical discharges, such as modification on the NMP solution for the polymer synthesis,
+chlorinated chemicals, to the ecosystem.53,54 Fossil fuel as the baseline scenario assumed the maximum 16 wt % of
+depletion is considered because both PET plastics and Kevlar ClaCl2 to NMP ratio.61
+are produced from fossil-based petrochemical feedstocks. 2.8. Cost Analysis. This section estimates the cost
+Ecotoxicity is evaluated by considering the toxicity of associated with consumed chemicals, solvents, and electricity
+chlorinated chemicals to the ecosystem. over the product’s life cycle based on the modeled LCI.
+ 2.6. Monte Carlo Analysis. Uncertainty arises in an LCA Operating, capital expenditures, and labor costs are excluded.
+study when the contributions associated with input data are The purpose of this cost analysis is to provide the economic
+not precisely known and when there is variation within the implications of the chemical upcycling technology by
+input data.55 Uncertainty analysis is crucial in LCA studies to comparing it with the conventional chemical process, focusing
+enhance the robustness of the results. The Monte Carlo on the operational costs (utility and material consumption).
+approach is the most commonly used approach and is The monomers derived from waste PET via ammonolysis and
+integrated in commercial LCA software, such as SimaPro.56 hydrolysis (PPD and TCL) are chemically identical with the
+The simulation generates random numbers, which are then monomers used in conventional Kevlar production. This is a
+used to represent a specific probability distribution.56 crucial point, as these waste-derived monomers can be
+ In our study, the simulation was performed using SimaPro’s integrated directly into conventional Kevlar production
+Monte Carlo simulation tool, with 1000 iterations at a 95%
+ equipment and processes.
+confidence level to estimate uncertainties.57,58 Given the
+ Preference is given to North American average values62 for
+inherent variability and limited data for the emerging upcycling
+ chemicals and solvent costs, followed by the latest year bulk
+process on a lab scale, these foreground parameters were
+ purchasing prices. For example, the TCL used for virgin Kevlar
+modeled using a log-normal distribution, and the squared
+ production by Dupont US facilities is procured from a Chinese
+geometric standard deviation is set to 1.2.57 Background
+processes from the ecoinvent database maintained their company, and thus, its price is collected directly from the
+embedded uncertainty distributions. Chinese supplier Web site.63
+ 2.7. Scenario Analysis. In this section, the study examines For PET flakes, the national average historical base price is
+various scenarios to optimize the chemical upcycling process of used to calculate the PET flakes price ($0.48/kg), which also
+postconsumer PET, aiming to minimize environmental includes the mechanical recycling costs (i.e., waste collection
+impacts. These scenarios encompass the exploration of and pretreatment). The national average bale price is
+alternative chemicals, adjusting chemical consumption, and calculated by taking an average of historical price data from
+the recovery of valuable byproducts based on the results of 2014 to 2020,1 with the conversion cost as $0.42/kg (Table
+hotspot analysis. Table 3 shows the baseline assumptions and S5). For years after 2020, the polynomial trend is applied to
+modifications for chemicals categorized by specific processes. estimate PET flake costs in 2024. An electricity price of 8.78
+Leveraging LCA and hotspot analysis, we developed eight cents/kWh, based on the US industrial average for January
+scenarios (Table 2) to identify the reduction potential. 2023,64 is used. The upcycling process location in this study is
+ In the process of PET depolymerization to terephthalic acid, assumed to be Virginia, which is the Kevlar manufacturing
+NaOH can replace KOH, considering its natural abundance plant of DuPont. The price details are summarized in Table S5.
+and easier extraction process.59 Optimizing solvents is another 2.9. Sensitivity Analysis. Sensitivity analysis is useful to
+promising approach to lowering the environmental impacts of examine how assumptions influence the environmental impact
+PET upcycling. On an industrial scale, solvent volume can be and cost. A sensitivity analysis on solvents and byproduct
+reduced by employing a batch reactor with improved mixing recovery rate, and chemical cost is conducted to evaluate their
+and higher concentration gradients. Therefore, a minimum 1:1 influence on the economic and environmental impact of Kevlar
+vol % extraction solvent is applied based on the extraction synthesis. Additionally, reaction parameters, including the yield
+experiment tested in the lab. Another main contributor, thionyl and temperature for each process, are included in the
+chloride consumption, can be minimized by utilizing a reflux sensitivity analysis. These parameters are varied to address
+ 18928 https://doi.org/10.1021/acssuschemeng.5c04073
+ ACS Sustainable Chem. Eng. 2025, 13, 18924−18937
+
+
+=== 12.pdf PDF 6 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+uncertainties in key process assumptions, as summarized in solvents contribute the most to the net environmental impacts:
+Table 3. 64% to GWP, 66% to CED, 49% to ecotoxicity, and 71% to
+ fossil fuel depletion. The environmental impact breakdown
+Table 3. Sensitivity Analysis Variables reveals minimal differences between the upcycling and
+ commercial polymer production processes. Transportation
+ Variables Range
+ and waste have minor impacts compared to raw materials
+By product recovery rate (%) varied by ±20% of the initial assumption and chemicals.
+ [54−82]2
+Solvent recovery rate from varied by ±4.9% of the initial assumption
+ The net GWP for chemically upcycling Kevlar from waste
+ distillation (%) [90.1−99.9]65 PET is estimated to be 15.22 kg of CO2 eq/kg of Kevlar, which
+Chemical and solvent cost varied by ±20% of the initial assumption is approximately 15% lower than conventional fossil-based
+ [0.8−1.2]1 Kevlar production. This is primarily attributed to less impact
+Reaction yield varied by ±5% of the initial assumption from the raw materials, as the PET waste is burden-free, while
+Reaction temperature varied by ±20 °C of the initial assumption nitroaniline and terephthalic acid generate emissions. The
+ byproducts, including potassium sulfate and hydrochloric acid,
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​44/​18924/​42350301/​sc5c04073.​pdf by ZHEJIANG UNIV user on 09 September 2026
+ contribute a credit of 0.66 kg of CO2 eq/kg Kevlar. The
+3. RESULTS AND DISCUSSION hydrolysis of PET breaks ester bonds, producing one molecule
+ 3.1. LCA Results of Upcycling PET Waste to Kevlar. each of potassium terephthalate per repeating unit. Acid-
+Figure 2 shows the cradle-to-gate LCA results for 1 kg of ification with sulfuric acid to recover terephthalic acid
+Kevlar production using two methods: (i) chemical upcycling generates potassium sulfate as a byproduct. The chemical
+from PET waste and (ii) virgin Kevlar production from upcycling process is credited for recovering materials, offsetting
+petrochemicals. The net impact is calculated by assigning the need to produce an equivalent amount of virgin material.66
+credits of byproducts from the upcycling process. The cutoff The LCA result reveals that the upcycled Kevlar has lower
+approach is applied, where the system boundary begins at impacts compared to conventional polymer synthesis, with a
+waste collection and treatment, and all environmental impacts 30% reduction in CED, 1% in ecotoxicity, and 40% in fossil
+associated with producing the PET waste are assigned to the fuel depletion. The higher environmental impact of the virgin
+original product system. Under this approach, PET waste polymer originates from the Kevlar polymer synthesis process,
+enters the upcycling system without carrying any upstream which involves consuming a larger volume of NMP compared
+environmental burdens. Since virgin PET cannot replace to the upcycling process. The higher ecotoxicity of conven-
+petrochemical feedstocks such as 4-nitroaniline and tereph- tional polymer production is attributed to 4-nitroaniline, a raw
+thalic acid in virgin Kevlar production, avoiding virgin PET material in PPD preparation known to be toxic to aquatic
+production is not credited within the system boundary. organisms. 67 Detailed LCA results for upcycling and
+ As shown in Figure 2, the net environmental impacts of the commercial production are listed in Table S6.
+upcycling process are lower than those of virgin Kevlar The Ecoinvent database for terephthalic acid reports a GWP
+production across all impact categories. Chemicals and of 1.98 kg CO2 eq/kg, which aligns with this study’s findings of
+
+
+
+
+Figure 2. LCA results of 1 kg of upcycled Kevlar and virgin Kevlar production: GWP, CED, ecotoxicity, and fossil fuel depletion.
+
+ 18929 https://doi.org/10.1021/acssuschemeng.5c04073
+ ACS Sustainable Chem. Eng. 2025, 13, 18924−18937
+
+
+=== 12.pdf PDF 7 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​44/​18924/​42350301/​sc5c04073.​pdf by ZHEJIANG UNIV user on 09 September 2026
+Figure 3. Shifted environmental impacts (GWP, CED, ecotoxicity, and fossil fuel depletion) from the virgin PET life cycle across different
+allocation methods (cutoff method, 50/50, and waste valuation) for 1 kg of upcycled Kevlar.
+
+
+
+
+Figure 4. Hotspot analysis results of upcycled Kevlar and virgin Kevlar production: GWP and ecotoxicity.
+
+2.22 and 1.76 CO2 eq/kg when using KOH and NaOH, thereby minimizing environmental impacts across the synthesis
+respectively. However, there remains a research gap in the process chain.
+environmental impact assessment of PPD, TCL, and PPTA 3.2. Alternative Approaches for Open-Loop Recy-
+synthesis processes, limiting the comparison of results. The cling. The environmental performance of upcycled Kevlar is
+ assessed under three distinct allocation approaches for open-
+Ecoinvent database indicates a GWP value of 9.26 kg CO2 eq/
+ loop recycling: cut-off, 50/50, and waste valuation. As
+kg PPD synthesized from 4-nitroaniline without solvent inputs,
+ illustrated in Figure 3, the choice of allocation methodology
+yet the study finds a higher value of 19.1 kg CO2 eq/kg PPD, has an influence, ranging from −2.8 to 16.7% compared to the
+primarily due to chloroform use. This discrepancy underscores cutoff method, across different impact categories.
+the need to optimize chloroform consumption to reduce the For GWP and ecotoxicity, the shifted environmental impact
+GWP associated with PPD and Kevlar polymer production, from the virgin PET life cycle is relatively marginal.
+ 18930 https://doi.org/10.1021/acssuschemeng.5c04073
+ ACS Sustainable Chem. Eng. 2025, 13, 18924−18937
+
+
+=== 12.pdf PDF 8 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+Specifically, the 50/50 approach results in a 2.7% increase in Regarding GWP, the PPD preparation process is the largest
+GWP compared to the cutoff method, while the waste contributor, accounting for 34% of the total impact, followed
+valuation approach shows a 1.3% increase. This marginal by the TCL preparation process, which contributes 28%.
+impact is due to the comparatively lower GWP associated with Chloroform, used in the PPD preparation process for purifying
+virgin PET production compared to that of the chemical p-phenylenediamine from a terephthalamide mixture, is the
+upcycling process itself. Ecotoxicity exhibits reductions of 5.8% largest contributor, accounting for approximately 21% of GWP
+for the 50/50 approach and 2.8% for waste valuation. These in the upcycling process. Chloroform’s high GWP is due to the
+reductions in ecotoxicity are primarily attributed to the higher stability and persistence of its carbon-chlorine bonds and the
+environmental impact associated with the mechanical recycling electron-withdrawing effects of chlorine atoms as a volatile
+of PET waste compared with the production of virgin PET organic compound in the atmosphere.69 Other contributors to
+resin, which involves the use of chlorinated chemicals and large GWP within the PPD preparation process include sodium
+amounts of washing water. hydroxide (6.6%), chlorine (Cl2) (2.4%), and electricity
+ Conversely, the CED demonstrates a more substantial shift (2.5%). The results highlight that upstream chemical use,
+in impact than the GWP ecotoxicity. The 50/50 approach particularly solvent-intensive purification steps, is the major
+results in a 10.6% increase, while the waste valuation approach driver of environmental impacts in the upcycling process.
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​44/​18924/​42350301/​sc5c04073.​pdf by ZHEJIANG UNIV user on 09 September 2026
+yields a 5.2% increase, compared to the cutoff method. This is Chloroform’s contribution of approximately 21% to the total
+predominantly due to the higher electricity consumption GWP shows that even a single chemical can significantly raise
+associated with the resin production process than the the carbon footprint. This underscores the need to reduce the
+mechanical recycling process, which is allocated to the use of environmentally intensive solvents through improved
+upcycled Kevlar under these approaches, unlike the cutoff recovery, substitution with greener alternatives, or process
+approach, where this burden is not considered. Similarly, fossil optimization.
+fuel depletion shows an increase in impact, with the 50/50 Although the TCL preparation process is the second largest
+approach resulting in a 16.7% higher impact and the waste contributor to GWP within the monomer preparation process,
+valuation approach an 8.2% higher impact than the cutoff it is the most significant process to ecotoxicity (56%), primarily
+method. This increase is primarily driven by the burden due to the excessive use of thionyl chloride. Thionyl chloride,
+associated with p-xylene production, a key raw material for the used in excess during TCL preparation to ensure optimal
+PET resin, which is allocated to upcycled Kevlar in the 50/50 reaction yields due to its volatility, accounts for 36.6% of the
+and waste valuation approaches. overall ecotoxicity impact. When water or water vapor is
+ The observed shifts in environmental impacts across exposed, one mole of thionyl chloride produces one mole of
+different allocation methods highlight the importance of sulfur dioxide and two moles of hydrogen chloride, leading to
+these choices for the recycling of open-loop recycling LCAs. high ecotoxicity.70,71
+For this study, we chose the cutoff method as our preferred Diethyl ether contributes 7.1% to the total GWP and 19.5%
+allocation approach. This avoids the complexities of establish- to the ecotoxicity. Diethyl ether is used for purifying the
+ing an allocation factor based on fluctuating market conditions terephthaloyl chloride product after the reaction, with 95% of
+for environmental credits, which can be challenging to justify. the solvents being recycled through distillation. Although its
+By assigning no burden to the waste input, the cutoff approach impact on GWP is relatively moderate, diethyl ether poses
+directly focuses on the environmental impacts solely considerable ecotoxicity concerns, largely due to the environ-
+attributable to the upcycling process. This method promotes mental burden from its upstream production process. Even
+material recycling for the new production system while when solvent recovery rates are high, the use of chemicals with
+avoiding credits that could lead to double-counting or a significant impact on production can still result in
+inconsistent interpretations. While alternative methods, such considerable environmental impacts. This suggests that
+as 50/50 and waste valuation, offer a more detailed perspective prioritizing solvent selection with lower upstream environ-
+by allocating impacts from virgin material production, the mental impacts is critical to reducing the overall environmental
+cutoff approach provides a clear and consistent framework for impact of chemical recycling processes.
+evaluating the direct environmental impact of the upcycled Mechanical recycling and depolymerization contribute 8 and
+product. 16% to the total GWP, respectively, indicating that chemical
+ 3.3. Hotspot Analysis. The hotspot analysis identifies the recycling introduces higher environmental burdens, despite its
+material flow or process with the highest contribution to life potential to regenerate high-performance polymers. While
+cycle impact categories.68 In Figure 4, the results reveal that depolymerization itself has a relatively low contribution due to
+the monomer preparation shows the most GWP and the simplicity of the breakdown reaction, the subsequent
+ecotoxicity, particularly due to the roles of solvents, such as monomer and polymer synthesis stages introduce significant
+chloroform and diethyl ether. The monomer preparation upstream impacts driven by solvent use and chemical
+encompasses both PPD and TCL preparation for subsequent consumption. These results highlight that the environmental
+PPTA polymer synthesis. Hotspot analysis is especially critical burden of chemical recycling is largely associated with
+for emerging chemical recycling technologies, which aim to chemical-intensive processes beyond depolymerization. If
+find a sustainable alternative to virgin production and reduce these upstream impacts are not minimized, then the overall
+plastic waste. However, the upstream chemical intensity of advantages of chemical recycling compared to conventional
+processes can undermine their environmental benefits. The virgin production may not be achieved. This emphasizes the
+hotspot analysis can guide process improvement in solvent importance of LCA in capturing the full environmental trade-
+selection and recovery efficiency to lower the overall offs and providing insight into guiding process improvements
+environmental impact of the upcycling pathway. The hotspot targeting upstream chemical inputs.
+analysis results for CED and fossil fuel depletion are provided 3.4. Cost Analysis. Upcycled Kevlar and virgin Kevlar
+in Figures S2 and S3. production costs are assessed based on the mass and energy
+ 18931 https://doi.org/10.1021/acssuschemeng.5c04073
+ ACS Sustainable Chem. Eng. 2025, 13, 18924−18937
+
+
+=== 12.pdf PDF 9 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+flows derived from the life cycle inventory. As shown in Figure estimated to be $5.37/kg Kevlar. The higher cost in
+5, the total cost for upcycled Kevlar is about 23.8% cheaper at commercial production is attributed to the requirement of
+ twice the amount of NMP, as the reference patent specified
+ 12% to CaCl2 by weight, while the upcycling process assumes
+ 16% from the recent patent data. In addition, the elevated cost
+ of NMP, particularly when it is imported from China at $9/kg,
+ contributes to the overall cost.
+ These findings highlight the trade-off between cost and
+ material quality in recycling methods. Mechanical recycling
+ remains the more economical option but is limited to
+ producing lower-grade products. Chemical recycling, while
+ enabling the conversion to high-value polymers, involves
+ higher costs due to complex chemical reactions and expensive
+ reagents.
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​44/​18924/​42350301/​sc5c04073.​pdf by ZHEJIANG UNIV user on 09 September 2026
+ 3.5. Scenario Analysis. Based on the hotspot analysis
+ results, scenarios with modified assumptions on chemicals and
+ solvents are developed to identify how to optimize chemical
+ upcycling, an emerging technology aimed at reducing overall
+ environmental impacts. Figure 6 illustrates the life cycle GWP
+ and cost across various scenarios, including the baseline and
+
+
+
+
+Figure 5. Life cycle cost of upcycled Kevlar and virgin Kevlar.
+
+7.03 USD/kg compared with 9.23 USD/kg for virgin Kevlar.
+The initial mechanical recycling of the plastic waste incurs a
+minimum cost of 0.60 USD per kg of Kevlar, reflecting its
+simplicity compared to the complex chemical processes. The
+cost analysis of PET depolymerization via ammonolysis and
+hydrolysis shows that the subsequent conversion to tereph-
+thalamide and terephthalic acid contributes marginally only to
+the overall costs, with $0.25/kg and $0.41/kg for Kevlar,
+respectively. A detailed cost analysis of each intermediate
+product and Kevlar production is provided in Tables S7 and
+S8. The estimated cost from depolymerization to the
+terephthalic acid process is estimated to be $1.18/kg. Previous
+studies report the minimum selling price of TPA acid from
+PET to be approximately $1.45/kg, excluding 25% of capital
+expenditures,72 $1.05/kg via methanolysis, and $0.96/kg via
+glycolysis, while the traditional virgin market price of TPA acid
+is $1.14/kg. The results suggest that depolymerization is less
+expensive than fossil-derived acid, even without considering
+profits and market conditions.
+ However, preparing PPD and TCL increases the cost, with
+additional expenses of $1.41 and $1.75 per Kevlar, respectively.
+TCL is often preferred for converting carboxylic acids to acid
+chlorides due to its low cost, making it the most economical
+method for acid chloride preparation.73 Despite this, according
+to Pfizer’s amidation guide, GSK’s amidation guide, and
+PubChem, the acid chloride does not meet greenness criteria,
+being highly corrosive and environmentally toxic.74,75 The
+excessive use of thionyl chloride and diethyl ether primarily
+drives the high cost of TCL preparation for chemical
+upcycling. In commercial polymer production, however, the Figure 6. (a) GWP and cost for intermediate products from Kevlar
+ production life cycle stages: PET flake, terephthalamide, terephthalic
+significant cost is mainly due to DuPont’s reliance on TCL acid, PPD, TCL, and PPTA. (b) GWP and cost results from scenario
+imports from a Chinese supplier.76 analysis compared to virgin Kevlar production and the PET upcycling
+ Finally, the synthesis of poly(p-phenylene terephthalamide) process. Note: The pie charts illustrate the contribution of each
+(PPTA) adds $2.57/kg Kevlar, since it only requires mixing in process step, and the bar charts show the reduction from the baseline
+a batch reactor for the PPD and TCL coagulation without for the best scenarios. The specific contribution and reduction data
+solvent extraction.77 However, the process for virgin Kevlar is are based on the optimized scenarios (S8 for both GWP and cost).
+
+ 18932 https://doi.org/10.1021/acssuschemeng.5c04073
+ ACS Sustainable Chem. Eng. 2025, 13, 18924−18937
+
+
+=== 12.pdf PDF 10 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​44/​18924/​42350301/​sc5c04073.​pdf by ZHEJIANG UNIV user on 09 September 2026
+Figure 7. Sensitivity analysis of solvent recovery rate and byproduct recovery rate and reaction parameters (yields and temperatures) on
+environmental impacts (GWP, CED, ecotoxicity, and fossil fuel depletion) and cost.
+
+modified assumptions for each process. The best combination We developed scenarios 5 through 8 by combining the
+of these scenarios yields the lowest GWP and cost. single-factor modifications to achieve greener manufacturing,
+ In Scenario 1, the modification involves replacing potassium as shown in Table 2. Scenarios 6 and 7 both involve NaOH for
+hydroxide (KOH) with sodium hydroxide (NaOH) to hydrolysis and adjusted chloroform while comparing the
+depolymerize PET to terephthalic acid, emphasizing the impact of thionyl chloride consumption or diethyl ether
+industrial applicability of the upcycling process. The results consumption. The results show that capturing thionyl chloride
+indicate that this substitution slightly reduces the GWP by has a higher reduction potential for both GWP and cost
+4.8% and the cost by 6.1% compared with the baseline compared to optimizing diethyl ether consumption. The best-
+scenario. A previous study also reports that substituting KOH case scenario, identified as S8, incorporates all modifications
+with NaOH results in similar environmental impacts and and results in a 31.8% reduction in GWP and a 40.0%
+positively affects economic outcomes.78 reduction in costs compared with the commercial process.
+ Chloroform, used as a purification solvent, contributes Despite these improvements, the monomer preparation and
+20.8% to the overall GWP due to carbon-chlorine bonds and polymer synthesis processes remain the largest contributors to
+chlorine’s electron-withdrawal effect, impacting the chemical overall emissions, even with the modifications reducing GWP
+properties and toxicological profiles of chloromethanes.69 In by 0.64 kg CO2 eq from PPD preparation and 1.65 kg CO2 eq
+Scenario 2, reducing solvent use lowers the GWP by 4.2% and from TCL preparation. The findings highlight the complexity
+the cost by 10.6% relative to the baseline, despite the solvent’s of chemical processes in monomer preparation and polymer
+low cost limiting potential savings. Compared with commercial synthesis compared to mechanical recycling and depolymeriza-
+production processes, this approach achieves an overall 18.4% tion, underscoring the need for further optimization. The
+reduction in GWP. scenarios emphasize the necessity of continued optimization in
+ Scenarios 3 and 4 adjusted the assumptions of thionyl the upcycling process, particularly as it transitions from an
+chloride and diethyl ether based on the hotspot analysis results emerging lab-scale technology to a more mature industrial
+of the TCL preparation process. These chemicals contribute application. Detailed results, including all impact categories
+28% to total GWP and 56% to ecotoxicity due to excessive and processes, are listed in Table S9.
+consumption, specifically, a 5.3:1 mol ratio of thionyl chloride 3.6. Sensitivity Analysis. Figure 7 presents the sensitivity
+and 2.5 vol % of diethyl ether, required to achieve the reaction analysis for the environmental and cost benefits under the
+yield, given their high volatility. Scenario 3 assumes a reduced baseline scenario. The solvent recovery rate influences the
+consumption of thionyl chloride to prepare TCL, a 3:1 mol environment during distillation and the byproduct recovery
+ratio, considering the high capturing yield of thionyl chloride rate, while the cost is impacted by the prices of solvents and
+with an industrial-scale reflux system. This adjustment leads to byproducts, as detailed in Table 3.
+a 9.4% reduction in GWP and a 15.7% reduction in cost Figure 7 shows the effect of solvent and byproduct recovery
+savings. In contrast, Scenario 4, which controls diethyl ether rates on the GWP, CED, ecotoxicity, and fossil fuel depletion
+consumption, shows less impact, reducing GWP and cost, of the upcycling process. In life cycle inventory modeling, a
+achieving only 1.5 and 6.2% reduction. high recovery rate from the distillation process reduces the
+ 18933 https://doi.org/10.1021/acssuschemeng.5c04073
+ ACS Sustainable Chem. Eng. 2025, 13, 18924−18937
+
+
+=== 12.pdf PDF 11 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+initial consumption of solvents, affecting all environmental methods. Mechanical recycling and depolymerization contrib-
+impact categories. Increasing solvent recovery after the ute 8 and 16% of the total GWP, with both showing relatively
+distillation process can decrease the GWP by 37% and lower ecotoxicity impacts. Transportation and waste have a
+ecotoxicity by 30%. Sensitivity analysis reveals that more reuse minimal impact compared to raw materials and chemicals.
+of solvents lowers the environmental impact of chemical Hotspot analysis reveals that monomer preparation is the most
+processes, particularly from the solvents themselves.79 The critical phase, especially due to solvents like chloroform and
+high sensitivity of the solvent recovery rate and the hotspot diethyl ether. Among the eight evaluated scenarios, Scenario 8
+analysis findings indicate the need for process modification (modifying TPA depolymerization, PPD, and TCL prepara-
+from a laboratory to an industrial scale to minimize tion) achieves a 31.8% reduction in GWP and a 40.0% cost
+environmental impact while maintaining yield.55 reduction compared to the commercial process. Economically,
+ The byproduct recovery rate has a marginal impact on all the cost for upcycled Kevlar is estimated at 7.03 USD/kg,
+impact categories and costs. The byproducts include ethylene compared to 9.23 USD/kg for virgin polymer. Sensitivity
+glycol and potassium sulfate from PET depolymerization and analysis indicates that maximizing solvent recovery through
+acid and hydrochloric acid from PPTA synthesis. The baseline distillation and reuse is the most effective way to minimize the
+assumes a 68% recovery rate from the waste stream, based on environmental impact and cost of the upcycling process. In
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​44/​18924/​42350301/​sc5c04073.​pdf by ZHEJIANG UNIV user on 09 September 2026
+empirical data.40 However, a considerably higher recovery rate conclusion, it is determined through this study that the
+can be expected, and efficient separation of the byproducts chemical upcycling via ammonolysis and hydrolysis to Kevlar
+greatly influences both impact and cost.1,41 Even though all has the potential to mitigate climate change and other
+three chemicals are valuable and can be considered as avoided environmental impacts compared to virgin Kevlar production
+burdens, their sensitivity is lower than that of solvents, while utilizing PET waste. A crucial area for future work is to
+suggesting that the avoided burdens may not always outweigh investigate the feasibility and environmental impacts of
+the additional impacts from energy and chemical consump- replacing high-impact solvents with safer and more sustainable
+tion.80 alternatives, as well as to conduct a full Eco-Techno-Economic
+ The analysis reveals that NMP and diethyl ether exhibit Analysis (eTEA) of this upcycling pathway. While various
+higher sensitivity to price changes compared to chloroform, methods for techno-economic analysis exist, the recently
+ethanol, and ethylene glycol. NMP’s high sensitivity is due to released ISO/TS 14076 standard provides a structured, ISO-
+its high cost ($9/kg), primarily sourced from Chinese aligned framework for a comprehensive eTEA, combining
+suppliers. Diethyl ether’s sensitivity is driven by its substantial technical feasibility, economic viability, and environmental
+bulk usage, accounting for 55% of the total cost in TCL impact via LCA. This future work should integrate the
+preparation. These findings highlight the important role of environmental impacts with economic indicators such as
+solvent pricing in determining the economic viability of the capital expenditure, profitability, and return on investment to
+process, particularly for large-scale operations. comprehensively evaluate the upcycling technology.
+ The sensitivity analysis for reaction yields and temperature
+indicates a marginal impact on overall environmental impact
+categories and cost. This limited sensitivity of environmental
+impacts to slight changes in reactants and reaction conditions
+ ■ ASSOCIATED CONTENT
+ * Supporting Information
+ sı
+can be attributed to the dominant role of solvents in the The Supporting Information is available free of charge at
+process, particularly those consumed in larger quantities during https://pubs.acs.org/doi/10.1021/acssuschemeng.5c04073.
+the purification and extraction steps. These high-impact
+solvents contribute to overall environmental impacts, and Additional life cycle inventory modeling details, hotspot
+their consumption is not directly affected by minor fluctuations analysis results, scenario analysis results, and cost
+in the reaction parameters. Therefore, efforts to reduce the analysis details (PDF)
+environmental footprint of this emerging technology should
+prioritize optimizing solvent use, recovery, and selection.
+ In summary, the sensitivity analysis indicates that byproduct
+recovery rate and price have marginal impacts on environ-
+ ■ AUTHOR INFORMATION
+ Corresponding Author
+mental impact and cost compared to solvents. Alternatively, Annick Anctil − Department of Civil and Environmental
+maximizing solvent recovery through distillation and reusing it Engineering, Michigan State University, East Lansing,
+in the upcycling process is the most effective way to minimize Michigan 48824, United States; orcid.org/0000-0001-
+the environmental impact and cost of the upcycling process. 5123-0146; Phone: +15174324692; Email: anctilan@
+ msu.edu
+4. CONCLUSIONS
+The present study aims to quantify the environmental impact Authors
+of chemically upcycling PET to Kevlar and compares it with Jaewon Han − Department of Civil and Environmental
+the environmental impact of virgin Kevlar production in North Engineering, Michigan State University, East Lansing,
+America. The study develops an inventory of the chemical Michigan 48824, United States; orcid.org/0009-0001-
+upcycling process, identifying environmental hotspots for 9506-0959
+future optimization. Since the upcycling process via ammo- Preeti Nain − Department of Civil and Environmental
+nolysis and hydrolysis is at the laboratory scale, the life cycle Engineering, Michigan State University, East Lansing,
+inventory is modeled by scaling up lab data based on patents Michigan 48824, United States; Present
+and published studies. The LCA results show GWP of Address: Manufacturing Energy Efficiency Research and
+chemically upcycling Kevlar from waste PET at 15.22 kg Analysis Group, Oak Ridge National Laboratory, Oak
+CO2 eq/kg Kevlar, about 15% lower than conventional Ridge, Tennessee 37830, United States
+ 18934 https://doi.org/10.1021/acssuschemeng.5c04073
+ ACS Sustainable Chem. Eng. 2025, 13, 18924−18937
+
+
+=== 12.pdf PDF 12 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+ Richard-Joseph L. Peterson − Department of Chemical (10) Davidson, M. G.; Furlong, R. A.; McManus, M. C.
+ Engineering, Michigan State University, East Lansing, Developments in the Life Cycle Assessment of Chemical Recycling
+ Michigan 48824, United States of Plastic Waste − A Review. J. Clean. Prod. 2021, 293, No. 126163.
+ Elanna P. Neppel − Department of Chemical Engineering, (11) Peng, Y.; Yang, J.; Deng, C.; Deng, J.; Shen, L.; Fu, Y.
+ Acetolysis of Waste Polyethylene Terephthalate for Upcycling and
+ Michigan State University, East Lansing, Michigan 48824,
+ Life-Cycle Assessment Study. Nat. Commun. 2023, 14, 3249.
+ United States (12) Benyathiar, P.; Kumar, P.; Carpenter, G.; Brace, J.; Mishra, D.
+Complete contact information is available at: K. Polyethylene Terephthalate (PET) Bottle-to-Bottle Recycling for
+https://pubs.acs.org/10.1021/acssuschemeng.5c04073 the Beverage Industry: A Review. Polymers (Basel) 2022, 14, 2366.
+ (13) Guo, Z.; Wu, J.; Wang, J. Chemical Degradation and Recycling
+Notes of Polyethylene Terephthalate (PET): A Review. RSC Sustain. 2025,
+ 3, 2111−2133.
+The authors declare no competing financial interest. (14) Han, J.; Zuo, J.; Zillante, G.; Chang, R.; Du, L. A Systematic
+
+■ ACKNOWLEDGMENTS
+ Review of PET Circularity Technologies and Management Strategies:
+ Challenges and Future Directions. Resour. Conserv. Recycl. 2025, 219,
+ No. 108280.
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​44/​18924/​42350301/​sc5c04073.​pdf by ZHEJIANG UNIV user on 09 September 2026
+This work was supported under Grant No. 2029374 from the (15) Shen, L.; Worrell, E.; Patel, M. K. Open-Loop Recycling: A
+National Science Foundation (NSF) program “Engineering the LCA Case Study of PET Bottle-to-Fibre Recycling. Resour. Conserv.
+Elimination of End-of-Life Plastics” (E3P), a program under Recycl. 2010, 55 (1), 34−52.
+the Emerging Frontiers & Multidisciplinary Activities (EFMA). (16) Patagonia. Patagonia’s Common Threads Garment Recycling
+Any opinions, findings, and conclusions or recommendations Program: A Detailed Analysis, 2005. http://www.patagonia.com/pdf/
+expressed in this material are those of the author(s) and do not en_US/common_threads_whitepaper.pdf (accessed 2024-04-15).
+necessarily reflect the views of the National Science (17) Cosimbescu, L.; Malhotra, D.; Pallaka, M. R.; Swita, M. S.
+ Kevlar-like Aramid Polymers from Mixed PET Waste. ACS Omega
+Foundation. Jaewon Han acknowledges additional financial
+ 2022, 7 (36), 32026−32037.
+support in the form of the Environmental Research and (18) Bilisik, K.; Syduzzaman, M. 22 - Protective Textiles in Defence
+Education Foundation (EREF) Scholarship Award. and Ballistic Protective Clothing. In Protective Textiles from Natural
+ Resources; Mondal, Md. I. H., Ed.; Woodhead Publishing, 2022, pp
+■ REFERENCES
+ (1) Anglou, E.; Ganesan, A.; Chang, Y.; Gołąbek, K. M.; Fu, Q.;
+ 689−749. .
+ (19) Singh, T. J.; Samanta, S. Characterization of Kevlar Fiber and
+ Its Composites: A Review. Mater. Today Proc. 2015, 2, 1381−1387.
+Bradley, W.; Jones, C. W.; Sievers, C.; Nair, S.; Boukouvala, F. Process (20) Sarah, H.; Recycled, P. E. T. Market − Supply & Demand
+Development and Techno-Economic Analysis for Mechanochemical Market Issues. In Plastic Collective, September, 2022; Vol 7. https://
+Recycling of Poly(Ethylene Terephthalate). Chem. Eng. J. 2024, 481, www.plasticcollective.co/recycled-pet-market-supply-demand-market-
+No. 148278. issues/ (accessed 2025-07-22).
+ (2) Geyer, R.; Jambeck, J. R.; Law, K. L. Production, Use, and Fate (21) Finkbeiner, M.; Inaba, A.; Tan, R. B. H.; Christiansen, K.;
+of All Plastics Ever Made. Sci. Adv. 2017, 3 (7), No. e1700782. Klüppel, H. J. The New International Standards for Life Cycle
+ (3) Werner, A. Z.; Clare, R.; Mand, T. D.; Pardo, I.; Ramirez, K. J.; Assessment: ISO 14040 and ISO 14044. Int. J. Life Cycle Assess. 2006,
+Haugen, S. J.; Bratti, F.; Dexter, G. N.; Elmore, J. R.; Huenemann, J. 11, 80−85.
+D.; Peabody, G. L.; Johnson, C. W.; Rorrer, N. A.; Salvachúa, D.; (22) International Organization for Standardization. Environmental
+Guss, A. M.; Beckham, G. T. Tandem Chemical Deconstruction and Management: Life Cycle Assessment; Principles and Framework (ISO
+Biological Upcycling of Poly(Ethylene Terephthalate) to β-Ketoadipic Standard No. 14040:2006). https://www.iso.org/standard/37456.
+Acid by Pseudomonas Putida KT2440. Metab. Eng. 2021, 67, 250− html (accessed 2025-10-15).
+261. (23) Wen, Z.; Xie, Y.; Chen, M.; Dinga, C. D. China’s Plastic Import
+ (4) Jia, Z.; Gao, L.; Qin, L.; Yin, J. Chemical Recycling of PET to Ban Increases Prospects of Environmental Impact Mitigation of
+Value-Added Products. RSC Sustain. 2023, 1, 2135−2147. Plastic Waste Trade Flow Worldwide. Nat. Commun. 2021, 12, 425.
+ (5) Alias, S.; Abdul-Hakim, N. A. Terephthalic Acid (TPA) (24) Perugini, F.; Mastellone, M. L.; Arena, U. A Life Cycle
+Recovery from Plastic Bottle of Polyethylene Terephthalate (PET) Assessment of Mechanical and Feedstock Recycling Options for
+through Hydrolysis Treatment. IOP Conf. Ser. Mater. Sci. Eng. 2022, Management of Plastic Packaging Wastes. Environ. Prog. Sustain.
+1257 (1), No. 012007. Energy 2005, 24 (2), 137−154.
+ (6) Li, H.; Aguirre-Villegas, H. A.; Allen, R. D.; Bai, X.; Benson, C. (25) Jeswani, H.; Krüger, C.; Russ, M.; Horlacher, M.; Antony, F.;
+H.; Beckham, G. T.; Bradshaw, S. L.; Brown, J. L.; Brown, R. C.; Hann, S.; Azapagic, A. Life Cycle Environmental Impacts of Chemical
+Cecon, V. S.; Curley, J. B.; Curtzwiler, G. W.; Dong, S.; Gaddameedi, Recycling via Pyrolysis of Mixed Plastic Waste in Comparison with
+S.; García, J. E.; Hermans, I.; Kim, M. S.; Ma, J.; Mark, L. O.; Mechanical Recycling and Energy Recovery. Sci. Total Environ. 2021,
+Mavrikakis, M.; Olafasakin, O. O.; Osswald, T. A.; Papanikolaou, K. 769, No. 144483.
+G.; Radhakrishnan, H.; Sanchez Castillo, M. A.; Sánchez-Rivera, K. L.; (26) Schwarz, A. E.; Ligthart, T. N.; Godoi Bizarro, D.; De Wild, P.;
+Tumu, K. N.; Van Lehn, R. C.; Vorst, K. L.; Wright, M. M.; Wu, J.; Vreugdenhil, B.; van Harmelen, T. Plastic Recycling in a Circular
+Zavala, V. M.; Zhou, P.; Huber, G. W. Expanding Plastics Recycling Economy; Determining Environmental Performance through an LCA
+Technologies: Chemical Aspects, Technology Status and Challenges. Matrix Model Approach. Waste Manag. 2021, 121, 331−342.
+Green Chem. 2022, 24, 8899−9002. (27) Uekert, T.; DesVeaux, J. S.; Singh, A.; Nicholson, S. R.; Lamers,
+ (7) Liu, Q.; Martinez-Villarreal, S.; Wang, S.; Ngoc Thanh Tien, N.; P.; Ghosh, T.; McGeehan, J. E.; Carpenter, A. C.; Beckham, G. T. Life
+Kammoun, M.; De Roover, Q.; Len, C.; Richel, A. The Role of Plastic Cycle Assessment of Enzymatic Poly(Ethylene Terephthalate)
+Chemical Recycling Processes in a Circular Economy Context. Chem. Recycling. Green Chem. 2022, 24 (17), 6531−6543.
+Eng. J. 2024, 498, No. 155227. (28) Iqbal, M. W.; Shaker, K. Life-Cycle Assessment of Ballistic Vest.
+ (8) Al-Salem, S. M.; Lettieri, P.; Baeyens, J. Recycling and Recovery In Composite Solutions for Ballistics; Nawab, Y.; Sapuan, S. M.; Shaker,
+Routes of Plastic Solid Waste (PSW): A Review. Waste Manag. 2009, K., Eds.; Elsevier, 2021; 341−358. .
+29, 2625−2643. (29) Van Fan, Y.; Č uček, L.; Klemeš, J. J.; Vujanovic, A.; Varbanov,
+ (9) Hillmyer, M. A. The Promise of Plastics from Plants. Science P. S. Life Cycle Assessment Approaches of Plastic Recycling with
+2017, 358, 868−870. Multiple Cycles: Mini Review. Chem. Eng. Trans. 2022, 94, 85−90.
+
+ 18935 https://doi.org/10.1021/acssuschemeng.5c04073
+ ACS Sustainable Chem. Eng. 2025, 13, 18924−18937
+
+
+=== 12.pdf PDF 13 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+ (30) Laurin, L. Handling Recycling in Life Cycle Assessment, 2019. (50) DuPont. DuPont Spruance. https://www.dupont.com/
+https://earthshiftglobal.com/client_media/files/pdf/Handling_ locations/dupont-spruance-manufacturing-site.html (accessed 2024-
+Recycling_in_Life_Cycle_Assessment_2019-11-15.pdf (accessed 05-12).
+2025-07-22). (51) U.S. Department of Transportation; Bureau of Transportation
+ (31) Ekvall, T. A Market-Based Approach to Allocation at Open- Statistics; U.S. Department of Commerce; U.S. Census Bureau. 2017
+Loop Recycling. Resour. Conserv. Recycl. 2000, 29, 91−109. Commodity Flow Survey, EC17TCF-US; Washington, DC, 2020.
+ (32) Nicholson, A. L.; Olivetti, E. A.; Gregory, J. R.; Field, F. R.; http://www.census.gov/content/dam/Census/library/publications/
+Kirchain, R. E. End-of-Life LCA Allocation Methods: Open Loop 2017/econ/ec17tcf-us.pdf (accessed 2025-09-07).
+Recycling Impacts on Robustness of Material Selection Decisions. In (52) Wernet, G.; Bauer, C.; Steubing, B.; Reinhard, J.; Moreno-Ruiz,
+2009 IEEE International Symposium on Sustainable Systems and E.; Weidema, B. The Ecoinvent Database Version 3 (Part I):
+Technology: Tempe, AZ, USA, 2009, pp 1−6. DOI: . Overview and Methodology. Int. J. Life Cycle Assess. 2016, 21 (9),
+ (33) Recycling Markets. HDPE, PP, PET Prices Taper off This Month; 1218−1230.
+A Resource Recycling, Inc., May 14, 2025. https://resource-recycling. (53) European Platform on LCA (EPLCA) Environmental Footprint
+com/plastics/2025/05/14/hdpe-pp-pet-prices-taper-off-this-month/ (EF) reference packages. European Commission. https://eplca.jrc.ec.
+(accessed 2025-07-22). europa.eu/LCDN/developerEF.html (accessed 2024-05-12).
+ (34) Business Analytiq. PET (Polyethylene Terephthalate) Price Index. (54) Sala, S.; Biganzoli, F.; Mengual, E. S.; Saouter, E. Toxicity
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​44/​18924/​42350301/​sc5c04073.​pdf by ZHEJIANG UNIV user on 09 September 2026
+https://businessanalytiq.com/procurementanalytics/index/pet-price- Impacts in the Environmental Footprint Method: Calculation
+index/ (accessed 2025-07-22). Principles. Int. J. Life Cycle Assess. 2022, 27 (4), 587−602.
+ (35) National Association for PET Container Resources (NAP- (55) DEISO Monte-Carlo Simulation, Uncertainty Analysis, and
+COR). PET Recycling Report: North Carolina, 2019. https://napcor. Sensitivity Analysis in Life Cycle Assessment. https://dei.so/monte-
+com/reports-resources/ (accessed 2025-09-07). carlo-simulation-uncertainty-analysis-and-sensitivity-analysis-in-life-
+ (36) Shen, L.; Nieuwlaar, E.; Worrell, E.; Patel, M. K. Life Cycle cycle-assessment/ (accessed 2025-07-22).
+Energy and GHG Emissions of PET Recycling: Change-Oriented (56) Kar, T.; Veluswamy, H. P. To Nip It or Let It Bloom: Life
+Effects. Int. J. Life Cycle Assess. 2011, 16 (6), 522−536. Cycle Assessment of Lab-Scale Catalysts Used in Low-TRL CCUS
+ (37) Neppel, E. P.; Peterson, R. J. L.; Peereboom, L.; Dorgan, J. R. Technologies. Sustain. Chem. Clim. Act. 2025, 6, No. 100057.
+From Zero to Hero: Polymer Upcycling through Transformation of (57) Goedkoop, M.; Oele, M.; Leijting, J.; Ponsioen, T.; Meijer, E.
+Waste PET Thermoforms into Kevlar. ACS Appl. Polym. Mater. 2025, Introduction to LCA with SimaPro Title: Introduction to LCA with
+7 (9), 5475−5481. SimaPro, 2016. SimaPro8IntroductionToLCA.pdf (accessed 2025-10-
+ (38) Peterson, R. J. L.; Neppel, E. P.; Peereboom, L.; Trinh, P. A.; 15).
+Ofoli, R. Y.; Dorgan, J. R. Upcycling Waste PET: I. Ammonolysis (58) Heijungs, R. On the Number of Monte Carlo Runs in
+ Comparative Probabilistic LCA. Int. J. Life Cycle Assess. 2020, 25 (2),
+Kinetics of Model Dimethyl Terephthalate and the Catalytic Effects of
+ 394−402.
+Ethylene Glycol. ACS Sustain. Chem. Eng. 2025, 13, 4120−4131.
+ (59) Abdeen, F. R. H.; Mel, M.; Jami, M. S.; Ihsan, S. I.; Ismail, A. F.
+ (39) Kwolek, S. L.; Morgan, P. W.; Chester, W. Process for the
+ A Review of Chemical Absorption of Carbon Dioxide for Biogas
+Production of a Highly Orientable, Crystallizable, Filament-Forming
+ Upgrading. Chin. J. Chem. Eng. 2016, 24 (6), 693−702.
+Polyamide. U.S. Patent 3,287,323, November 22, 1966.
+ (60) Ferreira, S. L. C.; Silva, L. O. B.; de Santana, F. A.; Junior, M.
+ (40) Capello, C.; Hellweg, S.; Badertscher, B.; Hungerbühler, K.
+ M. S.; Matos, G. D.; dos Santos, W. N. L. A Review of Reflux Systems
+Life-Cycle Inventory of Waste Solvent Distillation: Statistical Analysis
+ Using Cold Finger for Sample Preparation in the Determination of
+of Empirical Data. Environ. Sci. Technol. 2005, 39 (15), 5885−5892. Volatile Elements. Microchem. J. 2013, 106, 307−310.
+ (41) Piccinno, F.; Hischier, R.; Seeger, S.; Som, C. From Laboratory (61) De Vos, R. E. T. P.; Surquin, J. M.; Pepels, E. J. Large Scale
+to Industrial Scale: A Scale-up Framework for Chemical Processes in Process for Polymerization of DAPBI-Containing Polyaramid. U.S.
+Life Cycle Assessment Studies. J. Clean. Prod. 2016, 135, 1085−1097. Patent Application 2011/0046340 A1, February 24, 2011.
+ (42) Skip Shapiro Enterprises. Chemical Waste Disposal: From Source (62) Business Analytiq Chemical Price Index. https://
+to Solution. https://shapiroe.com/blog/chemical-waste-disposal/ (ac- businessanalytiq.com/index/ (accessed 2024-05-14).
+cessed 2025-07-22). (63) Made-in-China Factory Price of Terephthaloyl Chloride CAS
+ (43) Franklin Associates; A Division of Eastern Research Group 100−20−9 From China Supplier. https://tnjchem.en.made-in-china.
+(ERG) Life Cycle Impacts for Postconsumer Recycled Resins: PET, com/product/wOefmrxTutYR/China-Factory-Price-of-
+HDPE, and PP. American Chemistry Council, 2018. https:// Terephthaloyl-Chloride-CAS-100-20-9-From-China-Supplier.html
+plasticsrecycling.org/wp-content/uploads/2024/08/2018-APR-LCI- (accessed 2024-05-14).
+report.pdf (accessed 2025-10-15). (64) U.S. Energy Information Administration Average Price of
+ (44) Al-Sabagh, A. M.; Yehia, F. Z.; Eshaq, Gh.; Rabie, A. M.; Electricity to Ultimate customers by End-Use Sector by State; U.S. Energy
+ElMetwally, A. E. Greener Routes for Recycling of Polyethylene Information Administration. https://www.eia.gov/electricity/
+Terephthalate. Egypt. J. Petrol. 2016, 25 (1), 53−64. monthly/epm_table_grapher.php?t=epmt_5_6_a (accessed 2024-
+ (45) McNeeley, A.; Liu, Y. Assessment of PET Depolymerization 05-14).
+Processes for Circular Economy. 2. Process Design Options and (65) International Surface Technologies (IST) Recycling Waste
+Process Modeling Evaluation for Methanolysis, Glycolysis, and Cleaning Solvent. https://istsurface.com/resources/solvent-
+Hydrolysis. Ind. Eng. Chem. Res. 2024, 63, 3400−3424. distillation-system/recycling-waste-cleaning-solvent/ (accessed 2024-
+ (46) Barredo, A.; Asueta, A.; Amundarain, I.; Leivar, J.; Miguel- 05-14).
+Fernández, R.; Arnaiz, S.; Epelde, E.; López-Fonseca, R.; Gutiérrez- (66) Klöpper, W.; Curran, M. A., Eds., Goal and Scope Definition in
+Ortiz, J. I. Chemical Recycling of Monolayer PET Tray Waste by Life Cycle Assessment. In LCA Compendium−The Complete World of
+Alkaline Hydrolysis. J. Environ. Chem. Eng. 2023, 11 (3), No. 109823. Life Cycle Assessment; Springer 2017. http://www.springer.com/
+ (47) Zahn, H. G.; Binnewies, M. Production of m- and p- series/11776.
+Phenylenediamine. U.S. Patent 3897498, June 29, 1975. (67) Thermo Fisher Scientific 2-Nitroaniline (CAS RN: 88−74−4).
+ (48) Soni, R. K.; Singh, S. Synthesis and Characterization of ThermoFisher: Waltham, MA December 24, 2021. https://www.
+Terephthalamides from Poly(Ethylene Terephthalate) Waste. J. Appl. fi s h e r s c i . c o m / s t o r e / m s d s ? p a r t N u m b e r =
+Polym. Sci. 2005, 96 (5), 1515−1528. AC128351000&countryCode=US&language=en (accessed 2025-09-
+ (49) National Association for PET Container Resources (NAP- 07).
+COR) PET Reclaimers. https://napcor.com/recycling/pet-reclaimers/ (68) Lee, E.; Andrews, C. J.; Anctil, A. An Iterative Approach To
+(accessed 2025-09-07). Evaluate and Guide Fine Chemical Processes: An Example from
+
+ 18936 https://doi.org/10.1021/acssuschemeng.5c04073
+ ACS Sustainable Chem. Eng. 2025, 13, 18924−18937
+
+
+=== 12.pdf PDF 14 ===
+ACS Sustainable Chemistry & Engineering pubs.acs.org/journal/ascecg Research Article
+
+Chloroaluminum Phthalocyanine for Photovoltaic Applications. ACS
+Sustain. Chem. Eng. 2018, 6 (7), 8230−8237.
+ (69) Tsai, W. T. Fate of Chloromethanes in the Atmospheric
+Environment: Implications for Human Health, Ozone Formation and
+Depletion, and Global Warming Impacts. Toxics 2017, 5 (4), 23.
+ (70) U.S. Environmental Protection Agency (EPA) ACUTE
+EXPOSURE GUIDELINE LEVELS (AEGLs) FOR THIONYL
+CHLORIDE 7719−09−7 SOCl 2 INTERIM, 2008. https://www.
+epa.gov/sites/default/files/2014-09/documents/thionylchloride_
+tsd_interim_version_105_2008.pdf (accessed 2025-10-15).
+ (71) Guillory, J. The Merck Index: An Encyclopedia of Chemicals,
+Drugs, and Biologicals Edited by Maryadele J. O’Neil, Patricia E.
+Heckelman, Cherie B. Koch, and Kristin J. Roman. Merck, John Wiley
+& Sons, Inc., Hoboken, NJ. 2006. xiv + 2564 pp. 18 × 26 Cm.
+ISBN13 978−0-911910−001. $125.00. J. Med. Chem. 2007, 50, 590.
+ (72) Singh, A.; Rorrer, N. A.; Nicholson, S. R.; Erickson, E.;
+
+
+
+
+ Downloaded from pubs.​acs.​org/​ascecg/​article-pdf/​13/​44/​18924/​42350301/​sc5c04073.​pdf by ZHEJIANG UNIV user on 09 September 2026
+DesVeaux, J. S.; Avelino, A. F. T.; Lamers, P.; Bhatt, A.; Zhang, Y.;
+Avery, G.; Tao, L.; Pickford, A. R.; Carpenter, A. C.; McGeehan, J. E.;
+Beckham, G. T. Techno-Economic, Life-Cycle, and Socioeconomic
+Impact Analysis of Enzymatic Recycling of Poly(Ethylene Tereph-
+thalate). Joule 2021, 5 (9), 2479−2503.
+ (73) Magano, J. Large-Scale Amidations in Process Chemistry:
+Practical Considerations for Reagent Selection and Reaction
+Execution. Org. Process Res. Dev. 2022, 26 (6), 1562−1689.
+ (74) Alfonsi, K.; Colberg, J.; Dunn, P. J.; Fevig, T.; Jennings, S.;
+Johnson, T. A.; Kleine, H. P.; Knight, C.; Nagy, M. A.; Perry, D. A.;
+Stefaniak, M. Green Chemistry Tools to Influence a Medicinal
+Chemistry and Research Chemistry Based Organisation. Green Chem.
+2008, 10 (1), 31−36.
+ (75) Adams, J. P.; Alder, C. M.; Andrews, I.; Bullion, A. M.;
+Campbell-Crawford, M.; Darcy, M. G.; Hayler, J. D.; Henderson, R.
+K.; Oare, C. A.; Pendrak, I.; Redman, A. M.; Shuster, L. E.; Sneddon,
+H. F.; Walker, M. D. Development of GSK’s Reagent Guides-
+Embedding Sustainability into Reagent Selection. Green Chem. 2013,
+15 (6), 1542−1549.
+ (76) Seair Exim Solutions Terephthaloyl Chloride Import Data in USA
+- Updated Shipment Details Report. https://www.seair.co.in/us-
+import/product-terephthaloyl-chloride.aspx (accessed 2024-08-23).
+ (77) Deopura, B. L.; Padaki, N. V. Chapter 5 - Synthetic Textile
+Fibres: Polyamide, Polyester and Aramid Fibres. In Textiles and
+Fashion: Materials, Design and Technology; Sinclair, R., Ed.; Woodhead
+Publishing, 2015, 97−114. .
+ (78) Yang, S.; Mao, D.; Yu, Z.; Ma, W.; Ma, L.; Li, X.; Xi, F.
+Comparison of Life Cycle Assessment between Hydrogen Production
+from Silicon Waste and Alkaline Water Electrolysis. Sci. Total Environ.
+2024, 920, No. 171065.
+ (79) Zhang, Y.; Bakshi, B. R.; Demessie, E. S. Life Cycle Assessment
+of an Ionic Liquid versus Molecular Solvents and Their Applications.
+Environ. Sci. Technol. 2008, 42 (5), 1724−1730.
+ (80) Rashid, S. S.; Harun, S. N.; Hanafiah, M. M.; Razman, K. K.;
+Liu, Y. Q.; Tholibon, D. A. Life Cycle Assessment and Its Application
+in Wastewater Treatment: A Brief Overview. Processes 2023, 11, 208.
+
+
+
+
+ 18937 https://doi.org/10.1021/acssuschemeng.5c04073
+ ACS Sustainable Chem. Eng. 2025, 13, 18924−18937

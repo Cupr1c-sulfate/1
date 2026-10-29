@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "learn-from-materials/performance-report-v1",
+  "sizeTier": "medium",
+  "sourceCount": 10,
+  "pagesOrSlides": 101,
+  "characters": 675971,
+  "estimatedTokens": 101336,
+  "durationSeconds": 0.993895,
+  "cache": {
+    "enabled": true,
+    "hits": 0,
+    "misses": 10
+  },
+  "peakMemoryBytes": null,
+  "note": "Token count is an estimate; peak memory is null unless measured by an external benchmark runner.",
+  "sources": [
+    {
+      "filename": "1.pdf",
+      "durationSeconds": 0.065787,
+      "reusedFromCache": false,
+      "characters": 60461,
+      "estimatedTokens": 10461
+    },
+    {
+      "filename": "11.pdf",
+      "durationSeconds": 0.075073,
+      "reusedFromCache": false,
+      "characters": 70964,
+      "estimatedTokens": 11369
+    },
+    {
+      "filename": "12.pdf",
+      "durationSeconds": 0.158532,
+      "reusedFromCache": false,
+      "characters": 100948,
+      "estimatedTokens": 15094
+    },
+    {
+      "filename": "2.pdf",
+      "durationSeconds": 0.065846,
+      "reusedFromCache": false,
+      "characters": 42576,
+      "estimatedTokens": 7278
+    },
+    {
+      "filename": "3.pdf",
+      "durationSeconds": 0.099622,
+      "reusedFromCache": false,
+      "characters": 86022,
+      "estimatedTokens": 12830
+    },
+    {
+      "filename": "4.pdf",
+      "durationSeconds": 0.065785,
+      "reusedFromCache": false,
+      "characters": 74340,
+      "estimatedTokens": 11188
+    },
+    {
+      "filename": "5.pdf",
+      "durationSeconds": 0.112905,
+      "reusedFromCache": false,
+      "characters": 49736,
+      "estimatedTokens": 6824
+    },
+    {
+      "filename": "6.pdf",
+      "durationSeconds": 0.085059,
+      "reusedFromCache": false,
+      "characters": 74699,
+      "estimatedTokens": 10049
+    },
+    {
+      "filename": "7.pdf",
+      "durationSeconds": 0.055551,
+      "reusedFromCache": false,
+      "characters": 83083,
+      "estimatedTokens": 11152
+    },
+    {
+      "filename": "9.pdf",
+      "durationSeconds": 0.045166,
+      "reusedFromCache": false,
+      "characters": 31208,
+      "estimatedTokens": 5008
+    }
+  ]
+}

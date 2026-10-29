@@ -1,0 +1,675 @@
+
+=== 4.pdf PDF 1 ===
+ Research Article
+ChemSusChem doi.org/10.1002/cssc.202500509
+
+ www.chemsuschem.org
+ Hot Paper
+ Upcycling of Waste Poly(ethylene Terephthalate):
+ Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl
+ Terephthalate) and Particle Size Effects in Polymeric
+ Substrates
+ Richard-Joseph L. Peterson, Elanna P. Neppel, Daniel Holmes, P. Anh Trinh, Robert Y. Ofoli,
+ and John R. Dorgan*
+
+
+ Chemical upcycling of poly(ethylene terephthalate) (PET) through particle size experiments is combined with the rate constants deter-
+ ammonolysis is pursued. Model studies are conducted on mined from the model studies to construct an effectiveness factor.
+ bis(2-hydroxyethyl) terephthalate reacting with ammonia in Diffusivity is used as a fitting parameter, resulting in an estimated
+ the presence of excess ethylene glycol (EG) to form terephthala- value of 1.37  0.48 E-7 cm2 s1 for ammonia in PET at 100 °C, which
+ mide. Reactions conducted over the range of temperatures compares well to related literature values. Diffusional limitations are
+ from 50 to 125 °C yield pre-exponential factors of A1 = of profound importance; for particles of only 1 millimeter in average
+ 758  120 L mol1 h1/A2 = 1033  220 L mol1 h1 and activation thickness, the conversion rate is decreased by a factor of ten! The
+ energies of Ea1 = 22.1  1.5 kJ mol1 and Ea2 = 26.5  2.1 kJ mol1. comprehensive understanding of the ammonolysis of PET in EG pro-
+ Diffusional limitations are explored using particle sizes in the ranges vided can play an important role in improving material reuse and
+ of 1800–2500 μm, 250–600 μm, and 150–250 μm. Data from the fostering a more circular economy.
+
+
+
+ 1. Introduction examples, PET is a good candidate for chemical recycling because
+ it contains a valuable aromatic group and its ester bonds can be
+ In response to the limited success of traditional recycling meth- cleaved by many types of reactants.[22]
+ ods, innovative chemical recycling and upcycling technologies Ammonolysis represents a potential chemical upcycling pro-
+ are of increasing interest. In chemical recycling, plastics are cess for PET with considerable benefits. In this approach, PET is
+ broken down into monomers that can be repolymerized into reacted with ammonia to generate terephthalamide (TPD).[23–25]
+ high-quality virgin materials. For example, poly(ethylene tere- TPD can then be converted to p-phenylenediamine and other
+ phthalate) (PET) is commercially recycled using glycolysis and value-added monomers. Previous work by Zengel and Bergfeld
+ methanolysis.[1–11] Work continues to make simple hydrolysis eco- investigated ammonolysis of PET in the presence of excess eth-
+ nomically viable.[12,13] Less economic approaches like enzyme ylene glycol (EG).[26–28] Their industrially oriented process utilizes
+ catalysis also continue to be investigated.[14,15] In chemical upcy- ammonia gas fed to a stirred reactor containing a slurry of PET
+ cling, the resulting products are more valuable than the pristine pellets dispersed in EG. Reaction kinetics are described only in
+ monomers. A relevant example of upcycling is found in the pro- terms of conversion to TPD as a function of time; no detailed
+ duction of diamines by aminolysis of PET.[16–21] As shown by these chemical kinetics data are presented. Importantly, this previous
+ work does not address how the conversion rate is impacted
+ by different particle sizes. In contrast, this study establishes fun-
+ R.-J. L. Peterson, E. P. Neppel, R. Y. Ofoli, J. R. Dorgan damental reaction rates using bis(2-hydroxyethyl) terephthalate
+ Chemical Engineering and Materials Science Department (BHET) as a model compound. The premise of using BHET as
+ Michigan State University
+ East Lansing, MI 48823, USA the model compound for ammonolysis of PET is that the ester
+ E-mail: jd@msu.edu linkages between the aromatic ring and the ethylene units have
+ D. Holmes, P. A. Trinh[+] a similar electronic structure to the ester linkages in the PET back-
+ Chemistry Department bone. Similarly, when one of the two ester bonds is converted to
+ Michigan State University
+ East Lansing, MI 48823, USA an amide, the intermediate, 2-hydroxyethyl 4-carbamoylbenzoate
+ [+]
+ Present address: School of Chemical and Biomolecular Engineering, (HCB), serves as a model for one of the PET chain ends.
+ Georgia Institute of Technology, Atlanta, GA 30332, USA Determination of the reaction rate constants for the model
+ Supporting information for this article is available on the WWW under https:// BHET enables investigation of particle size effects on the ammo-
+ doi.org/10.1002/cssc.202500509 nolysis of PET. Conversion data on different PET particle sizes is
+ © 2025 The Author(s). ChemSusChem published by Wiley-VCH GmbH. This is analyzed in terms of the Thiele modulus and an effectiveness fac-
+ an open access article under the terms of the Creative Commons Attribution
+ License, which permits use, distribution and reproduction in any medium, tor. The outcome of the study is all the fundamental information
+ provided the original work is properly cited. required to perform a detailed, large-scale reactor design for the
+
+
+ ChemSusChem 2025, 18, e202500509 (1 of 11) © 2025 The Author(s). ChemSusChem published by Wiley-VCH GmbH
+
+
+=== 4.pdf PDF 2 ===
+ 1864564x, 2025, 15, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.202500509 by Zhejiang University, Wiley Online Library on [08/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ Research Article
+ChemSusChem doi.org/10.1002/cssc.202500509
+
+
+ ammonolysis of any form (thermoforms, bottles, fibers, off-spec Table 1. Reaction conditions.
+ pellets) of PET to TPD. The detailed design is the subject of a con-
+ Reaction setpoint Ammonia molarity Ammonia mole fraction
+ tinuation of the present investigation. temperature
+
+ 50 °C 10.9 M 0.45
+ 75 °C 5.5 M 0.23
+ 2. Materials and Methods
+ 100 °C 2.7 M 0.11
+
+ 2.1. Dissolution of Ammonia in EG 125 °C 2.7 M 0.11
+
+
+ Ammonia gas is toxic and corrosive. To mitigate exposure risks, EG
+ was presaturated with ammonia. To avoid skin and eye contact, were connected to a gas manifold and pressurized with 40 bar of
+ appropriate personal protective equipment (chemically resistant ultra-high purity (99.999%) nitrogen (Air-Gas). The stir rate was set
+ gloves and goggles) was always worn. This saturation procedure to 800 RPM, and the Parr temperature controller unit was used to
+ was performed in a chemical fume hood. The method for dissolv- bring each reactor up to the setpoint temperature of 50 °C, 75 °C,
+ ing ammonia in EG was based on the procedure outlined by Zhou 100 °C, or 125 °C. Product mixtures were harvested at intervals of
+ et al. and illustrated in Figure 1.[29] Ammonia was bubbled into a 0.8 h, 1.5 h, 2.3 h, 3.0 h, 3.8 h, 4.5 h, 6.0 h, 9.0 h, and 24.0 h.
+ chilled vessel containing EG until saturation was achieved. Excess Reactions were halted by thermal quenching followed by the
+ ammonia gas was trapped in a secondary container of EG. addition of water. At the end of each reaction, the entire reactor
+ was quenched in an ice bath until its internal thermocouple read
+ 5 °C. The pressure was vented. Solids were then separated from
+ 2.2. Ammonolysis of BHET
+ liquids via vacuum filtration. Aromatic products remained dis-
+ solved in the EG solutions; liquid NMR samples were prepared in
+ Experiments were conducted using a Parr 5000 multi-reactor sys-
+ an NMR tube by mixing 0.3 mL of the EG solution with 0.3 mL of
+ tem, monitored and controlled by a Parr 4870 process controller.
+ DMSO-d6. Solid products were washed with excess water and dried
+ This system comprises six individual T316 stainless steel reactors,
+ at 60 °C overnight. Both solid and liquid samples were analyzed
+ each capable of being set to different temperatures and pres-
+ using a 500 MHz proton NMR in deuterated dimethyl sulfoxide
+ sures. Separate reactors were quenched and harvested at varying
+ (DMSO-d6), employing a two-second relaxation delay and 32 scans.
+ times. Details appear in the Supporting Information (SI).
+ Mole fractions were calculated using NMR. Integrations from
+ The BHET reaction procedure was as follows. First, BHET was
+ the proton NMR, combined with material balances on the aro-
+ crushed into a fine powder using a mortar and pestle. Secondly,
+ matic species, were used to determine the mole fractions for each
+ one gram (1.0 g) of the powdered BHET was placed in a glass liner
+ sample. A detailed example calculation is provided in the SI.
+ of a 75 mL Parr reactor along with a magnetic stir bar. Next, 10 mL
+ of the presaturated ammonia in EG solution was added. Reaction
+ conditions are listed in Table 1. Ammonia concentrations were 2.3. Ammonolysis of Post-Consumer PET Waste
+ set by the temperature-dependent saturation limit of pre-
+ dissolved ammonia in liquid EG. The upper temperature of 125 °C Post-consumer thermoform PET waste was converted to TPD at
+ was selected to avoid the side reaction of EG with ammonia, 100 °C. The thermoform waste consisted of clamshell containers
+ which is known to begin around 150 °C. After loading, the reactors obtained at the MSU campus recycling center. The thermoform
+
+
+
+
+ Figure 1. A system used to dissolve ammonia in ethylene glycol. The apparatus consists of 1) a regulated ammonia tank, 2) a temperature controller,
+ 3) chilled ethylene glycol, and 4) a container filled with ethylene glycol to trap excess ammonia.
+
+
+ ChemSusChem 2025, 18, e202500509 (2 of 11) © 2025 The Author(s). ChemSusChem published by Wiley-VCH GmbH
+
+
+=== 4.pdf PDF 3 ===
+ 1864564x, 2025, 15, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.202500509 by Zhejiang University, Wiley Online Library on [08/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ Research Article
+ChemSusChem doi.org/10.1002/cssc.202500509
+
+
+ PET was cut into 1 cm2 squares, referred to as “flakes.” Some the second reaction step is reversible in the presence of
+ flakes were set aside for conversion to TPD, while others were excess EG.
+ further reduced in size to 150–250 μm using a commercial Before delving into the chemical kinetics, it is essential to
+ blender (Waring model CB15). PET (1.3 g) was placed in glass lin- examine the thermochemistry of the reactions depicted in
+ ers of the 75 mL Parr reactors, and the procedure used for BHET Scheme 1. The equilibrium constant (K ) is linked to the Gibbs free
+ was repeated. The number average molecular weight as a func- energy of reaction (G) through the fundamental relationship in
+ tion of time was monitored by end group analysis using proton Equation (1).
+ NMR in trifluoroacetic acid. Residual solids were dissolved in
+ ΔGrxn ¼ RTlnK (1)
+ 10 mL of DMSO to separate out the monomers (BHET, HCB, and
+ TPD) from the remaining PET. After filtration, 30 mL of water was
+ where G represents the Gibbs free energy, R is the ideal gas con-
+ added to the DMSO solution containing the desired monomers.
+ stant, and T is the absolute temperature. For a first approximation,
+ This water addition led to recrystallization, and the resulting sol-
+ the entropy of reaction can be disregarded. That is, the enthalpy
+ ids were collected by filtration.
+ of reaction can substitute for the free energy of reaction. The
+ enthalpy of reaction can be approximated by calculating the dif-
+ 2.4. Particle Size Reduction ference between the sum of the bonds broken and the sum of the
+ bonds formed. For the conversion of BHET to HCB, bond values
+ To assess the effect of mass transfer on conversion rates, full–dull from LibreTexts[30,31] yield an enthalpy of reaction equal to
+ textile-grade PET pellets (Eastman) and smaller sized particles 23 kJ mol1. Given that the same types and numbers of bonds
+ were employed as substrates. PET pellets (1800–2400 μm) were are broken and formed, the conversion of HCB to TPD also results
+ reduced in size using a commercial blender (Waring model in an enthalpy of reaction equal to 23 kJ mol1. These prelimi-
+ CB15). Flakes or pellets were placed in the blender along with nary estimates suggest that the reaction is thermodynamically
+ dry ice and run for 2-min intervals for a total of 30 min. Dry ice feasible. For a more precise estimation, neighboring electronic
+ was added as needed. The resulting material was separated using effects can be accounted for using group contribution methods.
+ a series of sieving trays mounted on a motorized agitation tray Following the procedure outlined in the supplementary materials
+ (Humbolt Industries), and fractions in the range of 150–250 μm based on L. Constantinou’s work,[31] the Gibbs free energy for
+ and 250–600 μm were collected for use. each reaction step is calculated to be 33.9 kJ mol1, correspond-
+ ing to an equilibrium constant (K1) of 55,900. This strong
+ indication of thermodynamic feasibility warrants a detailed inves-
+ tigation of the chemical kinetics.
+ 3. Results and Discussion The ammonolysis of esters has long been known to be cata-
+ lyzed by EG.[32] Previous studies typically show that the reaction
+ The two-step ammonolysis of BHET proceeds as illustrated in rate no longer increases once a 3:1 molar ratio of EG to ester
+ Scheme 1. Initially, BHET reacts with ammonia to form HCB groups is reached.[25,33] EG is produced during the ammonolysis
+ and EG. In the second step, the ammonolysis of the remaining of PET, creating an autocatalytic effect. In this study, ammonolysis
+ ester group produces TPD and EG. Notably, it is found that is carried out with an excess of EG, which simplifies the modeling
+
+
+
+
+ Scheme 1. Ammonolysis of BHET. This is a two-step reaction: 1) ammonolysis of one hydroxyethyl ester, followed by 2) ammonolysis of the other ester.
+ Both reaction steps consume one molecule of ammonia and produce one mole of ethylene glycol.
+
+
+ ChemSusChem 2025, 18, e202500509 (3 of 11) © 2025 The Author(s). ChemSusChem published by Wiley-VCH GmbH
+
+
+=== 4.pdf PDF 4 ===
+ 1864564x, 2025, 15, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.202500509 by Zhejiang University, Wiley Online Library on [08/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ Research Article
+ChemSusChem doi.org/10.1002/cssc.202500509
+
+
+ and is most representative of how a large-scale industrial process
+ should be implemented.
+ Determining the start time of reactions is important in deter-
+ mining reaction kinetics. However, precisely pinpointing when
+ t = 0 is challenging. There are two options widely used for esti-
+ mating the start time of the reaction: 1) setting time to zero when
+ the reactants are mixed, or 2) setting time to zero when the reac-
+ tion reaches the setpoint temperature. In contrast to these prac-
+ tices, t = 0 is defined as the moment the reactor is placed in the
+ thermal well and the temperature starts being recorded (which
+ is only shortly after the reactants are mixed). Using this technique,
+ the average temperature can be calculated from the recorded data.
+ The techniques employed thus provide a high degree of accuracy
+ in the reaction times and temperatures; details appear in the SI.
+ Determining the mixture composition upon halting the reac-
+ tion also has challenges that must be addressed. BHET and the
+ intermediate, HCB, are soluble in EG. These compounds are found
+ in the liquid phase, even after cooling to 5 °C. For example, after
+ Figure 3. Combined NMR spectra from recovered liquid and solid samples
+ reacting for 45 min at 50 °C, only 0.01 g (1 ppm) of the product is
+ showing the reaction trajectory from BHET through HCB to TPD.
+ recovered as a solid. The mass fraction recovered as solids
+ steadily increases with time as the reactant is converted to
+ TPD. To determine the mole fractions during the course of the Figure 3 shows the NMR spectra resulting from combining
+ reaction, both recovered solids and liquids are analyzed via pro- (adding together) the separate spectra from the recovered liquid
+ ton NMR. The recovered solids are predominantly TPD with some and solid samples. The reaction trajectory is clearly observable,
+ HCB present. The liquid phase is EG containing a dissolved mix- BHET is extinguished while the multiple indicating the presence
+ ture of BHET, HCB, and TPD. of HCB grows and then diminishes. The peaks associated with
+ Figure 2 shows proton NMR results for standard samples of TPD steadily increase. Using proton NMR spectra from both the
+ BHET and TPD used to help assign spectral peaks. The BHET stan- recovered liquid and solid phases, a material balance determines
+ dard showed impurity with a small multiplet (8.10–8.08 ppm). The the mole fractions of each component at every reaction time.
+ results of the NMR assignments are as follows. TPD 1H NMR Mole fractions may not be the appropriate basis for a chemi-
+ ((500 MHz, DMSO) δ 8.06 (s, 2H), 7.91 (s, 4H), 7.49 (s, 2H)), cal kinetics model. An activity-based model may be required
+ Bis(2hydroxyethyl) terephthalate 1H NMR ((500 MHz, DMSO) when a mixture is nonideal. To investigate this issue, activity coef-
+ δ 8.12 (s, 4H), 4.97 (t, J = 5.7 Hz, 1 H),4.31(t, J = 4.9 Hz, 2H), ficients are calculated using different thermodynamic models
+ 3.71(q, J = 5.7 Hz, J = 4.9 Hz, 2H)), and HCB (1137-99-1) 1H NMR implemented within the ASPEN PlusTM software environment.[34]
+ ((500 MHz, DMSO) δ 8.14 (s, 1H), 8.07 – 8.02 (m, 2H), 8.00–7.95 Three thermodynamic models are employed, namely, PC-SAFT,[35,36]
+ (m, 2H), 7.57 (s, 1 H), 4.95(t, J = 5.7 Hz, 1 H), 4.31–4.25(m, 2H), Uniquac,[37] and NRTL.[38] Uniquac and NRTL, estimate the activity
+ 3.73–3.66 (m, 2H)). Non-normalized NMR spectra of separate solid coefficients to be about 0.8 for ammonia; the PC-SAFT model
+ and liquid samples are provided in the SI. returns disparate values considered to be anomalous due to a
+
+
+
+
+ Figure 2. Proton NMR spectra. Left a) from back to front shows standards for TPD and BHET, and the recovered solid sample after 45 min of reaction at
+ 50 °C. Right b) shows standards and the corresponding recovered liquid sample.
+
+
+ ChemSusChem 2025, 18, e202500509 (4 of 11) © 2025 The Author(s). ChemSusChem published by Wiley-VCH GmbH
+
+
+=== 4.pdf PDF 5 ===
+ 1864564x, 2025, 15, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.202500509 by Zhejiang University, Wiley Online Library on [08/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ Research Article
+ChemSusChem doi.org/10.1002/cssc.202500509
+
+
+ lack of appropriate data. When fitting the kinetics data, correction To include the effects of temperature, Equation (6)–(10)
+   E a 
+ of the mole fractions using activity coefficients resulted in similar are combined with the Arrhenius equation k ¼ A exp  RT
+ “goodness of fit” metrics. The SI contains a more detailed discus- describing the temperature dependence of the rate constants.
+ sion of activity coefficients and presents results of the thermody- This combination provides a mathematical description of the
+ namic modeling. Based on the activity calculations, the kinetic mole fraction of each species as a function of time and tempera-
+ model is developed using mole fractions. ture. The mole fractions versus time data, for all reaction temper-
+ A chemical kinetics model is developed based on mole frac- atures, are simultaneously fit to the model using the curve fit
+ tions and further simplifying assumptions. The rate of change of function from scipy.Optimize library of the Python computer pro-
+ ammonia is expressed in Equation (2). gramming language. The fitting routine optimizes the “goodness
+ dx AMM of fit” and returns the activation energies and pre-exponential
+ ¼ k 1 x EG x AMM x BHET  k 2 x EG x AMM x HCB (2) factors for the rate constants. Pre-exponential factors of
+ dt
+ A1 = h1 and A2 = h1 are found for the first and second steps of
+ In Equation. (2) x EG , x AMM , x BHET , and x HCB are the mole fractions the reaction, and the activation energies are Ea1 = kJ mol1 and
+ of EG, ammonia, BHET, and HCB; k 1 and k 2 are the reaction rate Ea2 = kJ mol1.
+ constants for the first and second reaction steps, respectively. Measured mole fractions as a function of time at 100 °C are
+ Due to its catalytic effect, the concentration of the EG is included. plotted alongside the model fit in Figure 4. Overall, the model
+ But due to it being present in great excess, far above the 6:1 provides a satisfactory fit to the data with R2 values of 0.965,
+ molar ratio that saturates the catalytic effect, it is taken as con- 0.988, and 0.917 for curves of BHET, HCB, and TPD, respectively.
+ stant (even though a small amount is generated during the reac- The mole fraction data and model fit for the ammonolysis of BHET
+ tion). Similarly, ammonia is in excess and is also taken to be at temperatures of 50 °C, 75 °C, and 125 °C can be found in the SI.
+ constant. These well-justified assumptions enable both reaction An Arrhenius plot is provided in Figure 5. The lines represent
+ steps to be treated as pseudo-first-order reactions; the constant calculated values using the best-fit values of the pre-exponential
+ concentrations are lumped into the rate constants. The rates of factors and activation energies. Points with error bars are pro-
+ reaction may be expressed using Equation. (3)–(5). vided to show the range of expected values based on the error
+ associated with the fitting procedure. The activation energies fall
+ dx BHET within a reasonable range for the ammonolysis of esters.[33] The
+ ¼ k 1 x EG x AMM x BHET ¼ k 01 x BHET (3)
+ dt relatively low activation energy for the first reaction step may be
+ attributed to two factors: 1) reduced electron density due to the
+ dx HCB proximity of the hydroxy group to the ester, and 2) the catalytic
+ ¼ k 1 x EG x MM x BHET  k 2 x EG x AMM x HCB ¼ k 01 x BHET  k 02 x HCB (4)
+ dt effect of EG. The collision factor A2 is approximately one and a half
+ times greater than A1; this indicates that, compared to BHET, the
+ dx TPD frequency of collisions with ammonia leading to reaction is
+ ¼ k 2 x EG x AMM x HCB ¼ k 02 x HCB (5)
+ dt higher for HCB. Factors contributing to this increased collision
+ where x TPD is the mole fraction of TPD and k 01 and k 02 are the frequency include bond angles, molecular size (reaction cross
+ pseudo-first-order rate constants for the first and second reaction section), and diffusivity. Given the large difference in the pre-
+ steps, respectively. exponential factors, the various contributing factors are exam-
+ Equation. (3)–(5) were solved using Laplace transforms (see SI ined in greater detail.
+ for further details), resulting in Equation (6)–(8). Bond angle differences are investigated using molecular
+ dynamics in the ChemDraw 3D software package. Conformational
+ x BHET ðtÞ ¼ x BHET,0 expðk 01 tÞ (6) energies are minimized; resulting structures are shown in the SI.
+ Bond angles near the ester bond do not change within a 0.1° tol-
+ x HCB ðtÞ ¼ Y expðk 01 tÞ  Y expðk 02 tÞ (7) erance. Given these small differences, it is unlikely that bond angle
+ changes play a significant role in increasing the collision factor.
+ x TPD ðtÞ ¼ x BHET,0  Z expðk 01 tÞ þ Y expðk 02 tÞ (8) The molecular cross section (σAB) can be thought of as the
+ average distance between species when they collide and is
+ Here x BHET,0 is the mole fraction of BHET at time t = 0 and Y, Z directly proportional to the collision frequency. The decrease in
+ are defined by Equation (9)–(10). molecular weight implies a decreased molecular cross section, which
+ would mean a decreased collisional frequency. Interpretation is
+ x BHET,0 k 01 subtle, though, because while molecular collisions are reduced,
+ Y¼ (9)
+ k 02  k 01 the same is not necessarily true for the ester group itself, because
+ it retains the same size.
+ x BHET,0 k 02 A factor that does help explain the difference is diffusivity. In
+ Z¼ (10)
+ k 02  k 01 solute-solvent reactions, the collision factor is directly propor-
+ tional to the solute’s diffusivity, which depends on its molecular
+ Equation (6)–(10) describe the reaction pathway as a function weight. In the first reaction step, the reactant’s molecular
+ of time at a constant temperature. weight decreases from 254.24 g mol1 to 209.20 g mol1, an
+
+
+ ChemSusChem 2025, 18, e202500509 (5 of 11) © 2025 The Author(s). ChemSusChem published by Wiley-VCH GmbH
+
+
+=== 4.pdf PDF 6 ===
+ 1864564x, 2025, 15, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.202500509 by Zhejiang University, Wiley Online Library on [08/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ Research Article
+ChemSusChem doi.org/10.1002/cssc.202500509
+
+
+
+
+ Figure 4. Model fit of mole fractions data for reaction at 100 °C. BHET is consumed throughout the reaction, HCB is first generated and then consumed,
+ and the final product is TPD, obtained at yields of 85–95% of theoretical.
+
+
+ respectively. The result shows a modest 10.2% increase in diffu-
+ sivity. While consistent with experimental observations, changes
+ in diffusivity cannot fully explain the differences in collision
+ factors.
+ It is notable that the present system is more complex than
+ what might be expected due to hydrogen bonding effects.
+ Indeed, earlier studies on the catalytic effects of EG and other
+ glycols like glycerol invoke the idea that the glycols form hydro-
+ gen bonding networks with the carbonyl groups of the esters. A
+ full explanation of the orientation effects of hydrogen bonding in
+ the system is beyond the scope of the present study.
+ Activation energies for the two reaction steps are justifiable
+ using conventional molecular reasoning. Differences in activation
+ energies are conventionally attributed to a combination of steric
+ and electronic structure effects. For example, ester groups are
+ more electron withdrawing than amide groups.[41] In BHET, two
+ opposing esters within the structure exert an even pull on elec-
+ Figure 5. Arrhenius plot of k1 and k2 against inverse temperature.
+ trons. Conversely, HCB contains one ester and one amide. The
+ ester’s stronger electron-withdrawing effect surpasses that of the
+ 18% reduction. This decrease impacts the diffusivity and, conse-
+ opposing amide group. Consequently, the ester bond in HCB pos-
+ quently, the collision rate. Graham’s Law[39,40] can be used to
+ sesses higher electron density than those in BHET. As a result, the
+ approximate how this reduction in molecular weight affects
+ nucleophilic attack in the second reaction step requires a higher
+ the diffusivity, as shown in Equation (11).
+ activation energy to break the ester bond. That is, the second
+ 1 carbonyl carbon is more electronegative and thus less susceptible
+ D ∝ pﬃﬃﬃﬃﬃﬃ (11)
+ Mw to nucleophilic attack, thereby necessitating a greater activation
+ energy.
+ In Equation (11), D is the diffusivity, and Mw is the molecular
+ weight of the solute. The relative change in diffusivity based on
+ 3.1. Ammonolysis of Post-Consumer PET Waste
+ the change in molecular weight is calculated in Equation (12).
+ pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ DHCB MW,BHET 254.24 To evaluate the practical utility of ammonolysis as a viable upcy-
+ ∝ pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ¼ pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ¼ 1.102 (12)
+ DBHET Mw,HCB 209.20 cling technology, waste PET thermoformed containers were col-
+ lected from the campus recycling center. These containers,
+ where DHCB , and DBHET are the diffusivities of HCB and BHET, and typically of the “clamshell” type, were hand washed and cut into
+ MW,HCB and MW,HET are the molecular weights of HCB and BHET, flakes. Some flakes were granulated into small particles. These
+
+
+ ChemSusChem 2025, 18, e202500509 (6 of 11) © 2025 The Author(s). ChemSusChem published by Wiley-VCH GmbH
+
+
+=== 4.pdf PDF 7 ===
+ 1864564x, 2025, 15, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.202500509 by Zhejiang University, Wiley Online Library on [08/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ Research Article
+ChemSusChem doi.org/10.1002/cssc.202500509
+
+
+ differently sized particles were used as substrates for ammonol- milling of PET to micron-size particles are presumably not justified
+ ysis in glycol. The objective in using different-sized particles is to by the slight increase in reaction rates.
+ evaluate the significance of mass transfer limitations; when such
+ diffusional restrictions are present, the rate of reaction is no lon- 3.2. Ammonolysis of PET of Varying Sizes
+ ger the rate-limiting step.
+ Figure 6 shows that shredded flakes and smaller granulated As the particle size is increased further, mass transfer limitations
+ materials exhibit similar depolymerization rates. Importantly, become very important. Figure 6 shows decreased conversion
+ under these modest conditions, both substrates are completely rates when PET pellets ranging from 1800–2500 μm are used
+ converted within 6 h. Molecular weight data suggests little differ- as the substrate. Ammonolysis to HCB and TPD, indicating full
+ ence in depolymerization rates. However, the amounts of TPD depolymerization, of 150–250 μm particles requires 5 h, for
+ and HCB generated show that the granulated material was nearly 250–600 μm particles it takes 18 h, and for 1800–2500 μm 96 h
+ fully converted at 3.8 h, whereas the flake was only about half are needed! This very significant variation in conversion rates
+ converted. During the initial hour of reaction, the molecular based on particle size is due to mass transfer limitations.
+ weight decreases sharply. Subsequently, it plateaus and changes Depolymerization of PET can be analyzed in terms of the
+ very slowly. This behavior is expected based on the theory of number of ester bonds cleaved. As demonstrated in the ammo-
+ step-growth (i.e., condensation) polymerization. That is, when nolysis of BHET, there are two ester types: the ester bond of BHET
+ forming a high polymer, it is at the latest stages of polymerization (ester type one, ET1) and the ester bond of HCB (ester type two,
+ that the molecular weight increases rapidly. Here, the reverse is ET2). ET1 bonds have no adjacent amide groups, while ET2 bonds
+ observed, consistent with a random chain scission mechanism. have an amide bond in the para position. There are differences
+ The data demonstrate that there is very little incentive to per- between the behavior of these esters; the rate of ammonolysis of
+ form particle size reduction of waste PET thermoforms when con- ET1 (k 01 = 0.958  0.076 h1) is greater than the rate for ET2
+ ducting ammonolysis by the present methodology. Conversion (k 02 = 0.359  0.034 h1). Ammonolysis of the ester bond in PET is
+ rates are similar for both flakes and smaller granulated particles. molecularly similar to ammonolysis of ET1 in BHET. Backbone
+ Notably, the typical thermoform wall thickness is about 400 μm, ester linkages in PET are not near an amide bond. Therefore, mea-
+ so its minimum dimension is similar (same order of magnitude) as suring the disappearance of esters in PET can be modeled by the
+ the 150–250 μm particles. Accordingly, the geometric differences disappearance of ET1 bonds.
+ between the planar flakes and semi-spherical particles are negli- The disappearance of ET1 bonds can be expressed by a
+ gible. Additionally, it is observed that after 45 min of reaction, the pseudo-first-order kinetic rate law. To do so, x EG and x AMM are
+ flake becomes frangible (presumably due to the decrease in treated as constants due to their large excess. This justified
+ molecular weight) and easily breaks into a powder. Given the assumption leads to Equation (13).
+ constant agitation in the reactor, it is reasonable to hypothesize dx ET1
+ that particle size reduction occurs in situ during the course of the ¼ kx EG x AMM x ET1 ¼ k 0 x ET1 (13)
+ dt
+ reaction. The added costs associated with energy-intensive
+ Here x ET1 is the mole fraction of ET1 bonds, k is the apparent
+ rate constant, and k 0 is the apparent pseudo–first-order rate con-
+ stant. The mole fraction of ET1 bonds is defined by Equation (14).
+ nET1
+ x ET1 ¼ (14)
+ nET1 þ nET2 þ nAmide þ nAMM þ nEG
+
+ In Equation (14), nET1 , nET2 , nAmide , nAMM , and nEG are the number
+ of moles of ET1 bonds, ET2 bonds, amide bonds, ammonia, and
+ EG, respectively. The differential equation is solved to find
+ Equation (15)
+
+ x ET1 ðtÞ ¼ x ET1,0 expðk 0 tÞ (15)
+
+ where x ET1,0 is the initial mole fraction of ET1 bonds.
+ Application of Equation (15) requires calculation of the mole
+ fraction of ester bonds in the PET substrates. The number of
+ moles of ET1 bonds can be calculated by assuming every PET
+ repeat unit has two ET1 bonds. PET with an amide end group
+ would have two less ET1 bonds due to the existence of the amide
+ Figure 6. The number average molecular weight (Mn) as a function of and corresponding ET2 bond. However, the small number of
+ time during the ammonolysis of thermoform PET. The flake from a post- chain ends during the early stages of depolymerization means
+ consumer clamshell cut into 1 cm2 squares degrades at a very similar rate this molecular detail can be safely ignored. Accordingly, the num-
+ to ground material composed of particles sized between 150–250 μm.
+ These similar conversion rates indicate little benefit of particle size reduc- ber of ET1 bonds is calculated by dividing the number average
+ tion of PET clamshells beyond a simple shredding process. molecular weight (Mn) of the polymer by the molecular weight of
+
+
+ ChemSusChem 2025, 18, e202500509 (7 of 11) © 2025 The Author(s). ChemSusChem published by Wiley-VCH GmbH
+
+
+=== 4.pdf PDF 8 ===
+ 1864564x, 2025, 15, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.202500509 by Zhejiang University, Wiley Online Library on [08/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ Research Article
+ChemSusChem doi.org/10.1002/cssc.202500509
+
+
+ a repeat unit. The resulting number of repeat units is multiplied Here x ET1,BHET,0 is the initial mole fraction of ET1 bonds in the
+ by two to find the number of ET1 bonds. The mole fraction of BHET reaction. The corresponding Thiele modulus (∅) is given by
+ ET1 calculated by Equation 14 is fit to Equation 15 to determine Equation (19).[42,43]
+ the apparent pseudo-first-order rate constants for each sﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ particle size. k nþ1
+ ϕ¼L   C n1
+ s (19)
+ Figure 7 shows the disappearance of ET1 bonds for BHET and Def f 2
+ PET particles of different sizes at 100 °C. The goodness of fit R2
+ values are 0.968, 0.974, 0.930, and 0.959 for BHET, 150–250 μm par- where L ¼ SrfVolume
+ ace Area, k is the apparent rate constant for the disap-
+ ticles, 250–600 μm particles, and 1800-2500 μm pellets, respectively. pearance of ET1 esters in the PET sample, Def f is the effective dif-
+ The apparent reaction rate constants are k 0150250 =0.350  0.033 h1, fusion coefficient of ammonia in PET, n is the reaction order, and
+ k 0250600 =0.110  0.017 h1, and k 018002500 = 0.025  0.003 h1. This Cs is the concentration at the surface. Since the reaction order is
+ observed trend of decreasing apparent rate of reaction with increas- one, the surface concentration is lost from the equation. The gen-
+ ing particle size is consistent with mass transfer being the rate- eral relationship between the effectiveness factor and the Thiele
+ limiting step Figure 8. modulus for spheres is expressed by Equation (20).
+ The ester conversion rates of PET were compared to the
+ ammonolysis rate of BHET at 100 °C to assess the effects of mass 3
+ η¼ ðϕ cothðϕÞ  1Þ (20)
+ transfer limitations. The mole fraction of ET1 bonds in BHET is ϕ2
+ expressed in terms of the moles of BHET (nBHET ), HCB (nHCB Þ,
+ and TPD (nTPD Þin Equation (16). The observed conversion data can be fit to the form of
+ Equation (18) using the effective diffusivity of ammonia in PET
+ 2ðnBHET Þ as a fitting parameter.
+ x ET1,BHET ¼ (16)
+ 2ðnBHET þ nHCB þ nTPD Þ þ nAMM þ nEG By fitting Equation (20) to the calculated effectiveness factors,
+ a Thiele modulus is found. Equation (19) then yields an effective
+ An effectiveness (η) factor is defined using Equation (17). diffusivity. The volume-to-surface area is taken as that for spheri-
+ 0 cal particles with a diameter equal to the mean particle size.
+ rate of disapearance of ET1 bonds in PET k x ET1
+ η¼ ¼ Figure 9 shows the effectiveness factor versus Thiele modulus
+ rate of disapearance of ET1 bonds in BHET k 01 x ET1,BHET
+ fit. Numerically solving for Def f using Equation. (19) yields a dif-
+ (17)
+ fusivity for each particle size. The average effective diffusivity of
+ Looking at the initial rate of reaction, where t ¼ 0, the effec- ammonia in PET over the three different particle sizes is found to
+ tiveness equation is simplified in Equation (18). be 1.37  0.48 E-7 cm2 s1.
+ There are many studies on the diffusion of different molecules
+ 0
+ k x ET1,0 in PET.[44] However, no specific study on the diffusivity of ammo-
+ η¼ (18)
+ k 01 x ET1,BHET,0 nia in PET at elevated temperatures appears in the literature.
+
+
+
+
+ Figure 7. (Left) Number average molecular weight (Mn) versus time for varying PET particle sizes during the first 5 h of reaction. (Right) When the reactions
+ were run to completion as measured by conversion to TPD, the 150–250 μm particles took 4.5 h, the 250–600 μm took 18 h, and the 1800–2500 μm par-
+ ticles after 96 h.
+
+
+ ChemSusChem 2025, 18, e202500509 (8 of 11) © 2025 The Author(s). ChemSusChem published by Wiley-VCH GmbH
+
+
+=== 4.pdf PDF 9 ===
+ 1864564x, 2025, 15, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.202500509 by Zhejiang University, Wiley Online Library on [08/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ Research Article
+ChemSusChem doi.org/10.1002/cssc.202500509
+
+
+
+
+ Figure 8. The disappearance of ET1 bonds for various particle sizes of PET and their model fit compared to that of BHET. ET1 bonds are ester bonds similar
+ to those of BHET, in the para position to other ester bonds.
+
+
+ general, smaller molecules diffuse more rapidly than larger ones.
+ Therefore, despite the disparity, these two results are compatible.
+ Another way to analyze the diffusivity coefficient is to compare
+ it with reported values for the diffusivity of ammonia in other
+ polymers.[47,48] Comparing low-density polyethylene and polydi-
+ methylsiloxane with various fluoropolymers, Makhloufi al. reported
+ diffusivities ranging from 5.9 E-8 cm2 s1 to 4.18 E-6 cm2 s1 at
+ 21 °C.[49] Accordingly, the value determined in this study (1.37 
+ 0.48 E-7 cm2 s1) falls within the range of known ammonia diffu-
+ sivities in other polymers at temperatures above their glass transi-
+ tion temperatures.
+ While published literature lacks specific information on the
+ diffusion of ammonia in PET, models can provide estimates for
+ comparison. Ewender developed a function based on molecule
+ size and temperature to predict diffusion in PET.[50,51] Using this
+ model, the calculated diffusion coefficient for ammonia in PET is
+ 3.18 E-8 cm2 s1, this value is approximately six times lower than
+ Figure 9. Effectiveness factor versus Thiele modulus. The effectiveness fac-
+ the value determined in our study (1.37  0.48 E-7 cm2 s1).
+ tor is calculated by dividing the apparent rate of ammonolysis of PET at a
+ given particle size by the reaction rate for BHET. The diffusivity of ammonia The discrepancy in diffusion values between various sources
+ in PET serves as the single fitting parameter to match the data to the theo- has a few contributing factors. First, the value determined here
+ retical line. The resulting diffusivity value of 1.37  0.48 E-7 cm2 s1 is in
+ is an “effective” diffusivity in a multicomponent molecular soup
+ good agreement with independent literature values.
+ of reactants and products. Additionally, excess EG is present, which
+ swells the PET and makes it more liquid like and thus leads to a
+ However, one study found that the diffusion coefficient of water larger rate of diffusion when compared to a homogeneous poly-
+ in amorphous PET at 100 °C is 1.35 E-6 cm2 s1.[45,46] Interestingly, mer phase. For example, Zheng investigated PET swelling in excess
+ this value is one order of magnitude higher than the determined EG,[52] observing increased end-to-end distance and radius of gyra-
+ diffusion coefficient of the present study. The difference can be tion via molecular dynamics simulations.[53] Accordingly, discrepan-
+ attributed to PET crystallinity and the size of the solvent mole- cies with the Ewender model are attributed to swelling of PET.
+ cules. The PET in the present study is semi-crystalline, but the
+ PET used in previous studies was 100% amorphous. The diffusion
+ in amorphous PET is faster than in crystalline regions. In addition, 4. Conclusions
+ water is smaller than ammonia. By approximating molecular vol-
+ umes as the sum of each atom’s volume, ammonia has a molec- Details of the experimental ammonolysis of PET in excess EG are
+ ular volume of 26.3 Å3, while water has one of 19.8 Å3. In reported for the first time. Using BHET as a model compound, the
+
+
+ ChemSusChem 2025, 18, e202500509 (9 of 11) © 2025 The Author(s). ChemSusChem published by Wiley-VCH GmbH
+
+
+=== 4.pdf PDF 10 ===
+ 1864564x, 2025, 15, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.202500509 by Zhejiang University, Wiley Online Library on [08/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ Research Article
+ChemSusChem doi.org/10.1002/cssc.202500509
+
+
+ rate constants at 100 °C for sequential ammonolysis of
+ the two ester bonds are k 01 = 0.958  0.076 h1 and k 02 = Keywords: ammonolysis · diffusion · plastic waste · polymers ·
+ 0.359  0.034 h1. Activation energies for the two reaction steps reaction kinetics · recycling · upcycling
+ are Ea1 = 7.01  0.65 kJ mol1 and Ea2 = 13.74  0.660 kJ mol1
+ and the corresponding collision factors are A1 = 97.2  11.4 h1 [1] M. Goto, H. Koyamoto, A. Kodama, T. Hirose, AIChE J. 2004, 48, 136.
+ and A2 = 318.9  35.7 h1. [2] H. Kurokawa, M. A. Ohshima, K. Sugiyama, H. Miura, Polym. Degrad. Stab.
+ Ammonolysis experiments on 1 cm2 squares (flakes) and 150– 2003, 79, 529.
+ [3] K. Fukushima, D. J. Coady, G. O. Jones, H. A. Almegren,
+ 250 μm granulated particles produced similar conversion rates. A. M. Alabdulrahman, F. D. Alsewailem, H. W. Horn, J. E. Rice,
+ Accordingly, for ammonolysis, simple shredding of PET thermo- J. L. Hedrick, J. Poly. Sci. Part A: Poly. Chem. 2013, 51, 1606.
+ forms is sufficient to avoid significant diffusional limitations. [4] K. Fukushima, O. Coulembier, J. M. Lecuyer, H. A. Almegren,
+ A. M. Alabdulrahman, F. D. Alsewailem, M. A. McNeil, P. Dubois,
+ Unlike enzymatic and other processes based on surface reactions, R. M. Waymouth, H. W. Horn, J. E. Rice, J. L. Hedrick, J. Poly. Sci. Part A
+ no further reduction in particle size is needed. Poly. Chem. 2011, 49, 1273.
+ The present study demonstrates the profound importance [5] R. López-Fonseca, I. Duque-Ingunza, B. de Rivas, L. Flores-Giraldo,
+ J. I. Gutiérrez-Ortiz, Chem. Eng. J. 2011, 168, 312.
+ of understanding diffusional limitations. For particles of only [6] A. McNeeley, Y. A. Liu, Ind. Eng. Chem. Res. 2024, 63, 3355.
+ 1 millimeter in average thickness, the rate of reaction is decreased [7] M. Shibata, T. Masuda, R. Yosomiya, M. Ling-Hui, J. Appl. Polym. Sci. 2000,
+ by a factor of ten! Experiments performed on PET particles having 77, 3228.
+ [8] T. K. Yasuhisa Kishimoto, S. Kato, Polym. Bull. 1999, 42, 295.
+ different average sizes (150–250 μm, 250–600 μm, 1800-2500 μm) [9] Y. Yang, Y. Lu, H. Xiang, Y. Xu, Y. Li, Polym. Degrad. Stab. 2002,
+ allow the construction of an effectiveness factor. Using the clas- 75, 185.
+ sical approach enables calculation of a Thiele modulus from [10] S. Mishra, A. S. Goje, Polym. Int. 2003, 52, 337.
+ [11] D. D. Pham, J. Cho, Green Chem. 2021, 23, 511.
+ which the effective diffusivity of ammonia in PET can be calcu- [12] L.-C. Hu, A. Oku, E. Yamada, K. Tomari, Poly. J. 1997, 29, 708.
+ lated. At 100 °C, this value is estimated to be 1.37  0.48 E-7 cm2 s1. [13] J. J. Rubio Arias, W. Thielemans, Green Chem. 2021, 23, 9945.
+ This effective diffusion coefficient incorporates the effects of excess [14] V. Tournier, S. Duquesne, F. Guillamot, H. Cramail, D. Taton, A. Marty,
+ I. Andre, Chem. Rev. 2023, 123, 5612.
+ EG, which swells the polymer and enhances diffusion rates. [15] K. Oda, A. Wlodawer, Biochemistry 2024, 63, 369.
+ Understanding ammonolysis conversion rates across different [16] K. Fukushima, J. M. Lecuyer, D. S. Wei, H. W. Horn, G. O. Jones,
+ PET particle sizes informs efficient process design and facilitates H. A. Al-Megren, A. M. Alabdulrahman, F. D. Alsewailem, M. A. McNeil,
+ J. E. Rice, J. L. Hedrick, Polym. Chem. 2013, 4, 1610.
+ process scale-up. The comprehensive understanding of the ammo-
+ [17] V. A. Popoola, J. Appl. Polym. Sci. 1988, 36, 1677.
+ nolysis of PET in EG provided can play an important role in improv- [18] C. Sabot, K. A. Kumar, S. Meunier, C. Mioskowski, Tetrahedron Lett. 2007,
+ ing material reuse and fostering a more circular economy. 48, 3863.
+ [19] R. Shamsi, M. Abdouss, G. M. M. Sadeghi, F. A. Taromi, Polym. Int. 2008,
+ 58, 22.
+ [20] E. F. Tadeusz Spychaj, S. Spychaj, M. Kacperski, J. Mater. Cycles Waste
+ Acknowledgements Manag. 2001, 3, 24.
+ [21] M. E. Tawfik, S. B. Eskander, Polym. Degrad. Stab. 2010, 95, 187.
+ [22] S. Thomas, A.V. Rane, K. Kanny, V. K. Abitha, M. G. Thomas, Recycling
+ Dr. Dan Holmes, Director of the Max T. Rogers NMR facility at Of Polyethylene Terephthalate Bottles, Elsevier, Amsterdam/New York
+ Michigan State University, was particularly helpful in completing 2019.
+ [23] K. Zenda, T. Funazukuri, J. Chem. Tech. Biotechnol. 2008, 83, 1381.
+ the spectroscopy contained in the article. This work was [24] M. B. Hans Fengel, Preparation of terephthalic acid diamide 1973.
+ supported under grant no. 2029374 from the National Science [25] C. S. Rondestvedt, J. Org. Chem. 1977, 42, 3118.
+ Foundation (NSF) program “Engineering the Elimination of [26] H. G. Zengel, M. J. Bergfeld, Product RD 1976, 15, 186.
+ [27] M. B. Hans Zengel, Verfahren zur Herstellung von Terephthalsaurediamid
+ End-of-Life Plastics” (E3P), a program Emerging Frontiers & 1974.
+ Multidisciplinary Activities (EFMA). Any opinions, findings, and [28] M. B. Hans-Georg Zengel, Production of P-aminobenzoic Acid 1976.
+ conclusions or recommendations expressed in this material are [29] H. Zhou, S. Zhang, F. Gao, X. Bai, Z. Sha, Chin. J. Chem. Eng. 2014,
+ 22, 181.
+ those of the author(s) and do not necessarily reflect the views of [30] Q. Liu, R. Li, T. Fang, Chem. Eng. J. 2015, 270, 535.
+ the National Science Foundation. J.R.D. acknowledges additional [31] L. Constantinou, R. Gani, AIChE J. 1994, 40, 1697.
+ financial support in the form of the David and Denise Lamp [32] T. A. Koch, J. G. Miller, A. R. Day, J. Am. Chem. Soc. 1952, 75, 953.
+ [33] M. Gordon, J. G. Miller, A. R. Day, J Am Chem Soc 1948, 70, 1946.
+ Endowed Professorship in Chemical Engineering and Materials [34] K. I. M. Al-Malah, Introducing ASPEN PLUS. In ASPEN PLUS Chemical
+ Science Engineering Apllications, 2nd Ed. J. Wiley Sons Inc. 2023.
+ [35] G. S. Joachim Gross, Ind. Eng. Chem. Res. 2001, 40, 1244.
+ [36] G. S. Joachim Gross, Ind. Eng. Chem. Res. 2002, 41, 5510.
+ [37] D. S. Abrams, J. M. Prausnitz, AIChE J. 1975, 21, 116.
+ Conflict of Interest [38] H. Renon, J. M. Prausnitz, AIChE J. 1968, 14, 135.
+ [39] T. Graham, Lond. Edinburgh Pilosophical Mag. J. Sci. 1833, 2, 175.
+ [40] J. Piiper, Respir. Physiol. 1980, 41, 233.
+ The authors declare no conflict of interest. [41] K. Peter, C. Vollhardt, In Organic Molecules. In Organic Chemistry: Structure
+ And Function, W. H. Freeman and Company, United States of America
+ 1999.
+ [42] E. W. Thiele, Ind. Eng. Chem. 1939, 31, 916.
+ Data Availability Statement [43] R. Aris, Ind. Eng. Chem. Fundam. 1965, 4, 227.
+ [44] W. J. Koros, D. R. Paul, Polym. Eng. Sci. 2004, 20, 14.
+ [45] A. Launay, F. Thominette, J. Verdu, J. Appl. Polym. Sci. 1999, 73, 1131.
+ The data that support the findings of this study are available in [46] S. M. Burkinshaw, K. Liu, Color. Technol. 2022, 139, 79.
+ the supplementary material of this article. [47] C. Makhloufi, D. Roizard, E. Favre, J. Membr. Sci. 2013, 441, 63.
+
+
+
+ ChemSusChem 2025, 18, e202500509 (10 of 11) © 2025 The Author(s). ChemSusChem published by Wiley-VCH GmbH
+
+
+=== 4.pdf PDF 11 ===
+ 1864564x, 2025, 15, Downloaded from https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.202500509 by Zhejiang University, Wiley Online Library on [08/09/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ Research Article
+ChemSusChem doi.org/10.1002/cssc.202500509
+
+
+ [48] Y. Zhang, S. Kanehashi, S. Kentish, C. A. Scholes, J. Membr. Sci. 2024, 705, [53] B. A. Miller-Chou, J. L. Koenig, Prog. Polym. Sci. 2003, 28, 1223.
+ 122923.
+ [49] S. A. Stern, B. D. Bhide, J. Appl. Polym. Sci. 2003, 38, 2131.
+ [50] J. Ewender, F. Welle, Packag. Technol. Sci. 2022, 35, 405.
+ [51] J. Ewender, F. Welle, J. Appl. Polym. Sci. 2012, 128, 3885. Manuscript received: March 10, 2025
+ [52] W. Zheng, C. Liu, X. Wei, W. Sun, L. Zhao, Chem. Eng. Sci. 2023, 267, Revised manuscript received: May 20, 2025
+ 118329. Version of record online: June 30, 2025
+
+
+
+
+ ChemSusChem 2025, 18, e202500509 (11 of 11) © 2025 The Author(s). ChemSusChem published by Wiley-VCH GmbH

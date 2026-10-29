@@ -1,0 +1,606 @@
+
+=== 1.pdf PDF 1 ===
+Green Chemistry
+ Published on 09 September 2025
+ PAPER Licence and permissions
+
+
+ Upcycling of poly(ethylene terephthalate) waste
+Cite this: Green Chem., 2025, 27,
+ plastics to terephthalonitrile
+12378 a,b
+ Phuc T. T. Nguyen, Jiong Cheng,a,c Junyu Mi a
+ and Ning Yan *a,b,c
+
+ Chemical upcycling of plastic waste represents an emerging approach to generate value-added chemicals
+ and mitigate environmental impacts. Despite the signiﬁcant role of terephthalonitrile in the production of
+ bioactive compounds and high-value materials, sustainable and eﬃcient methods for its production from
+ plastic waste remain underexplored. In this work, we present a tandem process for the transformation of
+ poly(ethylene terephthalate) (PET) waste into terephthalonitrile under mild conditions (≤120 °C). The
+ process involves PET ammonolysis with ethylene glycol and ammonia, followed by liquid-phase dehydra-
+ tion of terephthalamide using Pd catalysts via a water-transfer mechanism. The dehydration step achieves
+ complete conversion of terephthalamide with up to 68% selectivity for the dinitrile and 32% for the
+ mononitrile. Using electrospray ionization mass spectrometry, we identiﬁed Pd complexes, predominantly
+ Pd dimers, as the catalytic species, regardless of the Pd precursor used. Application of the tandem system
+ to commercial PET bottles and ﬁbers resulted in terephthalonitrile yields of 39–51 mol% based on the
+Received 28th May 2025, PET feedstock, even in the presence of pigments and chlorine. Life cycle analysis indicated that this
+Accepted 29th August 2025
+ process reduces CO2 emissions by at least 28% compared to conventional terephthalonitrile production
+DOI: 10.1039/d5gc02680f from p-xylene. This work introduces a promising strategy for the upcycling of PET waste into organoni-
+rsc.li/greenchem trogen compounds with high selectivity and low environmental impact.
+
+
+
+
+ Green foundation
+ 1. This work introduces a non-petroleum-based, mild pathway for producing terephthalonitrile and presents a selective upcycling method for polyethylene
+ terephthalate (PET) waste plastics into valuable organonitrogen compounds.
+ 2. Utilizing Pd catalysts, the process converts up to 78% of amide groups to nitriles without generating undesired byproducts, significantly enhancing atom
+ economy compared to previous gas-phase PET conversions that often resulted in cracking and coke formation. Operating at low temperatures (≤120 °C), the
+ method is less energy-intensive, reduces safety concerns and lowers equipment costs. Life cycle analysis indicates at least a 28% reduction in carbon footprint
+ compared to conventional terephthalonitrile production pathways.
+ 3. The carbon footprint of this process is expected to decrease further with forthcoming advancements in green energy and low-carbon acetonitrile
+ production.
+
+
+
+
+Introduction liquid alkanes,3–5 olefins,6 arenes,7–10 carbonyls,11,12 sulfates,13
+ nitriles,14 and amines.15 Upcycling plastics not only mitigates
+Waste plastics with over 350 million tons generated annually1 the environmental impacts of plastic pollution but also
+have emerged as an abundant carbon resource for the pro- recovers economic value that is typically lost through landfill-
+duction of fuels, chemicals, and materials. Plastic products are ing or incineration.16–20 It has been shown that utilizing plas-
+dominated by polyethylene (PE) and polypropylene (PP), which tics as alternative feedstocks for processes such as the conver-
+together account for approximately 45% of total production,2 sion of polyolefins to hydrocarbons21 or mixed plastic waste
+and have been converted into valuable chemicals such as into methane22 significantly reduces the carbon footprint com-
+ pared to petroleum-based pathways.
+ Poly(ethylene terephthalate) (PET) is the fourth most pro-
+a
+ Department of Chemical and Biomolecular Engineering, National University of duced plastic, accounting for 6.2% of global plastic pro-
+Singapore, 4 Engineering Drive 4, 117585, Singapore. E-mail: ning.yan@nus.edu.sg duction, and is the most abundant aromatic plastic,2 primarily
+b
+ Joint School of National University of Singapore and Tianjin University, Fuzhou
+ used in textiles and packaging. The majority of PET waste is
+350207, Fujian, China
+c
+ Centre for Hydrogen Innovations, National University of Singapore, Singapore recycled into lower-quality PET through mechanical recycling,
+117580, Singapore although there has been increasing attention in chemical re-
+
+
+12378 | Green Chem., 2025, 27, 12378–12388 This journal is © The Royal Society of Chemistry 2025
+
+
+=== 1.pdf PDF 2 ===
+Green Chemistry Paper
+
+cycling of PET to virgin-like PET using technologies such as trile. Since the former has been relatively well studied,32,41,66–69
+hydrolysis,23–25 glycolysis,26,27 and methanolysis.28,29 we focus on establishing the latter transformation using Pd cata-
+Alternatively, PET can be upcycled into high-value products lysts via a water transfer mechanism.70–72 This strategy was first
+such as arenes,30,31 terephthalamide,32 p-phenylenediamine33 reported by Maﬃoli et al.70 in 2005, enabling water transfer with
+and dimethyl cyclohexane-1,4-dicarboxylate.34 acetonitrile as an acceptor to achieve high conversion and
+ Nitriles represent an important class of organonitrogen com- selectivity toward the nitrile. Subsequent studies have explored
+pounds with broad applications in pharmaceuticals, pesticides, the development of more eﬃcient nitrile-based water accep-
+dyes and polymeric materials.35 They also serve as versatile pre- tors,73 novel Pd catalyst designs (e.g., Pd3P0.95,74 trinuclear palla-
+cursors for the synthesis of functional compounds such as dium(II) complexes75), non-aqueous reaction conditions using
+amines, amides, N-heterocycles, carboxylic acids and esters.36,37 Selectfluor72 and expansion of substrate scope to unsaturated
+Among them, terephthalonitrile is a key aromatic dinitrile with a and alkyl amides.76 Nevertheless, the specific conversion of ter-
+market value of USD 1.2 billion in 2024.38 It is widely used as an ephthalamide to terephthalonitrile via a water transfer mecha-
+intermediate in the synthesis of bioactive compounds,39 nitro- nism, as well as its potential application in plastic upcycling,
+gen-containing polymers,40,41 flame retardants,42 super- has not yet been investigated. In our study, we explored the feasi-
+capacitors43 and optoelectronics.44–46 Terephthalonitrile is pri- bility of this pathway, identified active Pd species and elucidated
+marily produced from p-xylene through ammoxidation with the critical role of water. Leveraging on these, we developed a
+ammonia as the nitrogen source,47 catalyzed by metal oxides tandem process consisting of PET ammonolysis followed by Pd-
+such as V2O5–Nb2O5/Al2O348 or V2O5–Sb2O3/Al2O349 at catalyzed dehydration of terephthalamide, and demonstrated its
+400–500 °C (Fig. 1). Alternatively, p-xylene can be converted to sustainability through a notably reduced carbon footprint.
+terephthalonitrile via a nitrooxidation pathway, using nitric
+oxide NO as the nitrogen source and a Cr2O3-based catalyst at
+440 °C.50 However, these processes rely on fossil-based, non-
+renewable p-xylene as feedstock, while the high reaction temp-
+erature and the use of corrosive chemicals also raise safety con-
+cerns and increase equipment costs. Furthermore, the processes
+have substantial carbon footprints due to both the extraction of
+p-xylene and the energy required for heating and distillation.
+Therefore, it is desirable to develop more sustainable terephtha-
+lonitrile production pathways that utilize non-petroleum feed-
+stocks, require lower energy input and release lower carbon
+emissions.
+ Recent studies have demonstrated the conversion of plastic
+waste into organonitrogen compounds, oﬀering alternative Fig. 1 Conventional pathway and our approach to terephthalonitrile.
+pathways alongside those derived from petroleum-based and
+bio-based resources.51,52 Notable examples include the trans-
+formation of polylactic acid into alanine,53–56 poly( p-phenylene
+oxide) into substituted anilines,57,58 polyurethane into aro- Experimental
+matic amines,59,60 and polystyrene into benzonitrile.61,62 Given
+the structural similarity between PET monomer units and ter- Materials
+ephthalonitrile, pathways exist for the upcycling of PET into Terephthalamide (98%), 4-cyanobenzamide (98%) and ter-
+terephthalonitrile. Blackmon et al. reported a non-catalytic ephthalonitrile (96.74%) were purchased from BLDPharm
+gas-phase dehydration of PET-derived terephthalamide to ter- (China). PET (containing 30% glass fiber reinforcement),
+ephthalonitrile at 290–375 °C, achieving a low terephthaloni- PdCl2 (≥99.9%), Pd(OAc)2 (≥99.9%), Pd(NO3)2·xH2O (∼40% Pd
+trile yield of 29%.41 Fang’s group reported the catalytic pyrol- basis), palladium(II) acetylacetonate (99%), bis(acetonitrile)
+ysis of PET under an NH3 atmosphere over Ca(OH)2/Al2O363 dichloropalladium(II) (99%), palladium(II) hexafluoroacetylace-
+and γ-Al2O3,64,65 obtaining 33–58% terephthalonitrile yields at tonate, Pd(OH)2/C (20 wt% Pd), Pd/C (10 wt% Pd), Pd/Al2O3
+500–550 °C. The low carbon yield in the desired product was (10 wt% Pd), Pd/BaSO4 (10 wt% Pd), bis(dibenzylideneacetone)
+attributed to the formation of coke and by-products such as palladium(0), tetrakis(triphenylphosphine)palladium(0)
+benzonitrile and aromatic hydrocarbons via cracking. Besides (99%) and Pd(0) EnCat® 30NP (0.4 mmol g−1 loading) were
+the low yields, these transformations share a similar issue obtained from Sigma–Aldrich (Singapore). SiliaCat Pd(0)
+with conventional production from p-xylene: operation at high (0.24 mmol g−1 loading) and SiliaCat DPP-Pd (0.3 mmol g−1
+temperature. loading) were purchased from Silicycle (Canada). Acetonitrile
+ In this work, we aim to design an improved pathway for the (≥99.5%) and ethyl acetate (≥99.5%) were obtained from VWR
+conversion of PET waste into terephthalonitrile under milder Chemicals (Singapore). PET fibers (3D × 64 mm) were pur-
+conditions (Fig. 1). The process consists of two steps: PET chased from Yizheng Zhicheng Chemical Fiber Co. Ltd
+ammonolysis and liquid-phase dehydration to terephthaloni- (China).
+
+
+This journal is © The Royal Society of Chemistry 2025 Green Chem., 2025, 27, 12378–12388 | 12379
+
+
+=== 1.pdf PDF 3 ===
+Paper Green Chemistry
+
+ Pd(OH)2 was prepared by precipitation from a 0.045 M Characterizations
+aqueous Pd(NO3)2 solution at pH 9 using a 0.1 M NaOH Gas chromatography (GC) analysis was performed using an
+aqueous solution. The precipitate was collected by centrifu- Agilent 7890A GC equipped with an HP-5 column and a flame
+gation, washed with water and dried at 60 °C overnight before ionization detector. The heating program involved ramping
+use. from 60 °C to 300 °C at 10 °C min−1, followed by holding at
+Reactions 300 °C for 11 minutes. Nuclear magnetic resonance (NMR)
+ spectroscopy was conducted using a Bruker Ascend 400 MHz
+The ammonolysis reaction of PET to terephthalamide was con- spectrometer with D2O or DMSO-d6 as the solvent, and ethyl-
+ducted in a 20 mL high-pressure autoclave equipped with a ene carbonate as an internal standard when required. Fourier-
+magnetic stirrer. Typically, PET (60 mg) and ethylene glycol transform infrared (FT-IR) spectra were recorded on a Bruker
+(0.5 mL) were added to the autoclave, which was then sealed VERTEX 70 with the range of 400–4000 cm−1. Liquid samples
+and purged with nitrogen at 5 bar for 10 cycles. The autoclave for FT-IR were dropped onto the sample holder and evaporated
+was subsequently purged with 3 bar NH3 for 10 cycles and at room temperature until the solvent signal disappeared, then
+charged with 3 bar NH3 at −20 °C for 15 minutes. The auto- measured in attenuated total reflectance (ATR) mode.
+clave was then placed in a 120 °C steel holder and heated on a UV-visible (UV-Vis) measurements were performed using a
+hotplate with stirring at 800 rpm for 7 h. Upon completion, Shimadzu UV-1900 UV-Vis spectrophotometer. Samples for
+the autoclave was cooled in an ice bath. The product mixture UV-Vis measurements were prepared by dissolving Pd catalysts
+was vacuum-filtered through filter paper and washed with in the solvents at 0.1 mg mL−1, sonicating for 10 minutes and
+20 mL of deionized water. The filter cake was dried at 60 °C filtering through 0.45 µm PES membrane filters. Electrospray
+overnight before being used for the dehydration reaction or ionization mass spectrometry (ESI-MS) was performed using
+further analysis. an Agilent 6546 Q-TOF LCMS. The simulated MS spectra were
+ The dehydration reaction of terephthalamide was con- generated using mMass. Inductively coupled plasma optical
+ducted in a 15 mL cylindrical pressure vessel. Typically, ter- emission spectroscopy (ICP-OES) was performed on a Thermo
+ephthalamide (100 mg), PdCl2 (6 mg), CH3CN (3 mL) and H2O Scientific iCAP 6000 series ICP spectrometer.
+(3 mL) were added to the vessel, which was then sealed. The
+mixture was magnetically stirred at 800 rpm and heated at Life cycle analysis (LCA)
+100 °C in an oil bath for 18 h. After the reaction, 5 mL of 2.5% LCA was performed using the allocation, cut-oﬀ method. Data
+aqueous NH3 solution was added to convert the Pd species for CO2 emissions were obtained from Ecoinvent 3.8 or the ana-
+into inactive, water-soluble ammonia complexes. The resulting lysis by Cullen et al.77 unless otherwise specified. Physical prop-
+mixture was then extracted with ethyl acetate (3 mL × 3) and erty data for the components were sourced from Aspen HYSYS
+the organic phase was dried over Na2SO4. The products were and the NIST Chemistry WebBook unless stated otherwise. CO2
+quantitatively analyzed by gas chromatography with flame emissions were considered from two main sources: materials
+ionization detection (GC-FID) using dodecane as an internal and energy consumption. For comparison, the CO2 emissions
+standard (Fig. 2a). from the production of terephthalonitrile from p-xylene were
+ For the reverse reaction (Fig. 3e), terephthalonitrile was calculated based on data reported by Golden et al.49
+used instead of terephthalamide under similar conditions.
+After the reaction, the mixture was filtered through filter
+paper. The solid was dried and weighed to determine the ter- Results and discussion
+ephthalamide yield, while the filtrate was analyzed by GC-FID
+to determine the 4-cyanobenzamide yield and conversion. Condition screening for the conversion of terephthalamide to
+ For the quantification of acetamide (Table S1), the reaction terephthalonitrile
+mixture was treated with 30 mg of 2-mercaptobenzothiazole to Since Pd catalysts are known for their activity in the water transfer
+precipitate Pd species, then filtered and analyzed by GC–FID mechanism between acetonitrile and monoamides,70–72 we
+using butan-1-ol as the internal standard. For the recycling test screened various homogeneous and heterogeneous Pd catalysts
+(Fig. 5c), the dehydration reaction was conducted with 50 mg for the dehydration of terephthalamide (Fig. 2b). Pd salts, includ-
+terephthalamide for 6 h. Upon completion, solvents from the ing PdCl2, Pd(NO3)2·2H2O and Pd(OAc)2, as well as complexes
+reaction mixture were completely evaporated at 60 °C using a such as Pd(CH3CN)2Cl2 and Pd(hfac)2 yielded high conversions
+rotary evaporator. The obtained solid was washed with 18 mL (86–100%) and high terephthalonitrile yields with up to 56%
+of water and filtered through filter paper. The filter cake con- when PdCl2 was employed. Meanwhile, Pd coordinated with
+taining terephthalonitrile was dissolved in ethyl acetate and strong ligands such as Pd(PPh3)4 and Pd(dba)2 and supported Pd
+quantified by GC-FID with dodecane as an internal standard. catalysts showed low activity. Using acetonitrile as co-solvent,
+Meanwhile, the filtrate was evaporated at 140 °C using a rotary water demonstrated unique activity in this transformation, while
+evaporator for 1 h to remove water and acetamide. The remain- other polar aprotic solvents showed trace or no activity (Fig. 2c).
+ing solid containing 4-cyanobenzamide and the Pd catalyst DMSO, the only tested solvent that can dissolve terephthalamide
+was mixed with terephthalamide (25 mg), CH3CN (3 mL) and at room temperature, was employed but failed to produce nitrile
+water (3 mL) for the next recycling cycle. products.
+
+
+12380 | Green Chem., 2025, 27, 12378–12388 This journal is © The Royal Society of Chemistry 2025
+
+
+=== 1.pdf PDF 4 ===
+Green Chemistry Paper
+
+
+
+
+Fig. 2 (a) GC spectrum of the reaction starting from terephthalamide. Eﬀect of (b) diﬀerent Pd catalysts, (c) co-solvent with CH3CN, (d)
+CH3CN : H2O volume ratio and (e) terephthalamide amount. Reaction conditions: terephthalamide (100 mg), PdCl2 (5 mol%, 6 mg), CH3CN (3 mL),
+H2O (3 mL), 100 °C, 18 h. acac: acetylacetonate, hfac: hexaﬂuoroacetylacetonate, dba: dibenzylideneacetone, EG: ethylene glycol, THF: tetrahydro-
+furan, DMSO: dimethyl sulfoxide.
+
+
+
+
+ We also found that the reaction is sensitive to the water-to- 1 h to 18 h (Fig. 3a–c). When the temperature increased from
+acetonitrile ratio. A volcanic-shaped trend was observed when 80 °C to 120 °C, the terephthalonitrile yield rose from 54% to
+the solvent ratio was changed, with the maximum yield 61%. At 100 °C and 120 °C, the reaction reached equilibrium
+obtained at a 1 : 1 ratio (Fig. 2d). When the substrate amount after 8 hours and 4 hours, respectively.
+varied from 200 mg to 25 mg, we observed higher selectivity We then conducted NMR and FT-IR analyses to monitor the
+for terephthalonitrile over 4-cyanobenzamide, and the ter- reaction progress over time. NMR spectra revealed the for-
+ephthalonitrile yield reached 68% (Fig. 2e). Further decreasing mation of acetamide and 4-cyanobenzamide in the reaction
+the PdCl2 loading led to reduced terephthalonitrile yields, mixture at 100 °C (Fig. S3). Meanwhile, FT-IR showed a blue
+indicating that the catalyst amount should be maintained at shift of 2–6 cm−1 in the absorption peaks of CvO, N–H, and
+5 mol% as currently used (Fig. S1). At suﬃcient concen- C–N bonds78 upon mixing terephthalamide with PdCl2
+trations, PdCl2 can fully convert terephthalamide to terephtha- (1 : 1 mass ratio) in CH3CN/H2O, suggesting interactions
+lonitrile via the amide-to-nitrile pathway without detectable between Pd and the amide group (Fig. S4). The peak shifts of
+side reactions that introduce additional components into the the CvO, N–H, and C–N bonds became more pronounced
+system. The intermediate, 4-cyanobenzamide, can be trans- over time, which can be attributed to the transfer of the amide
+formed to terephthalonitrile with a 79% yield under the same group from terephthalamide to acetonitrile.
+conditions (Fig. S2). This represents an advantage over pre- Subsequently, we conducted control experiments starting
+vious works,63–65 where side reactions such as cracking, decar- from terephthalonitrile under similar reaction conditions
+bonylation, alkylation, coupling, and oligomerization occurred (Fig. 3e). Without the Pd catalyst, almost no amide products
+during the conversion of PET to terephthalonitrile at high were detected. In the presence of PdCl2, around 20% of 4-cya-
+temperatures. nobenzamide was obtained, primarily through the hydrolysis
+ of terephthalonitrile. This suggests that PdCl2 can activate the
+Kinetics and mechanisms of the water transfer reaction from nitrile group to facilitate hydrolysis.79 When acetamide, the
+terephthalamide to terephthalonitrile hydrolysis product of acetonitrile, was added, the hydration of
+To understand the reaction kinetics, the reaction was con- terephthalonitrile significantly increased. A white solid was
+ducted at diﬀerent temperatures for durations ranging from clearly observed when 5 equivalents of acetamide were added,
+
+
+This journal is © The Royal Society of Chemistry 2025 Green Chem., 2025, 27, 12378–12388 | 12381
+
+
+=== 1.pdf PDF 5 ===
+Paper Green Chemistry
+
+
+
+
+Fig. 3 Time–yield plots at (a) 80 °C, (b) 100 °C and (c) 120 °C. (d) Isotope eﬀect. Reaction conditions: terephthalamide (100 mg), PdCl2 (6 mg),
+CH3CN (3 mL), H2O or D2O (3 mL). (e) Reversed reaction from terephthalonitrile. Reaction conditions: terephthalonitrile (100 mg), PdCl2 (6 mg),
+CH3CN (3 mL), H2O (3 mL), acetamide (0–5 equivalent), 100 °C, 18 h. (f ) UV-Vis spectra of Pd catalysts in H2O and in the mixture of CH3CN and H2O
+(1 : 1 volume ratio). (g) ESI-MS spectra. Reaction conditions: terephthalamide (20 mg), PdCl2 (6 mg), CH3CN (3 mL), H2O (3 mL), 100 °C, 2 h.
+Proposed (h) formation of active species and (i) reaction mechanism.
+
+
+
+
+indicating the formation of terephthalamide. These findings amide, the decrease in acetamide corresponded closely to the
+confirm the existence of the Pd-catalyzed hydrolysis and the amount of aromatic amide groups formed. These observations
+reverse water transfer from acetamide to the aromatic nitrile as indicate that the Pd-catalyzed water transfer reaction is the
+side reactions. The reversible nature of the water transfer reac- dominant pathway, whereas hydrolysis of acetonitrile to acet-
+tion also explains the decrease in terephthalonitrile selectivity amide is less significant. The equilibrium constant for the
+when the feed concentration of terephthalamide increases, CH3CN-mediated water transfer
+despite a suﬃcient reaction time (Fig. 2e).
+ We quantified the equilibrium concentration of acetamide
+ 4-Cyanobenzamide þ CH3 CN Ð terephthalonitrile
+by GC-FID for both the forward and reverse Pd-catalyzed water þ CH3 CONH2
+transfer reactions (Table S1). In the forward reaction from ter-
+ephthalamide, the amount of acetamide formed was approxi-
+mately equal to the amount of aromatic nitrile groups pro- is approximately 0.020, with nearly identical values obtained
+duced. In the reverse reaction from terephthalonitrile and acet- from both the forward and reverse reaction data.
+
+
+12382 | Green Chem., 2025, 27, 12378–12388 This journal is © The Royal Society of Chemistry 2025
+
+
+=== 1.pdf PDF 6 ===
+Green Chemistry Paper
+
+ Observing that not only PdCl2 but also other Pd catalysts nation is that the electron-withdrawing eﬀect decreases the
+such as Pd(NO3)2 and Pd(CH3CN)2Cl2 were active in the de- electron density on the oxygen atom of the amide group,
+hydration step, we hypothesized there may be common Pd making bond formation between this oxygen and the nitrile
+active species for the reaction, regardless of the precursor group of acetonitrile more diﬃcult. In the reaction, water not
+used. Thus, we employed ESI-MS to identify the catalytic Pd only coordinates with Pd to form the active species but also
+species present in the reaction (Fig. 3g). The majority of Pd participates in proton exchange with amide groups, leading to
+was detected as a dimeric complex (m/z = 456, Fig. S5c), a kinetic isotope eﬀect when D2O is used.
+together with its dehydrated form containing one fewer co-
+ordinated water molecule (m/z = 438). We also identified a Tandem conversion of PET into terephthalonitrile
+tetrameric species (m/z = 877, Fig. S5d), likely formed through In the next step, we conducted the ammonolysis of PET in the
+dimer condensation. These species were consistently observed presence of NH3 and ethylene glycol (Table S2). Ethylene glycol
+when Pd(NO3)2 or Pd(CH3CN)2Cl2 was used in place of PdCl2, served as the dispersion agent, heat transfer medium, and
+and even in the absence of terephthalamide (Fig. S5a). In con- catalyst for PET ammonolysis.67 This degradation process does
+trast, when no PdCl2 was added or when the catalytically inac- not introduce additional organic components other than PET,
+tive Pd(dba)2 was used, these dimeric and tetrameric Pd com- ethylene glycol and terephthalamide into the system. After the
+plexes were not detected. When Pd(NO3)2 was used, a species reaction, terephthalamide was easily isolated as a white solid
+containing one Pd atom was detected at m/z 329 (Fig. S5b). from the reaction mixture, which facilitates both separation
+Furthermore, we collected the UV-Vis absorption spectra of and solvent recycling. The formation of terephthalamide at a
+PdCl2 and Pd(CH3CN)2Cl2 to compare their absorption pat- 30% yield was observed when the reaction was conducted at
+terns in H2O and in CH3CN/H2O (Fig. 3f ). Although their 120 °C for 6 h (Table S2, entry 1). Employing Zn(OAc)2 as a
+absorption patterns diﬀer in H2O, both PdCl2 and Pd catalyst to facilitate ester bond cleavage81 (Table S2, entry 2)
+(CH3CN)2Cl2 exhibit similar UV-Vis behavior in CH3CN/H2O, did not improve the yield under these conditions. We hypoth-
+showing two characteristic peaks at 300 nm and 380 nm esized that the amount of ammonia was insuﬃcient for
+corresponding to Pd complexes.80 eﬀective ammonolysis and thus increased the ammonia/PET
+ These findings confirmed our hypothesis on the formation molar ratio by lowering the PET amount and feeding NH3 at
+of common catalytic Pd species regardless of the Pd precursor lower temperatures (Table S2, entries 3 and 4). This adjust-
+used, while for inactive Pd catalysts, they fail to form such ment raised the terephthalamide yield up to 71% when
+species. It also highlights the critical role of both water and ammonia was charged at −20 °C. The product exhibited high
+acetonitrile since these molecules remain in the coordination purity in the NMR spectrum in DMSO-d6 with no by-products
+sphere of active Pd species. Plausibly, the Pd precursors are detected (Fig. 4a).
+hydrolyzed and coordinated with CH3CN and H2O to form Pd Attempts to develop a one-pot transformation from PET to
+(CH3CN)x(H2O)y(OH)t species, which subsequently condense terephthalonitrile by combining the ammonolysis and de-
+into a dimer (major form) and a tetramer (minor form) hydration steps were unsuccessful, even when the dehydration
+(Fig. 3h). The presence of dehydrated forms of both the dimer step was performed in the presence of ammonia (Scheme S1).
+and tetramer suggests dynamic behavior of the coordinated This incompatibility is likely due to the strong coordination
+water molecules, which may either stabilize the complex between ammonia and PdCl2, which deactivates the catalyst.
+through coordination to Pd or detach to generate vacant Additionally, we found that residual ethylene glycol from the
+coordination sites for the substrates. When conducting the ammonolysis step negatively aﬀected the dehydration step.
+reaction in CH3CN/D2O, we observed a significantly lower reac- This eﬀect became pronounced when more than 5 equivalents
+tion rate compared to that in CH3CN/H2O (Fig. 3d), further of ethylene glycol were present, likely due to the formation of
+confirming the positive role of water. Pd black after the reaction (Fig. S6). Understanding the inhibi-
+ A catalytic mechanism is proposed (Fig. 3i). The active Pd tory eﬀects of ethylene glycol and ammonia, we washed and
+species coordinates with the nitrogen atoms of CH3CN and the dried the solid obtained from the ammonolysis step before
+aromatic amide, facilitating the formation of a six-membered subjecting it to the dehydration reaction. This procedure
+ring complex between the two components. Subsequently, a yielded terephthalonitrile at 27% yield along with 7% yield of
+water molecule is transferred from the aromatic amide to 4-cyanobenzamide (Fig. 4b).
+CH3CN. Since Pd can also activate the nitrile group in the
+product, the reverse reaction and hydrolysis can occur as side Recycling end-of-life PET to terephthalonitrile
+reactions. Nevertheless, these side reactions do not generate We then applied our tandem reaction system to end-of-life PET
+additional components within the reaction system. When items (Fig. 5a). After grinding, the PET samples underwent the
+testing the transformation of benzamides bearing diﬀerent same ammonolysis–dehydration tandem process as shown in
+functional groups, we observed that the amide-to-nitrile con- Fig. 4b. The transparent PET bottle aﬀorded a 51% yield of ter-
+version did not reach 100% (Fig. S2), further highlighting the ephthalonitrile, while the green PET bottle gave a comparable
+reversible nature of the water transfer mechanism. yield of 49%. The green pigments were removed during the
+Interestingly, benzamides with electron-withdrawing groups at ammonolysis step (Scheme S2), producing white terephthala-
+the para position showed lower conversion. A possible expla- mide powder. Notably, this tandem process converted PET
+
+
+This journal is © The Royal Society of Chemistry 2025 Green Chem., 2025, 27, 12378–12388 | 12383
+
+
+=== 1.pdf PDF 7 ===
+Paper Green Chemistry
+
+ acetamide remained in the water-soluble fraction. Using this
+ approach, we isolated terephthalonitrile at 46% yield after the
+ first cycle (Fig. 5c). The recovered 4-cyanobenzamide and Pd
+ catalyst were mixed with fresh terephthalamide (at 50% of the
+ amount used in the first cycle) for the subsequent runs. The
+ accumulated yield of terephthalonitrile gradually declined over
+ four cycles, primarily due to Pd catalyst loss as indicated by the
+ fading yellow color after each cycle. ICP-OES revealed that 56%
+ of the Pd content remained after the first reaction and workup
+ cycle. The incomplete recovery of Pd is attributed to the oligo-
+ merization of Pd species, which form less water-soluble com-
+ plexes and are therefore diﬃcult to extract by water.
+ Nonetheless, this approach is superior to direct crystallization
+ of terephthalonitrile after the reaction, which yields only 23% of
+ terephthalonitrile in the first cycle and leads to incomplete con-
+ version of terephthalamide in subsequent cycles (Fig. S8). This
+ result demonstrates the viability of the recycling process, and
+ future studies can focus on the oligomerization and/or immobil-
+ ization of Pd species to minimize the catalyst loss.
+ Compared with previous studies on the upcycling of PET
+ into terephthalonitrile, this work oﬀers significant advantages:
+ a low reaction temperature (≤120 °C) and high selectivity
+ (Table S3). While other pathways yield oxygenates, coke, gases,
+ and aromatics via side reactions, the Pd-catalyzed dehydration
+Fig. 4 (a) Ammonolysis of PET and the NMR spectrum of the product.
+ step enables high amide-to-nitrile selectivity with no other by-
+(b) Tandem conversion of PET into terephthalonitrile. Reaction con-
+ditions for ammonolysis (step 1): PET (60 mg), ethylene glycol (0.5 mL), products detected. The intermediate, 4-cyanobenzamide, can
+ammonia (3 bar, charged at −20 °C), 120 °C, 7 h. Reaction conditions for be separated after the reaction by extracting with water
+dehydration (step 2): product from step 1, PdCl2 (6 mg), CH3CN (3 mL), (Fig. S7) and converted into terephthalonitrile with a 79%
+H2O (3 mL), 100 °C, 8 h. yield in one cycle (Fig. S2). However, as with all reported
+ studies, catalyst reusability remains a limitation that should be
+ addressed in future work.
+bottles to 45% terephthalonitrile even in the presence of Finally, we proposed a schematic diagram for the large-scale
+1 mass equivalent of polyvinyl chloride (PVC)—one of the production of PET-derived terephthalonitrile (Fig. 5e) and per-
+most problematic contaminants in both mechanical and formed an LCA to compare the carbon footprint of conventional
+chemical recycling due to HCl release and chloride-induced terephthalonitrile production with that of our approach (Fig. S9
+poisoning of metal catalysts (e.g., Ru, Pt).82 Using PET fibers as and Tables S4–S9). The proposed system comprises two jacketed
+the feedstock aﬀorded a 39% yield of terephthalonitrile. reactors for ammonolysis and dehydration, two Nutsche filter-
+Overall, these results highlight the system’s capability to dryers for filtration, washing and drying, one evaporator for
+process commercial PET containers and textiles—the two solvent recovery and one distillation unit for acetamide separ-
+largest applications of PET—while maintaining performance ation. This setup enables eﬃcient recycling of solvents and
+under challenging conditions such as pigments and chloride unreacted substrates while producing two additional value-
+contamination. added compounds: ethylene glycol and acetamide.
+ Subsequently, we conducted recycling tests to evaluate the Our analysis revealed that more than half of the total CO2
+reusability of the PdCl2 catalyst. An eﬀective recyclability emissions originate from solvent evaporation due to the high
+system should recover terephthalonitrile with high purity and latent heat of water (Fig. S10), making the system highly sensi-
+remove acetamide, as its accumulation may promote the tive to the feed concentration of terephthalamide in the de-
+reverse reaction. To achieve this, we employed a workup hydration step. Increasing the feed concentration from 8.3 kg
+method involving the evaporation of reaction solvents, fol- m−3 (Scenario 3) to 33.3 kg m−3 (Scenario 1) resulted in a 2.7-
+lowed by washing the resulting solid with water. fold reduction in CO2 emissions from 22.8 kg CO2 per kg ter-
+Terephthalonitrile was isolated from the solid residue with ephthalonitrile to 8.5 kg CO2 per kg terephthalonitrile despite
+high purity (terephthalonitrile to 4-cyanobenzamide molar a slight trade-oﬀ in product yield. Compared to the conven-
+ratio of 12.5 : 1, approximately 93% purity) (Fig. S7). The tional approach from p-xylene, our approach achieves a 28%
+product was further purified by recrystallization from an aceto- lower carbon footprint (Fig. 5d), benefiting from the utilization
+nitrile–water mixture (1 : 1 volume ratio), yielding high-purity, of end-of-life PET instead of fossil-based p-xylene, milder reac-
+long-needle crystals free of 4-cyanobenzamide (Fig. 5b). tion conditions and the co-production of ethylene glycol and
+Meanwhile, most of the 4-cyanobenzamide, Pd catalyst, and acetamide. From a green chemistry perspective, operating at a
+
+
+12384 | Green Chem., 2025, 27, 12378–12388 This journal is © The Royal Society of Chemistry 2025
+
+
+=== 1.pdf PDF 8 ===
+Green Chemistry Paper
+
+
+
+
+Fig. 5 (a) Tandem conversion of PET items into terephthalonitrile. In the case of the PET/PVC mixture, 1 : 1 refers to their mass ratio. Reaction con-
+ditions: same as in Fig. 4b. (b) NMR spectrum of terephthalonitrile crystallized after the reaction. Reaction conditions: terephthalamide (100 mg),
+PdCl2 (6 mg), CH3CN (3 mL), H2O (3 mL), 100 °C, 8 h. (c) Recycing test. Reaction condition: terephthalamide (50 mg for the ﬁrst cycle and 25 mg for
+the subsequent cycles), PdCl2 (6 mg), CH3CN (3 mL), H2O (3 mL), 100 °C, 6 h. (d) Comparison of CO2 released between the conventional approach
+and this work (Scenario 1 and Fig. S10). (e) Schematic diagram of the large-scale production of terephthalonitrile, ethylene glycol and acetamide
+from PET.
+
+
+
+high feed concentration of 33.3 kg m−3 is expected to be more anticipate that future advancements in the sustainable pro-
+environmentally beneficial by reducing energy consumption duction of nitrogen-containing chemicals will further lower
+and CO2 emission. The main challenge at large scale lies in the CO2 emissions associated with PET-based terephthaloni-
+designing eﬃcient product-separation and intermediate-re- trile production.
+cycling units, which can draw inspiration from industrial ester-
+ification processes with similar reversible nature.83
+ We further evaluated the impact of using low-carbon energy Conclusions
+and feedstock sources (Fig. S11 and Table S10). Employing
+green ammonia, green acetonitrile and cleaner energy sources In summary, we developed a tandem process to upcycle PET
+(hydrogen for heating and nuclear power for cooling) further waste into terephthalonitrile under mild conditions. By com-
+reduced the CO2 footprint to 2.0 kg CO2 per kg terephthaloni- bining PET ammonolysis with Pd-catalyzed dehydration via a
+trile (Scenario 4). In this scenario, the primary contributor to water transfer mechanism, we achieved a high terephthaloni-
+CO2 emissions shifted from evaporation to acetonitrile pro- trile yield of up to 68% with no undesired by-products.
+duction, accounting for over 60% of the total footprint. We Mechanistic investigations revealed the reversible nature of the
+
+
+This journal is © The Royal Society of Chemistry 2025 Green Chem., 2025, 27, 12378–12388 | 12385
+
+
+=== 1.pdf PDF 9 ===
+Paper Green Chemistry
+
+transformation, the critical role of water in the dehydration 2 PlasticsEurope, Distribution of plastics production world-
+step and the formation of Pd dimeric complexes as the major wide in 2023, by type [Graph]. In Statista., https://www.sta-
+catalytic species. Applying this process to end-of-life plastics tista.com/statistics/1559140/global-plastic-production-share-
+demonstrated its feasibility in handling PET packaging and by-type/, (accessed 12 August, 2025).
+textile waste. The process is scalable using commercially avail- 3 J. Yan, G. Li, Z. Lei, X. Yuan, J. Li, X. Wang, B. Wang,
+able equipment, enabling the separation of high-purity ter- F. Tian, T. Hu, L. Huang, Y. Ding, X. Xi, F. Zhu, S. Zhang,
+ephthalonitrile alongside value-added ethylene glycol and acet- J. Li, Y. Chen, R. Cao and X. Wang, Nat. Commun., 2025, 16,
+amide. Moreover, life cycle analysis confirmed that our 2800.
+method oﬀers 28% lower carbon footprint compared to con- 4 W. Zhang, S. Kim, L. Wahl, R. Khare, L. Hale, J. Hu,
+ventional terephthalonitrile production, with further D. M. Camaioni, O. Y. Gutiérrez, Y. Liu and J. A. Lercher,
+reductions achievable through the use of low-carbon feed- Science, 2023, 379, 807–811.
+stocks and clean energy sources. This study adds an example 5 C. Xing, C. Mao, S. Wang, Y. Zhou, L. Wu, D. Zhang,
+to integrate plastic upcycling with sustainable nitrogen chemi- D. Kang, D. Yang, W. Gong, W. Wei, L. Wang, C. Li,
+cal production, contributing to a circular carbon economy. G. A. Ozin, D. Yang and W. Sun, Nat. Catal., 2025, 8, 556–
+ 568.
+ 6 J. Feng, J. Duan, C.-T. Hung, Z. Zhang, K. Li, Y. Ai, C. Yang,
+Author contributions Y. Zhao, Z. Yu, Y. Zhang, L. Wang, D. Zhao and W. Li,
+ Angew. Chem., Int. Ed., 2024, 63, e202405252.
+Phuc T. T. Nguyen: conceptualization, methodology, investi- 7 Z. Chen, Z. Qiu, S. Lin and B. Lin, Angew. Chem., Int. Ed.,
+gation, writing – original draft. Jiong Cheng: methodology. 2025, 64, e202503355.
+Junyu Mi: investigation. Ning Yan: supervision, writing – 8 F. Zhang, M. Zeng, R. D. Yappert, J. Sun, Y.-H. Lee,
+review & editing. A. M. LaPointe, B. Peters, M. M. Abu-Omar and S. L. Scott,
+ Science, 2020, 370, 437–441.
+ 9 R. Gao, S. Mao, B. Lu, W. Liu and Y. Wang, Angew. Chem.,
+Conﬂicts of interest Int. Ed., 2025, 64, e202424334.
+ 10 Y. Ding, S. Zhang, C. Liu, Y. Shao, X. Pan and X. Bao, Natl.
+There are no conflicts to declare.
+ Sci. Rev., 2024, 11, nwae097.
+ 11 Z. Xu, N. E. Munyaneza, Q. Zhang, M. Sun, C. Posada,
+ P. Venturo, N. A. Rorrer, J. Miscall, B. G. Sumpter and
+Data availability G. Liu, Science, 2023, 381, 666–671.
+ 12 H. Li, J. Wu, Z. Jiang, J. Ma, V. M. Zavala, C. R. Landis,
+The data supporting this article have been included as part of
+ M. Mavrikakis and G. W. Huber, Science, 2023, 381, 660–
+the SI. Eﬀect of catalyst amount, substituent groups, and resi-
+ 666.
+dues from the ammonolysis step; equilibrium constant calcu-
+ 13 N. E. Munyaneza, R. Ji, A. DiMarco, J. Miscall, L. Stanley,
+lation; condition screening of the ammonolysis step; NMR
+ N. Rorrer, R. Qiao and G. Liu, Nat. Sustain., 2024, 7, 1681–
+spectra; FT-IR spectra; ESI-MS spectra; recycling test; conver-
+ 1690.
+sion of green PET bottles; CO2 emission calculations; compari-
+ 14 B. Zhao, Z. Hu, Y. Sun, R. Hajiayi, T. Wang and N. Jiao,
+son with previous works. See DOI: https://doi.org/10.1039/
+ J. Am. Chem. Soc., 2024, 146, 28605–28611.
+d5gc02680f.
+ 15 H. Li, A. A. Cuthbertson, A. A. Alamer, V. S. Cecon,
+ H. Radhakrishnan, J. Wu, G. W. Curtzwiler, K. L. Vorst,
+ X. Bai, C. R. Landis, G. T. Beckham and G. W. Huber, Green
+Acknowledgements Chem., 2024, 26, 8718–8727.
+N. Y. acknowledges the MOE Tier-2 project (MOE-T2EP10221- 16 S. Zhang, M. Li, Z. Zuo and Z. Niu, Green Chem., 2023, 25,
+0020) from the Ministry of Education, Singapore and the 6949–6970.
+National Research Foundation, Singapore, NRF 17 C. Jehanno, J. W. Alty, M. Roosen, S. De Meester,
+Investigatorship (NRFI07–2021–0006) for the financial A. P. Dove, E. Y. X. Chen, F. A. Leibfarth and H. Sardon,
+support. We thank Prof. Hai M. Duong (National University of Nature, 2022, 603, 803–814.
+Singapore) for providing the PET fibers, Dr Jinquan Chang for 18 A. J. Martín, C. Mondelli, S. D. Jaydev and J. Pérez-Ramírez,
+advice on ESI-MS analysis, and Ms Anh M. H. Trinh for assist- Chem, 2021, 7, 1487–1533.
+ance with some experiments. 19 A. C. Fernandes, Green Chem., 2021, 23, 7330–7360.
+ 20 K. Ragaert, L. Delva and K. Van Geem, Waste Manage.,
+ 2017, 69, 24–58.
+References 21 H. Ryou, J. Byun, J. Bae, D. K. Kim and J. Han, Chem. Eng.
+ J., 2025, 511, 162256.
+ 1 OECD, Global Plastics Outlook,DOI: 10.1787/de747aef-en, 22 Z. Zhang, J. Wang, X. Ge, S. Wang, A. Li, R. Li, J. Shen,
+ (accessed 1 August, 2024). X. Liang, T. Gan, X. Han, X. Zheng, X. Duan, D. Wang,
+
+
+12386 | Green Chem., 2025, 27, 12378–12388 This journal is © The Royal Society of Chemistry 2025
+
+
+=== 1.pdf PDF 10 ===
+Green Chemistry Paper
+
+ J. Jiang and Y. Li, J. Am. Chem. Soc., 2023, 145, 22836– 44 G. V. Mageswari, Y. Chitose, Y. Tsuchiya, J.-H. Lin and
+ 22844. C. Adachi, Angew. Chem., Int. Ed., 2025, 64,
+23 N. P. Murphy, S. H. Dempsey, J. S. DesVeaux, T. Uekert, e202420417.
+ A. C. Chang, S. Mailaram, M. Alherech, H. M. Alt, 45 T. Raghava and S. Banerjee, Chem. – Asian J., 2024, 19,
+ K. J. Ramirez, B. Norton-Baker, E. L. Bell, C. A. Singer, e202400898.
+ A. R. Pickford, J. E. McGeehan, M. J. Sobkowicz and 46 L. Morgan, G. Pavan, N. Demitri, C. Alberoni, T. Scattolin,
+ G. T. Beckham, Nat. Chem. Eng., 2025, 2, 309–320. M. Roverso, S. Bogialli and A. Aliprandi, RSC Adv., 2023, 13,
+24 S. Ügdüler, K. M. Van Geem, R. Denolf, M. Roosen, N. Mys, 34520–34523.
+ K. Ragaert and S. De Meester, Green Chem., 2020, 22, 5376– 47 P. Pollak, G. Romeder, F. Hagedorn and H.-P. Gelbke, in
+ 5394. Ullmann’s Encyclopedia of Industrial Chemistry, 2000, DOI:
+25 Y. Pang, X. Wu, Z. Li, J. Sun, Z. Li, J.-K. Qiu, J. Wang, C. Ma 10.1002/14356007.a17_363.
+ and K. Guo, Green Chem., 2025, 27, 6718–6724. 48 R. D. Bushick and H. P. Angstadt, United States Pat,
+26 T. Yang, Q. Fan, H. He, C. Gao, Z. Yang and J. Xu, Chem. US3959337A, 1976.
+ Eng. J., 2025, 514, 163038. 49 R. L. Golden and H.-D. D. Yoo, United States Pat,
+27 S. Shirazimoghaddam, I. Amin, J. A. Faria Albanese and US4419297A, 1970.
+ N. R. Shiju, ACS Eng. Au, 2023, 3, 37–44. 50 S. Zine, A. Sayari and A. Ghorbel, Can. J. Chem. Eng., 1987,
+28 D. D. Pham and J. Cho, Green Chem., 2021, 23, 511–525. 65, 127–131.
+29 S. Xie, C. Wang, W. Hu, J. Z. Hu, Y. Wang, Z. Dong, 51 A. M. Afanasenko, N. Deak, J. October, R. Sole and
+ N. N. Intan, J. Pfaendtner and H. Lin, Cell Rep. Phys. Sci., K. Barta, Green Chem., 2025, 27, 5947–5981.
+ 2024, 5, 102145. 52 G. Liang, A. Wang, L. Li, G. Xu, N. Yan and T. Zhang,
+30 M. Zhang, Z. Huo, L. Li, Y. Ji, T. Ding, G. Hou, S. Song and Angew. Chem., Int. Ed., 2017, 56, 3050–3054.
+ W. Dai, ChemSusChem, 2025, 18, e202402013. 53 C. X. Liu, K. Liu, Y. Xu, Z. Wang, Y. Weng, F. Liu and
+31 S. Hongkailers, Y. Jing, Y. Wang, N. Hinchiranan and Y. Chen, Angew. Chem., Int. Ed., 2024, 63, e202401255.
+ N. Yan, ChemSusChem, 2021, 14, 4330–4339. 54 S. Tian, Y. Jiao, Z. Gao, Y. Xu, L. Fu, H. Fu, W. Zhou, C. Hu,
+32 J. Liang, J. Fu, H. Lin, J. Chen, S. Peng, Y. Sun, Y. Xu and G. Liu, M. Wang and D. Ma, J. Am. Chem. Soc., 2021, 143,
+ S. Kang, J. Ind. Eng. Chem., 2024, 132, 578–587. 16358–16363.
+33 E. P. Neppel, R.-J. L. Peterson, L. Peereboom and 55 Y. Wu, P. T. T. Nguyen, S. S. Wong, M. Feng, P. Han, B. Yao,
+ J. R. Dorgan, ACS Appl. Polym. Mater., 2025, 7, 5475–5481. Q. He, T. C. Sum, T. Zhang and N. Yan, Nat. Commun.,
+34 Y. Li, M. Wang, X. Liu, C. Hu, D. Xiao and D. Ma, Angew. 2025, 16, 846.
+ Chem., Int. Ed., 2022, 61, e202117205. 56 Y. Ma, X. Guo, M. Du, S. Kang, W. Dong, V. Nicolosi,
+35 X. Wang, Y. Wang, X. Li, Z. Yu, C. Song and Y. Du, RSC Z. Cui, Y. Zhang and B. Qiu, Green Chem., 2024, 26, 3995–
+ Med. Chem., 2021, 12, 1650–1671. 4004.
+36 H. Hu, S. Wu, F. Yan, M. Makha, Y. Sun, C.-X. Du and Y. Li, 57 S. Jia, W. Zhao, X. Liu, Y. Guo and Y. Wang, Sci. China:
+ J. Energy Chem., 2022, 70, 542–575. Chem., 2025, 68, 520–525.
+37 R. M. Rodrigues, D. A. Thadathil, K. Ponmudi, A. George 58 P. T. T. Nguyen, G. Gözaydın, J. Ma, B. Yao, Q. He and
+ and A. Varghese, ChemistrySelect, 2022, 7, e202200081. N. Yan, Green Chem., 2024, 26, 3949–3957.
+38 V. M. Reports, Global Terephthalonitrile Market Size By 59 V. Zubar, A. T. Haedler, M. Schütte, A. S. K. Hashmi and
+ Application (Polymeric Materials, Dyes and Pigments), By T. Schaub, ChemSusChem, 2022, 15, e202101606.
+ End-Use Industry (Aerospace, Automotive), By Form (Solid, 60 L. Gausas, S. K. Kristensen, H. Sun, A. Ahrens,
+ Liquid), By Grade (Industrial Grade, Pharmaceutical Grade), B. S. Donslund, A. T. Lindhardt and T. Skrydstrup, JACS Au,
+ By Manufacturing Process (Liquid-phase Process, Gas-phase 2021, 1, 517–524.
+ Process), By Geographic Scope And Forecast, https://www.veri- 61 C. Sun, Y. Guo, X. Liu and Y. Wang, Catal. Sci. Technol.,
+ fiedmarketreports.com/product/terephthalonitrile-market-size- 2025, 15, 1905–1913.
+ and-forecast/, (accessed 12 August, 2025). 62 G. Zeng, Y. Su, J. Jiang and Z. Huang, J. Am. Chem. Soc.,
+39 W. P. Heilman, R. D. Battershell, W. J. Pyne, P. H. Goble, 2025, 147, 2737–2746.
+ T. A. Magee and R. J. Matthews, J. Med. Chem., 1978, 21, 63 L. Xu, X.-w. Na, L.-y. Zhang, Q. Dong, G.-h. Dong,
+ 906–913. Y.-t. Wang and Z. Fang, Catalysts, 2019, 9, 436.
+40 G. Yu, J. Wang, C. Liu, E. Lin and X. Jian, Polymer, 2009, 64 G. Xie, G. Zhu, Y. Kang, M. Zhu, Q. Lu, C. He, L. Xu and
+ 50, 1700–1708. Z. Fang, J. Cleaner Prod., 2024, 434, 140204.
+41 K. P. Blackmon, D. W. Fox and S. J. Shafer, United States 65 L. Xu, L.-y. Zhang, H. Song, Q. Dong, G.-h. Dong, X. Kong
+ Pat, US4973746A, 1990. and Z. Fang, Waste Manage., 2019, 92, 97–106.
+42 Y. Guo, Z. Chen, Y. Yu, T. Chen, Q. Zhang, C. Li and 66 P. Gupta and S. Bhandari, in Recycling of Polyethylene
+ J. Jiang, J. Appl. Polym. Sci., 2022, 139, 52209. Terephthalate Bottles, ed. S. Thomas, A. Rane, K. Kanny,
+43 L. Hao, B. Luo, X. Li, M. Jin, Y. Fang, Z. Tang, Y. Jia, A. V. K. and M. and G. Thomas, William Andrew
+ M. Liang, A. Thomas, J. Yang and L. Zhi, Energy Environ. Publishing, 2019, pp. 109–134, DOI: 10.1016/B978-0-12-
+ Sci., 2012, 5, 9747–9751. 811361-5.00006-7.
+
+
+This journal is © The Royal Society of Chemistry 2025 Green Chem., 2025, 27, 12378–12388 | 12387
+
+
+=== 1.pdf PDF 11 ===
+Paper Green Chemistry
+
+67 R.-J. L. Peterson, E. P. Neppel, L. Peereboom, P. A. Trinh, 75 P. Dubey, S. Gupta and A. K. Singh, Dalton Trans., 2017, 46,
+ R. Y. Ofoli and J. R. Dorgan, ACS Sustainable Chem. Eng., 13065–13076.
+ 2025, 13, 4120–4131. 76 W. Zhang, C. W. Haskins, Y. Yang and M. Dai, Org. Biomol.
+68 J. Huang, W. Xu, Y. Long, Y. Zhu, S. Chen, W. Duan, J. Ou, Chem., 2014, 12, 9109–9112.
+ H. Wang, C. Dong and S. Tian, Arabian J. Chem., 2024, 17, 77 L. Cullen, F. Meng, R. Lupton and J. M. Cullen, Nat. Chem.
+ 105719. Eng., 2024, 1, 311–322.
+69 X. Luo, Q. Li and X. Chen, Process Saf. Environ. Prot., 2025, 78 A. Verma, R. K. Soni and M. Teotia, J. Appl. Polym. Sci.,
+ 194, 1584–1596. 2019, 136, 48022.
+70 S. I. Maﬃoli, E. Marzorati and A. Marazzi, Org. Lett., 2005, 79 E. Tílvez, M. I. Menéndez and R. López, Inorg. Chem., 2013,
+ 7, 5237–5239. 52, 7541–7549.
+71 H. Naka and A. Naraoka, Tetrahedron Lett., 2020, 61, 80 J. Bogojeski, J. Volbeda, M. Freytag, M. Tamm and
+ 151557. Ž. D. Bugarčić, Dalton Trans., 2015, 44, 17346–17359.
+72 M. H. Al-Huniti, J. Rivera-Chávez, K. L. Colón, J. L. Stanley, 81 W. Chen, M. Li, X. Gu, L. Jin, W. Chen and S. Chen, Polym.
+ J. E. Burdette, C. J. Pearce, N. H. Oberlies and M. P. Croatt, Degrad. Stab., 2022, 206, 110168.
+ Org. Lett., 2018, 20, 6046–6050. 82 P. A. Kots, B. C. Vance, C. M. Quinn, C. Wang and
+73 H. Okabe, A. Naraoka, T. Isogawa, S. Oishi and H. Naka, D. G. Vlachos, Nat. Sustain., 2023, 6, 1258–1267.
+ Org. Lett., 2019, 21, 4767–4770. 83 Z. Khan, F. Javed, Z. Shamair, A. Hafeez, T. Fazal, A. Aslam,
+74 A. K. Sharma, H. Joshi, R. Bhaskar and A. K. Singh, Dalton W. B. Zimmerman and F. Rehman, J. Ind. Eng. Chem., 2021,
+ Trans., 2019, 48, 10962–10970. 103, 80–101.
+
+
+
+
+12388 | Green Chem., 2025, 27, 12378–12388 This journal is © The Royal Society of Chemistry 2025

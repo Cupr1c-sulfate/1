@@ -1,0 +1,340 @@
+
+=== 9.pdf PDF 1 ===
+ Journal of Hazardous Materials 178 (2010) 390–396
+
+
+
+ Contents lists available at ScienceDirect
+
+
+ Journal of Hazardous Materials
+ journal homepage: www.elsevier.com/locate/jhazmat
+
+
+
+
+Scanning electron microscopic study of hazardous waste ﬂakes of polyethylene
+terephthalate (PET) by aminolysis and ammonolysis
+Alok Mittal a,∗ , R.K. Soni b , Krishna Dutt b , Swati Singh b
+a
+ Department of Chemistry, Maulana Azad National Institute of Technology (A Deemed University), Bhopal 462051, India
+b
+ Department of Chemistry, Ch. Charan Singh University, Meerut 250004, India
+
+
+
+
+a r t i c l e i n f o a b s t r a c t
+
+Article history: Polyethylene terephthalate (PET) waste ﬂakes were degraded with aqueous methylamine and aqueous
+Received 7 September 2009 ammonia, respectively at room temperature in the presence and absence of quaternary ammonium salt as
+Received in revised form 15 January 2010 a catalyst for different periods of time. The aminolysed and ammonolysed PET samples were investigated
+Accepted 16 January 2010
+ for the surface morphology with the help of scanning electron micrograph (SEM). It shows that the
+Available online 25 January 2010
+ semi-crystalline PET waste samples reduce to monodisperse rods before fully degradation to the end
+ products. The presence of the catalyst provides site for degradation of PET waste and enhances the rate
+Keywords:
+ of degradation. The SEM shows early developments of ﬁssures in comparison to the one in absence of
+Polyesters
+Recycling
+ quaternary ammonium salt used as catalyst.
+Degradation © 2010 Elsevier B.V. All rights reserved.
+Ammonolysis
+Aminolysis
+SEM
+
+
+
+
+1. Introduction temperature. Soni et al. [16] have suggested that aminolysis with
+ 99% hydrogen monohydrate degrades PET bottles, increases per-
+ Some aromatic polyesters are biodegradable but PET waste is cent crystallinity of the residue and decreases molecular weight.
+not biodegradable, thus, it will create environmental hazards if Soni and Singh [17] reported the formation of terephthalamide and
+disposed in landﬁlls [1]. Therefore, the only way of addressing N,N -dimethyl terephthalamide by the degradation of PET waste
+the problem of disposal of post-industrial and post-consumer PET through aminolysis and ammonolysis using aqueous methylamine
+waste is through recycling [2]. Recycling may be deﬁned as any and ammonia, respectively at normal conditions of temperature
+activity involving reclamation, recovery or reuse of materials or and pressure.
+articles. It also extends the service life of plastics. A striking fea- In the present work, the PET waste was degraded by aminolysis
+ture of PET, which is on the environmental side, is that it is fully and ammonolysis for different periods of time. The morphology of
+recyclable. the end products of PET waste obtained after different lengths of
+ Extensive studies of various degradation reactions of PET have time was studied with the help of scanning electrons microscopy.
+been reported [2]. Two kinds of methods of recycling known as
+mechanical [3] and chemical recycling [4] are used in recycling
+ 2. Experimental
+of PET waste. Most of the chemicals recycling methods include
+hydrolysis [5,6], alcoholysis [7,8] and glycolysis [9,10]. The chem-
+ 2.1. Materials and characterization
+ical methods of recycling allow recovery of original monomers or
+other modiﬁed chemicals. These methods require tedious condi-
+ PET waste ﬂakes as obtained from the industry were put into
+tions of high pressure and high temperature.
+ a hot water bath maintained at 70–100 ◦ C to ensure the effective
+ Limited but signiﬁcant contributions have been reported on
+ separation of PET ﬂakes from other impurities. PET ﬂakes so sep-
+the aminolysis and ammonolysis of PET waste by various work-
+ arated were washed thoroughly with distilled water and dried at
+ers [11–14]. Soni et al. [15] used methylamine, ethylamine and
+ 60 ◦ C.
+n-butylamine to the selective amminolysis of PET waste at room
+ An aqueous solution of methylamine (40%, w/v), procured from
+ M/s Central Drags House, New Delhi (India), laboratory grade and
+ 40% (w/v) aqueous ammonia (sp. gravity 0.91), procured from M/s
+ ∗ Corresponding author. Tel.: +91 9425025427; fax: +91 755 2670562. Qualigens, Mumbai (India), laboratory grade, were used for aminol-
+ E-mail address: aljymittal@yahoo.co.in (A. Mittal). ysis and ammonolysis respectively.
+
+0304-3894/$ – see front matter © 2010 Elsevier B.V. All rights reserved.
+doi:10.1016/j.jhazmat.2010.01.092
+
+
+=== 9.pdf PDF 2 ===
+ A. Mittal et al. / Journal of Hazardous Materials 178 (2010) 390–396 391
+
+Table 1
+Weight of unreacted PET and degraded product during aminolysis and ammonolysis in presence and absence of catalyst.
+
+ No. of days Weight of unreacted PET waste (g) Weight of product (g)
+
+ Aminolysis Ammonolysis Aminolysis Ammonolysis
+
+ With catalyst Without catalyst With catalyst Without catalyst With catalyst Without catalyst With catalyst Without catalyst
+
+ 0 10.0 10.0 10.0 10.0 0 0 0 0
+ 3 6.7 8.3 9.0 9.4 3.1 1.5 0.7 0.6
+ 7 5.3 7.2 8.1 8.6 4.5 2.6 1.7 1.4
+ 15 4.1 5.6 6.9 7.3 5.6 4.2 3.0 2.7
+ 21 3.2 4.0 6.2 7.1 6.3 5.7 3.6 2.9
+ 25 2.7 3.5 6.0 6.9 7.0 6.2 3.8 3.1
+ 30 1.9 2.9 PET ﬂakes get brittle 7.9 6.8 PET ﬂakes get brittle
+ 45 0.0 1.3 9.4 8.4
+
+
+
+2.2. Preparation of sample ratio of 1:10 w/v by weight at room temperature (40 ◦ C) with con-
+ tinuous constant stirring. The degraded PET ﬂakes were separated
+ Polyethylene terephthalate waste is in the form of ﬂakes size from the white precipitates. These PET ﬂakes were washed with
+ranging from 1 to 2 cm. For the degradation of polyethylene tereph- water and dried over vacuum [16].
+thalate waste through aminolysis, the PET waste ﬂakes were made
+to react with aqueous methylamine in properly sealed round bot-
+ 2.3. SEM studies
+tom ﬂask. A quaternary ammonium salt namely cetyl ammonium
+bromide was used as catalyst. The PET waste was subjected to
+ SEM studies were done on TEOL JSM-840 scanning electron
+degradation for different periods of time i.e. 3, 7, 15, 21, 25, 30
+ microscope. All of the end products obtained by aminolysis and
+days. The PET ﬂakes were separated and dried under vacuum at
+ ammonolysis of PET waste after different periods of time were
+room temperature.
+ gold plated with 22 carat gold (400 ␮m thickness coating) before
+ Similarly, in the ammonolysis of PET waste ﬂakes, degradation
+ subjecting the sample ﬂakes to the heated source of electrons.
+experiments were carried out with aqueous ammonia solution.
+ The electron beam was moved over the sample surface and the
+Dried PET waste reacted with excess of aqueous ammonia in the
+ electrons penetrated the material to a considerable depth. This gen-
+
+
+
+
+ Scheme 1. Proposed mechanism for PET degradation by aminolysis in absence of catalyst.
+
+
+=== 9.pdf PDF 3 ===
+392 A. Mittal et al. / Journal of Hazardous Materials 178 (2010) 390–396
+
+
+erated image was photographed at magniﬁcation of 2000 time. The It is pertaining to note that in the case of ammonolysis of PET
+experiment was preformed both in the presence and absence of waste, it was observed that after 30 days the PET ﬂakes become brit-
+quaternary ammonium salt. tle in presence and absence of catalyst therefore no further changes
+ in the micrographs were observed. The brittleness of the PET waste
+ was in such a state that it was not possible at all to separate the
+3. Results and discussions untreated PET waste from the mixture and that is why the untreated
+ PET waste could not be weighed.
+3.1. Degradation of PET waste through aminolysis and
+ammonolysis 3.2. Proposed mechanism for PET degradation via
+ aminolysis/ammonolysis
+ Aminolysis and ammonolysis of PET waste give only one product
+through out namely N,N -dimethyl terephthalamide and tereph- Aminolysis and ammonolysis of PET waste gave N,N -dimethyl
+thalamide, respectively, for various lengths of time i.e. 3, 7, 15, 21, terephthalamide and terephthalamide as end products as per the
+25, 30 and 45 days. This indicates that at every stage of the reaction following reaction:
+same mechanism is followed.
+
+
+
+
+ Table 1 summarizes the weight of PET waste left unreacted and There are two different phases involved in the both aminoly-
+that of the degraded product so formed in presence and absence of sis and ammonolysis: one is aqueous (methylamine/ammonia) and
+catalyst at different lengths of time. This reveals that in absence of the other of solid (polymer). Aqueous phase is expected to carry a
+catalyst even after 45 days of reaction time, 13% by weight of PET neculeophile. Methylamine and ammonia are much weaker acids
+waste was left unreacted while in presence of catalyst, the reaction than water. Since acids could hardly catalyze the reaction, this reac-
+completes after 30 days and after 45 days, no PET waste ﬂakes were tion does not occur by an electrophilic mechanism but occurs by
+left unreacted. a nucleophilic mechanism, and so the rate of degradation reac-
+ This conﬁrms the formation of single product through out the tion is slow in nature. But it cannot be concluded that whether
+reaction, complete degradation of PET ﬂakes, and increased rate of the reaction occurs by random scission or by unzipping method. If
+degradation in presence of catalyst and absence of any side reaction. degradation occurs by random scission, same product should not
+
+
+=== 9.pdf PDF 4 ===
+ A. Mittal et al. / Journal of Hazardous Materials 178 (2010) 390–396 393
+
+
+be obtained at different lengths of time, and also the possibility of aqueous phase. Scheme 2 gives the proposed mechanism for PET
+formation of other terephthalamides cannot be ruled out. Since we degradation by aminolysis in presence of catalyst. QN+ H− attacks
+have obtained same white solid and got 100% pure terephthala- the polymer and displacement occurs with the product formation.
+mides, it therefore, cannot be concluded that the reaction occurs
+by random scission. If degradation occurs by unzipping method,
+ 3.3. SEM studies on the degradation product of PET waste by
+degradation should have started at one end and ﬁnished at the other
+ aminolysis
+end. But since amorphous region of PET, undergoes degradation
+more rapidly than the crystalline region, unzipping also seems to be
+ Fig. 1(a) shows SEM micrograph of PET waste ﬂake at magniﬁca-
+unreasonable. It can be concluded that both random and unzipping
+ tion of 2000 before subjecting it to degradation by aminolysis and
+mechanism of degradation are followed simultaneously.
+ ammonolysis. It presents a smooth and continuous ﬂake structure.
+ It reveals that PET is more crystalline in nature than amorphous,
+3.2.1. Proposed mechanism for PET degradation by aminolysis in and that the amorphous regions are scattered in between the ori-
+absence of catalyst ented chains. SEM studies on the degradation products of PET waste
+ Methylamine acts as a nucleophile and attacks PET at the elec- by aminolysis SEM micrographs of PET ﬂake degraded for 3 days
+tron deﬁcient center C–O. Scheme 1 gives a proposed picture of PET with aqueous methylamine in presence and absence of catalyst.
+degradation by aminolysis in absence of catalyst. The SEM micrograph for the PET chips subjected to degradation by
+ methylamine shows ﬁssures of length ranging from 5 to 10 ␮m. Ini-
+3.2.2. Proposed mechanism of PET degradation by aminolysis in tially, methylamine selectively attacks amorphous region leaving
+presence of catalyst behind crystalline PET. After certain periods of time both crystalline
+ When quaternary salt (Q+ X− ) is added to the mixture, it is and amorphous regions are attacked. This observation is in agree-
+expected to exchange its anion with the excess of nucleophile in the ment with the earlier reported literature [11], which states that
+
+
+
+
+ Scheme 2. Proposed mechanism of PET degradation by aminolysis in presence of catalyst.
+
+
+=== 9.pdf PDF 5 ===
+394 A. Mittal et al. / Journal of Hazardous Materials 178 (2010) 390–396
+
+
+
+
+Fig. 1. (a) SEM of PET ﬂakes. (b) SEM of PET ﬂakes degraded for 7 days by amminolysis in the presence of catalyst. (c) SEM of PET ﬂakes degraded for 7 days by amminolysis
+in the absence of catalyst. (d) SEM of PET ﬂakes degraded for 21 days in the presence of catalyst.
+
+
+methylamine, is selective enough to separate the two morpholog- alyst. It presents more regular cuts all over the surface of PET as
+ical phases of PET. The amorphous region of PET degrades much shown in Fig. 1(b), indicating that the whole region of PET is under
+faster, and the effect has been found to be more pronounced when degradation. While SEM micrograph of PET ﬂake degraded for 7
+a quaternary salt is used as a catalyst. This shows cuts all over the days in the absence of catalyst shows that a little portion of PET
+surface of PET while no ﬁssures are there in SEM micrograph of PET surface has started degrading here and there and still no ﬁssures
+ﬂake degraded for even after 3 days by aminolysis in absence of appears as shown in Fig. 1(c).
+catalyst indicating that the reaction is much slow in the absence of These ﬁssures get more widen in SEM micrograph of PET ﬂakes
+catalyst. These ﬁssures get widen in SEM micrograph of PET ﬂake degraded for 15 days by aminolysis of PET waste in presence
+degraded for 7 days by aminolysis of PET waste in presence of cat- of catalyst. After 15 days of degradation the lamellar morphol-
+
+
+
+
+Fig. 2. (a) SEM of PET ﬂakes degraded for 21 days by amminolysis in the absence of catalyst. (b) SEM of PET ﬂakes degraded for 30 days by amminolysis in the presence of
+catalyst. (c) SEM of PET ﬂakes degraded for 30 days by amminolysis in the absence of catalyst. (d) SEM of the product obtained after degradation of PET waste ﬂakes with
+aqueous methylamine both in the presence and absence of catalyst.
+
+
+=== 9.pdf PDF 6 ===
+ A. Mittal et al. / Journal of Hazardous Materials 178 (2010) 390–396 395
+
+
+
+
+Fig. 3. (a) SEM of PET ﬂakes degraded for 7 days by ammonolysis in the presence of catalyst. (b) SEM of PET ﬂakes degraded for 7 days by ammonolysis in the absence of
+catalyst. (c) SEM of PET ﬂakes degraded for 21 days by ammonolysis in the presence of catalyst. (d) SEM of PET ﬂakes degraded for 21 days by ammonolysis in the absence
+of catalyst.
+
+
+ogy of PET ﬂake starts reducing to crystals of distinct shape as ﬂake degraded for 21 days in presence of catalyst show that
+clear from the SEM micrograph. SEM micrograph of PET degraded the degradation of PET ﬂake is near completion as evident from
+for 15 days in absence of catalyst now show appearance of ﬁs- Fig. 1(d), while the micrograph taken in absence of catalyst after
+sures of about 3–12 ␮m, which are observed after 3 days in 21 days presents ﬁssures all over the surface of PET as shown in
+presence of catalyst. This clearly indicates that the rate of degra- Fig. 2(a).
+dation of PET ﬂake in absence of catalyst is much slower than Comparison of micrographs (Fig. 2(b) and (c)) for degradation
+in the presence of catalyst. It is apparent from SEM micro- of PET after 30 days under two different conditions clearly shows
+graph that these ﬁssures get more and more widen when PET that though rate of degradation has almost equalized, still degra-
+ﬂakes were degraded for 21 days. The SEM micrographs of PET dation of PET in presence of catalyst has an edge over the reactions
+
+
+
+
+Fig. 4. (a) SEM of PET ﬂakes degraded for 30 days by ammonolysis in the presence of catalyst. (b) SEM of PET ﬂakes degraded for 30 days by ammonolysis in the absence of
+catalyst. (c) SEM of the product obtained after degradation of PET waste ﬂakes with aqueous ammonia both in the presence of catalyst. (d) SEM of the product obtained after
+degradation of PET waste ﬂakes with aqueous ammonia both in the absence of catalyst.
+
+
+=== 9.pdf PDF 7 ===
+396 A. Mittal et al. / Journal of Hazardous Materials 178 (2010) 390–396
+
+
+carried out without catalyst. It is apparent from Fig. 2(b) that PET ammonia and therefore it is more selective in separating the two
+degradation in absence of catalyst is also near completion. morphological phases in PET.
+ After 45 days of PET degradation in presence of catalyst, no PET
+ﬂakes remain while in absence of catalyst some of the PET ﬂakes 4. Conclusion
+left unreacted. Fig. 2(d) shows SEM micrograph recorded at mag-
+niﬁcation of 1500, of the product obtained after degradation of PET SEM studies carried out on aminolysed and ammonolysed PET
+with methylamine both in presence and absence of catalyst. Same waste ﬂakes reﬂect that degradation occurs faster in the presence
+micrograph was obtained under both the conditions i.e. in the pres- of catalyst than in the absence of catalyst. These studies reveal that
+ence of catalyst and in the absence of catalyst and therefore, only the long polymeric chains in the semi-crystalline PET reduce to
+one micrograph is presented. monodisperse rods and the ﬁssures on the surface of PET deep-
+ When PET waste ﬂakes are exposed to methylamine environ- ened with time. Amorphous portion is removed at a faster rate,
+ment in presence of quaternary ammonium salt, deep ﬁssures and there is a marked increase in the crystallinity of the residue
+develop and as the time progresses, these ﬁssures further deepen towards completion of the reaction.
+and the long folded chains are reduced to short mono disperse rods.
+Though these observations are the same for the reactions carried Acknowledgement
+out in absence of quaternary salt, yet initial rates of degradation are
+found to be much faster for the reactions carried out in presence of Authors (RKS, KD & SS) are thankful to Professor S.K. Kak, Vice
+quaternary salt as catalyst. Chancellor of C.C.S. University Meerut for providing the facilities to
+ complete this Research paper.
+3.4. SEM studies on the degradation product of PET waste by
+ammonolysis References
+
+ After 7 days of degradation of PET waste in presence of cata- [1] J.M. Amos, Cleaning up the Waste Stream: Recycling Plastics, WM2, University
+ of Missouri, MU Extension Publications, 1993.
+lyst and in the absence of catalyst the SEM micrographs show that
+ [2] R.K. Soni, S. Soama, K. Dutt, Studies on biodegradability of copolymers of lactic
+degradation of PET waste is increased as shown in Fig. 3(a) and (b), acid, terephthalic acid and ethylene glycol, Polym. Degrad. Stab. 94 (3) (2009)
+respectively. It is apparent from the SEM micrograph of PET waste 432–437.
+degraded by ammonolysis in the presence and absence of catalyst [3] F. Perguini, M.L. Mastellone, U. Arena, Progress in rubber, Plastics Recycl. Tech-
+ nol. 20 (1) (2004) 69–84.
+for 15, 21, 25 and 30 days that in ammonolysis whole mass is get- [4] D. Paszun, T. Spychaj, Chemical recycling of poly(ethylene terephthalate), Ind.
+ting converted into the degraded products (Figs. 3(c), (d) and 4(a), Eng. Chem. Res. 36 (1997) 1373–1383.
+(b)). [5] S.R. Shukla, A.M. Harad, Glycolysis of polyethylene terephthalate waste ﬁbers,
+ J Appl. Polym. Sci. 97 (2) (2005) 513–517.
+ After 45 days SEM micrograph of product obtained after degra- [6] C.G.G. Namboori, M.S. Haith, Steric effects in the basic hydrolysis of polyethy-
+dation of PET waste with aqueous ammonia both in the presence lene terephthalate, J. Appl. Polym. Sci. 12 (1968) 1999.
+and absence of catalyst shows the complete degradation of PET [7] Y. Yang, Y. Lu, H. Xiang, Y. Xu, Y. Li, Study on methanolytic depolymerization of
+ PET with supercritical methanol for chemical recycling, Polym. Degrad. Stab.
+waste into the degraded products as shown in Fig. 4(c) and (d), 75 (1) (2002) 185–191.
+respectively. [8] S. Mishra, A.S. Goie, Kinetic and thermodynamic study of methanolysis of
+ SEM micrographs of PET ﬂakes degraded in absence of catalyst poly(ethylene terephthalate) waste powder, Polym. Int. 52 (2003) 337–342.
+ [9] J.R. Campanelli, M.R. Kamal, D.G. Cooper, Kinetics of glycolysis of poly (ethylene
+reﬂect initially lower rate of degradation. Degradation of PET in terephthalate) melts, J. Appl. Polym. Sci. 54 (1994) 1731–1740.
+absence of catalyst after 15 days is same as degradation of PET in [10] D. Gintis, Glycolytic recycle of polyethylene terephthalate, Makromol. Chem.
+presence of catalyst after 3 days. After 25 days, there were no signif- Macromol. Symp. 57 (1992) 185.
+ [11] A. Jain, R.K. Soni, Spectroscopic investigation of end products obtained by
+icant changes in rate of reaction and the rate of degradation in the
+ ammonolysis of poly (ethylene terephthalate) waste in the presence of zinc
+presence and absence of catalyst almost equalizes. After 45 days, acetate as a catalyst, J. Polym. Res. 14 (2007) 475–481.
+only short brittle PET ﬂakes remain, which can easily be crushed [12] S.R. Shukla, A.M. Harad, Aminolysis of polyethylene terephthalate waste, Poly.
+down. Same micrographs are obtained both in the presence and Degrad. Stab. 91 (8) (2006) 1850–1854.
+ [13] Y.W. Awodi, A. Johnson, R.H. Peters, A.V. Popoola, Characterization of the
+absence of catalyst as evident from Fig. 4(c) and (d), respectively. aminolytic product of poly(ethylene terephthalate), Polymer 28 (2) (1987)
+ When PET waste ﬂakes are exposed to ammonia environment 320–324.
+separately in presence and absence of catalyst, it is observed that [14] H. Zahn, H. Pfeifer, Aminolysis of polyethylene terephthalate, Polymer 4 (1963)
+ 429–432.
+the initial rate of degradation is faster in presence of a catalyst [15] R.K. Soni, K. Dutt, S. Singh, Studies on synthesis and characterisation of n-alkyl
+at all length of time in comparison to the degradation carried out terephthalamides using different amines from polyethylene terephthalate
+without catalyst. Further, both in presence and absence of catalyst (pet) waste, J. Appl. Polym. Sci. 115 (5) (2009) 3074–3080.
+ [16] R.K. Soni, K. Dutt, S. Soam, A. Jain, S. Singh, A novel route of synthesis, charac-
+ammonia attacks simultaneously the amorphous and crystalline terization of terephthalic dihydrazide from polyethylene terephthalate waste
+regions of PET, but its selectivity to separate the two morphological and it’s application in PVC compounding as plasticizer, J. Appl. Polym. Sci. 113
+phases is very low in comparison to that of methylamine and may (2009) 1090–1096.
+ [17] R.K. Soni, S. Singh, Synthesis and characterization of terephthalamides from
+be attributed to the fact that the selectivity of a reactant depends PET waste, J. Appl. Polym. Sci. 96 (5) (2005) 1515–1528.
+on its nucleophilicity. Methylamine is a better nucleophile than

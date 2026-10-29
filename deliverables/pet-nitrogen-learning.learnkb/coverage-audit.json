@@ -1,0 +1,1315 @@
+{
+  "schemaVersion": "1.1",
+  "learningDepth": "systematic",
+  "sources": [
+    {
+      "filename": "1.pdf",
+      "status": "covered",
+      "reason": "全文顺序读取至末页；正文主张和关键图表映射到学习单元，纯参考文献页单独记录。",
+      "unitIds": [
+        "u01",
+        "u02",
+        "u03",
+        "u04"
+      ],
+      "ranges": [
+        {
+          "kind": "pdf_page",
+          "start": 1,
+          "end": 11
+        }
+      ]
+    },
+    {
+      "filename": "11.pdf",
+      "status": "covered",
+      "reason": "全文顺序读取至末页；正文主张和关键图表映射到学习单元，纯参考文献页单独记录。",
+      "unitIds": [
+        "u05",
+        "u06",
+        "u07",
+        "u08"
+      ],
+      "ranges": [
+        {
+          "kind": "pdf_page",
+          "start": 1,
+          "end": 10
+        }
+      ]
+    },
+    {
+      "filename": "12.pdf",
+      "status": "covered",
+      "reason": "全文顺序读取至末页；正文主张和关键图表映射到学习单元，纯参考文献页单独记录。",
+      "unitIds": [
+        "u09",
+        "u10",
+        "u11",
+        "u12"
+      ],
+      "ranges": [
+        {
+          "kind": "pdf_page",
+          "start": 1,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "filename": "2.pdf",
+      "status": "covered",
+      "reason": "全文顺序读取至末页；正文主张和关键图表映射到学习单元，纯参考文献页单独记录。",
+      "unitIds": [
+        "u13",
+        "u14",
+        "u15"
+      ],
+      "ranges": [
+        {
+          "kind": "pdf_page",
+          "start": 1,
+          "end": 7
+        }
+      ]
+    },
+    {
+      "filename": "3.pdf",
+      "status": "covered",
+      "reason": "全文顺序读取至末页；正文主张和关键图表映射到学习单元，纯参考文献页单独记录。",
+      "unitIds": [
+        "u16",
+        "u17",
+        "u18"
+      ],
+      "ranges": [
+        {
+          "kind": "pdf_page",
+          "start": 1,
+          "end": 12
+        }
+      ]
+    },
+    {
+      "filename": "4.pdf",
+      "status": "covered",
+      "reason": "全文顺序读取至末页；正文主张和关键图表映射到学习单元，纯参考文献页单独记录。",
+      "unitIds": [
+        "u19",
+        "u20",
+        "u21",
+        "u22"
+      ],
+      "ranges": [
+        {
+          "kind": "pdf_page",
+          "start": 1,
+          "end": 11
+        }
+      ]
+    },
+    {
+      "filename": "5.pdf",
+      "status": "covered",
+      "reason": "全文顺序读取至末页；正文主张和关键图表映射到学习单元，纯参考文献页单独记录。",
+      "unitIds": [
+        "u23",
+        "u24",
+        "u25"
+      ],
+      "ranges": [
+        {
+          "kind": "pdf_page",
+          "start": 1,
+          "end": 10
+        }
+      ]
+    },
+    {
+      "filename": "6.pdf",
+      "status": "covered",
+      "reason": "全文顺序读取至末页；正文主张和关键图表映射到学习单元，纯参考文献页单独记录。",
+      "unitIds": [
+        "u26",
+        "u27",
+        "u28"
+      ],
+      "ranges": [
+        {
+          "kind": "pdf_page",
+          "start": 1,
+          "end": 9
+        }
+      ]
+    },
+    {
+      "filename": "7.pdf",
+      "status": "covered",
+      "reason": "全文顺序读取至末页；正文主张和关键图表映射到学习单元，纯参考文献页单独记录。",
+      "unitIds": [
+        "u29",
+        "u30",
+        "u31",
+        "u32"
+      ],
+      "ranges": [
+        {
+          "kind": "pdf_page",
+          "start": 1,
+          "end": 10
+        }
+      ]
+    },
+    {
+      "filename": "9.pdf",
+      "status": "covered",
+      "reason": "全文顺序读取至末页；正文主张和关键图表映射到学习单元，纯参考文献页单独记录。",
+      "unitIds": [
+        "u33",
+        "u34"
+      ],
+      "ranges": [
+        {
+          "kind": "pdf_page",
+          "start": 1,
+          "end": 7
+        }
+      ]
+    }
+  ],
+  "sourceBlocks": [
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00001",
+      "status": "covered",
+      "mappedUnits": [
+        "u01"
+      ],
+      "mappedClaims": [
+        "claim-001",
+        "claim-009"
+      ]
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00002",
+      "status": "covered",
+      "mappedUnits": [
+        "u01"
+      ],
+      "mappedClaims": [
+        "claim-002",
+        "claim-008"
+      ]
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00003",
+      "status": "covered",
+      "mappedUnits": [
+        "u01",
+        "u04"
+      ],
+      "mappedClaims": [
+        "claim-003",
+        "claim-004",
+        "claim-006",
+        "claim-025"
+      ]
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00004",
+      "status": "covered",
+      "mappedUnits": [
+        "u01",
+        "u02"
+      ],
+      "mappedClaims": [
+        "claim-005",
+        "claim-007",
+        "claim-010"
+      ]
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00005",
+      "status": "covered",
+      "mappedUnits": [
+        "u02"
+      ],
+      "mappedClaims": [
+        "claim-011",
+        "claim-012",
+        "claim-015"
+      ]
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00006",
+      "status": "covered",
+      "mappedUnits": [
+        "u02",
+        "u03"
+      ],
+      "mappedClaims": [
+        "claim-013",
+        "claim-014",
+        "claim-016",
+        "claim-017",
+        "claim-018"
+      ]
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00007",
+      "status": "covered",
+      "mappedUnits": [
+        "u03",
+        "u04"
+      ],
+      "mappedClaims": [
+        "claim-019",
+        "claim-020",
+        "claim-021",
+        "claim-022"
+      ]
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00008",
+      "status": "covered",
+      "mappedUnits": [
+        "u04"
+      ],
+      "mappedClaims": [
+        "claim-023"
+      ]
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00009",
+      "status": "covered",
+      "mappedUnits": [
+        "u04"
+      ],
+      "mappedClaims": [
+        "claim-024"
+      ]
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00010",
+      "status": "no-content",
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "reason": "已顺序阅读并查看原页；本块为参考文献、声明或无新增主张的重复说明。引文所指论文不算本次已读证据。"
+    },
+    {
+      "sourceId": "src-e62068f57189-pdf_page-00011",
+      "status": "no-content",
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "reason": "已顺序阅读并查看原页；本块为参考文献、声明或无新增主张的重复说明。引文所指论文不算本次已读证据。"
+    },
+    {
+      "sourceId": "src-214fbead528d-pdf_page-00001",
+      "status": "covered",
+      "mappedUnits": [
+        "u05"
+      ],
+      "mappedClaims": [
+        "claim-026"
+      ]
+    },
+    {
+      "sourceId": "src-214fbead528d-pdf_page-00002",
+      "status": "covered",
+      "mappedUnits": [
+        "u05"
+      ],
+      "mappedClaims": [
+        "claim-027"
+      ]
+    },
+    {
+      "sourceId": "src-214fbead528d-pdf_page-00003",
+      "status": "covered",
+      "mappedUnits": [
+        "u05"
+      ],
+      "mappedClaims": [
+        "claim-028",
+        "claim-029",
+        "claim-030",
+        "claim-034"
+      ]
+    },
+    {
+      "sourceId": "src-214fbead528d-pdf_page-00004",
+      "status": "covered",
+      "mappedUnits": [
+        "u05"
+      ],
+      "mappedClaims": [
+        "claim-031",
+        "claim-032"
+      ]
+    },
+    {
+      "sourceId": "src-214fbead528d-pdf_page-00005",
+      "status": "covered",
+      "mappedUnits": [
+        "u05",
+        "u06"
+      ],
+      "mappedClaims": [
+        "claim-033",
+        "claim-035"
+      ]
+    },
+    {
+      "sourceId": "src-214fbead528d-pdf_page-00006",
+      "status": "covered",
+      "mappedUnits": [
+        "u06",
+        "u07"
+      ],
+      "mappedClaims": [
+        "claim-036",
+        "claim-037",
+        "claim-038",
+        "claim-039",
+        "claim-040",
+        "claim-042",
+        "claim-045"
+      ]
+    },
+    {
+      "sourceId": "src-214fbead528d-pdf_page-00007",
+      "status": "covered",
+      "mappedUnits": [
+        "u06",
+        "u07",
+        "u08"
+      ],
+      "mappedClaims": [
+        "claim-041",
+        "claim-043",
+        "claim-044",
+        "claim-046",
+        "claim-047",
+        "claim-048",
+        "claim-049",
+        "claim-053"
+      ]
+    },
+    {
+      "sourceId": "src-214fbead528d-pdf_page-00008",
+      "status": "covered",
+      "mappedUnits": [
+        "u08"
+      ],
+      "mappedClaims": [
+        "claim-050",
+        "claim-051",
+        "claim-052"
+      ]
+    },
+    {
+      "sourceId": "src-214fbead528d-pdf_page-00009",
+      "status": "no-content",
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "reason": "已顺序阅读并查看原页；本块为参考文献、声明或无新增主张的重复说明。引文所指论文不算本次已读证据。"
+    },
+    {
+      "sourceId": "src-214fbead528d-pdf_page-00010",
+      "status": "no-content",
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "reason": "已顺序阅读并查看原页；本块为参考文献、声明或无新增主张的重复说明。引文所指论文不算本次已读证据。"
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00001",
+      "status": "covered",
+      "mappedUnits": [
+        "u09"
+      ],
+      "mappedClaims": [
+        "claim-054"
+      ]
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00002",
+      "status": "covered",
+      "mappedUnits": [
+        "u09"
+      ],
+      "mappedClaims": [
+        "claim-055"
+      ]
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00003",
+      "status": "covered",
+      "mappedUnits": [
+        "u09",
+        "u10"
+      ],
+      "mappedClaims": [
+        "claim-056",
+        "claim-063",
+        "claim-064"
+      ]
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00004",
+      "status": "covered",
+      "mappedUnits": [
+        "u09"
+      ],
+      "mappedClaims": [
+        "claim-057",
+        "claim-058",
+        "claim-059",
+        "claim-060",
+        "claim-062"
+      ]
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00005",
+      "status": "covered",
+      "mappedUnits": [
+        "u09",
+        "u11",
+        "u12"
+      ],
+      "mappedClaims": [
+        "claim-061",
+        "claim-072",
+        "claim-073",
+        "claim-076",
+        "claim-079",
+        "claim-081"
+      ]
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00006",
+      "status": "covered",
+      "mappedUnits": [
+        "u10",
+        "u12"
+      ],
+      "mappedClaims": [
+        "claim-066",
+        "claim-067",
+        "claim-070",
+        "claim-082"
+      ]
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00007",
+      "status": "covered",
+      "mappedUnits": [
+        "u10"
+      ],
+      "mappedClaims": [
+        "claim-069",
+        "claim-071"
+      ]
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00008",
+      "status": "covered",
+      "mappedUnits": [
+        "u10"
+      ],
+      "mappedClaims": [
+        "claim-065",
+        "claim-068"
+      ]
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00009",
+      "status": "covered",
+      "mappedUnits": [
+        "u11"
+      ],
+      "mappedClaims": [
+        "claim-077",
+        "claim-078",
+        "claim-080"
+      ]
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00010",
+      "status": "covered",
+      "mappedUnits": [
+        "u11",
+        "u12"
+      ],
+      "mappedClaims": [
+        "claim-074",
+        "claim-075",
+        "claim-083"
+      ]
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00011",
+      "status": "covered",
+      "mappedUnits": [
+        "u12"
+      ],
+      "mappedClaims": [
+        "claim-084",
+        "claim-085",
+        "claim-086",
+        "claim-087"
+      ]
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00012",
+      "status": "no-content",
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "reason": "已顺序阅读并查看原页；本块为参考文献、声明或无新增主张的重复说明。引文所指论文不算本次已读证据。"
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00013",
+      "status": "no-content",
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "reason": "已顺序阅读并查看原页；本块为参考文献、声明或无新增主张的重复说明。引文所指论文不算本次已读证据。"
+    },
+    {
+      "sourceId": "src-42d155ded4e1-pdf_page-00014",
+      "status": "no-content",
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "reason": "已顺序阅读并查看原页；本块为参考文献、声明或无新增主张的重复说明。引文所指论文不算本次已读证据。"
+    },
+    {
+      "sourceId": "src-fac9747cbb51-pdf_page-00001",
+      "status": "covered",
+      "mappedUnits": [
+        "u13"
+      ],
+      "mappedClaims": [
+        "claim-088"
+      ]
+    },
+    {
+      "sourceId": "src-fac9747cbb51-pdf_page-00002",
+      "status": "covered",
+      "mappedUnits": [
+        "u13"
+      ],
+      "mappedClaims": [
+        "claim-089"
+      ]
+    },
+    {
+      "sourceId": "src-fac9747cbb51-pdf_page-00003",
+      "status": "covered",
+      "mappedUnits": [
+        "u13",
+        "u14",
+        "u15"
+      ],
+      "mappedClaims": [
+        "claim-090",
+        "claim-091",
+        "claim-092",
+        "claim-097",
+        "claim-101"
+      ]
+    },
+    {
+      "sourceId": "src-fac9747cbb51-pdf_page-00004",
+      "status": "covered",
+      "mappedUnits": [
+        "u13",
+        "u14"
+      ],
+      "mappedClaims": [
+        "claim-093",
+        "claim-094"
+      ]
+    },
+    {
+      "sourceId": "src-fac9747cbb51-pdf_page-00005",
+      "status": "covered",
+      "mappedUnits": [
+        "u14",
+        "u15"
+      ],
+      "mappedClaims": [
+        "claim-095",
+        "claim-096",
+        "claim-098",
+        "claim-099",
+        "claim-102"
+      ]
+    },
+    {
+      "sourceId": "src-fac9747cbb51-pdf_page-00006",
+      "status": "covered",
+      "mappedUnits": [
+        "u15"
+      ],
+      "mappedClaims": [
+        "claim-100",
+        "claim-103",
+        "claim-104"
+      ]
+    },
+    {
+      "sourceId": "src-fac9747cbb51-pdf_page-00007",
+      "status": "no-content",
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "reason": "已顺序阅读并查看原页；本块为参考文献、声明或无新增主张的重复说明。引文所指论文不算本次已读证据。"
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00001",
+      "status": "covered",
+      "mappedUnits": [
+        "u16"
+      ],
+      "mappedClaims": [
+        "claim-105"
+      ]
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00002",
+      "status": "covered",
+      "mappedUnits": [
+        "u16"
+      ],
+      "mappedClaims": [
+        "claim-106"
+      ]
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00003",
+      "status": "covered",
+      "mappedUnits": [
+        "u16"
+      ],
+      "mappedClaims": [
+        "claim-107",
+        "claim-109"
+      ]
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00004",
+      "status": "covered",
+      "mappedUnits": [
+        "u16"
+      ],
+      "mappedClaims": [
+        "claim-108",
+        "claim-111",
+        "claim-112"
+      ]
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00005",
+      "status": "covered",
+      "mappedUnits": [
+        "u16",
+        "u17"
+      ],
+      "mappedClaims": [
+        "claim-110",
+        "claim-113",
+        "claim-115"
+      ]
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00006",
+      "status": "covered",
+      "mappedUnits": [
+        "u17"
+      ],
+      "mappedClaims": [
+        "claim-114"
+      ]
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00007",
+      "status": "covered",
+      "mappedUnits": [
+        "u17"
+      ],
+      "mappedClaims": [
+        "claim-116"
+      ]
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00008",
+      "status": "covered",
+      "mappedUnits": [
+        "u17",
+        "u18"
+      ],
+      "mappedClaims": [
+        "claim-118",
+        "claim-119"
+      ]
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00009",
+      "status": "covered",
+      "mappedUnits": [
+        "u17",
+        "u18"
+      ],
+      "mappedClaims": [
+        "claim-117",
+        "claim-120",
+        "claim-121"
+      ]
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00010",
+      "status": "covered",
+      "mappedUnits": [
+        "u18"
+      ],
+      "mappedClaims": [
+        "claim-122"
+      ]
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00011",
+      "status": "no-content",
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "reason": "已顺序阅读并查看原页；本块为参考文献、声明或无新增主张的重复说明。引文所指论文不算本次已读证据。"
+    },
+    {
+      "sourceId": "src-4833ddff420e-pdf_page-00012",
+      "status": "no-content",
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "reason": "已顺序阅读并查看原页；本块为参考文献、声明或无新增主张的重复说明。引文所指论文不算本次已读证据。"
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00001",
+      "status": "covered",
+      "mappedUnits": [
+        "u19",
+        "u20"
+      ],
+      "mappedClaims": [
+        "claim-123",
+        "claim-132"
+      ]
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00002",
+      "status": "covered",
+      "mappedUnits": [
+        "u19",
+        "u20"
+      ],
+      "mappedClaims": [
+        "claim-124",
+        "claim-128",
+        "claim-135"
+      ]
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00003",
+      "status": "covered",
+      "mappedUnits": [
+        "u19",
+        "u20"
+      ],
+      "mappedClaims": [
+        "claim-125",
+        "claim-129"
+      ]
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00004",
+      "status": "covered",
+      "mappedUnits": [
+        "u19",
+        "u20"
+      ],
+      "mappedClaims": [
+        "claim-126",
+        "claim-127",
+        "claim-136"
+      ]
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00005",
+      "status": "covered",
+      "mappedUnits": [
+        "u20"
+      ],
+      "mappedClaims": [
+        "claim-130",
+        "claim-133"
+      ]
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00006",
+      "status": "covered",
+      "mappedUnits": [
+        "u20"
+      ],
+      "mappedClaims": [
+        "claim-131",
+        "claim-137"
+      ]
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00007",
+      "status": "covered",
+      "mappedUnits": [
+        "u21"
+      ],
+      "mappedClaims": [
+        "claim-138",
+        "claim-139",
+        "claim-141",
+        "claim-142"
+      ]
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00008",
+      "status": "covered",
+      "mappedUnits": [
+        "u21",
+        "u22"
+      ],
+      "mappedClaims": [
+        "claim-140",
+        "claim-143",
+        "claim-144"
+      ]
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00009",
+      "status": "covered",
+      "mappedUnits": [
+        "u22"
+      ],
+      "mappedClaims": [
+        "claim-145",
+        "claim-146"
+      ]
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00010",
+      "status": "covered",
+      "mappedUnits": [
+        "u20",
+        "u22"
+      ],
+      "mappedClaims": [
+        "claim-134",
+        "claim-147"
+      ]
+    },
+    {
+      "sourceId": "src-b1b3021b0f08-pdf_page-00011",
+      "status": "no-content",
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "reason": "已顺序阅读并查看原页；本块为参考文献、声明或无新增主张的重复说明。引文所指论文不算本次已读证据。"
+    },
+    {
+      "sourceId": "src-484e6d8b37d7-pdf_page-00001",
+      "status": "covered",
+      "mappedUnits": [
+        "u23"
+      ],
+      "mappedClaims": [
+        "claim-148"
+      ]
+    },
+    {
+      "sourceId": "src-484e6d8b37d7-pdf_page-00002",
+      "status": "covered",
+      "mappedUnits": [
+        "u23"
+      ],
+      "mappedClaims": [
+        "claim-149"
+      ]
+    },
+    {
+      "sourceId": "src-484e6d8b37d7-pdf_page-00003",
+      "status": "covered",
+      "mappedUnits": [
+        "u23",
+        "u24"
+      ],
+      "mappedClaims": [
+        "claim-150",
+        "claim-151",
+        "claim-156"
+      ]
+    },
+    {
+      "sourceId": "src-484e6d8b37d7-pdf_page-00004",
+      "status": "covered",
+      "mappedUnits": [
+        "u23"
+      ],
+      "mappedClaims": [
+        "claim-152"
+      ]
+    },
+    {
+      "sourceId": "src-484e6d8b37d7-pdf_page-00005",
+      "status": "covered",
+      "mappedUnits": [
+        "u23"
+      ],
+      "mappedClaims": [
+        "claim-153",
+        "claim-154",
+        "claim-155"
+      ]
+    },
+    {
+      "sourceId": "src-484e6d8b37d7-pdf_page-00006",
+      "status": "no-content",
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "reason": "已顺序阅读并查看原页；本块为参考文献、声明或无新增主张的重复说明。引文所指论文不算本次已读证据。"
+    },
+    {
+      "sourceId": "src-484e6d8b37d7-pdf_page-00007",
+      "status": "covered",
+      "mappedUnits": [
+        "u24"
+      ],
+      "mappedClaims": [
+        "claim-157",
+        "claim-160",
+        "claim-161"
+      ]
+    },
+    {
+      "sourceId": "src-484e6d8b37d7-pdf_page-00008",
+      "status": "covered",
+      "mappedUnits": [
+        "u23",
+        "u24",
+        "u25"
+      ],
+      "mappedClaims": [
+        "claim-155",
+        "claim-157",
+        "claim-163"
+      ]
+    },
+    {
+      "sourceId": "src-484e6d8b37d7-pdf_page-00009",
+      "status": "covered",
+      "mappedUnits": [
+        "u24",
+        "u25"
+      ],
+      "mappedClaims": [
+        "claim-158",
+        "claim-159",
+        "claim-162",
+        "claim-164",
+        "claim-165"
+      ]
+    },
+    {
+      "sourceId": "src-484e6d8b37d7-pdf_page-00010",
+      "status": "no-content",
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "reason": "已顺序阅读并查看原页；本块为参考文献、声明或无新增主张的重复说明。引文所指论文不算本次已读证据。"
+    },
+    {
+      "sourceId": "src-4fda33930eaf-pdf_page-00001",
+      "status": "covered",
+      "mappedUnits": [
+        "u26"
+      ],
+      "mappedClaims": [
+        "claim-166"
+      ]
+    },
+    {
+      "sourceId": "src-4fda33930eaf-pdf_page-00002",
+      "status": "covered",
+      "mappedUnits": [
+        "u26"
+      ],
+      "mappedClaims": [
+        "claim-167",
+        "claim-172"
+      ]
+    },
+    {
+      "sourceId": "src-4fda33930eaf-pdf_page-00003",
+      "status": "covered",
+      "mappedUnits": [
+        "u26"
+      ],
+      "mappedClaims": [
+        "claim-168"
+      ]
+    },
+    {
+      "sourceId": "src-4fda33930eaf-pdf_page-00004",
+      "status": "covered",
+      "mappedUnits": [
+        "u26"
+      ],
+      "mappedClaims": [
+        "claim-169",
+        "claim-170",
+        "claim-171"
+      ]
+    },
+    {
+      "sourceId": "src-4fda33930eaf-pdf_page-00005",
+      "status": "covered",
+      "mappedUnits": [
+        "u27"
+      ],
+      "mappedClaims": [
+        "claim-173",
+        "claim-174",
+        "claim-175"
+      ]
+    },
+    {
+      "sourceId": "src-4fda33930eaf-pdf_page-00006",
+      "status": "covered",
+      "mappedUnits": [
+        "u27"
+      ],
+      "mappedClaims": [
+        "claim-174",
+        "claim-175",
+        "claim-176"
+      ]
+    },
+    {
+      "sourceId": "src-4fda33930eaf-pdf_page-00007",
+      "status": "covered",
+      "mappedUnits": [
+        "u28"
+      ],
+      "mappedClaims": [
+        "claim-177",
+        "claim-178",
+        "claim-179"
+      ]
+    },
+    {
+      "sourceId": "src-4fda33930eaf-pdf_page-00008",
+      "status": "covered",
+      "mappedUnits": [
+        "u28"
+      ],
+      "mappedClaims": [
+        "claim-177"
+      ]
+    },
+    {
+      "sourceId": "src-4fda33930eaf-pdf_page-00009",
+      "status": "no-content",
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "reason": "已顺序阅读并查看原页；本块为参考文献、声明或无新增主张的重复说明。引文所指论文不算本次已读证据。"
+    },
+    {
+      "sourceId": "src-82267ef81808-pdf_page-00001",
+      "status": "covered",
+      "mappedUnits": [
+        "u29"
+      ],
+      "mappedClaims": [
+        "claim-180"
+      ]
+    },
+    {
+      "sourceId": "src-82267ef81808-pdf_page-00002",
+      "status": "covered",
+      "mappedUnits": [
+        "u29"
+      ],
+      "mappedClaims": [
+        "claim-181"
+      ]
+    },
+    {
+      "sourceId": "src-82267ef81808-pdf_page-00003",
+      "status": "covered",
+      "mappedUnits": [
+        "u29"
+      ],
+      "mappedClaims": [
+        "claim-182"
+      ]
+    },
+    {
+      "sourceId": "src-82267ef81808-pdf_page-00004",
+      "status": "covered",
+      "mappedUnits": [
+        "u29",
+        "u31"
+      ],
+      "mappedClaims": [
+        "claim-183",
+        "claim-194"
+      ]
+    },
+    {
+      "sourceId": "src-82267ef81808-pdf_page-00005",
+      "status": "covered",
+      "mappedUnits": [
+        "u30",
+        "u31"
+      ],
+      "mappedClaims": [
+        "claim-184",
+        "claim-185",
+        "claim-195"
+      ]
+    },
+    {
+      "sourceId": "src-82267ef81808-pdf_page-00006",
+      "status": "covered",
+      "mappedUnits": [
+        "u30"
+      ],
+      "mappedClaims": [
+        "claim-186",
+        "claim-187",
+        "claim-188",
+        "claim-189"
+      ]
+    },
+    {
+      "sourceId": "src-82267ef81808-pdf_page-00007",
+      "status": "covered",
+      "mappedUnits": [
+        "u30"
+      ],
+      "mappedClaims": [
+        "claim-189",
+        "claim-190"
+      ]
+    },
+    {
+      "sourceId": "src-82267ef81808-pdf_page-00008",
+      "status": "covered",
+      "mappedUnits": [
+        "u31",
+        "u32"
+      ],
+      "mappedClaims": [
+        "claim-191",
+        "claim-192",
+        "claim-193",
+        "claim-196"
+      ]
+    },
+    {
+      "sourceId": "src-82267ef81808-pdf_page-00009",
+      "status": "covered",
+      "mappedUnits": [
+        "u32"
+      ],
+      "mappedClaims": [
+        "claim-197",
+        "claim-198"
+      ]
+    },
+    {
+      "sourceId": "src-82267ef81808-pdf_page-00010",
+      "status": "no-content",
+      "mappedUnits": [],
+      "mappedClaims": [],
+      "reason": "已顺序阅读并查看原页；本块为参考文献、声明或无新增主张的重复说明。引文所指论文不算本次已读证据。"
+    },
+    {
+      "sourceId": "src-b9d9a37600fe-pdf_page-00001",
+      "status": "covered",
+      "mappedUnits": [
+        "u33"
+      ],
+      "mappedClaims": [
+        "claim-199"
+      ]
+    },
+    {
+      "sourceId": "src-b9d9a37600fe-pdf_page-00002",
+      "status": "covered",
+      "mappedUnits": [
+        "u33"
+      ],
+      "mappedClaims": [
+        "claim-200",
+        "claim-203"
+      ]
+    },
+    {
+      "sourceId": "src-b9d9a37600fe-pdf_page-00003",
+      "status": "covered",
+      "mappedUnits": [
+        "u33"
+      ],
+      "mappedClaims": [
+        "claim-201",
+        "claim-204"
+      ]
+    },
+    {
+      "sourceId": "src-b9d9a37600fe-pdf_page-00004",
+      "status": "covered",
+      "mappedUnits": [
+        "u33",
+        "u34"
+      ],
+      "mappedClaims": [
+        "claim-202",
+        "claim-205"
+      ]
+    },
+    {
+      "sourceId": "src-b9d9a37600fe-pdf_page-00005",
+      "status": "covered",
+      "mappedUnits": [
+        "u34"
+      ],
+      "mappedClaims": [
+        "claim-206"
+      ]
+    },
+    {
+      "sourceId": "src-b9d9a37600fe-pdf_page-00006",
+      "status": "covered",
+      "mappedUnits": [
+        "u34"
+      ],
+      "mappedClaims": [
+        "claim-207"
+      ]
+    },
+    {
+      "sourceId": "src-b9d9a37600fe-pdf_page-00007",
+      "status": "covered",
+      "mappedUnits": [
+        "u34"
+      ],
+      "mappedClaims": [
+        "claim-208",
+        "claim-209"
+      ]
+    }
+  ],
+  "finalCheck": {
+    "readToEnd": true,
+    "noEarlyStop": true,
+    "sourceLocatorsChecked": true
+  }
+}

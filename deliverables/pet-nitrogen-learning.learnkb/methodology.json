@@ -1,0 +1,1160 @@
+{
+  "schemaVersion": "learn-from-materials/methodology-v1",
+  "id": "pet-nitrogen-whole",
+  "version": "1.0.0",
+  "language": "zh-CN",
+  "status": "ready",
+  "structure": "hierarchy",
+  "title": "从反应证据到流程评价：PET含氮升级的整体理解",
+  "problem": "如何把十篇不同条件、目标和证据层级的论文组织成可比较、可追溯的知识结构？",
+  "outcome": "理解氨解与传质、各产物分支、分离损失以及环境/经济模型的适用边界。",
+  "note": "这是明确标注的跨论文分析层。包含关系用于主题组织；具体物质交接才画顺序；不把不同论文合并为一个已验证实验流程。",
+  "evidence": "synthesis",
+  "entryNodes": [
+    "n-scope"
+  ],
+  "mainPath": [],
+  "nodes": [
+    {
+      "id": "n-scope",
+      "title": "原料与目标：PET芳环到含氮产物",
+      "role": "concept",
+      "input": "PET废料类别与期望分子结构。",
+      "action": "整理各篇目标TPD、TPN、PXDA、PPD/PABA和PPTA，保留文件边界。",
+      "output": "各条路线的起点、终点与不同指标。",
+      "check": "PXDA与PPD不可混淆；原料纯度与真实料条件须明确。",
+      "unitIds": [
+        "u01",
+        "u05",
+        "u09",
+        "u13",
+        "u26",
+        "u29",
+        "u33"
+      ],
+      "methodIds": [
+        "f-tandem",
+        "f-crystal",
+        "f-lca-boundary",
+        "f-swelling",
+        "f-daem",
+        "f-acid-pore",
+        "f-sem",
+        "r01",
+        "r06",
+        "r07",
+        "r11",
+        "r15",
+        "r16",
+        "r31",
+        "r36"
+      ],
+      "evidence": "inference",
+      "sources": [
+        {
+          "source": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第1页",
+          "sourceIds": [
+            "src-e62068f57189-pdf_page-00001"
+          ],
+          "quote": "tandem process for the transformation of\n                                           poly(ethylene terephthalate) (PET) waste into terephthalonitrile under mild conditions (≤120 °C). The\n                                           process involves PET ammonolysis with ethylene glycol and ammonia, followed by liquid-phase dehydra-\n                                           tion of tere"
+        },
+        {
+          "source": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第1页",
+          "sourceIds": [
+            "src-214fbead528d-pdf_page-00001"
+          ],
+          "quote": "three cascade\ncatalytic steps, including thermochemical zinc acetate-catalyzed\nPET glycolysis to bis(2-hydroxyethyl) terephthalate (BHET),\nthermochemical BHET ammonolysis to terephthalamide (TP),\nand electrochemical Hofmann (e-Hofmann) reaction of"
+        },
+        {
+          "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第1页",
+          "sourceIds": [
+            "src-42d155ded4e1-pdf_page-00001"
+          ],
+          "quote": "Life Cycle Assessment of Chemical Upcycling of Postconsumer\nPolyethylene Terephthalate to Kevlar Polymer\nPublished as part of ACS Sustainable Chemistry & Engineering special issue “Advancing a Circular Economy”.\nJaewon Han, Preeti Nain, Richard-Joseph"
+        },
+        {
+          "source": "2.pdf · 标题路径：Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A route to diversify PET-derived chemicals · PDF 第1页",
+          "sourceIds": [
+            "src-fac9747cbb51-pdf_page-00001"
+          ],
+          "quote": "three-step catalytic process for converting PET waste into\nPET-derived high-value products\n                                                              p-xylylenediamine (PXDA)—an essential monomer for producing high-market-value polyamides, polyimides,\nTerephthalonitrile\nP-xylylenediamine\n                                                              and nonisocya"
+        },
+        {
+          "source": "6.pdf · 标题路径：Valorization of waste PET: Understanding the role of active ammonia in facilitating PET depolymerization and aromatic nitrile formation · PDF 第1页",
+          "sourceIds": [
+            "src-4fda33930eaf-pdf_page-00001"
+          ],
+          "quote": "urea and γ-Al2O3 catalyst. Based on distributed activation energy model, positive interaction between waste\nCatalytic pyrolysis\n                                                             PET and urea is responsible for improved thermal decomposition kinetics. The dosage of urea and pyrolysis\nThermodynami"
+        },
+        {
+          "source": "7.pdf · 标题路径：Catalytic fast pyrolysis of polyethylene terephthalate plastic for the selective production of terephthalonitrile under ammonia atmosphere · PDF 第1页",
+          "sourceIds": [
+            "src-82267ef81808-pdf_page-00001"
+          ],
+          "quote": "52.3 C%, respectively. The selectivity of TPN in the nitriles was around 90%. Meanwhile, a bit of aro-\nAvailable online 16 May 2019\n                                                          matics, benzonitrile, acetonitrile were also produced as by-products with the total yields of less than 3 C\n                                                          %. The catalyst d"
+        },
+        {
+          "source": "9.pdf · 标题路径：Scanning electron microscopic study of hazardous waste flakes of polyethylene terephthalate (PET) by aminolysis and ammonolysis · PDF 第1页",
+          "sourceIds": [
+            "src-b9d9a37600fe-pdf_page-00001"
+          ],
+          "quote": "methylamine and aqueous\nReceived 7 September 2009                                   ammonia, respectively at room temperature in the presence and absence of quaternary ammonium salt as\nReceived in revised form 15 January 2010                    a catalyst for different periods of time. The aminolysed and ammonol"
+        }
+      ]
+    },
+    {
+      "id": "n-chem",
+      "title": "酯键氨解与连续反应",
+      "role": "concept",
+      "input": "DMT/BHET模型与PET实验。",
+      "action": "解释连续氨解、EG催化和多路径，核对温度、氨浓度与k/k′。",
+      "output": "有适用范围的动力学与反应网络。",
+      "check": "模型预测、本征/表观定义和未解释Ea差异必须标注。",
+      "unitIds": [
+        "u16",
+        "u17",
+        "u18",
+        "u19",
+        "u20"
+      ],
+      "methodIds": [
+        "f-sequential",
+        "f-eg",
+        "f-pet-network",
+        "f-two-phase",
+        "f-bhet-model",
+        "r20",
+        "r21",
+        "r22",
+        "r37"
+      ],
+      "evidence": "inference",
+      "sources": [
+        {
+          "source": "3.pdf · 标题路径：Upcycling Waste PET: I. Ammonolysis Kinetics of Model Dimethyl Terephthalate and the Catalytic Effects of Ethylene Glycol · PDF 第1页",
+          "sourceIds": [
+            "src-4833ddff420e-pdf_page-00001"
+          ],
+          "quote": "pseudo first order rate constants are k′1 = 0.25 ± 0.02 h−1 and k′2 =\n0.11 ± 0.02 h−1. Experiments conducted at 50, 75, 100, and 125\n°C yield activation energies for the first and second reactions of Ea1 = 27.9 ± 2.2 kJ/mol and Ea2 = 37.3 ± 3.3 kJ/mol. Ammonolysis\nis d"
+        },
+        {
+          "source": "3.pdf · 标题路径：Upcycling Waste PET: I. Ammonolysis Kinetics of Model Dimethyl Terephthalate and the Catalytic Effects of Ethylene Glycol · PDF 第5页",
+          "sourceIds": [
+            "src-4833ddff420e-pdf_page-00005"
+          ],
+          "quote": "27.9 ± 2.2\n                                                                                kJ/mol, with a corresponding pre-exponential factor of 10031\n                                                                                ± 790 h−1. The activation energy of the second reaction is 37.3\n                                                                                ± 3.3 kJ/mol, with a pre-exponential factor of 68529 ± 6056\n                                                                                h−1. The slope of ln(k2) is steeper than that of ln(k1),\n                                                                                indica"
+        },
+        {
+          "source": "3.pdf · 标题路径：Upcycling Waste PET: I. Ammonolysis Kinetics of Model Dimethyl Terephthalate and the Catalytic Effects of Ethylene Glycol · PDF 第8页",
+          "sourceIds": [
+            "src-4833ddff420e-pdf_page-00008"
+          ],
+          "quote": "Scheme 2. Reaction Scheme for the Depolymerization of PET including Direct Ammonolsys, Sequential Methanolysis and\nAmmonolysis, and Sequential Glycolsyis and Ammonolysisa\n\n\n\n\na\n The reaction pathways combine in the ammonolysis of PET conducted in this work"
+        },
+        {
+          "source": "4.pdf · 标题路径：Upcycling of Waste Poly(ethylene Terephthalate): Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl Terephthalate) and Particle Size Effects in Polymeric Substrates · PDF 第1页",
+          "sourceIds": [
+            "src-b1b3021b0f08-pdf_page-00001"
+          ],
+          "quote": "Bis(2-Hydroxyethyl\n  Terephthalate) and Particle Size Effects in Polymeric\n  Substrates\n  Richard-Joseph L. Peterson, Elanna P. Neppel, Daniel Holmes, P. Anh Trinh, Robert Y. Ofoli,\n  and John R. Dorgan*\n\n\n  Chemical upcycling of poly(ethylene terephthalat"
+        },
+        {
+          "source": "4.pdf · 标题路径：Upcycling of Waste Poly(ethylene Terephthalate): Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl Terephthalate) and Particle Size Effects in Polymeric Substrates · PDF 第3页",
+          "sourceIds": [
+            "src-b1b3021b0f08-pdf_page-00003"
+          ],
+          "quote": "55,900. This strong\n                                                                               indication of thermodynamic feasibility warrants a detailed inves-\n                                                                               tigation of the chemical kinetics.\n  3. Results and Discussion                                                         The ammonolysis of esters has long been known to be cata-\n                                                                               lyzed by EG.[32] Previous studies typically sho"
+        }
+      ]
+    },
+    {
+      "id": "n-mass",
+      "title": "颗粒、相态与传质",
+      "role": "concept",
+      "input": "厚度、粒径、相态与浓度数据。",
+      "action": "解释化学反应与传质竞争，并保持气固、MeOH和EG体系不同。",
+      "output": "薄片/颗粒/气固条件的反应控制边界。",
+      "check": "SEM表面变化不当作整体转化或纯度。",
+      "unitIds": [
+        "u21",
+        "u22",
+        "u23",
+        "u25",
+        "u34"
+      ],
+      "methodIds": [
+        "f-size",
+        "f-thiele",
+        "f-gas-solid",
+        "r23",
+        "r24",
+        "r25",
+        "r26"
+      ],
+      "evidence": "inference",
+      "sources": [
+        {
+          "source": "4.pdf · 标题路径：Upcycling of Waste Poly(ethylene Terephthalate): Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl Terephthalate) and Particle Size Effects in Polymeric Substrates · PDF 第7页",
+          "sourceIds": [
+            "src-b1b3021b0f08-pdf_page-00007"
+          ],
+          "quote": "400 μm,                  ester linkages in PET are not near an amide bond. Therefore, mea-\n  so its minimum dimension is similar (same order of magnitude) as                 suring the disappearance of esters in PET can be modeled by the\n  the 150–250 μm particles. Accordingly, the geometric d"
+        },
+        {
+          "source": "4.pdf · 标题路径：Upcycling of Waste Poly(ethylene Terephthalate): Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl Terephthalate) and Particle Size Effects in Polymeric Substrates · PDF 第8页",
+          "sourceIds": [
+            "src-b1b3021b0f08-pdf_page-00008"
+          ],
+          "quote": "effectiveness factor and the Thiele\n  limiting step Figure 8.                                                         modulus for spheres is expressed by Equation (20).\n        The ester conversion rates of PET were compared to the\n  ammonolysis rate of BHET at 100 °C to assess the effects of mass                      3\n                                                                                  η¼       ðϕ cothðϕÞ \u0003 1Þ                                                (20)\n  transfer lim"
+        },
+        {
+          "source": "5.pdf · 标题路径：Valorization of polyethylene terephthalate wastes to terephthalamide via catalyst-free ammonolysis · PDF 第1页",
+          "sourceIds": [
+            "src-484e6d8b37d7-pdf_page-00001"
+          ],
+          "quote": "catalysts and solvent, was developed for the ammonolysis of PET to\nAmmonolysis                                                terephthalamide (TP) at mild temperatures (40–120 ◦ C). The study extensively explored and discussed the im­\nTerephthalamide\n                                                           pacts of key process parameters such as temperature, reaction ti"
+        },
+        {
+          "source": "5.pdf · 标题路径：Valorization of polyethylene terephthalate wastes to terephthalamide via catalyst-free ammonolysis · PDF 第8页",
+          "sourceIds": [
+            "src-484e6d8b37d7-pdf_page-00008"
+          ],
+          "quote": "Comparison of the developed ammonolysis with previous works.\n  Methods                   Reaction condition                                                      Catalyst                                      Yield (mol%)      Ref.\n\n  Catalysis-free            Under anhydrous ammonia (g) atmosphere at 120 C for 2 h\n                                                                             ◦\n                                                                                                    –                                             90.6              This work a\n    ammonolysis\n  Ammonia hydrolysis        Stirring in aqueous a"
+        },
+        {
+          "source": "9.pdf · 标题路径：Scanning electron microscopic study of hazardous waste flakes of polyethylene terephthalate (PET) by aminolysis and ammonolysis · PDF 第4页",
+          "sourceIds": [
+            "src-b9d9a37600fe-pdf_page-00004"
+          ],
+          "quote": "amorphous region of PET, undergoes degradation\nmore rapidly than the crystalline region, unzipping also seems to be\n                                                                                     Fig. 1(a) shows SEM micrograph of PET waste ﬂake at magniﬁca-\nunreasonable. It can be concluded that both random and unzipping\n                                                                                 tion of 2000 be"
+        }
+      ]
+    },
+    {
+      "id": "n-separation",
+      "title": "中间体兼容与分离",
+      "role": "concept",
+      "input": "氨解酰胺、BHET或冷阱混合物。",
+      "action": "比较洗涤隔离、冷却结晶和重结晶的兼容性及产品回收。",
+      "output": "可供后段使用的中间体和独立分离收率。",
+      "check": "残氨/EG抑制Pd，分离率不能被分析率替代。",
+      "unitIds": [
+        "u03",
+        "u05",
+        "u32"
+      ],
+      "methodIds": [
+        "f-compat",
+        "f-crystal",
+        "f-recrystal",
+        "r03",
+        "r04",
+        "r06",
+        "r07",
+        "r35"
+      ],
+      "evidence": "inference",
+      "sources": [
+        {
+          "source": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第6页",
+          "sourceIds": [
+            "src-e62068f57189-pdf_page-00006"
+          ],
+          "quote": "one-pot transformation from PET to\n(CH3CN)x(H2O)y(OH)t species, which subsequently condense          terephthalonitrile by combining the ammonolysis and de-\ninto a dimer (major form) and a tetramer (minor form)             hydration steps were unsuccessful, even when the"
+        },
+        {
+          "source": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第1页",
+          "sourceIds": [
+            "src-214fbead528d-pdf_page-00001"
+          ],
+          "quote": "three cascade\ncatalytic steps, including thermochemical zinc acetate-catalyzed\nPET glycolysis to bis(2-hydroxyethyl) terephthalate (BHET),\nthermochemical BHET ammonolysis to terephthalamide (TP),\nand electrochemical Hofmann (e-Hofmann) reaction of"
+        },
+        {
+          "source": "7.pdf · 标题路径：Catalytic fast pyrolysis of polyethylene terephthalate plastic for the selective production of terephthalonitrile under ammonia atmosphere · PDF 第8页",
+          "sourceIds": [
+            "src-82267ef81808-pdf_page-00008"
+          ],
+          "quote": "Fig. 7. The schematic diagram of the separation and purification of TPN from the pyrolysis products"
+        }
+      ]
+    },
+    {
+      "id": "n-tpn",
+      "title": "双腈路线的平衡与焦化",
+      "role": "concept",
+      "input": "酰胺低温脱水或PET高温热解。",
+      "action": "对比Pd水转移、TiO₂脱水、尿素与气氨热解的目标选择性限制。",
+      "output": "双腈及副产物、平衡与焦化证据。",
+      "check": "不同C%/摩尔/分析/分离指标不得直接排名。",
+      "unitIds": [
+        "u01",
+        "u02",
+        "u14",
+        "u27",
+        "u30"
+      ],
+      "methodIds": [
+        "f-tandem",
+        "f-water",
+        "f-tio2",
+        "f-urea",
+        "f-pyro-window",
+        "r01",
+        "r02",
+        "r17",
+        "r18",
+        "r28",
+        "r29",
+        "r30",
+        "r32",
+        "r33",
+        "r34",
+        "r36"
+      ],
+      "evidence": "inference",
+      "sources": [
+        {
+          "source": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第1页",
+          "sourceIds": [
+            "src-e62068f57189-pdf_page-00001"
+          ],
+          "quote": "tandem process for the transformation of\n                                           poly(ethylene terephthalate) (PET) waste into terephthalonitrile under mild conditions (≤120 °C). The\n                                           process involves PET ammonolysis with ethylene glycol and ammonia, followed by liquid-phase dehydra-\n                                           tion of tere"
+        },
+        {
+          "source": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第4页",
+          "sourceIds": [
+            "src-e62068f57189-pdf_page-00004"
+          ],
+          "quote": "equilibrium\nobtained at a 1 : 1 ratio (Fig. 2d). When the substrate amount            after 8 hours and 4 hours, respectively.\nvaried from 200 mg to 25 mg, we observed higher selectivity                   We then conducted NMR and FT-IR analyses to monitor the\nfor terephthalonitrile over 4-cyan"
+        },
+        {
+          "source": "2.pdf · 标题路径：Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A route to diversify PET-derived chemicals · PDF 第4页",
+          "sourceIds": [
+            "src-fac9747cbb51-pdf_page-00004"
+          ],
+          "quote": "TiO2 catalysts exhibit\nTP.                                                                                   good to excellent catalytic activity, yielding 63.5 % to 73.1 % TPN,"
+        },
+        {
+          "source": "6.pdf · 标题路径：Valorization of waste PET: Understanding the role of active ammonia in facilitating PET depolymerization and aromatic nitrile formation · PDF 第5页",
+          "sourceIds": [
+            "src-4fda33930eaf-pdf_page-00005"
+          ],
+          "quote": "28.27 C%, which was a great\n                                                                                         improvement. Moreover, the yields of TPN and aromatic nitriles did not\n                                                                                         increase significantly with the further increase of urea dosage. Mean­\n                                                                                         while, the urea dosage had little effect on the selectivity of TPN in the\n                                                                                         aromatic nitri"
+        },
+        {
+          "source": "7.pdf · 标题路径：Catalytic fast pyrolysis of polyethylene terephthalate plastic for the selective production of terephthalonitrile under ammonia atmosphere · PDF 第5页",
+          "sourceIds": [
+            "src-82267ef81808-pdf_page-00005"
+          ],
+          "quote": "500 °C; N2 and NH3 flow rate, 80 mL/min; PET fed in 0.5 g/batch.\n b\n   Nitriles: TPN, benzonitrile, acetonitrile and other alkyl aromatic nitriles.\n c\n   Aromatics: benzene, toluene, xylenes, biphenyl, naphthalene, etc.\n d\n   Amides: benzamide, terephthalamide"
+        }
+      ]
+    },
+    {
+      "id": "n-pxda",
+      "title": "双腈氢化：PXDA",
+      "role": "concept",
+      "input": "纯化TPN。",
+      "action": "解释Pd/C氢化保留苄位碳并生成CH₂NH₂。",
+      "output": "PXDA及盐酸盐隔离数据。",
+      "check": "市场价格和有限放大不是完整工业利润。",
+      "unitIds": [
+        "u15"
+      ],
+      "methodIds": [
+        "f-pxda",
+        "r19"
+      ],
+      "evidence": "inference",
+      "sources": [
+        {
+          "source": "2.pdf · 标题路径：Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A route to diversify PET-derived chemicals · PDF 第6页",
+          "sourceIds": [
+            "src-fac9747cbb51-pdf_page-00006"
+          ],
+          "quote": "87.4 % yield over a Pd/C catalyst at 65 ◦ C. An overall PXDA yield of\n54.5 % is achieved from PET. Crucially, the successful transformation of              Data will be made available on request.\nreal post-consumer plastic waste and scale-up experiments demonstrate\nthe r"
+        }
+      ]
+    },
+    {
+      "id": "n-ppd",
+      "title": "酰胺重排：PABA/PPD",
+      "role": "concept",
+      "input": "可分离对苯二甲酰胺。",
+      "action": "解释电溴化、碱重排、热水解以及两极耦合。",
+      "output": "PABA/PPD分布、FE和试剂使用边界。",
+      "check": "电量平台、Cr(VI)与分隔槽反例均保留。",
+      "unitIds": [
+        "u06"
+      ],
+      "methodIds": [
+        "f-hofmann",
+        "r08",
+        "r09",
+        "r10"
+      ],
+      "evidence": "inference",
+      "sources": [
+        {
+          "source": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第5页",
+          "sourceIds": [
+            "src-214fbead528d-pdf_page-00005"
+          ],
+          "quote": "first stage, using methanol/water mixtures as the\ndirect ammonolysis would have difficulty separating TP from                 solvent, H2O or MeOH gets reduced at the cathode,\nthe partially degraded amide oligomers, and the preparation of              generating hydrogen gas along with"
+        }
+      ]
+    },
+    {
+      "id": "n-polymer",
+      "title": "并行双单体与PPTA聚合",
+      "role": "concept",
+      "input": "PPD支路与TPA→TCL支路的单体。",
+      "action": "解释双单体聚合的LCI模型和1kg功能单位。",
+      "output": "Kevlar聚合物的模型比较。",
+      "check": "同质量是假设，不是纤维性能试验。",
+      "unitIds": [
+        "u09"
+      ],
+      "methodIds": [
+        "f-lca-boundary",
+        "r11"
+      ],
+      "evidence": "inference",
+      "sources": [
+        {
+          "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第1页",
+          "sourceIds": [
+            "src-42d155ded4e1-pdf_page-00001"
+          ],
+          "quote": "Life Cycle Assessment of Chemical Upcycling of Postconsumer\nPolyethylene Terephthalate to Kevlar Polymer\nPublished as part of ACS Sustainable Chemistry & Engineering special issue “Advancing a Circular Economy”.\nJaewon Han, Preeti Nain, Richard-Joseph"
+        }
+      ]
+    },
+    {
+      "id": "n-mechanism",
+      "title": "机理证据和内部数据问题",
+      "role": "concept",
+      "input": "光谱、热分析、DFT、模型进料和原表。",
+      "action": "把观测、计算、机理提议与原文数值疑点分开记录。",
+      "output": "可追溯的证据等级和未解决问题。",
+      "check": "不把候选机制、缺失测量或疑似错误提升为确定结论。",
+      "unitIds": [
+        "u08",
+        "u20",
+        "u26",
+        "u28",
+        "u31",
+        "u33",
+        "u34"
+      ],
+      "methodIds": [
+        "f-bhet-model",
+        "f-daem",
+        "f-dft",
+        "f-model-feed",
+        "f-sem"
+      ],
+      "evidence": "inference",
+      "sources": [
+        {
+          "source": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第8页",
+          "sourceIds": [
+            "src-214fbead528d-pdf_page-00008"
+          ],
+          "quote": "coefficient 1.55 is the\nratio of the molar mass of TP to the molar mass of BHET.\n                                                                                   ■   ACKNOWLEDGMENTS\n                                                                                   Financial support for this work was provided by the National\n   Procedure for e-Hofmann Rearrangement of TP. The                                Natural Science Foundation of China (22478335, 22108242,\nel"
+        },
+        {
+          "source": "4.pdf · 标题路径：Upcycling of Waste Poly(ethylene Terephthalate): Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl Terephthalate) and Particle Size Effects in Polymeric Substrates · PDF 第3页",
+          "sourceIds": [
+            "src-b1b3021b0f08-pdf_page-00003"
+          ],
+          "quote": "55,900. This strong\n                                                                               indication of thermodynamic feasibility warrants a detailed inves-\n                                                                               tigation of the chemical kinetics.\n  3. Results and Discussion                                                         The ammonolysis of esters has long been known to be cata-\n                                                                               lyzed by EG.[32] Previous studies typically sho"
+        },
+        {
+          "source": "6.pdf · 标题路径：Valorization of waste PET: Understanding the role of active ammonia in facilitating PET depolymerization and aromatic nitrile formation · PDF 第1页",
+          "sourceIds": [
+            "src-4fda33930eaf-pdf_page-00001"
+          ],
+          "quote": "urea and γ-Al2O3 catalyst. Based on distributed activation energy model, positive interaction between waste\nCatalytic pyrolysis\n                                                             PET and urea is responsible for improved thermal decomposition kinetics. The dosage of urea and pyrolysis\nThermodynami"
+        },
+        {
+          "source": "6.pdf · 标题路径：Valorization of waste PET: Understanding the role of active ammonia in facilitating PET depolymerization and aromatic nitrile formation · PDF 第7页",
+          "sourceIds": [
+            "src-4fda33930eaf-pdf_page-00007"
+          ],
+          "quote": "185.4 kJ/mol).                   review & editing, Validation, Supervision, Funding acquisition, Data"
+        },
+        {
+          "source": "7.pdf · 标题路径：Catalytic fast pyrolysis of polyethylene terephthalate plastic for the selective production of terephthalonitrile under ammonia atmosphere · PDF 第8页",
+          "sourceIds": [
+            "src-82267ef81808-pdf_page-00008"
+          ],
+          "quote": "Benzoic      Methyl            Benzamide     Terephthalic      Bimethyl               Terephthalamide      Acetaldehyde   Benzaldehyde\n                                   acid         benzoate                        acid              terephthalate\n     Overall carbon yield (C %)\n     Coke                          17.58        20.03             18.44         15.91             18.85                  16.23                25.17          21.64\n     Nitriles                      60.56        55.07             54.01         57.84             60.19                  59.54                43."
+        },
+        {
+          "source": "9.pdf · 标题路径：Scanning electron microscopic study of hazardous waste flakes of polyethylene terephthalate (PET) by aminolysis and ammonolysis · PDF 第1页",
+          "sourceIds": [
+            "src-b9d9a37600fe-pdf_page-00001"
+          ],
+          "quote": "methylamine and aqueous\nReceived 7 September 2009                                   ammonia, respectively at room temperature in the presence and absence of quaternary ammonium salt as\nReceived in revised form 15 January 2010                    a catalyst for different periods of time. The aminolysed and ammonol"
+        },
+        {
+          "source": "9.pdf · 标题路径：Scanning electron microscopic study of hazardous waste flakes of polyethylene terephthalate (PET) by aminolysis and ammonolysis · PDF 第4页",
+          "sourceIds": [
+            "src-b9d9a37600fe-pdf_page-00004"
+          ],
+          "quote": "amorphous region of PET, undergoes degradation\nmore rapidly than the crystalline region, unzipping also seems to be\n                                                                                     Fig. 1(a) shows SEM micrograph of PET waste ﬂake at magniﬁca-\nunreasonable. It can be concluded that both random and unzipping\n                                                                                 tion of 2000 be"
+        }
+      ]
+    },
+    {
+      "id": "n-lca",
+      "title": "环境边界、分配与热点",
+      "role": "concept",
+      "input": "工艺LCI、功能单位、分配与回收假设。",
+      "action": "比较排放来源、分配方法与溶剂热点。",
+      "output": "同边界下的GWP/CED等指标。",
+      "check": "低温不是低碳充分条件，cutoff无额外原生PET避免信用。",
+      "unitIds": [
+        "u04",
+        "u09",
+        "u10"
+      ],
+      "methodIds": [
+        "f-tpn-lca",
+        "f-lca-boundary",
+        "f-allocation",
+        "r05",
+        "r11",
+        "r12"
+      ],
+      "evidence": "inference",
+      "sources": [
+        {
+          "source": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第7页",
+          "sourceIds": [
+            "src-e62068f57189-pdf_page-00007"
+          ],
+          "quote": "more than half of the total CO2\nreusability of the PdCl2 catalyst. An eﬀective recyclability               emissions originate from solvent evaporation due to the high\nsystem should recover terephthalonitrile with high purity and              latent heat of water (Fig. S10), making the s"
+        },
+        {
+          "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第1页",
+          "sourceIds": [
+            "src-42d155ded4e1-pdf_page-00001"
+          ],
+          "quote": "Life Cycle Assessment of Chemical Upcycling of Postconsumer\nPolyethylene Terephthalate to Kevlar Polymer\nPublished as part of ACS Sustainable Chemistry & Engineering special issue “Advancing a Circular Economy”.\nJaewon Han, Preeti Nain, Richard-Joseph"
+        },
+        {
+          "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第3页",
+          "sourceIds": [
+            "src-42d155ded4e1-pdf_page-00003"
+          ],
+          "quote": "Cut-Off Approach. The cutoff approach is most                       2.3.2. Depolymerization and Precursor Preparation. Part\ncommonly applied to avoid double-counting burdens between                   of chemical recycling includes PET polymer being broken\nproduct systems and to avoid assum"
+        }
+      ]
+    },
+    {
+      "id": "n-econ",
+      "title": "多指标与成本边界",
+      "role": "concept",
+      "input": "产率、AE、废物比及收入成本模型。",
+      "action": "分开理论指标、反应数据、材料能源成本和完整TEA。",
+      "output": "有范围限定的价值和负担比较。",
+      "check": "480USD/tonPET与7.03USD/kg聚合物不可直接相比。",
+      "unitIds": [
+        "u07",
+        "u11"
+      ],
+      "methodIds": [
+        "f-metrics",
+        "f-scenarios",
+        "r13"
+      ],
+      "evidence": "inference",
+      "sources": [
+        {
+          "source": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第7页",
+          "sourceIds": [
+            "src-214fbead528d-pdf_page-00007"
+          ],
+          "quote": "87.5% and 100%,\nrespectively. Compared to the AE derived from the Hofmann\nrearrangement reaction via conventional chemical methods\n                                                                           ■    EXPERIMENTAL METHODS\n                                                                              Materials and Characterization Methods. Granular semi-\n(PABA, 50.2%; PPD, 39.8%; calculated u"
+        },
+        {
+          "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第5页",
+          "sourceIds": [
+            "src-42d155ded4e1-pdf_page-00005"
+          ],
+          "quote": "s\n                                                                   18928                                   https://doi.org/10.1021/acssuschemeng.5c04073\n                                                                                                        ACS Sustainable Chem. Eng. 2025, 13, 18924−1893"
+        }
+      ]
+    },
+    {
+      "id": "n-robust",
+      "title": "设计、情景与不确定性",
+      "role": "concept",
+      "input": "实验设计、改进情景及不确定性范围。",
+      "action": "解释BBD验证、S1–S8和Monte Carlo/敏感性。",
+      "output": "可改进因素与结果稳定性的条件。",
+      "check": "高R²、统计区间和图连线均不保证工业可达。",
+      "unitIds": [
+        "u12",
+        "u24"
+      ],
+      "methodIds": [
+        "f-sensitivity",
+        "f-bbd",
+        "r14",
+        "r27"
+      ],
+      "evidence": "inference",
+      "sources": [
+        {
+          "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第5页",
+          "sourceIds": [
+            "src-42d155ded4e1-pdf_page-00005"
+          ],
+          "quote": "1000 iterations at a 95%\n                                                                           equipment and processes.\nconfidence level to estimate uncertainties.57,58 Given the\n                                                                              Preference is given to North American average values62 for\ninherent variability and limited data for the emerging upcycling\n                                                                           chemicals and so"
+        },
+        {
+          "source": "5.pdf · 标题路径：Valorization of polyethylene terephthalate wastes to terephthalamide via catalyst-free ammonolysis · PDF 第3页",
+          "sourceIds": [
+            "src-484e6d8b37d7-pdf_page-00003"
+          ],
+          "quote": "Box-Behnken optimization design\nPET bottles, Sprite bottles, PET textiles and PET headgear was 0.04 %,\n                                                                                          Response surface methodology (RSM) was employed to optimize\n0.03 %, 0.12 % and 0.43 %, respectively. The bottles and products un­\n                                                                                       experimental param"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "m-edge-01",
+      "from": "n-scope",
+      "to": "n-chem",
+      "kind": "contains",
+      "condition": "系统理解PET升级时",
+      "handoff": "该节点所覆盖论文主题及其出处。",
+      "why": "此为跨论文学习主题的层次组织，不表示研究团队执行过同一个串联工厂。",
+      "evidence": "inference",
+      "source": "3.pdf · 标题路径：Upcycling Waste PET: I. Ammonolysis Kinetics of Model Dimethyl Terephthalate and the Catalytic Effects of Ethylene Glycol · PDF 第1–5页"
+    },
+    {
+      "id": "m-edge-02",
+      "from": "n-scope",
+      "to": "n-mass",
+      "kind": "contains",
+      "condition": "系统理解PET升级时",
+      "handoff": "该节点所覆盖论文主题及其出处。",
+      "why": "此为跨论文学习主题的层次组织，不表示研究团队执行过同一个串联工厂。",
+      "evidence": "inference",
+      "source": "4.pdf · 标题路径：Upcycling of Waste Poly(ethylene Terephthalate): Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl Terephthalate) and Particle Size Effects in Polymeric Substrates · PDF 第6–9页"
+    },
+    {
+      "id": "m-edge-03",
+      "from": "n-scope",
+      "to": "n-separation",
+      "kind": "contains",
+      "condition": "系统理解PET升级时",
+      "handoff": "该节点所覆盖论文主题及其出处。",
+      "why": "此为跨论文学习主题的层次组织，不表示研究团队执行过同一个串联工厂。",
+      "evidence": "inference",
+      "source": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第6–8页"
+    },
+    {
+      "id": "m-edge-04",
+      "from": "n-scope",
+      "to": "n-tpn",
+      "kind": "contains",
+      "condition": "系统理解PET升级时",
+      "handoff": "该节点所覆盖论文主题及其出处。",
+      "why": "此为跨论文学习主题的层次组织，不表示研究团队执行过同一个串联工厂。",
+      "evidence": "inference",
+      "source": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第1–4页"
+    },
+    {
+      "id": "m-edge-05",
+      "from": "n-scope",
+      "to": "n-pxda",
+      "kind": "contains",
+      "condition": "系统理解PET升级时",
+      "handoff": "该节点所覆盖论文主题及其出处。",
+      "why": "此为跨论文学习主题的层次组织，不表示研究团队执行过同一个串联工厂。",
+      "evidence": "inference",
+      "source": "2.pdf · 标题路径：Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A route to diversify PET-derived chemicals · PDF 第5–6页"
+    },
+    {
+      "id": "m-edge-06",
+      "from": "n-scope",
+      "to": "n-ppd",
+      "kind": "contains",
+      "condition": "系统理解PET升级时",
+      "handoff": "该节点所覆盖论文主题及其出处。",
+      "why": "此为跨论文学习主题的层次组织，不表示研究团队执行过同一个串联工厂。",
+      "evidence": "inference",
+      "source": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第4–7页"
+    },
+    {
+      "id": "m-edge-07",
+      "from": "n-scope",
+      "to": "n-polymer",
+      "kind": "contains",
+      "condition": "系统理解PET升级时",
+      "handoff": "该节点所覆盖论文主题及其出处。",
+      "why": "此为跨论文学习主题的层次组织，不表示研究团队执行过同一个串联工厂。",
+      "evidence": "inference",
+      "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第1–5页"
+    },
+    {
+      "id": "m-edge-08",
+      "from": "n-scope",
+      "to": "n-mechanism",
+      "kind": "contains",
+      "condition": "系统理解PET升级时",
+      "handoff": "该节点所覆盖论文主题及其出处。",
+      "why": "此为跨论文学习主题的层次组织，不表示研究团队执行过同一个串联工厂。",
+      "evidence": "inference",
+      "source": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第7–8页"
+    },
+    {
+      "id": "m-edge-09",
+      "from": "n-scope",
+      "to": "n-lca",
+      "kind": "contains",
+      "condition": "系统理解PET升级时",
+      "handoff": "该节点所覆盖论文主题及其出处。",
+      "why": "此为跨论文学习主题的层次组织，不表示研究团队执行过同一个串联工厂。",
+      "evidence": "inference",
+      "source": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第7–9页"
+    },
+    {
+      "id": "m-edge-10",
+      "from": "n-scope",
+      "to": "n-econ",
+      "kind": "contains",
+      "condition": "系统理解PET升级时",
+      "handoff": "该节点所覆盖论文主题及其出处。",
+      "why": "此为跨论文学习主题的层次组织，不表示研究团队执行过同一个串联工厂。",
+      "evidence": "inference",
+      "source": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第6–8页"
+    },
+    {
+      "id": "m-edge-11",
+      "from": "n-scope",
+      "to": "n-robust",
+      "kind": "contains",
+      "condition": "系统理解PET升级时",
+      "handoff": "该节点所覆盖论文主题及其出处。",
+      "why": "此为跨论文学习主题的层次组织，不表示研究团队执行过同一个串联工厂。",
+      "evidence": "inference",
+      "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第5–11页"
+    },
+    {
+      "id": "m-edge-12",
+      "from": "n-chem",
+      "to": "n-mass",
+      "kind": "parallel",
+      "condition": "解释PET整体速率",
+      "handoff": "化学速率与形状/介质传质两套证据。",
+      "why": "模型底物建立化学基准，颗粒实验另给反应利用率；不能以一者替代另一者。",
+      "evidence": "inference",
+      "source": "4.pdf · 标题路径：Upcycling of Waste Poly(ethylene Terephthalate): Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl Terephthalate) and Particle Size Effects in Polymeric Substrates · PDF 第8–10页"
+    },
+    {
+      "id": "m-edge-13",
+      "from": "n-separation",
+      "to": "n-tpn",
+      "kind": "prerequisite",
+      "condition": "采用原文Pd氨解—脱水路线",
+      "handoff": "已水洗去残氨和EG的酰胺。",
+      "why": "原文一锅失败而清洗隔离成功，构成该路线的兼容条件。",
+      "evidence": "material",
+      "source": "1.pdf · 标题路径：Upcycling of poly(ethylene terephthalate) waste plastics to terephthalonitrile · PDF 第6–8页"
+    },
+    {
+      "id": "m-edge-14",
+      "from": "n-tpn",
+      "to": "n-pxda",
+      "kind": "main",
+      "condition": "采用2.pdf三步路线且得到高纯TPN",
+      "handoff": "TPN中间体。",
+      "why": "同篇明确先酰胺脱水再TPN氢化，交接有物质依据。",
+      "evidence": "material",
+      "source": "2.pdf · 标题路径：Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A route to diversify PET-derived chemicals · PDF 第5–6页"
+    },
+    {
+      "id": "m-edge-15",
+      "from": "n-separation",
+      "to": "n-ppd",
+      "kind": "main",
+      "condition": "采用11.pdf热—电路线",
+      "handoff": "经乙二醇解和氨解隔离的TP。",
+      "why": "同篇将酰胺交给e-Hofmann，而不是交给腈氢化。",
+      "evidence": "material",
+      "source": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第4–7页"
+    },
+    {
+      "id": "m-edge-16",
+      "from": "n-pxda",
+      "to": "n-ppd",
+      "kind": "contrasts",
+      "condition": "比较两种二胺结构",
+      "handoff": "保留苄位碳与脱羰碳的两类目标。",
+      "why": "不同目标和化学转化不能被名称“二胺”合并，也不能画成同一串联步骤。",
+      "evidence": "inference",
+      "source": "2.pdf · 标题路径：Upcycling PET waste into high value-added p-xylylenediamine (PXDA): A route to diversify PET-derived chemicals · PDF 第5–6页"
+    },
+    {
+      "id": "m-edge-17",
+      "from": "n-ppd",
+      "to": "n-polymer",
+      "kind": "supports",
+      "condition": "理解12.pdf的PPD单体支路",
+      "handoff": "酰胺到芳环二胺的结构联系。",
+      "why": "两篇都涉及酰胺重排到PPD，但12.pdf清单采用的氯化学过程不能静默替换为11.pdf电路线。",
+      "evidence": "inference",
+      "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第1–5页"
+    },
+    {
+      "id": "m-edge-18",
+      "from": "n-mechanism",
+      "to": "n-chem",
+      "kind": "supports",
+      "condition": "解释速率与机理的证据等级",
+      "handoff": "原谱、模型、计算及参数疑点。",
+      "why": "证据限定解释强度；推测与数值差异仍可支持理解而不构成已证实机理。",
+      "evidence": "inference",
+      "source": "4.pdf · 标题路径：Upcycling of Waste Poly(ethylene Terephthalate): Ammonolysis Kinetics of Model Bis(2-Hydroxyethyl Terephthalate) and Particle Size Effects in Polymeric Substrates · PDF 第3–6页"
+    },
+    {
+      "id": "m-edge-19",
+      "from": "n-polymer",
+      "to": "n-lca",
+      "kind": "main",
+      "condition": "评价12.pdf聚合物路径",
+      "handoff": "同质量1kg聚合物及双支路物料清单。",
+      "why": "本文为这个系统模型计算生命周期指标，不是将任意胺路线代入。",
+      "evidence": "material",
+      "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第1–5页"
+    },
+    {
+      "id": "m-edge-20",
+      "from": "n-lca",
+      "to": "n-econ",
+      "kind": "parallel",
+      "condition": "评估模型工艺的多维表现",
+      "handoff": "环境负担与成本边界。",
+      "why": "环境和成本两个评价并行，减排不必等同盈利；计入成本项需单独核对。",
+      "evidence": "inference",
+      "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第5–10页"
+    },
+    {
+      "id": "m-edge-21",
+      "from": "n-lca",
+      "to": "n-robust",
+      "kind": "supports",
+      "condition": "模型已识别溶剂与单体制备热点",
+      "handoff": "热点变量和比较基准。",
+      "why": "热点为单因素/组合情景及敏感性变量选择提供依据。",
+      "evidence": "material",
+      "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第5–11页"
+    }
+  ],
+  "constraints": [
+    {
+      "text": "C%碳收率、摩尔收率、分析收率、分离收率、纯度和FE分别报告，不能混作路线总效率。",
+      "evidence": "inference",
+      "source": "7.pdf · 标题路径：Catalytic fast pyrolysis of polyethylene terephthalate plastic for the selective production of terephthalonitrile under ammonia atmosphere · PDF 第7–9页"
+    },
+    {
+      "text": "缺少的SI与原始记录不补造；参数、图表和公式疑点保留各自出处。",
+      "evidence": "inference",
+      "source": "11.pdf · 标题路径：Tandem Thermo−electrochemical Strategy for Upcycling Waste Poly(ethylene terephthalate) into Value-Added Aniline Derivatives · PDF 第7–8页"
+    },
+    {
+      "text": "所有跨论文连线为分析联系；12.pdf的聚合物LCA不自动采用11.pdf的电化学PPD路线。",
+      "evidence": "inference",
+      "source": "12.pdf · 标题路径：Life Cycle Assessment of Chemical Upcycling of Postconsumer Polyethylene Terephthalate to Kevlar Polymer · PDF 第1–5页"
+    }
+  ],
+  "coverage": [
+    {
+      "unitId": "u01",
+      "nodeIds": [
+        "n-scope",
+        "n-tpn"
+      ],
+      "role": "core",
+      "reason": "低温 PET→双腈：路线与指标提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u02",
+      "nodeIds": [
+        "n-tpn"
+      ],
+      "role": "core",
+      "reason": "水转移平衡与 Pd 活性物种提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u03",
+      "nodeIds": [
+        "n-separation"
+      ],
+      "role": "core",
+      "reason": "真实废塑料、分离与循环提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u04",
+      "nodeIds": [
+        "n-lca"
+      ],
+      "role": "core",
+      "reason": "低温路线的碳足迹为何仍受溶剂支配提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u05",
+      "nodeIds": [
+        "n-scope",
+        "n-separation"
+      ],
+      "role": "core",
+      "reason": "先乙二醇解再氨解：把中间体变成可分离节点提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u06",
+      "nodeIds": [
+        "n-ppd"
+      ],
+      "role": "core",
+      "reason": "电化学 Hofmann 重排的三阶段与两极耦合提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u07",
+      "nodeIds": [
+        "n-econ"
+      ],
+      "role": "core",
+      "reason": "原子经济性、E-factor 与模型利润提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u08",
+      "nodeIds": [
+        "n-mechanism"
+      ],
+      "role": "core",
+      "reason": "实验复现中的内部数值问题提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u09",
+      "nodeIds": [
+        "n-scope",
+        "n-polymer",
+        "n-lca"
+      ],
+      "role": "core",
+      "reason": "PET 到芳纶的 LCA：功能单位与系统边界提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u10",
+      "nodeIds": [
+        "n-lca"
+      ],
+      "role": "core",
+      "reason": "开放循环分配与环境热点提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u11",
+      "nodeIds": [
+        "n-econ"
+      ],
+      "role": "core",
+      "reason": "八种改进情景与成本边界提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u12",
+      "nodeIds": [
+        "n-robust"
+      ],
+      "role": "core",
+      "reason": "不确定性、敏感性与进一步研究提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u13",
+      "nodeIds": [
+        "n-scope"
+      ],
+      "role": "core",
+      "reason": "PXDA 路线第一段：氨解与溶胀提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u14",
+      "nodeIds": [
+        "n-tpn"
+      ],
+      "role": "core",
+      "reason": "TiO₂ 脱水：单腈、焦化与分离提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u15",
+      "nodeIds": [
+        "n-pxda"
+      ],
+      "role": "core",
+      "reason": "TPN 氢化到 PXDA 与经济含义提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u16",
+      "nodeIds": [
+        "n-chem"
+      ],
+      "role": "core",
+      "reason": "DMT 氨解的连续反应动力学提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u17",
+      "nodeIds": [
+        "n-chem"
+      ],
+      "role": "core",
+      "reason": "Arrhenius 参数与 EG 催化：快一个步骤不等于快整个流程提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u18",
+      "nodeIds": [
+        "n-chem"
+      ],
+      "role": "core",
+      "reason": "从模型 DMT 到真实 PET：多路径与自催化提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u19",
+      "nodeIds": [
+        "n-chem"
+      ],
+      "role": "core",
+      "reason": "BHET 模型和双相取样：避免漏掉溶液中间体提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u20",
+      "nodeIds": [
+        "n-chem",
+        "n-mechanism"
+      ],
+      "role": "core",
+      "reason": "BHET 动力学及活化能记载差异提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u21",
+      "nodeIds": [
+        "n-mass"
+      ],
+      "role": "core",
+      "reason": "粒径如何让控制步骤转向传质提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u22",
+      "nodeIds": [
+        "n-mass"
+      ],
+      "role": "core",
+      "reason": "有效因子、Thiele 模数与拟合扩散系数提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u23",
+      "nodeIds": [
+        "n-mass"
+      ],
+      "role": "core",
+      "reason": "无外加溶剂催化剂的气固氨解提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u24",
+      "nodeIds": [
+        "n-robust"
+      ],
+      "role": "core",
+      "reason": "Box–Behnken 优化：拟合与独立验证提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u25",
+      "nodeIds": [
+        "n-mass"
+      ],
+      "role": "core",
+      "reason": "真实废料适用性与工艺评价边界提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u26",
+      "nodeIds": [
+        "n-scope",
+        "n-mechanism"
+      ],
+      "role": "core",
+      "reason": "尿素原位供氨与 DAEM：整体热解行为提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u27",
+      "nodeIds": [
+        "n-tpn"
+      ],
+      "role": "core",
+      "reason": "温度、尿素量和再生的选择性权衡提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u28",
+      "nodeIds": [
+        "n-mechanism"
+      ],
+      "role": "core",
+      "reason": "DFT 候选机制与规模化证据缺口提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u29",
+      "nodeIds": [
+        "n-scope"
+      ],
+      "role": "core",
+      "reason": "氨气快速热解与磷改性 γ-Al₂O₃提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u30",
+      "nodeIds": [
+        "n-tpn"
+      ],
+      "role": "core",
+      "reason": "热解窗口：温度、催化剂量、氨比例与循环提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u31",
+      "nodeIds": [
+        "n-mechanism"
+      ],
+      "role": "core",
+      "reason": "八种模型进料与碳平衡边界提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u32",
+      "nodeIds": [
+        "n-separation"
+      ],
+      "role": "core",
+      "reason": "重结晶回收：分析高收率如何变成分离损失提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u33",
+      "nodeIds": [
+        "n-scope",
+        "n-mechanism"
+      ],
+      "role": "core",
+      "reason": "氨解与甲胺解：化学产物和证据类型提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    },
+    {
+      "unitId": "u34",
+      "nodeIds": [
+        "n-mass",
+        "n-mechanism"
+      ],
+      "role": "core",
+      "reason": "SEM 显示的形貌选择性与其限制提供本节点的独立条件、证据或评价边界，保留原文件出处。"
+    }
+  ]
+}
